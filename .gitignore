@@ -14,6 +14,11 @@ vendor/
 go.work
 .vscode/
 
+# LLM/AGENTS/etc.
+AGENTS.md
+CLAUDE.md
+WARP.md
+
 # Generated build workspace (should never be committed)
 work/
 

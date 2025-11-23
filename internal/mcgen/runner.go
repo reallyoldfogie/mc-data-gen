@@ -1,12 +1,14 @@
 package mcgen
 
 import (
-	"encoding/json"
-	"fmt"
-	"os"
-	"os/exec"
-	"path/filepath"
-	"strings"
+    "encoding/json"
+    "fmt"
+    "os"
+    "os/exec"
+    "path/filepath"
+    "strings"
+
+    loader "github.com/reallyoldfogie/mc-data-gen/loader"
 )
 
 // PrepareProject copies the Fabric template into a per-version dir and
@@ -126,31 +128,31 @@ func CollectOutput(projectDir, generatorOutputRel, outputRoot, version string) e
 }
 
 func shardFile(inputPath, outRoot string) error {
-	data, err := os.ReadFile(inputPath)
-	if err != nil {
-		return fmt.Errorf("read %s: %w", inputPath, err)
-	}
+    data, err := os.ReadFile(inputPath)
+    if err != nil {
+        return fmt.Errorf("read %s: %w", inputPath, err)
+    }
 
-	var records []BlockStateRecord
-	if err := json.Unmarshal(data, &records); err != nil {
-		return fmt.Errorf("unmarshal %s: %w", inputPath, err)
-	}
+    var records []loader.BlockStateRecord
+    if err := json.Unmarshal(data, &records); err != nil {
+        return fmt.Errorf("unmarshal %s: %w", inputPath, err)
+    }
 
-	// Group by block_id
-	byBlock := make(map[string][]BlockStateRecordSlim)
-	for _, r := range records {
-		slim := BlockStateRecordSlim{
-			Properties:     r.Properties,
-			CollisionBoxes: r.CollisionBoxes,
-			OutlineBoxes:   r.OutlineBoxes,
-			Air:            r.Air,
-			Opaque:         r.Opaque,
-			SolidBlock:     r.SolidBlock,
-			Replaceable:    r.Replaceable,
-			BlocksMovement: r.BlocksMovement,
-		}
-		byBlock[r.BlockID] = append(byBlock[r.BlockID], slim)
-	}
+    // Group by block_id
+    byBlock := make(map[string][]loader.BlockStateRecordSlim)
+    for _, r := range records {
+        slim := loader.BlockStateRecordSlim{
+            Properties:     r.Properties,
+            CollisionBoxes: r.CollisionBoxes,
+            OutlineBoxes:   r.OutlineBoxes,
+            Air:            r.Air,
+            Opaque:         r.Opaque,
+            SolidBlock:     r.SolidBlock,
+            Replaceable:    r.Replaceable,
+            BlocksMovement: r.BlocksMovement,
+        }
+        byBlock[r.BlockID] = append(byBlock[r.BlockID], slim)
+    }
 
 	for blockID, states := range byBlock {
 		ns, path := splitBlockID(blockID) // e.g. "minecraft", "oak_fence"
@@ -160,13 +162,13 @@ func shardFile(inputPath, outRoot string) error {
 			return fmt.Errorf("mkdir %s: %w", dir, err)
 		}
 
-		outFile := filepath.Join(dir, path+".json")
-		file := BlockStatesFile{
-			BlockID: blockID,
-			States:  states,
-		}
-		buf, err := json.MarshalIndent(file, "", "  ")
-		if err != nil {
+        outFile := filepath.Join(dir, path+".json")
+        file := loader.BlockStatesFile{
+            BlockID: blockID,
+            States:  states,
+        }
+        buf, err := json.MarshalIndent(file, "", "  ")
+        if err != nil {
 			return fmt.Errorf("marshal %s: %w", blockID, err)
 		}
 		if err := os.WriteFile(outFile, buf, 0o644); err != nil {
