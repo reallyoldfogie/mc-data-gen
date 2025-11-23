@@ -1,0 +1,54 @@
+# ========================================
+# mc-data-gen root ignores
+# ========================================
+
+# Go build output
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+vendor/
+go.work
+.vscode/
+
+# Generated build workspace (should never be committed)
+work/
+
+# Optional temp files
+*.tmp
+*.bak
+
+# ========================================
+# Fabric template ignores
+# ========================================
+
+# Gradle caches
+fabric-template/.gradle/
+fabric-template/build/
+
+# Server runtime data (generated at runServer)
+fabric-template/run/world/
+fabric-template/run/logs/
+fabric-template/run/*.log
+fabric-template/run/server.properties
+fabric-template/run/usercache.json
+fabric-template/run/whitelist.json
+fabric-template/run/banned*.json
+fabric-template/run/options.txt
+fabric-template/run/*.dat
+fabric-template/run/*.json
+
+# except your template EULA stub
+!fabric-template/run/eula.txt
+
+# Java class files
+*.class
+
+# ========================================
+# OS / editor junk
+# ========================================
+.DS_Store
+Thumbs.db
