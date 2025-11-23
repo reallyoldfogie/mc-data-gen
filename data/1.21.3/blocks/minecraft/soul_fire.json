@@ -1,0 +1,28 @@
+{
+  "block_id": "minecraft:soul_fire",
+  "states": [
+    {
+      "properties": {},
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.0625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": true,
+      "blocks_movement": false
+    }
+  ]
+}

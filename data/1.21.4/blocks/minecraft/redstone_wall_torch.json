@@ -1,0 +1,213 @@
+{
+  "block_id": "minecraft:redstone_wall_torch",
+  "states": [
+    {
+      "properties": {
+        "facing": "north",
+        "lit": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.34375,
+            0.1875,
+            0.6875
+          ],
+          "max": [
+            0.65625,
+            0.8125,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "facing": "north",
+        "lit": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.34375,
+            0.1875,
+            0.6875
+          ],
+          "max": [
+            0.65625,
+            0.8125,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "facing": "south",
+        "lit": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.34375,
+            0.1875,
+            0
+          ],
+          "max": [
+            0.65625,
+            0.8125,
+            0.3125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "facing": "south",
+        "lit": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.34375,
+            0.1875,
+            0
+          ],
+          "max": [
+            0.65625,
+            0.8125,
+            0.3125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "facing": "west",
+        "lit": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.6875,
+            0.1875,
+            0.34375
+          ],
+          "max": [
+            1,
+            0.8125,
+            0.65625
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "facing": "west",
+        "lit": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.6875,
+            0.1875,
+            0.34375
+          ],
+          "max": [
+            1,
+            0.8125,
+            0.65625
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "facing": "east",
+        "lit": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.1875,
+            0.34375
+          ],
+          "max": [
+            0.3125,
+            0.8125,
+            0.65625
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "facing": "east",
+        "lit": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.1875,
+            0.34375
+          ],
+          "max": [
+            0.3125,
+            0.8125,
+            0.65625
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    }
+  ]
+}

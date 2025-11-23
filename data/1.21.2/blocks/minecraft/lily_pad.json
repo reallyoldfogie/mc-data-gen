@@ -1,0 +1,41 @@
+{
+  "block_id": "minecraft:lily_pad",
+  "states": [
+    {
+      "properties": {},
+      "collision_boxes": [
+        {
+          "min": [
+            0.0625,
+            0,
+            0.0625
+          ],
+          "max": [
+            0.9375,
+            0.09375,
+            0.9375
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.0625,
+            0,
+            0.0625
+          ],
+          "max": [
+            0.9375,
+            0.09375,
+            0.9375
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    }
+  ]
+}

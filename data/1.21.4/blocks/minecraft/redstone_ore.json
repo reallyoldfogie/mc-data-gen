@@ -1,0 +1,81 @@
+{
+  "block_id": "minecraft:redstone_ore",
+  "states": [
+    {
+      "properties": {
+        "lit": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": true,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "lit": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": true,
+      "replaceable": false,
+      "blocks_movement": true
+    }
+  ]
+}

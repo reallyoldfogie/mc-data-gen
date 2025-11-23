@@ -1,0 +1,205 @@
+{
+  "block_id": "minecraft:wheat",
+  "states": [
+    {
+      "properties": {
+        "age": "0"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.125,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "age": "1"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.25,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "age": "2"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.375,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "age": "3"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "age": "4"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "age": "5"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.75,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "age": "6"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.875,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "age": "7"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    }
+  ]
+}

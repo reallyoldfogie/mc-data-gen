@@ -1,0 +1,28 @@
+{
+  "block_id": "minecraft:soul_torch",
+  "states": [
+    {
+      "properties": {},
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.375,
+            0,
+            0.375
+          ],
+          "max": [
+            0.625,
+            0.625,
+            0.625
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    }
+  ]
+}

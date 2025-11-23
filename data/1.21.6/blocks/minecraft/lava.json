@@ -1,0 +1,197 @@
+{
+  "block_id": "minecraft:lava",
+  "states": [
+    {
+      "properties": {
+        "level": "0"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": true,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "level": "1"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": true,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "level": "2"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": true,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "level": "3"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": true,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "level": "4"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": true,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "level": "5"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": true,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "level": "6"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": true,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "level": "7"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": true,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "level": "8"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": true,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "level": "9"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": true,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "level": "10"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": true,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "level": "11"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": true,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "level": "12"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": true,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "level": "13"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": true,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "level": "14"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": true,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "level": "15"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": true,
+      "blocks_movement": false
+    }
+  ]
+}

@@ -1,0 +1,356 @@
+{
+  "block_id": "minecraft:creaking_heart",
+  "states": [
+    {
+      "properties": {
+        "axis": "x",
+        "creaking": "disabled"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": true,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "axis": "x",
+        "creaking": "dormant"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": true,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "axis": "x",
+        "creaking": "active"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": true,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "axis": "y",
+        "creaking": "disabled"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": true,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "axis": "y",
+        "creaking": "dormant"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": true,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "axis": "y",
+        "creaking": "active"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": true,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "axis": "z",
+        "creaking": "disabled"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": true,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "axis": "z",
+        "creaking": "dormant"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": true,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "axis": "z",
+        "creaking": "active"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": true,
+      "replaceable": false,
+      "blocks_movement": true
+    }
+  ]
+}

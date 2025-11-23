@@ -1,0 +1,485 @@
+{
+  "block_id": "minecraft:bamboo",
+  "states": [
+    {
+      "properties": {
+        "age": "0",
+        "leaves": "none",
+        "stage": "0"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.15625,
+            0,
+            0.15625
+          ],
+          "max": [
+            0.34375,
+            1,
+            0.34375
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.0625,
+            0,
+            0.0625
+          ],
+          "max": [
+            0.4375,
+            1,
+            0.4375
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "age": "0",
+        "leaves": "none",
+        "stage": "1"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.15625,
+            0,
+            0.15625
+          ],
+          "max": [
+            0.34375,
+            1,
+            0.34375
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.0625,
+            0,
+            0.0625
+          ],
+          "max": [
+            0.4375,
+            1,
+            0.4375
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "age": "0",
+        "leaves": "small",
+        "stage": "0"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.15625,
+            0,
+            0.15625
+          ],
+          "max": [
+            0.34375,
+            1,
+            0.34375
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.0625,
+            0,
+            0.0625
+          ],
+          "max": [
+            0.4375,
+            1,
+            0.4375
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "age": "0",
+        "leaves": "small",
+        "stage": "1"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.15625,
+            0,
+            0.15625
+          ],
+          "max": [
+            0.34375,
+            1,
+            0.34375
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.0625,
+            0,
+            0.0625
+          ],
+          "max": [
+            0.4375,
+            1,
+            0.4375
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "age": "0",
+        "leaves": "large",
+        "stage": "0"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.15625,
+            0,
+            0.15625
+          ],
+          "max": [
+            0.34375,
+            1,
+            0.34375
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            -0.0625,
+            0,
+            -0.0625
+          ],
+          "max": [
+            0.5625,
+            1,
+            0.5625
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "age": "0",
+        "leaves": "large",
+        "stage": "1"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.15625,
+            0,
+            0.15625
+          ],
+          "max": [
+            0.34375,
+            1,
+            0.34375
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            -0.0625,
+            0,
+            -0.0625
+          ],
+          "max": [
+            0.5625,
+            1,
+            0.5625
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "age": "1",
+        "leaves": "none",
+        "stage": "0"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.15625,
+            0,
+            0.15625
+          ],
+          "max": [
+            0.34375,
+            1,
+            0.34375
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.0625,
+            0,
+            0.0625
+          ],
+          "max": [
+            0.4375,
+            1,
+            0.4375
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "age": "1",
+        "leaves": "none",
+        "stage": "1"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.15625,
+            0,
+            0.15625
+          ],
+          "max": [
+            0.34375,
+            1,
+            0.34375
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.0625,
+            0,
+            0.0625
+          ],
+          "max": [
+            0.4375,
+            1,
+            0.4375
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "age": "1",
+        "leaves": "small",
+        "stage": "0"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.15625,
+            0,
+            0.15625
+          ],
+          "max": [
+            0.34375,
+            1,
+            0.34375
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.0625,
+            0,
+            0.0625
+          ],
+          "max": [
+            0.4375,
+            1,
+            0.4375
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "age": "1",
+        "leaves": "small",
+        "stage": "1"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.15625,
+            0,
+            0.15625
+          ],
+          "max": [
+            0.34375,
+            1,
+            0.34375
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.0625,
+            0,
+            0.0625
+          ],
+          "max": [
+            0.4375,
+            1,
+            0.4375
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "age": "1",
+        "leaves": "large",
+        "stage": "0"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.15625,
+            0,
+            0.15625
+          ],
+          "max": [
+            0.34375,
+            1,
+            0.34375
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            -0.0625,
+            0,
+            -0.0625
+          ],
+          "max": [
+            0.5625,
+            1,
+            0.5625
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "age": "1",
+        "leaves": "large",
+        "stage": "1"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.15625,
+            0,
+            0.15625
+          ],
+          "max": [
+            0.34375,
+            1,
+            0.34375
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            -0.0625,
+            0,
+            -0.0625
+          ],
+          "max": [
+            0.5625,
+            1,
+            0.5625
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    }
+  ]
+}

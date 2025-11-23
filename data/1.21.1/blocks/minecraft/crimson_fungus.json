@@ -1,0 +1,28 @@
+{
+  "block_id": "minecraft:crimson_fungus",
+  "states": [
+    {
+      "properties": {},
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.25,
+            0,
+            0.25
+          ],
+          "max": [
+            0.75,
+            0.5625,
+            0.75
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    }
+  ]
+}

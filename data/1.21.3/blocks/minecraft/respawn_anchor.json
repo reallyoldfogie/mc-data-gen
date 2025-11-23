@@ -1,0 +1,195 @@
+{
+  "block_id": "minecraft:respawn_anchor",
+  "states": [
+    {
+      "properties": {
+        "charges": "0"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": true,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "charges": "1"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": true,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "charges": "2"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": true,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "charges": "3"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": true,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "charges": "4"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": true,
+      "replaceable": false,
+      "blocks_movement": true
+    }
+  ]
+}

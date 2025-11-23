@@ -1,0 +1,28 @@
+{
+  "block_id": "minecraft:bamboo_sapling",
+  "states": [
+    {
+      "properties": {},
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            0.5,
+            0.75,
+            0.5
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    }
+  ]
+}

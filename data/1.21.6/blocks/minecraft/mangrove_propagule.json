@@ -1,0 +1,1125 @@
+{
+  "block_id": "minecraft:mangrove_propagule",
+  "states": [
+    {
+      "properties": {
+        "age": "0",
+        "hanging": "true",
+        "stage": "0",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0.8125,
+            0.1875
+          ],
+          "max": [
+            0.3125,
+            1,
+            0.3125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "age": "0",
+        "hanging": "true",
+        "stage": "0",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0.8125,
+            0.1875
+          ],
+          "max": [
+            0.3125,
+            1,
+            0.3125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "age": "0",
+        "hanging": "true",
+        "stage": "1",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0.8125,
+            0.1875
+          ],
+          "max": [
+            0.3125,
+            1,
+            0.3125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "age": "0",
+        "hanging": "true",
+        "stage": "1",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0.8125,
+            0.1875
+          ],
+          "max": [
+            0.3125,
+            1,
+            0.3125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "age": "0",
+        "hanging": "false",
+        "stage": "0",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.3125,
+            1,
+            0.3125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "age": "0",
+        "hanging": "false",
+        "stage": "0",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.3125,
+            1,
+            0.3125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "age": "0",
+        "hanging": "false",
+        "stage": "1",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.3125,
+            1,
+            0.3125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "age": "0",
+        "hanging": "false",
+        "stage": "1",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.3125,
+            1,
+            0.3125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "age": "1",
+        "hanging": "true",
+        "stage": "0",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0.625,
+            0.1875
+          ],
+          "max": [
+            0.3125,
+            1,
+            0.3125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "age": "1",
+        "hanging": "true",
+        "stage": "0",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0.625,
+            0.1875
+          ],
+          "max": [
+            0.3125,
+            1,
+            0.3125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "age": "1",
+        "hanging": "true",
+        "stage": "1",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0.625,
+            0.1875
+          ],
+          "max": [
+            0.3125,
+            1,
+            0.3125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "age": "1",
+        "hanging": "true",
+        "stage": "1",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0.625,
+            0.1875
+          ],
+          "max": [
+            0.3125,
+            1,
+            0.3125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "age": "1",
+        "hanging": "false",
+        "stage": "0",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.3125,
+            1,
+            0.3125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "age": "1",
+        "hanging": "false",
+        "stage": "0",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.3125,
+            1,
+            0.3125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "age": "1",
+        "hanging": "false",
+        "stage": "1",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.3125,
+            1,
+            0.3125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "age": "1",
+        "hanging": "false",
+        "stage": "1",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.3125,
+            1,
+            0.3125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "age": "2",
+        "hanging": "true",
+        "stage": "0",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0.4375,
+            0.1875
+          ],
+          "max": [
+            0.3125,
+            1,
+            0.3125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "age": "2",
+        "hanging": "true",
+        "stage": "0",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0.4375,
+            0.1875
+          ],
+          "max": [
+            0.3125,
+            1,
+            0.3125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "age": "2",
+        "hanging": "true",
+        "stage": "1",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0.4375,
+            0.1875
+          ],
+          "max": [
+            0.3125,
+            1,
+            0.3125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "age": "2",
+        "hanging": "true",
+        "stage": "1",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0.4375,
+            0.1875
+          ],
+          "max": [
+            0.3125,
+            1,
+            0.3125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "age": "2",
+        "hanging": "false",
+        "stage": "0",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.3125,
+            1,
+            0.3125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "age": "2",
+        "hanging": "false",
+        "stage": "0",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.3125,
+            1,
+            0.3125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "age": "2",
+        "hanging": "false",
+        "stage": "1",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.3125,
+            1,
+            0.3125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "age": "2",
+        "hanging": "false",
+        "stage": "1",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.3125,
+            1,
+            0.3125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "age": "3",
+        "hanging": "true",
+        "stage": "0",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0.1875,
+            0.1875
+          ],
+          "max": [
+            0.3125,
+            1,
+            0.3125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "age": "3",
+        "hanging": "true",
+        "stage": "0",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0.1875,
+            0.1875
+          ],
+          "max": [
+            0.3125,
+            1,
+            0.3125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "age": "3",
+        "hanging": "true",
+        "stage": "1",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0.1875,
+            0.1875
+          ],
+          "max": [
+            0.3125,
+            1,
+            0.3125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "age": "3",
+        "hanging": "true",
+        "stage": "1",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0.1875,
+            0.1875
+          ],
+          "max": [
+            0.3125,
+            1,
+            0.3125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "age": "3",
+        "hanging": "false",
+        "stage": "0",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.3125,
+            1,
+            0.3125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "age": "3",
+        "hanging": "false",
+        "stage": "0",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.3125,
+            1,
+            0.3125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "age": "3",
+        "hanging": "false",
+        "stage": "1",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.3125,
+            1,
+            0.3125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "age": "3",
+        "hanging": "false",
+        "stage": "1",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.3125,
+            1,
+            0.3125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "age": "4",
+        "hanging": "true",
+        "stage": "0",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.3125,
+            1,
+            0.3125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "age": "4",
+        "hanging": "true",
+        "stage": "0",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.3125,
+            1,
+            0.3125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "age": "4",
+        "hanging": "true",
+        "stage": "1",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.3125,
+            1,
+            0.3125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "age": "4",
+        "hanging": "true",
+        "stage": "1",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.3125,
+            1,
+            0.3125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "age": "4",
+        "hanging": "false",
+        "stage": "0",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.3125,
+            1,
+            0.3125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "age": "4",
+        "hanging": "false",
+        "stage": "0",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.3125,
+            1,
+            0.3125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "age": "4",
+        "hanging": "false",
+        "stage": "1",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.3125,
+            1,
+            0.3125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "age": "4",
+        "hanging": "false",
+        "stage": "1",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.3125,
+            1,
+            0.3125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    }
+  ]
+}

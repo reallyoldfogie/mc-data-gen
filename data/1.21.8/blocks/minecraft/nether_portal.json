@@ -1,0 +1,55 @@
+{
+  "block_id": "minecraft:nether_portal",
+  "states": [
+    {
+      "properties": {
+        "axis": "x"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0.375
+          ],
+          "max": [
+            1,
+            1,
+            0.625
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "axis": "z"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.375,
+            0,
+            0
+          ],
+          "max": [
+            0.625,
+            1,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "block_id": "minecraft:structure_void",
+  "states": [
+    {
+      "properties": {},
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.3125,
+            0.3125,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.6875,
+            0.6875
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": true,
+      "blocks_movement": false
+    }
+  ]
+}

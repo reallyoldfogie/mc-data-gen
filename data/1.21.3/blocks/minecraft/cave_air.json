@@ -1,0 +1,15 @@
+{
+  "block_id": "minecraft:cave_air",
+  "states": [
+    {
+      "properties": {},
+      "collision_boxes": [],
+      "outline_boxes": [],
+      "air": true,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": true,
+      "blocks_movement": false
+    }
+  ]
+}
