@@ -24,7 +24,7 @@ https://fabricmc.net/develop/ UI.
 3. Run:
 
    ```bash
-   go run ./cmd/mcgen -config mc-data-gen.yaml -work-dir ./work
+   go run ./cmd/mc-data-gen -config mc-data-gen.yaml -work-dir ./work
    ```
 
 4. For each version, the tool will:
@@ -37,7 +37,33 @@ https://fabricmc.net/develop/ UI.
    - Collect `run/collision-data/blocks.json` into `<cfg.output_dir>/<version>/blocks/minecraft/<block files>`.
 
 ## Using the loader
+You can consume generated data via the separate `loader` module.
 
-See the `examples` directory for loader usage.  Using the loader presumes you have either generated the data, or downloaded it from github.
+Install:
 
-Adjust module path (`github.com/reallyoldfogie/mc-data-gen`) to match your fork if you rename it.
+```bash
+go get github.com/reallyoldfogie/mc-data-gen/loader@latest
+```
+
+Example:
+
+```go
+package main
+
+import (
+    "fmt"
+    mdl "github.com/reallyoldfogie/mc-data-gen/loader"
+)
+
+func main() {
+    // Point to a generated version directory
+    m, err := mdl.LoadBlocksDir("./data/1.21.5/blocks")
+    if err != nil { panic(err) }
+
+    key := mdl.StateKey{BlockID: "minecraft:stone", PropsKey: mdl.MakePropsKey(nil)}
+    info := m[key]
+    fmt.Println("passable?", info.IsPassable())
+}
+```
+
+Using the loader presumes you have generated the data (see steps above) or downloaded a release. Adjust import paths if you fork/rename the module.
