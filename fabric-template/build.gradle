@@ -1,0 +1,43 @@
+plugins {
+    id "fabric-loom" version "1.11-SNAPSHOT"
+    id "java"
+}
+
+version = "1.0.0"
+group = "com.example.collisionexporter"
+
+repositories {
+    mavenCentral()
+    maven {
+        name = "Fabric"
+        url = "https://maven.fabricmc.net/"
+    }
+}
+
+def minecraftVersion = project.properties["minecraft_version"]
+def yarnMappings     = project.properties["yarn_mappings"]
+def loaderVersion    = project.properties["loader_version"]
+def fabricApiVersion = project.properties["fabric_api_version"]
+
+dependencies {
+    minecraft "com.mojang:minecraft:${minecraftVersion}"
+    mappings "net.fabricmc:yarn:${yarnMappings}:v2"
+    modImplementation "net.fabricmc:fabric-loader:${loaderVersion}"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:${fabricApiVersion}"
+}
+
+loom {
+    runs {
+        server {
+            server()
+            name "Collision Exporter Server"
+            // vmArgs "-Dfabric-api.datagen=true", "-Dfabric-api.datagen.output-dir=build/datagen"
+        }
+    }
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}

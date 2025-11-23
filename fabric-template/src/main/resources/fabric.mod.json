@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "collision_exporter",
+  "version": "1.0.0",
+  "name": "Collision Exporter",
+  "description": "Dumps block collision and outline shapes to JSON.",
+  "entrypoints": {
+    "main": [
+      "com.example.collisionexporter.CollisionExporterMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric": "*",
+    "minecraft": "*"
+  }
+}
