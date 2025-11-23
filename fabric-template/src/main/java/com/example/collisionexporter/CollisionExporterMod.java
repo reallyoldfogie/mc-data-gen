@@ -11,6 +11,8 @@ import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.ShapeContext;
 import net.minecraft.registry.Registries;
+import net.minecraft.registry.tag.BlockTags;
+import net.minecraft.registry.tag.FluidTags;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.state.property.Property;
 import net.minecraft.util.Identifier;
@@ -90,6 +92,49 @@ public class CollisionExporterMod implements ModInitializer {
                 entry.addProperty("solid_block", state.isSolidBlock(world, pos));
                 entry.addProperty("replaceable", state.isReplaceable());
                 entry.addProperty("blocks_movement", !collision.isEmpty());
+
+                // --- TAG-BASED SEMANTICS ---
+
+                // climbable blocks (#minecraft:climbable)
+                boolean climbable = state.isIn(BlockTags.CLIMBABLE);
+                entry.addProperty("climbable", climbable);
+
+                // door-like blocks (doors, trapdoors, fence gates)
+                boolean doorLike =
+                        state.isIn(BlockTags.DOORS)
+                    || state.isIn(BlockTags.TRAPDOORS)
+                    || state.isIn(BlockTags.FENCE_GATES);
+                entry.addProperty("door_like", doorLike);
+
+                // fence-like blocks (fences, walls)
+                boolean fenceLike =
+                        state.isIn(BlockTags.FENCES)
+                    || state.isIn(BlockTags.WALLS);
+                entry.addProperty("fence_like", fenceLike);
+
+                // slabs / stairs
+                boolean slab = state.isIn(BlockTags.SLABS);
+                boolean stair = state.isIn(BlockTags.STAIRS);
+                entry.addProperty("slab", slab);
+                entry.addProperty("stair", stair);
+
+                // logs / leaves (for tree / foliage detection)
+                boolean logOrLeaf =
+                        state.isIn(BlockTags.LOGS)
+                    || state.isIn(BlockTags.LEAVES);
+                entry.addProperty("log_or_leaf", logOrLeaf);
+
+                // Fluids: check the fluid state
+                var fluidState = state.getFluidState();
+                boolean isWater = fluidState.isIn(FluidTags.WATER);
+                boolean isLava  = fluidState.isIn(FluidTags.LAVA);
+                boolean isFluid = !fluidState.isEmpty();
+
+                entry.addProperty("water", isWater);
+                entry.addProperty("lava", isLava);
+                entry.addProperty("fluid", isFluid);
+
+                // --- END TAG SEMANTICS ---
 
                 allStates.add(entry);
             }
