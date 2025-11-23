@@ -1,0 +1,1285 @@
+{
+  "block_id": "minecraft:copper_golem_statue",
+  "states": [
+    {
+      "properties": {
+        "copper_golem_pose": "standing",
+        "facing": "north",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "copper_golem_pose": "standing",
+        "facing": "north",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "copper_golem_pose": "standing",
+        "facing": "south",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "copper_golem_pose": "standing",
+        "facing": "south",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "copper_golem_pose": "standing",
+        "facing": "west",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "copper_golem_pose": "standing",
+        "facing": "west",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "copper_golem_pose": "standing",
+        "facing": "east",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "copper_golem_pose": "standing",
+        "facing": "east",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "copper_golem_pose": "sitting",
+        "facing": "north",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "copper_golem_pose": "sitting",
+        "facing": "north",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "copper_golem_pose": "sitting",
+        "facing": "south",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "copper_golem_pose": "sitting",
+        "facing": "south",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "copper_golem_pose": "sitting",
+        "facing": "west",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "copper_golem_pose": "sitting",
+        "facing": "west",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "copper_golem_pose": "sitting",
+        "facing": "east",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "copper_golem_pose": "sitting",
+        "facing": "east",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "copper_golem_pose": "running",
+        "facing": "north",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "copper_golem_pose": "running",
+        "facing": "north",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "copper_golem_pose": "running",
+        "facing": "south",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "copper_golem_pose": "running",
+        "facing": "south",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "copper_golem_pose": "running",
+        "facing": "west",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "copper_golem_pose": "running",
+        "facing": "west",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "copper_golem_pose": "running",
+        "facing": "east",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "copper_golem_pose": "running",
+        "facing": "east",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "copper_golem_pose": "star",
+        "facing": "north",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "copper_golem_pose": "star",
+        "facing": "north",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "copper_golem_pose": "star",
+        "facing": "south",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "copper_golem_pose": "star",
+        "facing": "south",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "copper_golem_pose": "star",
+        "facing": "west",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "copper_golem_pose": "star",
+        "facing": "west",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "copper_golem_pose": "star",
+        "facing": "east",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "copper_golem_pose": "star",
+        "facing": "east",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.8125,
+            0.875,
+            0.8125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    }
+  ]
+}

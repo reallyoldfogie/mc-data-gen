@@ -1,0 +1,55 @@
+{
+  "block_id": "minecraft:torchflower_crop",
+  "states": [
+    {
+      "properties": {
+        "age": "0"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.3125,
+            0,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.375,
+            0.6875
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "age": "1"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.3125,
+            0,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.625,
+            0.6875
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    }
+  ]
+}

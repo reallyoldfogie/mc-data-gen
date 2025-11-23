@@ -1,0 +1,257 @@
+{
+  "block_id": "minecraft:waxed_copper_lantern",
+  "states": [
+    {
+      "properties": {
+        "hanging": "true",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.3125,
+            0.0625,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.5,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0.375,
+            0.5,
+            0.375
+          ],
+          "max": [
+            0.625,
+            0.625,
+            0.625
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.3125,
+            0.0625,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.5,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0.375,
+            0.5,
+            0.375
+          ],
+          "max": [
+            0.625,
+            0.625,
+            0.625
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "hanging": "true",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.3125,
+            0.0625,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.5,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0.375,
+            0.5,
+            0.375
+          ],
+          "max": [
+            0.625,
+            0.625,
+            0.625
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.3125,
+            0.0625,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.5,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0.375,
+            0.5,
+            0.375
+          ],
+          "max": [
+            0.625,
+            0.625,
+            0.625
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "hanging": "false",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.3125,
+            0,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.4375,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0.375,
+            0.4375,
+            0.375
+          ],
+          "max": [
+            0.625,
+            0.5625,
+            0.625
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.3125,
+            0,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.4375,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0.375,
+            0.4375,
+            0.375
+          ],
+          "max": [
+            0.625,
+            0.5625,
+            0.625
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "hanging": "false",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.3125,
+            0,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.4375,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0.375,
+            0.4375,
+            0.375
+          ],
+          "max": [
+            0.625,
+            0.5625,
+            0.625
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.3125,
+            0,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.4375,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0.375,
+            0.4375,
+            0.375
+          ],
+          "max": [
+            0.625,
+            0.5625,
+            0.625
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    }
+  ]
+}

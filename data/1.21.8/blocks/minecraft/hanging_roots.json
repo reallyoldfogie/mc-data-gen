@@ -1,0 +1,55 @@
+{
+  "block_id": "minecraft:hanging_roots",
+  "states": [
+    {
+      "properties": {
+        "waterlogged": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.125,
+            0.625,
+            0.125
+          ],
+          "max": [
+            0.875,
+            1,
+            0.875
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": true,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "waterlogged": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.125,
+            0.625,
+            0.125
+          ],
+          "max": [
+            0.875,
+            1,
+            0.875
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": true,
+      "blocks_movement": false
+    }
+  ]
+}

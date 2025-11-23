@@ -1,0 +1,213 @@
+{
+  "block_id": "minecraft:big_dripleaf_stem",
+  "states": [
+    {
+      "properties": {
+        "facing": "north",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.3125,
+            0,
+            0.5625
+          ],
+          "max": [
+            0.6875,
+            1,
+            0.9375
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "facing": "north",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.3125,
+            0,
+            0.5625
+          ],
+          "max": [
+            0.6875,
+            1,
+            0.9375
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "facing": "south",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.3125,
+            0,
+            0.0625
+          ],
+          "max": [
+            0.6875,
+            1,
+            0.4375
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "facing": "south",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.3125,
+            0,
+            0.0625
+          ],
+          "max": [
+            0.6875,
+            1,
+            0.4375
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "facing": "west",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.5625,
+            0,
+            0.3125
+          ],
+          "max": [
+            0.9375,
+            1,
+            0.6875
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "facing": "west",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.5625,
+            0,
+            0.3125
+          ],
+          "max": [
+            0.9375,
+            1,
+            0.6875
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "facing": "east",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.0625,
+            0,
+            0.3125
+          ],
+          "max": [
+            0.4375,
+            1,
+            0.6875
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "facing": "east",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.0625,
+            0,
+            0.3125
+          ],
+          "max": [
+            0.4375,
+            1,
+            0.6875
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    }
+  ]
+}

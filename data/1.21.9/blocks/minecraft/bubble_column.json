@@ -1,0 +1,29 @@
+{
+  "block_id": "minecraft:bubble_column",
+  "states": [
+    {
+      "properties": {
+        "drag": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": true,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "drag": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": true,
+      "blocks_movement": false
+    }
+  ]
+}

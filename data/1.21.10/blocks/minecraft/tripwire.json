@@ -1,0 +1,3973 @@
+{
+  "block_id": "minecraft:tripwire",
+  "states": [
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "true",
+        "east": "true",
+        "north": "true",
+        "powered": "true",
+        "south": "true",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "true",
+        "east": "true",
+        "north": "true",
+        "powered": "true",
+        "south": "true",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "true",
+        "east": "true",
+        "north": "true",
+        "powered": "true",
+        "south": "false",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "true",
+        "east": "true",
+        "north": "true",
+        "powered": "true",
+        "south": "false",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "true",
+        "east": "true",
+        "north": "true",
+        "powered": "false",
+        "south": "true",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "true",
+        "east": "true",
+        "north": "true",
+        "powered": "false",
+        "south": "true",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "true",
+        "east": "true",
+        "north": "true",
+        "powered": "false",
+        "south": "false",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "true",
+        "east": "true",
+        "north": "true",
+        "powered": "false",
+        "south": "false",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "true",
+        "east": "true",
+        "north": "false",
+        "powered": "true",
+        "south": "true",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "true",
+        "east": "true",
+        "north": "false",
+        "powered": "true",
+        "south": "true",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "true",
+        "east": "true",
+        "north": "false",
+        "powered": "true",
+        "south": "false",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "true",
+        "east": "true",
+        "north": "false",
+        "powered": "true",
+        "south": "false",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "true",
+        "east": "true",
+        "north": "false",
+        "powered": "false",
+        "south": "true",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "true",
+        "east": "true",
+        "north": "false",
+        "powered": "false",
+        "south": "true",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "true",
+        "east": "true",
+        "north": "false",
+        "powered": "false",
+        "south": "false",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "true",
+        "east": "true",
+        "north": "false",
+        "powered": "false",
+        "south": "false",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "true",
+        "east": "false",
+        "north": "true",
+        "powered": "true",
+        "south": "true",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "true",
+        "east": "false",
+        "north": "true",
+        "powered": "true",
+        "south": "true",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "true",
+        "east": "false",
+        "north": "true",
+        "powered": "true",
+        "south": "false",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "true",
+        "east": "false",
+        "north": "true",
+        "powered": "true",
+        "south": "false",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "true",
+        "east": "false",
+        "north": "true",
+        "powered": "false",
+        "south": "true",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "true",
+        "east": "false",
+        "north": "true",
+        "powered": "false",
+        "south": "true",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "true",
+        "east": "false",
+        "north": "true",
+        "powered": "false",
+        "south": "false",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "true",
+        "east": "false",
+        "north": "true",
+        "powered": "false",
+        "south": "false",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "true",
+        "east": "false",
+        "north": "false",
+        "powered": "true",
+        "south": "true",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "true",
+        "east": "false",
+        "north": "false",
+        "powered": "true",
+        "south": "true",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "true",
+        "east": "false",
+        "north": "false",
+        "powered": "true",
+        "south": "false",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "true",
+        "east": "false",
+        "north": "false",
+        "powered": "true",
+        "south": "false",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "true",
+        "east": "false",
+        "north": "false",
+        "powered": "false",
+        "south": "true",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "true",
+        "east": "false",
+        "north": "false",
+        "powered": "false",
+        "south": "true",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "true",
+        "east": "false",
+        "north": "false",
+        "powered": "false",
+        "south": "false",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "true",
+        "east": "false",
+        "north": "false",
+        "powered": "false",
+        "south": "false",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "false",
+        "east": "true",
+        "north": "true",
+        "powered": "true",
+        "south": "true",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "false",
+        "east": "true",
+        "north": "true",
+        "powered": "true",
+        "south": "true",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "false",
+        "east": "true",
+        "north": "true",
+        "powered": "true",
+        "south": "false",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "false",
+        "east": "true",
+        "north": "true",
+        "powered": "true",
+        "south": "false",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "false",
+        "east": "true",
+        "north": "true",
+        "powered": "false",
+        "south": "true",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "false",
+        "east": "true",
+        "north": "true",
+        "powered": "false",
+        "south": "true",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "false",
+        "east": "true",
+        "north": "true",
+        "powered": "false",
+        "south": "false",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "false",
+        "east": "true",
+        "north": "true",
+        "powered": "false",
+        "south": "false",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "false",
+        "east": "true",
+        "north": "false",
+        "powered": "true",
+        "south": "true",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "false",
+        "east": "true",
+        "north": "false",
+        "powered": "true",
+        "south": "true",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "false",
+        "east": "true",
+        "north": "false",
+        "powered": "true",
+        "south": "false",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "false",
+        "east": "true",
+        "north": "false",
+        "powered": "true",
+        "south": "false",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "false",
+        "east": "true",
+        "north": "false",
+        "powered": "false",
+        "south": "true",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "false",
+        "east": "true",
+        "north": "false",
+        "powered": "false",
+        "south": "true",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "false",
+        "east": "true",
+        "north": "false",
+        "powered": "false",
+        "south": "false",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "false",
+        "east": "true",
+        "north": "false",
+        "powered": "false",
+        "south": "false",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "false",
+        "east": "false",
+        "north": "true",
+        "powered": "true",
+        "south": "true",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "false",
+        "east": "false",
+        "north": "true",
+        "powered": "true",
+        "south": "true",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "false",
+        "east": "false",
+        "north": "true",
+        "powered": "true",
+        "south": "false",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "false",
+        "east": "false",
+        "north": "true",
+        "powered": "true",
+        "south": "false",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "false",
+        "east": "false",
+        "north": "true",
+        "powered": "false",
+        "south": "true",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "false",
+        "east": "false",
+        "north": "true",
+        "powered": "false",
+        "south": "true",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "false",
+        "east": "false",
+        "north": "true",
+        "powered": "false",
+        "south": "false",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "false",
+        "east": "false",
+        "north": "true",
+        "powered": "false",
+        "south": "false",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "false",
+        "east": "false",
+        "north": "false",
+        "powered": "true",
+        "south": "true",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "false",
+        "east": "false",
+        "north": "false",
+        "powered": "true",
+        "south": "true",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "false",
+        "east": "false",
+        "north": "false",
+        "powered": "true",
+        "south": "false",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "false",
+        "east": "false",
+        "north": "false",
+        "powered": "true",
+        "south": "false",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "false",
+        "east": "false",
+        "north": "false",
+        "powered": "false",
+        "south": "true",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "false",
+        "east": "false",
+        "north": "false",
+        "powered": "false",
+        "south": "true",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "false",
+        "east": "false",
+        "north": "false",
+        "powered": "false",
+        "south": "false",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "true",
+        "disarmed": "false",
+        "east": "false",
+        "north": "false",
+        "powered": "false",
+        "south": "false",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0.0625,
+            0
+          ],
+          "max": [
+            1,
+            0.15625,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "true",
+        "east": "true",
+        "north": "true",
+        "powered": "true",
+        "south": "true",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "true",
+        "east": "true",
+        "north": "true",
+        "powered": "true",
+        "south": "true",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "true",
+        "east": "true",
+        "north": "true",
+        "powered": "true",
+        "south": "false",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "true",
+        "east": "true",
+        "north": "true",
+        "powered": "true",
+        "south": "false",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "true",
+        "east": "true",
+        "north": "true",
+        "powered": "false",
+        "south": "true",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "true",
+        "east": "true",
+        "north": "true",
+        "powered": "false",
+        "south": "true",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "true",
+        "east": "true",
+        "north": "true",
+        "powered": "false",
+        "south": "false",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "true",
+        "east": "true",
+        "north": "true",
+        "powered": "false",
+        "south": "false",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "true",
+        "east": "true",
+        "north": "false",
+        "powered": "true",
+        "south": "true",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "true",
+        "east": "true",
+        "north": "false",
+        "powered": "true",
+        "south": "true",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "true",
+        "east": "true",
+        "north": "false",
+        "powered": "true",
+        "south": "false",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "true",
+        "east": "true",
+        "north": "false",
+        "powered": "true",
+        "south": "false",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "true",
+        "east": "true",
+        "north": "false",
+        "powered": "false",
+        "south": "true",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "true",
+        "east": "true",
+        "north": "false",
+        "powered": "false",
+        "south": "true",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "true",
+        "east": "true",
+        "north": "false",
+        "powered": "false",
+        "south": "false",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "true",
+        "east": "true",
+        "north": "false",
+        "powered": "false",
+        "south": "false",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "true",
+        "east": "false",
+        "north": "true",
+        "powered": "true",
+        "south": "true",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "true",
+        "east": "false",
+        "north": "true",
+        "powered": "true",
+        "south": "true",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "true",
+        "east": "false",
+        "north": "true",
+        "powered": "true",
+        "south": "false",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "true",
+        "east": "false",
+        "north": "true",
+        "powered": "true",
+        "south": "false",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "true",
+        "east": "false",
+        "north": "true",
+        "powered": "false",
+        "south": "true",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "true",
+        "east": "false",
+        "north": "true",
+        "powered": "false",
+        "south": "true",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "true",
+        "east": "false",
+        "north": "true",
+        "powered": "false",
+        "south": "false",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "true",
+        "east": "false",
+        "north": "true",
+        "powered": "false",
+        "south": "false",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "true",
+        "east": "false",
+        "north": "false",
+        "powered": "true",
+        "south": "true",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "true",
+        "east": "false",
+        "north": "false",
+        "powered": "true",
+        "south": "true",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "true",
+        "east": "false",
+        "north": "false",
+        "powered": "true",
+        "south": "false",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "true",
+        "east": "false",
+        "north": "false",
+        "powered": "true",
+        "south": "false",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "true",
+        "east": "false",
+        "north": "false",
+        "powered": "false",
+        "south": "true",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "true",
+        "east": "false",
+        "north": "false",
+        "powered": "false",
+        "south": "true",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "true",
+        "east": "false",
+        "north": "false",
+        "powered": "false",
+        "south": "false",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "true",
+        "east": "false",
+        "north": "false",
+        "powered": "false",
+        "south": "false",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "false",
+        "east": "true",
+        "north": "true",
+        "powered": "true",
+        "south": "true",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "false",
+        "east": "true",
+        "north": "true",
+        "powered": "true",
+        "south": "true",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "false",
+        "east": "true",
+        "north": "true",
+        "powered": "true",
+        "south": "false",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "false",
+        "east": "true",
+        "north": "true",
+        "powered": "true",
+        "south": "false",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "false",
+        "east": "true",
+        "north": "true",
+        "powered": "false",
+        "south": "true",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "false",
+        "east": "true",
+        "north": "true",
+        "powered": "false",
+        "south": "true",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "false",
+        "east": "true",
+        "north": "true",
+        "powered": "false",
+        "south": "false",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "false",
+        "east": "true",
+        "north": "true",
+        "powered": "false",
+        "south": "false",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "false",
+        "east": "true",
+        "north": "false",
+        "powered": "true",
+        "south": "true",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "false",
+        "east": "true",
+        "north": "false",
+        "powered": "true",
+        "south": "true",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "false",
+        "east": "true",
+        "north": "false",
+        "powered": "true",
+        "south": "false",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "false",
+        "east": "true",
+        "north": "false",
+        "powered": "true",
+        "south": "false",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "false",
+        "east": "true",
+        "north": "false",
+        "powered": "false",
+        "south": "true",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "false",
+        "east": "true",
+        "north": "false",
+        "powered": "false",
+        "south": "true",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "false",
+        "east": "true",
+        "north": "false",
+        "powered": "false",
+        "south": "false",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "false",
+        "east": "true",
+        "north": "false",
+        "powered": "false",
+        "south": "false",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "false",
+        "east": "false",
+        "north": "true",
+        "powered": "true",
+        "south": "true",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "false",
+        "east": "false",
+        "north": "true",
+        "powered": "true",
+        "south": "true",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "false",
+        "east": "false",
+        "north": "true",
+        "powered": "true",
+        "south": "false",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "false",
+        "east": "false",
+        "north": "true",
+        "powered": "true",
+        "south": "false",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "false",
+        "east": "false",
+        "north": "true",
+        "powered": "false",
+        "south": "true",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "false",
+        "east": "false",
+        "north": "true",
+        "powered": "false",
+        "south": "true",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "false",
+        "east": "false",
+        "north": "true",
+        "powered": "false",
+        "south": "false",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "false",
+        "east": "false",
+        "north": "true",
+        "powered": "false",
+        "south": "false",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "false",
+        "east": "false",
+        "north": "false",
+        "powered": "true",
+        "south": "true",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "false",
+        "east": "false",
+        "north": "false",
+        "powered": "true",
+        "south": "true",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "false",
+        "east": "false",
+        "north": "false",
+        "powered": "true",
+        "south": "false",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "false",
+        "east": "false",
+        "north": "false",
+        "powered": "true",
+        "south": "false",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "false",
+        "east": "false",
+        "north": "false",
+        "powered": "false",
+        "south": "true",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "false",
+        "east": "false",
+        "north": "false",
+        "powered": "false",
+        "south": "true",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "false",
+        "east": "false",
+        "north": "false",
+        "powered": "false",
+        "south": "false",
+        "west": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "attached": "false",
+        "disarmed": "false",
+        "east": "false",
+        "north": "false",
+        "powered": "false",
+        "south": "false",
+        "west": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    }
+  ]
+}

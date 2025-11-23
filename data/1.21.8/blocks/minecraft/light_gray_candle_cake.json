@@ -1,0 +1,129 @@
+{
+  "block_id": "minecraft:light_gray_candle_cake",
+  "states": [
+    {
+      "properties": {
+        "lit": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.0625,
+            0,
+            0.0625
+          ],
+          "max": [
+            0.9375,
+            0.5,
+            0.9375
+          ]
+        },
+        {
+          "min": [
+            0.4375,
+            0.5,
+            0.4375
+          ],
+          "max": [
+            0.5625,
+            0.875,
+            0.5625
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.0625,
+            0,
+            0.0625
+          ],
+          "max": [
+            0.9375,
+            0.5,
+            0.9375
+          ]
+        },
+        {
+          "min": [
+            0.4375,
+            0.5,
+            0.4375
+          ],
+          "max": [
+            0.5625,
+            0.875,
+            0.5625
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "lit": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.0625,
+            0,
+            0.0625
+          ],
+          "max": [
+            0.9375,
+            0.5,
+            0.9375
+          ]
+        },
+        {
+          "min": [
+            0.4375,
+            0.5,
+            0.4375
+          ],
+          "max": [
+            0.5625,
+            0.875,
+            0.5625
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.0625,
+            0,
+            0.0625
+          ],
+          "max": [
+            0.9375,
+            0.5,
+            0.9375
+          ]
+        },
+        {
+          "min": [
+            0.4375,
+            0.5,
+            0.4375
+          ],
+          "max": [
+            0.5625,
+            0.875,
+            0.5625
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "block_id": "minecraft:brain_coral_fan",
+  "states": [
+    {
+      "properties": {
+        "waterlogged": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.125,
+            0,
+            0.125
+          ],
+          "max": [
+            0.875,
+            0.25,
+            0.875
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    },
+    {
+      "properties": {
+        "waterlogged": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.125,
+            0,
+            0.125
+          ],
+          "max": [
+            0.875,
+            0.25,
+            0.875
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false
+    }
+  ]
+}

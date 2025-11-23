@@ -1,0 +1,645 @@
+{
+  "block_id": "minecraft:blue_candle",
+  "states": [
+    {
+      "properties": {
+        "candles": "1",
+        "lit": "true",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.4375,
+            0,
+            0.4375
+          ],
+          "max": [
+            0.5625,
+            0.375,
+            0.5625
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.4375,
+            0,
+            0.4375
+          ],
+          "max": [
+            0.5625,
+            0.375,
+            0.5625
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "candles": "1",
+        "lit": "true",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.4375,
+            0,
+            0.4375
+          ],
+          "max": [
+            0.5625,
+            0.375,
+            0.5625
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.4375,
+            0,
+            0.4375
+          ],
+          "max": [
+            0.5625,
+            0.375,
+            0.5625
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "candles": "1",
+        "lit": "false",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.4375,
+            0,
+            0.4375
+          ],
+          "max": [
+            0.5625,
+            0.375,
+            0.5625
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.4375,
+            0,
+            0.4375
+          ],
+          "max": [
+            0.5625,
+            0.375,
+            0.5625
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "candles": "1",
+        "lit": "false",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.4375,
+            0,
+            0.4375
+          ],
+          "max": [
+            0.5625,
+            0.375,
+            0.5625
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.4375,
+            0,
+            0.4375
+          ],
+          "max": [
+            0.5625,
+            0.375,
+            0.5625
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "candles": "2",
+        "lit": "true",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.3125,
+            0,
+            0.375
+          ],
+          "max": [
+            0.6875,
+            0.375,
+            0.5625
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.3125,
+            0,
+            0.375
+          ],
+          "max": [
+            0.6875,
+            0.375,
+            0.5625
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "candles": "2",
+        "lit": "true",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.3125,
+            0,
+            0.375
+          ],
+          "max": [
+            0.6875,
+            0.375,
+            0.5625
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.3125,
+            0,
+            0.375
+          ],
+          "max": [
+            0.6875,
+            0.375,
+            0.5625
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "candles": "2",
+        "lit": "false",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.3125,
+            0,
+            0.375
+          ],
+          "max": [
+            0.6875,
+            0.375,
+            0.5625
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.3125,
+            0,
+            0.375
+          ],
+          "max": [
+            0.6875,
+            0.375,
+            0.5625
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "candles": "2",
+        "lit": "false",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.3125,
+            0,
+            0.375
+          ],
+          "max": [
+            0.6875,
+            0.375,
+            0.5625
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.3125,
+            0,
+            0.375
+          ],
+          "max": [
+            0.6875,
+            0.375,
+            0.5625
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "candles": "3",
+        "lit": "true",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.3125,
+            0,
+            0.375
+          ],
+          "max": [
+            0.625,
+            0.375,
+            0.6875
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.3125,
+            0,
+            0.375
+          ],
+          "max": [
+            0.625,
+            0.375,
+            0.6875
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "candles": "3",
+        "lit": "true",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.3125,
+            0,
+            0.375
+          ],
+          "max": [
+            0.625,
+            0.375,
+            0.6875
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.3125,
+            0,
+            0.375
+          ],
+          "max": [
+            0.625,
+            0.375,
+            0.6875
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "candles": "3",
+        "lit": "false",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.3125,
+            0,
+            0.375
+          ],
+          "max": [
+            0.625,
+            0.375,
+            0.6875
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.3125,
+            0,
+            0.375
+          ],
+          "max": [
+            0.625,
+            0.375,
+            0.6875
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "candles": "3",
+        "lit": "false",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.3125,
+            0,
+            0.375
+          ],
+          "max": [
+            0.625,
+            0.375,
+            0.6875
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.3125,
+            0,
+            0.375
+          ],
+          "max": [
+            0.625,
+            0.375,
+            0.6875
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "candles": "4",
+        "lit": "true",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.3125,
+            0,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.375,
+            0.625
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.3125,
+            0,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.375,
+            0.625
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "candles": "4",
+        "lit": "true",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.3125,
+            0,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.375,
+            0.625
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.3125,
+            0,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.375,
+            0.625
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "candles": "4",
+        "lit": "false",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.3125,
+            0,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.375,
+            0.625
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.3125,
+            0,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.375,
+            0.625
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    },
+    {
+      "properties": {
+        "candles": "4",
+        "lit": "false",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.3125,
+            0,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.375,
+            0.625
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.3125,
+            0,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.375,
+            0.625
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true
+    }
+  ]
+}
