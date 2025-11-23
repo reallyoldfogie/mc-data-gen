@@ -41,7 +41,16 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -83,7 +92,16 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -125,7 +143,16 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -167,7 +194,16 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -209,7 +245,16 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -251,7 +296,16 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -293,7 +347,16 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -335,7 +398,16 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -377,7 +449,16 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -419,7 +500,16 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -461,7 +551,16 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -503,7 +602,16 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -545,7 +653,16 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -587,7 +704,16 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -629,7 +755,16 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -671,7 +806,16 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -713,7 +857,16 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -755,7 +908,16 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -797,7 +959,16 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -839,7 +1010,16 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -881,7 +1061,16 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -923,7 +1112,16 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -965,7 +1163,16 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -1007,7 +1214,16 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -1049,7 +1265,16 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -1091,7 +1316,16 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -1133,7 +1367,16 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -1175,7 +1418,16 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -1217,7 +1469,16 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -1259,7 +1520,16 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -1301,7 +1571,16 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -1343,7 +1622,16 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -1385,7 +1673,16 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -1427,7 +1724,16 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -1469,7 +1775,16 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -1511,7 +1826,16 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -1553,7 +1877,16 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -1595,7 +1928,16 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -1637,7 +1979,16 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -1679,517 +2030,22 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
         "facing": "west",
         "half": "lower",
         "hinge": "left",
-        "open": "true",
-        "powered": "true"
-      },
-      "collision_boxes": [
-        {
-          "min": [
-            0,
-            0,
-            0.8125
-          ],
-          "max": [
-            1,
-            1,
-            1
-          ]
-        }
-      ],
-      "outline_boxes": [
-        {
-          "min": [
-            0,
-            0,
-            0.8125
-          ],
-          "max": [
-            1,
-            1,
-            1
-          ]
-        }
-      ],
-      "air": false,
-      "opaque": false,
-      "solid_block": false,
-      "replaceable": false,
-      "blocks_movement": true
-    },
-    {
-      "properties": {
-        "facing": "west",
-        "half": "lower",
-        "hinge": "left",
-        "open": "true",
-        "powered": "false"
-      },
-      "collision_boxes": [
-        {
-          "min": [
-            0,
-            0,
-            0.8125
-          ],
-          "max": [
-            1,
-            1,
-            1
-          ]
-        }
-      ],
-      "outline_boxes": [
-        {
-          "min": [
-            0,
-            0,
-            0.8125
-          ],
-          "max": [
-            1,
-            1,
-            1
-          ]
-        }
-      ],
-      "air": false,
-      "opaque": false,
-      "solid_block": false,
-      "replaceable": false,
-      "blocks_movement": true
-    },
-    {
-      "properties": {
-        "facing": "west",
-        "half": "lower",
-        "hinge": "left",
-        "open": "false",
-        "powered": "true"
-      },
-      "collision_boxes": [
-        {
-          "min": [
-            0.8125,
-            0,
-            0
-          ],
-          "max": [
-            1,
-            1,
-            1
-          ]
-        }
-      ],
-      "outline_boxes": [
-        {
-          "min": [
-            0.8125,
-            0,
-            0
-          ],
-          "max": [
-            1,
-            1,
-            1
-          ]
-        }
-      ],
-      "air": false,
-      "opaque": false,
-      "solid_block": false,
-      "replaceable": false,
-      "blocks_movement": true
-    },
-    {
-      "properties": {
-        "facing": "west",
-        "half": "lower",
-        "hinge": "left",
-        "open": "false",
-        "powered": "false"
-      },
-      "collision_boxes": [
-        {
-          "min": [
-            0.8125,
-            0,
-            0
-          ],
-          "max": [
-            1,
-            1,
-            1
-          ]
-        }
-      ],
-      "outline_boxes": [
-        {
-          "min": [
-            0.8125,
-            0,
-            0
-          ],
-          "max": [
-            1,
-            1,
-            1
-          ]
-        }
-      ],
-      "air": false,
-      "opaque": false,
-      "solid_block": false,
-      "replaceable": false,
-      "blocks_movement": true
-    },
-    {
-      "properties": {
-        "facing": "west",
-        "half": "lower",
-        "hinge": "right",
-        "open": "true",
-        "powered": "true"
-      },
-      "collision_boxes": [
-        {
-          "min": [
-            0,
-            0,
-            0
-          ],
-          "max": [
-            1,
-            1,
-            0.1875
-          ]
-        }
-      ],
-      "outline_boxes": [
-        {
-          "min": [
-            0,
-            0,
-            0
-          ],
-          "max": [
-            1,
-            1,
-            0.1875
-          ]
-        }
-      ],
-      "air": false,
-      "opaque": false,
-      "solid_block": false,
-      "replaceable": false,
-      "blocks_movement": true
-    },
-    {
-      "properties": {
-        "facing": "west",
-        "half": "lower",
-        "hinge": "right",
-        "open": "true",
-        "powered": "false"
-      },
-      "collision_boxes": [
-        {
-          "min": [
-            0,
-            0,
-            0
-          ],
-          "max": [
-            1,
-            1,
-            0.1875
-          ]
-        }
-      ],
-      "outline_boxes": [
-        {
-          "min": [
-            0,
-            0,
-            0
-          ],
-          "max": [
-            1,
-            1,
-            0.1875
-          ]
-        }
-      ],
-      "air": false,
-      "opaque": false,
-      "solid_block": false,
-      "replaceable": false,
-      "blocks_movement": true
-    },
-    {
-      "properties": {
-        "facing": "west",
-        "half": "lower",
-        "hinge": "right",
-        "open": "false",
-        "powered": "true"
-      },
-      "collision_boxes": [
-        {
-          "min": [
-            0.8125,
-            0,
-            0
-          ],
-          "max": [
-            1,
-            1,
-            1
-          ]
-        }
-      ],
-      "outline_boxes": [
-        {
-          "min": [
-            0.8125,
-            0,
-            0
-          ],
-          "max": [
-            1,
-            1,
-            1
-          ]
-        }
-      ],
-      "air": false,
-      "opaque": false,
-      "solid_block": false,
-      "replaceable": false,
-      "blocks_movement": true
-    },
-    {
-      "properties": {
-        "facing": "west",
-        "half": "lower",
-        "hinge": "right",
-        "open": "false",
-        "powered": "false"
-      },
-      "collision_boxes": [
-        {
-          "min": [
-            0.8125,
-            0,
-            0
-          ],
-          "max": [
-            1,
-            1,
-            1
-          ]
-        }
-      ],
-      "outline_boxes": [
-        {
-          "min": [
-            0.8125,
-            0,
-            0
-          ],
-          "max": [
-            1,
-            1,
-            1
-          ]
-        }
-      ],
-      "air": false,
-      "opaque": false,
-      "solid_block": false,
-      "replaceable": false,
-      "blocks_movement": true
-    },
-    {
-      "properties": {
-        "facing": "east",
-        "half": "upper",
-        "hinge": "left",
-        "open": "true",
-        "powered": "true"
-      },
-      "collision_boxes": [
-        {
-          "min": [
-            0,
-            0,
-            0
-          ],
-          "max": [
-            1,
-            1,
-            0.1875
-          ]
-        }
-      ],
-      "outline_boxes": [
-        {
-          "min": [
-            0,
-            0,
-            0
-          ],
-          "max": [
-            1,
-            1,
-            0.1875
-          ]
-        }
-      ],
-      "air": false,
-      "opaque": false,
-      "solid_block": false,
-      "replaceable": false,
-      "blocks_movement": true
-    },
-    {
-      "properties": {
-        "facing": "east",
-        "half": "upper",
-        "hinge": "left",
-        "open": "true",
-        "powered": "false"
-      },
-      "collision_boxes": [
-        {
-          "min": [
-            0,
-            0,
-            0
-          ],
-          "max": [
-            1,
-            1,
-            0.1875
-          ]
-        }
-      ],
-      "outline_boxes": [
-        {
-          "min": [
-            0,
-            0,
-            0
-          ],
-          "max": [
-            1,
-            1,
-            0.1875
-          ]
-        }
-      ],
-      "air": false,
-      "opaque": false,
-      "solid_block": false,
-      "replaceable": false,
-      "blocks_movement": true
-    },
-    {
-      "properties": {
-        "facing": "east",
-        "half": "upper",
-        "hinge": "left",
-        "open": "false",
-        "powered": "true"
-      },
-      "collision_boxes": [
-        {
-          "min": [
-            0,
-            0,
-            0
-          ],
-          "max": [
-            0.1875,
-            1,
-            1
-          ]
-        }
-      ],
-      "outline_boxes": [
-        {
-          "min": [
-            0,
-            0,
-            0
-          ],
-          "max": [
-            0.1875,
-            1,
-            1
-          ]
-        }
-      ],
-      "air": false,
-      "opaque": false,
-      "solid_block": false,
-      "replaceable": false,
-      "blocks_movement": true
-    },
-    {
-      "properties": {
-        "facing": "east",
-        "half": "upper",
-        "hinge": "left",
-        "open": "false",
-        "powered": "false"
-      },
-      "collision_boxes": [
-        {
-          "min": [
-            0,
-            0,
-            0
-          ],
-          "max": [
-            0.1875,
-            1,
-            1
-          ]
-        }
-      ],
-      "outline_boxes": [
-        {
-          "min": [
-            0,
-            0,
-            0
-          ],
-          "max": [
-            0.1875,
-            1,
-            1
-          ]
-        }
-      ],
-      "air": false,
-      "opaque": false,
-      "solid_block": false,
-      "replaceable": false,
-      "blocks_movement": true
-    },
-    {
-      "properties": {
-        "facing": "east",
-        "half": "upper",
-        "hinge": "right",
         "open": "true",
         "powered": "true"
       },
@@ -2225,13 +2081,22 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
-        "facing": "east",
-        "half": "upper",
-        "hinge": "right",
+        "facing": "west",
+        "half": "lower",
+        "hinge": "left",
         "open": "true",
         "powered": "false"
       },
@@ -2267,14 +2132,125 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
-        "facing": "east",
-        "half": "upper",
-        "hinge": "right",
+        "facing": "west",
+        "half": "lower",
+        "hinge": "left",
         "open": "false",
+        "powered": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.8125,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.8125,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "facing": "west",
+        "half": "lower",
+        "hinge": "left",
+        "open": "false",
+        "powered": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.8125,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.8125,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "facing": "west",
+        "half": "lower",
+        "hinge": "right",
+        "open": "true",
         "powered": "true"
       },
       "collision_boxes": [
@@ -2285,9 +2261,9 @@
             0
           ],
           "max": [
-            0.1875,
             1,
-            1
+            1,
+            0.1875
           ]
         }
       ],
@@ -2299,9 +2275,9 @@
             0
           ],
           "max": [
-            0.1875,
             1,
-            1
+            1,
+            0.1875
           ]
         }
       ],
@@ -2309,14 +2285,23 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
-        "facing": "east",
-        "half": "upper",
+        "facing": "west",
+        "half": "lower",
         "hinge": "right",
-        "open": "false",
+        "open": "true",
         "powered": "false"
       },
       "collision_boxes": [
@@ -2327,9 +2312,9 @@
             0
           ],
           "max": [
-            0.1875,
             1,
-            1
+            1,
+            0.1875
           ]
         }
       ],
@@ -2341,7 +2326,58 @@
             0
           ],
           "max": [
-            0.1875,
+            1,
+            1,
+            0.1875
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "facing": "west",
+        "half": "lower",
+        "hinge": "right",
+        "open": "false",
+        "powered": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.8125,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.8125,
+            0,
+            0
+          ],
+          "max": [
+            1,
             1,
             1
           ]
@@ -2351,12 +2387,72 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "facing": "west",
+        "half": "lower",
+        "hinge": "right",
+        "open": "false",
+        "powered": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.8125,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.8125,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
         "facing": "east",
-        "half": "lower",
+        "half": "upper",
         "hinge": "left",
         "open": "true",
         "powered": "true"
@@ -2393,12 +2489,21 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
         "facing": "east",
-        "half": "lower",
+        "half": "upper",
         "hinge": "left",
         "open": "true",
         "powered": "false"
@@ -2435,12 +2540,21 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
         "facing": "east",
-        "half": "lower",
+        "half": "upper",
         "hinge": "left",
         "open": "false",
         "powered": "true"
@@ -2477,12 +2591,21 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
         "facing": "east",
-        "half": "lower",
+        "half": "upper",
         "hinge": "left",
         "open": "false",
         "powered": "false"
@@ -2519,12 +2642,21 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
         "facing": "east",
-        "half": "lower",
+        "half": "upper",
         "hinge": "right",
         "open": "true",
         "powered": "true"
@@ -2561,7 +2693,424 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "facing": "east",
+        "half": "upper",
+        "hinge": "right",
+        "open": "true",
+        "powered": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0.8125
+          ],
+          "max": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0.8125
+          ],
+          "max": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "facing": "east",
+        "half": "upper",
+        "hinge": "right",
+        "open": "false",
+        "powered": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            0.1875,
+            1,
+            1
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            0.1875,
+            1,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "facing": "east",
+        "half": "upper",
+        "hinge": "right",
+        "open": "false",
+        "powered": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            0.1875,
+            1,
+            1
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            0.1875,
+            1,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "facing": "east",
+        "half": "lower",
+        "hinge": "left",
+        "open": "true",
+        "powered": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            1,
+            0.1875
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            1,
+            0.1875
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "facing": "east",
+        "half": "lower",
+        "hinge": "left",
+        "open": "true",
+        "powered": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            1,
+            0.1875
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            1,
+            0.1875
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "facing": "east",
+        "half": "lower",
+        "hinge": "left",
+        "open": "false",
+        "powered": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            0.1875,
+            1,
+            1
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            0.1875,
+            1,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "facing": "east",
+        "half": "lower",
+        "hinge": "left",
+        "open": "false",
+        "powered": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            0.1875,
+            1,
+            1
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            0.1875,
+            1,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "facing": "east",
+        "half": "lower",
+        "hinge": "right",
+        "open": "true",
+        "powered": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0.8125
+          ],
+          "max": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0.8125
+          ],
+          "max": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -2603,7 +3152,16 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -2645,7 +3203,16 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -2687,7 +3254,16 @@
       "opaque": false,
       "solid_block": false,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     }
   ]
 }
