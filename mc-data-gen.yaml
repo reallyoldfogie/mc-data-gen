@@ -11,16 +11,16 @@ gradle_task: "runServer"
 
 # List of Minecraft versions to generate data for.
 versions:
-  # - "1.21.1"
-  # - "1.21.2"
-  # - "1.21.3"
+  - "1.21.1"
+  - "1.21.2"
+  - "1.21.3"
   - "1.21.4"
-  # - "1.21.5"
+  - "1.21.5"
   - "1.21.6"
   - "1.21.7"
   - "1.21.8"
   - "1.21.9"
-  # - "1.21.10"
+  - "1.21.10"
 
 # Where the Fabric mod writes its JSON (relative to project root).
 generator_output_rel: "run/collision-data/blocks.json"
