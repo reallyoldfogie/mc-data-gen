@@ -42,7 +42,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -85,7 +94,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -128,7 +146,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -171,7 +198,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -214,7 +250,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -257,7 +302,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -300,7 +354,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -343,7 +406,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -386,7 +458,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -429,7 +510,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -472,7 +562,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -515,7 +614,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -558,7 +666,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -601,7 +718,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -644,7 +770,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -687,7 +822,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -730,7 +874,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -773,7 +926,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -816,7 +978,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -859,7 +1030,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -902,7 +1082,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -945,7 +1134,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -988,7 +1186,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -1031,7 +1238,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -1074,7 +1290,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -1117,7 +1342,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -1160,7 +1394,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -1203,7 +1446,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -1246,7 +1498,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -1289,7 +1550,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -1332,7 +1602,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -1375,7 +1654,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -1418,7 +1706,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -1461,7 +1758,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -1504,7 +1810,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -1547,7 +1862,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -1590,7 +1914,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -1633,7 +1966,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -1676,7 +2018,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -1719,7 +2070,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -1762,7 +2122,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -1805,7 +2174,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -1848,7 +2226,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -1891,7 +2278,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -1934,7 +2330,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -1977,7 +2382,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -2020,7 +2434,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -2063,7 +2486,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -2106,7 +2538,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -2149,7 +2590,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -2192,7 +2642,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -2235,7 +2694,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -2278,7 +2746,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -2321,7 +2798,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -2364,7 +2850,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -2407,7 +2902,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -2450,7 +2954,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -2493,7 +3006,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -2536,7 +3058,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -2579,7 +3110,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -2622,7 +3162,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -2665,7 +3214,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -2708,7 +3266,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     },
     {
       "properties": {
@@ -2751,7 +3318,16 @@
       "opaque": true,
       "solid_block": true,
       "replaceable": false,
-      "blocks_movement": true
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
     }
   ]
 }
