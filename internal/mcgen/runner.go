@@ -1,14 +1,14 @@
 package mcgen
 
 import (
-    "encoding/json"
-    "fmt"
-    "os"
-    "os/exec"
-    "path/filepath"
-    "strings"
+	"encoding/json"
+	"fmt"
+	"os"
+	"os/exec"
+	"path/filepath"
+	"strings"
 
-    loader "github.com/reallyoldfogie/mc-data-gen/loader"
+	loader "github.com/reallyoldfogie/mc-data-gen/loader"
 )
 
 // PrepareProject copies the Fabric template into a per-version dir and
@@ -85,7 +85,7 @@ func RunGradleWithArgs(projectDir string, args ...string) error {
 		return fmt.Errorf("gradlew not found in %s: %w", projectDir, err)
 	}
 
-	cmd := exec.Command(gradlew, args...)
+	cmd := exec.Command(gradlew, append(args, "--no-daemon")...)
 	cmd.Dir = projectDir
 	cmd.Stdout = os.Stdout
 	cmd.Stderr = os.Stderr
@@ -108,51 +108,85 @@ func CollectOutput(projectDir, generatorOutputRel, outputRoot, version string) e
 		return fmt.Errorf("generator output not found at %s: %w", src, err)
 	}
 
-	destDir := filepath.Join(outputRoot, version, "blocks")
-	if err := os.MkdirAll(destDir, 0o755); err != nil {
-		return fmt.Errorf("create dest dir: %w", err)
+	if err := collectBlocks(src, outputRoot, version); err != nil {
+		return fmt.Errorf("collectBlocks: %w", err)
 	}
-	// dest := filepath.Join(destDir, "blocks.json")
 
-	// data, err := os.ReadFile(src)
-	// if err != nil {
-	// 	return fmt.Errorf("read generator output: %w", err)
-	// }
-	// if err := os.WriteFile(dest, data, 0o644); err != nil {
-	// 	return fmt.Errorf("write dest file: %w", err)
-	// }
-
-	shardFile(src, destDir)
+	if err := collectItems(src, outputRoot, version); err != nil {
+		return fmt.Errorf("collectItems: %w", err)
+	}
 
 	return nil
 }
 
+func collectBlocks(src, outputRoot, version string) error {
+	blocksSrc := filepath.Join(src, "blocks.json")
+	if _, err := os.Stat(blocksSrc); err != nil {
+		return fmt.Errorf("generator output (blocks.json) not found at %s: %w", src, err)
+	}
+
+	blocksDestDir := filepath.Join(outputRoot, version, "blocks")
+	if err := os.MkdirAll(blocksDestDir, 0o755); err != nil {
+		return fmt.Errorf("create blocks dest dir: %w", err)
+	}
+
+	if err := shardFile(blocksSrc, blocksDestDir); err != nil {
+		return fmt.Errorf("shard blocks dest file: %w", err)
+
+	}
+
+	return nil
+}
+
+func collectItems(src, outputRoot, version string) error {
+	itemsDestDir := filepath.Join(outputRoot, version, "items")
+	if err := os.MkdirAll(itemsDestDir, 0o755); err != nil {
+		return fmt.Errorf("create item dir: %w", err)
+	}
+
+	itemsSrc := filepath.Join(src, "items.json")
+	if _, err := os.Stat(itemsSrc); err != nil {
+		return fmt.Errorf("generator output (items.json) not found at %s: %w", src, err)
+	}
+	itemDestFile := filepath.Join(itemsDestDir, "items.json")
+
+	data, err := os.ReadFile(itemsSrc)
+	if err != nil {
+		return fmt.Errorf("read generator item output: %w", err)
+	}
+
+	if err := os.WriteFile(itemDestFile, data, 0o644); err != nil {
+		return fmt.Errorf("write dest item file: %w", err)
+	}
+	return nil
+}
+
 func shardFile(inputPath, outRoot string) error {
-    data, err := os.ReadFile(inputPath)
-    if err != nil {
-        return fmt.Errorf("read %s: %w", inputPath, err)
-    }
+	data, err := os.ReadFile(inputPath)
+	if err != nil {
+		return fmt.Errorf("read %s: %w", inputPath, err)
+	}
 
-    var records []loader.BlockStateRecord
-    if err := json.Unmarshal(data, &records); err != nil {
-        return fmt.Errorf("unmarshal %s: %w", inputPath, err)
-    }
+	var records []loader.BlockStateRecord
+	if err := json.Unmarshal(data, &records); err != nil {
+		return fmt.Errorf("unmarshal %s: %w", inputPath, err)
+	}
 
-    // Group by block_id
-    byBlock := make(map[string][]loader.BlockStateRecordSlim)
-    for _, r := range records {
-        slim := loader.BlockStateRecordSlim{
-            Properties:     r.Properties,
-            CollisionBoxes: r.CollisionBoxes,
-            OutlineBoxes:   r.OutlineBoxes,
-            Air:            r.Air,
-            Opaque:         r.Opaque,
-            SolidBlock:     r.SolidBlock,
-            Replaceable:    r.Replaceable,
-            BlocksMovement: r.BlocksMovement,
-        }
-        byBlock[r.BlockID] = append(byBlock[r.BlockID], slim)
-    }
+	// Group by block_id
+	byBlock := make(map[string][]loader.BlockStateRecordSlim)
+	for _, r := range records {
+		slim := loader.BlockStateRecordSlim{
+			Properties:     r.Properties,
+			CollisionBoxes: r.CollisionBoxes,
+			OutlineBoxes:   r.OutlineBoxes,
+			Air:            r.Air,
+			Opaque:         r.Opaque,
+			SolidBlock:     r.SolidBlock,
+			Replaceable:    r.Replaceable,
+			BlocksMovement: r.BlocksMovement,
+		}
+		byBlock[r.BlockID] = append(byBlock[r.BlockID], slim)
+	}
 
 	for blockID, states := range byBlock {
 		ns, path := splitBlockID(blockID) // e.g. "minecraft", "oak_fence"
@@ -162,13 +196,13 @@ func shardFile(inputPath, outRoot string) error {
 			return fmt.Errorf("mkdir %s: %w", dir, err)
 		}
 
-        outFile := filepath.Join(dir, path+".json")
-        file := loader.BlockStatesFile{
-            BlockID: blockID,
-            States:  states,
-        }
-        buf, err := json.MarshalIndent(file, "", "  ")
-        if err != nil {
+		outFile := filepath.Join(dir, path+".json")
+		file := loader.BlockStatesFile{
+			BlockID: blockID,
+			States:  states,
+		}
+		buf, err := json.MarshalIndent(file, "", "  ")
+		if err != nil {
 			return fmt.Errorf("marshal %s: %w", blockID, err)
 		}
 		if err := os.WriteFile(outFile, buf, 0o644); err != nil {

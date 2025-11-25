@@ -9,4 +9,4 @@ pluginManagement {
     }
 }
 
-rootProject.name = "collision-exporter"
+rootProject.name = "data-exporter"

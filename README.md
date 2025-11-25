@@ -1,6 +1,6 @@
-# mc-data-gen: Minecraft collision shape generator
+# mc-data-gen: Minecraft data generator
 
-This project automates running a Fabric-based collision exporter for multiple
+This project automates running a Fabric-based data exporter for multiple
 Minecraft versions, and provides Go structs + loader code for consuming the
 generated `blocks.json` files in your RL environment or other agents.
 
@@ -34,7 +34,8 @@ https://fabricmc.net/develop/ UI.
      and `fabric_api_version` in `gradle.properties`.
    - Run `./gradlew migrateMappings --mappings "<yarn_version>"`.
    - Run `./gradlew runServer` (or your configured Gradle task).
-   - Collect `run/collision-data/blocks.json` into `<cfg.output_dir>/<version>/blocks/minecraft/<block files>`.
+   - Collect `run/data/blocks.json` into `<cfg.output_dir>/<version>/blocks/minecraft/<block files>`.
+   - Collect `run/data/items.json` into `<cfg.output_dir>/<version>/items/minecraft/<item files>`.
 
 ## Using the loader
 You can consume generated data via the separate `loader` module.

@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "collision_exporter",
+  "id": "data_exporter",
   "version": "1.0.0",
-  "name": "Collision Exporter",
-  "description": "Dumps block collision and outline shapes to JSON.",
+  "name": "Data Exporter",
+  "description": "Dumps block collision and outline shapes to JSON. Dumps items to JSON",
   "entrypoints": {
     "main": [
-      "com.example.collisionexporter.CollisionExporterMod"
+      "com.example.dataexporter.DataExporterMod"
     ]
   },
   "depends": {
