@@ -4,7 +4,7 @@ plugins {
 }
 
 version = "1.0.0"
-group = "com.example.collisionexporter"
+group = "com.example.dataexporter"
 
 repositories {
     mavenCentral()
@@ -30,7 +30,7 @@ loom {
     runs {
         server {
             server()
-            name "Collision Exporter Server"
+            name "Data Exporter Server"
             // vmArgs "-Dfabric-api.datagen=true", "-Dfabric-api.datagen.output-dir=build/datagen"
         }
     }

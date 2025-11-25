@@ -1,4 +1,4 @@
-# Configuration for the Minecraft collision-data generator.
+# Configuration for the Minecraft data generator.
 # Adjust versions and paths to suit your environment.
 
 output_dir: "./data"
@@ -23,4 +23,4 @@ versions:
   - "1.21.10"
 
 # Where the Fabric mod writes its JSON (relative to project root).
-generator_output_rel: "run/collision-data/blocks.json"
+generator_output_rel: "run/data"

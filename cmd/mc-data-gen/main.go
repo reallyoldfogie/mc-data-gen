@@ -6,12 +6,13 @@ import (
 	"log"
 	"os"
 	"path/filepath"
+	"runtime"
 
 	"github.com/reallyoldfogie/mc-data-gen/internal/mcgen"
 )
 
 func main() {
-	configPath := flag.String("config", "mcgen.yaml", "path to config file (YAML)")
+	configPath := flag.String("config", "mc-data-gen.yaml", "path to config file (YAML)")
 	workDir := flag.String("work-dir", "./work", "directory for generated per-version Fabric projects")
 	flag.Parse()
 
@@ -46,17 +47,18 @@ func main() {
 		projectDir := filepath.Join(*workDir, v)
 
 		if err := mcgen.PrepareProject(cfg.FabricTemplateDir, projectDir, meta); err != nil {
-			log.Fatalf("prepare project for %s: %v", v, err)
+			log.Panicf("prepare project for %s: %v", v, err)
 		}
 
 		if err := mcgen.RunGradle(projectDir, cfg.GradleTask); err != nil {
-			log.Fatalf("gradle failed for %s: %v", v, err)
+			log.Panicf("gradle failed for %s: %v", v, err)
 		}
 
 		if err := mcgen.CollectOutput(projectDir, cfg.GeneratorOutputRel, cfg.OutputDir, v); err != nil {
-			log.Fatalf("collect output for %s: %v", v, err)
+			log.Panicf("collect output for %s: %v", v, err)
 		}
 
 		fmt.Printf("Done %s\n", v)
+		runtime.GC()
 	}
 }
