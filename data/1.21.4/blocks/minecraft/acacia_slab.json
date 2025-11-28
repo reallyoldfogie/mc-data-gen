@@ -42,12 +42,12 @@
       "climbable": false,
       "door_like": false,
       "fence_like": false,
-      "slab": false,
+      "slab": true,
       "stair": false,
       "log_or_leaf": false,
-      "water": false,
+      "water": true,
       "lava": false,
-      "fluid": false
+      "fluid": true
     },
     {
       "properties": {
@@ -90,7 +90,7 @@
       "climbable": false,
       "door_like": false,
       "fence_like": false,
-      "slab": false,
+      "slab": true,
       "stair": false,
       "log_or_leaf": false,
       "water": false,
@@ -138,12 +138,12 @@
       "climbable": false,
       "door_like": false,
       "fence_like": false,
-      "slab": false,
+      "slab": true,
       "stair": false,
       "log_or_leaf": false,
-      "water": false,
+      "water": true,
       "lava": false,
-      "fluid": false
+      "fluid": true
     },
     {
       "properties": {
@@ -186,7 +186,7 @@
       "climbable": false,
       "door_like": false,
       "fence_like": false,
-      "slab": false,
+      "slab": true,
       "stair": false,
       "log_or_leaf": false,
       "water": false,
@@ -234,12 +234,12 @@
       "climbable": false,
       "door_like": false,
       "fence_like": false,
-      "slab": false,
+      "slab": true,
       "stair": false,
       "log_or_leaf": false,
-      "water": false,
+      "water": true,
       "lava": false,
-      "fluid": false
+      "fluid": true
     },
     {
       "properties": {
@@ -282,7 +282,7 @@
       "climbable": false,
       "door_like": false,
       "fence_like": false,
-      "slab": false,
+      "slab": true,
       "stair": false,
       "log_or_leaf": false,
       "water": false,

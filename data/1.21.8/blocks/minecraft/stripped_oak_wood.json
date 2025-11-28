@@ -43,7 +43,7 @@
       "fence_like": false,
       "slab": false,
       "stair": false,
-      "log_or_leaf": false,
+      "log_or_leaf": true,
       "water": false,
       "lava": false,
       "fluid": false
@@ -90,7 +90,7 @@
       "fence_like": false,
       "slab": false,
       "stair": false,
-      "log_or_leaf": false,
+      "log_or_leaf": true,
       "water": false,
       "lava": false,
       "fluid": false
@@ -137,7 +137,7 @@
       "fence_like": false,
       "slab": false,
       "stair": false,
-      "log_or_leaf": false,
+      "log_or_leaf": true,
       "water": false,
       "lava": false,
       "fluid": false

@@ -92,13 +92,13 @@
       "blocks_movement": true,
       "climbable": false,
       "door_like": false,
-      "fence_like": false,
+      "fence_like": true,
       "slab": false,
       "stair": false,
       "log_or_leaf": false,
-      "water": false,
+      "water": true,
       "lava": false,
-      "fluid": false
+      "fluid": true
     },
     {
       "properties": {
@@ -167,13 +167,13 @@
       "blocks_movement": true,
       "climbable": false,
       "door_like": false,
-      "fence_like": false,
+      "fence_like": true,
       "slab": false,
       "stair": false,
       "log_or_leaf": false,
-      "water": false,
+      "water": true,
       "lava": false,
-      "fluid": false
+      "fluid": true
     },
     {
       "properties": {
@@ -266,7 +266,7 @@
       "blocks_movement": true,
       "climbable": false,
       "door_like": false,
-      "fence_like": false,
+      "fence_like": true,
       "slab": false,
       "stair": false,
       "log_or_leaf": false,
@@ -341,7 +341,7 @@
       "blocks_movement": true,
       "climbable": false,
       "door_like": false,
-      "fence_like": false,
+      "fence_like": true,
       "slab": false,
       "stair": false,
       "log_or_leaf": false,
@@ -416,13 +416,13 @@
       "blocks_movement": true,
       "climbable": false,
       "door_like": false,
-      "fence_like": false,
+      "fence_like": true,
       "slab": false,
       "stair": false,
       "log_or_leaf": false,
-      "water": false,
+      "water": true,
       "lava": false,
-      "fluid": false
+      "fluid": true
     },
     {
       "properties": {
@@ -491,13 +491,13 @@
       "blocks_movement": true,
       "climbable": false,
       "door_like": false,
-      "fence_like": false,
+      "fence_like": true,
       "slab": false,
       "stair": false,
       "log_or_leaf": false,
-      "water": false,
+      "water": true,
       "lava": false,
-      "fluid": false
+      "fluid": true
     },
     {
       "properties": {
@@ -566,7 +566,7 @@
       "blocks_movement": true,
       "climbable": false,
       "door_like": false,
-      "fence_like": false,
+      "fence_like": true,
       "slab": false,
       "stair": false,
       "log_or_leaf": false,
@@ -641,7 +641,7 @@
       "blocks_movement": true,
       "climbable": false,
       "door_like": false,
-      "fence_like": false,
+      "fence_like": true,
       "slab": false,
       "stair": false,
       "log_or_leaf": false,
@@ -716,13 +716,13 @@
       "blocks_movement": true,
       "climbable": false,
       "door_like": false,
-      "fence_like": false,
+      "fence_like": true,
       "slab": false,
       "stair": false,
       "log_or_leaf": false,
-      "water": false,
+      "water": true,
       "lava": false,
-      "fluid": false
+      "fluid": true
     },
     {
       "properties": {
@@ -791,13 +791,13 @@
       "blocks_movement": true,
       "climbable": false,
       "door_like": false,
-      "fence_like": false,
+      "fence_like": true,
       "slab": false,
       "stair": false,
       "log_or_leaf": false,
-      "water": false,
+      "water": true,
       "lava": false,
-      "fluid": false
+      "fluid": true
     },
     {
       "properties": {
@@ -866,7 +866,7 @@
       "blocks_movement": true,
       "climbable": false,
       "door_like": false,
-      "fence_like": false,
+      "fence_like": true,
       "slab": false,
       "stair": false,
       "log_or_leaf": false,
@@ -941,7 +941,7 @@
       "blocks_movement": true,
       "climbable": false,
       "door_like": false,
-      "fence_like": false,
+      "fence_like": true,
       "slab": false,
       "stair": false,
       "log_or_leaf": false,
@@ -992,13 +992,13 @@
       "blocks_movement": true,
       "climbable": false,
       "door_like": false,
-      "fence_like": false,
+      "fence_like": true,
       "slab": false,
       "stair": false,
       "log_or_leaf": false,
-      "water": false,
+      "water": true,
       "lava": false,
-      "fluid": false
+      "fluid": true
     },
     {
       "properties": {
@@ -1043,13 +1043,13 @@
       "blocks_movement": true,
       "climbable": false,
       "door_like": false,
-      "fence_like": false,
+      "fence_like": true,
       "slab": false,
       "stair": false,
       "log_or_leaf": false,
-      "water": false,
+      "water": true,
       "lava": false,
-      "fluid": false
+      "fluid": true
     },
     {
       "properties": {
@@ -1094,7 +1094,7 @@
       "blocks_movement": true,
       "climbable": false,
       "door_like": false,
-      "fence_like": false,
+      "fence_like": true,
       "slab": false,
       "stair": false,
       "log_or_leaf": false,
@@ -1145,7 +1145,7 @@
       "blocks_movement": true,
       "climbable": false,
       "door_like": false,
-      "fence_like": false,
+      "fence_like": true,
       "slab": false,
       "stair": false,
       "log_or_leaf": false,
@@ -1244,13 +1244,13 @@
       "blocks_movement": true,
       "climbable": false,
       "door_like": false,
-      "fence_like": false,
+      "fence_like": true,
       "slab": false,
       "stair": false,
       "log_or_leaf": false,
-      "water": false,
+      "water": true,
       "lava": false,
-      "fluid": false
+      "fluid": true
     },
     {
       "properties": {
@@ -1295,13 +1295,13 @@
       "blocks_movement": true,
       "climbable": false,
       "door_like": false,
-      "fence_like": false,
+      "fence_like": true,
       "slab": false,
       "stair": false,
       "log_or_leaf": false,
-      "water": false,
+      "water": true,
       "lava": false,
-      "fluid": false
+      "fluid": true
     },
     {
       "properties": {
@@ -1394,7 +1394,7 @@
       "blocks_movement": true,
       "climbable": false,
       "door_like": false,
-      "fence_like": false,
+      "fence_like": true,
       "slab": false,
       "stair": false,
       "log_or_leaf": false,
@@ -1445,7 +1445,7 @@
       "blocks_movement": true,
       "climbable": false,
       "door_like": false,
-      "fence_like": false,
+      "fence_like": true,
       "slab": false,
       "stair": false,
       "log_or_leaf": false,
@@ -1520,13 +1520,13 @@
       "blocks_movement": true,
       "climbable": false,
       "door_like": false,
-      "fence_like": false,
+      "fence_like": true,
       "slab": false,
       "stair": false,
       "log_or_leaf": false,
-      "water": false,
+      "water": true,
       "lava": false,
-      "fluid": false
+      "fluid": true
     },
     {
       "properties": {
@@ -1571,13 +1571,13 @@
       "blocks_movement": true,
       "climbable": false,
       "door_like": false,
-      "fence_like": false,
+      "fence_like": true,
       "slab": false,
       "stair": false,
       "log_or_leaf": false,
-      "water": false,
+      "water": true,
       "lava": false,
-      "fluid": false
+      "fluid": true
     },
     {
       "properties": {
@@ -1646,7 +1646,7 @@
       "blocks_movement": true,
       "climbable": false,
       "door_like": false,
-      "fence_like": false,
+      "fence_like": true,
       "slab": false,
       "stair": false,
       "log_or_leaf": false,
@@ -1697,7 +1697,7 @@
       "blocks_movement": true,
       "climbable": false,
       "door_like": false,
-      "fence_like": false,
+      "fence_like": true,
       "slab": false,
       "stair": false,
       "log_or_leaf": false,
@@ -1772,13 +1772,13 @@
       "blocks_movement": true,
       "climbable": false,
       "door_like": false,
-      "fence_like": false,
+      "fence_like": true,
       "slab": false,
       "stair": false,
       "log_or_leaf": false,
-      "water": false,
+      "water": true,
       "lava": false,
-      "fluid": false
+      "fluid": true
     },
     {
       "properties": {
@@ -1823,13 +1823,13 @@
       "blocks_movement": true,
       "climbable": false,
       "door_like": false,
-      "fence_like": false,
+      "fence_like": true,
       "slab": false,
       "stair": false,
       "log_or_leaf": false,
-      "water": false,
+      "water": true,
       "lava": false,
-      "fluid": false
+      "fluid": true
     },
     {
       "properties": {
@@ -1898,7 +1898,7 @@
       "blocks_movement": true,
       "climbable": false,
       "door_like": false,
-      "fence_like": false,
+      "fence_like": true,
       "slab": false,
       "stair": false,
       "log_or_leaf": false,
@@ -1949,7 +1949,7 @@
       "blocks_movement": true,
       "climbable": false,
       "door_like": false,
-      "fence_like": false,
+      "fence_like": true,
       "slab": false,
       "stair": false,
       "log_or_leaf": false,
@@ -2000,13 +2000,13 @@
       "blocks_movement": true,
       "climbable": false,
       "door_like": false,
-      "fence_like": false,
+      "fence_like": true,
       "slab": false,
       "stair": false,
       "log_or_leaf": false,
-      "water": false,
+      "water": true,
       "lava": false,
-      "fluid": false
+      "fluid": true
     },
     {
       "properties": {
@@ -2051,13 +2051,13 @@
       "blocks_movement": true,
       "climbable": false,
       "door_like": false,
-      "fence_like": false,
+      "fence_like": true,
       "slab": false,
       "stair": false,
       "log_or_leaf": false,
-      "water": false,
+      "water": true,
       "lava": false,
-      "fluid": false
+      "fluid": true
     },
     {
       "properties": {
@@ -2102,7 +2102,7 @@
       "blocks_movement": true,
       "climbable": false,
       "door_like": false,
-      "fence_like": false,
+      "fence_like": true,
       "slab": false,
       "stair": false,
       "log_or_leaf": false,
@@ -2153,7 +2153,7 @@
       "blocks_movement": true,
       "climbable": false,
       "door_like": false,
-      "fence_like": false,
+      "fence_like": true,
       "slab": false,
       "stair": false,
       "log_or_leaf": false,
