@@ -184,6 +184,15 @@ func shardFile(inputPath, outRoot string) error {
 			SolidBlock:     r.SolidBlock,
 			Replaceable:    r.Replaceable,
 			BlocksMovement: r.BlocksMovement,
+			Climbable:      r.Climbable,
+			DoorLike:       r.DoorLike,
+			FenceLike:      r.FenceLike,
+			Slab:           r.Slab,
+			Stair:          r.Stair,
+			LogOrLeaf:      r.LogOrLeaf,
+			Water:          r.Water,
+			Lava:           r.Lava,
+			Fluid:          r.Fluid,
 		}
 		byBlock[r.BlockID] = append(byBlock[r.BlockID], slim)
 	}

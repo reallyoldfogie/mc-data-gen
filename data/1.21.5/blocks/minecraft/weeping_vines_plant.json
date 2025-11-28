@@ -23,7 +23,7 @@
       "solid_block": false,
       "replaceable": false,
       "blocks_movement": false,
-      "climbable": false,
+      "climbable": true,
       "door_like": false,
       "fence_like": false,
       "slab": false,
