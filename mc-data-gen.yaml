@@ -9,6 +9,10 @@ fabric_template_dir: "./fabric-template"
 # Gradle task to run in each generated project. Defaults to "runServer".
 gradle_task: "runServer"
 
+# Decompile and extract Minecraft sources to work/<version>/extracted_src/
+# Set to true to enable source extraction (default: false)
+decompile_sources: true
+
 # List of Minecraft versions to generate data for.
 versions:
   - "1.21.1"

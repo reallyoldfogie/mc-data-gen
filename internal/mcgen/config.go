@@ -13,6 +13,7 @@ type Config struct {
     GradleTask         string   `yaml:"gradle_task"`
     Versions           []string `yaml:"versions"`
     GeneratorOutputRel string   `yaml:"generator_output_rel"`
+    DecompileSources   bool     `yaml:"decompile_sources"`
 }
 
 func LoadConfig(path string) (*Config, error) {

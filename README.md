@@ -9,6 +9,7 @@ generated data in your RL environment or other agents.
 - **Item Data**: Item definitions and metadata
 - **Protocol Extraction**: Network protocol definitions with 90-95% coverage (new!)
 - **Multi-Version Support**: Works with both Yarn-mapped (1.21.x) and non-obfuscated (26.1+) versions
+- **Source Decompilation**: Optional extraction of decompiled Minecraft sources to `work/<version>/extracted_src/`
 
 It automatically queries Fabric Meta and the Fabric Maven to pick the
 appropriate `minecraft_version`, `yarn_mappings` (for versions < 26.1), 
@@ -21,7 +22,9 @@ using the https://fabricmc.net/develop/ UI.
 ## Usage (high level)
 
 1. Ensure you have Java + a Gradle-compatible environment.
-2. Edit `mc-data-gen.yaml` to list the Minecraft versions you care about.
+2. Edit `mc-data-gen.yaml` to:
+   - List the Minecraft versions you care about
+   - Optionally enable `decompile_sources: true` to extract decompiled Java sources
 3. Run:
 
    ```bash

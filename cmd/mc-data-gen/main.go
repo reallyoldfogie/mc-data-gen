@@ -99,5 +99,14 @@ func processVersion(version, workDir string, cfg *mcgen.Config) error {
 		return fmt.Errorf("collect output: %w", err)
 	}
 
+	// Decompile sources if enabled
+	if cfg.DecompileSources {
+		fmt.Printf("  Decompiling sources...\n")
+		if err := mcgen.DecompileSources(projectDir); err != nil {
+			return fmt.Errorf("decompile sources: %w", err)
+		}
+		fmt.Printf("  ✅ Sources extracted to %s/extracted_src\n", projectDir)
+	}
+
 	return nil
 }

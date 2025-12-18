@@ -1,8 +1,10 @@
 package mcgen
 
 import (
+	"archive/zip"
 	"encoding/json"
 	"fmt"
+	"io"
 	"os"
 	"os/exec"
 	"path/filepath"
@@ -122,6 +124,121 @@ func CollectOutput(projectDir, generatorOutputRel, outputRoot, version string) e
 
 	if err := collectItems(src, outputRoot, version); err != nil {
 		return fmt.Errorf("collectItems: %w", err)
+	}
+
+	return nil
+}
+
+// DecompileSources runs genSources and extracts decompiled Minecraft sources.
+func DecompileSources(projectDir string) error {
+	// Run genSources task to decompile Minecraft
+	if err := RunGradle(projectDir, "genSources"); err != nil {
+		return fmt.Errorf("genSources failed: %w", err)
+	}
+
+	// Find the decompiled sources JAR in Loom cache
+	// Loom stores sources in .gradle/loom-cache/
+	loomCacheDir := filepath.Join(projectDir, ".gradle", "loom-cache")
+	sourcesJar, err := findSourcesJar(loomCacheDir)
+	if err != nil {
+		return fmt.Errorf("find sources jar: %w", err)
+	}
+
+	// Extract to extracted_src directory
+	extractDir := filepath.Join(projectDir, "extracted_src")
+	if err := os.RemoveAll(extractDir); err != nil {
+		return fmt.Errorf("remove old extracted_src: %w", err)
+	}
+	if err := os.MkdirAll(extractDir, 0o755); err != nil {
+		return fmt.Errorf("create extracted_src: %w", err)
+	}
+
+	if err := extractJar(sourcesJar, extractDir); err != nil {
+		return fmt.Errorf("extract jar: %w", err)
+	}
+
+	return nil
+}
+
+// findSourcesJar searches for the decompiled sources JAR in Loom cache.
+func findSourcesJar(loomCacheDir string) (string, error) {
+	var sourcesJar string
+
+	err := filepath.Walk(loomCacheDir, func(path string, info os.FileInfo, err error) error {
+		if err != nil {
+			return err
+		}
+		if info.IsDir() {
+			return nil
+		}
+		
+		// Look for -sources.jar files in the cache
+		if strings.HasSuffix(path, "-sources.jar") {
+			// Prefer minecraft-merged or minecraft-project sources
+			if strings.Contains(path, "minecraft") {
+				sourcesJar = path
+				return filepath.SkipDir
+			}
+		}
+		return nil
+	})
+
+	if err != nil {
+		return "", err
+	}
+	if sourcesJar == "" {
+		return "", fmt.Errorf("no sources jar found in %s", loomCacheDir)
+	}
+	return sourcesJar, nil
+}
+
+// extractJar extracts a JAR file to the specified directory.
+func extractJar(jarPath, destDir string) error {
+	r, err := zip.OpenReader(jarPath)
+	if err != nil {
+		return err
+	}
+	defer r.Close()
+
+	for _, f := range r.File {
+		// Only extract .java files
+		if !strings.HasSuffix(f.Name, ".java") {
+			continue
+		}
+
+		destPath := filepath.Join(destDir, f.Name)
+
+		if f.FileInfo().IsDir() {
+			if err := os.MkdirAll(destPath, 0o755); err != nil {
+				return err
+			}
+			continue
+		}
+
+		// Ensure directory exists
+		if err := os.MkdirAll(filepath.Dir(destPath), 0o755); err != nil {
+			return err
+		}
+
+		// Extract file
+		rc, err := f.Open()
+		if err != nil {
+			return err
+		}
+
+		outFile, err := os.Create(destPath)
+		if err != nil {
+			rc.Close()
+			return err
+		}
+
+		_, err = io.Copy(outFile, rc)
+		rc.Close()
+		outFile.Close()
+
+		if err != nil {
+			return err
+		}
 	}
 
 	return nil
