@@ -1,5 +1,5 @@
 plugins {
-    id "fabric-loom" version "1.11-SNAPSHOT"
+    id "fabric-loom" version "1.14-SNAPSHOT"
     id "java"
 }
 
@@ -44,6 +44,17 @@ loom {
 
 java {
     toolchain {
-        languageVersion = JavaLanguageVersion.of(21)
+        // Minecraft 26.1+ requires Java 25, older versions use Java 21
+        def javaVersion = 21
+        if (minecraftVersion != null) {
+            def versionParts = minecraftVersion.tokenize('.')
+            if (versionParts.size() >= 1) {
+                def major = versionParts[0].toInteger()
+                if (major >= 26) {
+                    javaVersion = 25
+                }
+            }
+        }
+        languageVersion = JavaLanguageVersion.of(javaVersion)
     }
 }

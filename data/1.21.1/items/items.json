@@ -23,8 +23,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:wooden_buttons",
-      "minecraft:buttons"
+      "minecraft:buttons",
+      "minecraft:wooden_buttons"
     ],
     "components": {
       "enchantments": []
@@ -57,8 +57,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:wooden_doors",
-      "minecraft:doors"
+      "minecraft:doors",
+      "minecraft:wooden_doors"
     ],
     "components": {
       "enchantments": []
@@ -145,8 +145,8 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:acacia_logs",
-      "minecraft:logs",
       "minecraft:logs_that_burn",
+      "minecraft:logs",
       "minecraft:completes_find_tree_tutorial"
     ],
     "components": {
@@ -279,8 +279,8 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:acacia_logs",
-      "minecraft:logs",
       "minecraft:logs_that_burn",
+      "minecraft:logs",
       "minecraft:completes_find_tree_tutorial"
     ],
     "components": {
@@ -340,8 +340,8 @@
     "tags": [
       "c:animal_foods",
       "minecraft:bee_food",
-      "minecraft:flowers",
-      "minecraft:small_flowers"
+      "minecraft:small_flowers",
+      "minecraft:flowers"
     ],
     "components": {
       "enchantments": []
@@ -387,9 +387,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:gems/amethyst",
+      "c:gems",
       "minecraft:trim_materials",
-      "c:gems"
+      "c:gems/amethyst"
     ],
     "components": {
       "enchantments": []
@@ -406,8 +406,8 @@
     "use_animation": "NONE",
     "tags": [
       "c:ores",
-      "c:ore_rates/singular",
-      "c:ores/netherite_scrap"
+      "c:ores/netherite_scrap",
+      "c:ore_rates/singular"
     ],
     "components": {
       "enchantments": []
@@ -487,8 +487,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:decorated_pot_sherds",
-      "minecraft:decorated_pot_ingredients"
+      "minecraft:decorated_pot_ingredients",
+      "minecraft:decorated_pot_sherds"
     ],
     "components": {
       "enchantments": []
@@ -521,10 +521,10 @@
     "use_animation": "EAT",
     "tags": [
       "minecraft:horse_food",
-      "c:animal_foods",
-      "c:foods/fruits",
+      "c:foods",
       "c:foods/fruit",
-      "c:foods"
+      "c:animal_foods",
+      "c:foods/fruits"
     ],
     "components": {
       "food": {
@@ -545,8 +545,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:decorated_pot_sherds",
-      "minecraft:decorated_pot_ingredients"
+      "minecraft:decorated_pot_ingredients",
+      "minecraft:decorated_pot_sherds"
     ],
     "components": {
       "enchantments": []
@@ -604,8 +604,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:decorated_pot_sherds",
-      "minecraft:decorated_pot_ingredients"
+      "minecraft:decorated_pot_ingredients",
+      "minecraft:decorated_pot_sherds"
     ],
     "components": {
       "enchantments": []
@@ -703,8 +703,8 @@
     "tags": [
       "c:animal_foods",
       "minecraft:bee_food",
-      "minecraft:flowers",
-      "minecraft:small_flowers"
+      "minecraft:small_flowers",
+      "minecraft:flowers"
     ],
     "components": {
       "enchantments": []
@@ -741,8 +741,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:animal_foods",
-      "minecraft:panda_food"
+      "minecraft:panda_food",
+      "c:animal_foods"
     ],
     "components": {
       "enchantments": []
@@ -774,8 +774,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:wooden_buttons",
-      "minecraft:buttons"
+      "minecraft:buttons",
+      "minecraft:wooden_buttons"
     ],
     "components": {
       "enchantments": []
@@ -808,8 +808,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:wooden_doors",
-      "minecraft:doors"
+      "minecraft:doors",
+      "minecraft:wooden_doors"
     ],
     "components": {
       "enchantments": []
@@ -1156,11 +1156,11 @@
     "use_animation": "EAT",
     "tags": [
       "minecraft:meat",
-      "c:foods/raw_meats",
-      "c:foods",
-      "c:foods/raw_meat",
       "minecraft:wolf_food",
-      "c:animal_foods"
+      "c:foods",
+      "c:animal_foods",
+      "c:foods/raw_meat",
+      "c:foods/raw_meats"
     ],
     "components": {
       "food": {
@@ -1195,13 +1195,13 @@
     "fireproof": false,
     "use_animation": "EAT",
     "tags": [
-      "c:crops/beetroot",
       "c:foods/vegetables",
+      "c:crops/beetroot",
       "minecraft:pig_food",
+      "c:animal_foods",
       "c:foods",
       "c:foods/vegetable",
-      "c:crops",
-      "c:animal_foods"
+      "c:crops"
     ],
     "components": {
       "food": {
@@ -1222,12 +1222,12 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:villager_plantable_seeds",
-      "c:seeds/beetroot",
-      "minecraft:chicken_food",
-      "minecraft:parrot_food",
       "c:seeds",
-      "c:animal_foods"
+      "minecraft:parrot_food",
+      "c:seeds/beetroot",
+      "c:animal_foods",
+      "minecraft:chicken_food",
+      "minecraft:villager_plantable_seeds"
     ],
     "components": {
       "enchantments": []
@@ -1243,9 +1243,9 @@
     "fireproof": false,
     "use_animation": "EAT",
     "tags": [
-      "c:foods",
       "c:foods/soups",
-      "c:foods/soup"
+      "c:foods/soup",
+      "c:foods"
     ],
     "components": {
       "food": {
@@ -1312,8 +1312,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:wooden_buttons",
-      "minecraft:buttons"
+      "minecraft:buttons",
+      "minecraft:wooden_buttons"
     ],
     "components": {
       "enchantments": []
@@ -1346,8 +1346,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:wooden_doors",
-      "minecraft:doors"
+      "minecraft:doors",
+      "minecraft:wooden_doors"
     ],
     "components": {
       "enchantments": []
@@ -1433,10 +1433,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:birch_logs",
-      "minecraft:logs",
       "minecraft:logs_that_burn",
-      "minecraft:completes_find_tree_tutorial"
+      "minecraft:completes_find_tree_tutorial",
+      "minecraft:logs",
+      "minecraft:birch_logs"
     ],
     "components": {
       "enchantments": []
@@ -1567,10 +1567,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:birch_logs",
-      "minecraft:logs",
       "minecraft:logs_that_burn",
-      "minecraft:completes_find_tree_tutorial"
+      "minecraft:completes_find_tree_tutorial",
+      "minecraft:logs",
+      "minecraft:birch_logs"
     ],
     "components": {
       "enchantments": []
@@ -1586,8 +1586,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyed/black",
       "c:dyed",
+      "c:dyed/black",
       "minecraft:banners"
     ],
     "components": {
@@ -1604,8 +1604,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyed/black",
       "c:dyed",
+      "c:dyed/black",
       "minecraft:beds"
     ],
     "components": {
@@ -1622,9 +1622,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyed/black",
       "minecraft:candles",
-      "c:dyed"
+      "c:dyed",
+      "c:dyed/black"
     ],
     "components": {
       "enchantments": []
@@ -1640,9 +1640,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyed/black",
       "minecraft:wool_carpets",
       "c:dyed",
+      "c:dyed/black",
       "minecraft:dampens_vibrations"
     ],
     "components": {
@@ -1659,10 +1659,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyed/black",
+      "c:dyed",
       "c:concretes",
       "c:concrete",
-      "c:dyed"
+      "c:dyed/black"
     ],
     "components": {
       "enchantments": []
@@ -1679,8 +1679,8 @@
     "use_animation": "NONE",
     "tags": [
       "c:concrete_powders",
-      "c:dyed/black",
       "c:dyed",
+      "c:dyed/black",
       "c:concrete_powder"
     ],
     "components": {
@@ -1697,8 +1697,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyes/black",
-      "c:dyes"
+      "c:dyes",
+      "c:dyes/black"
     ],
     "components": {
       "enchantments": []
@@ -1715,9 +1715,9 @@
     "use_animation": "NONE",
     "tags": [
       "c:glazed_terracotta",
-      "c:dyed/black",
+      "c:dyed",
       "c:glazed_terracottas",
-      "c:dyed"
+      "c:dyed/black"
     ],
     "components": {
       "enchantments": []
@@ -1733,9 +1733,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "c:dyed",
       "c:dyed/black",
-      "c:shulker_boxes",
-      "c:dyed"
+      "c:shulker_boxes"
     ],
     "components": {
       "enchantments": []
@@ -1753,8 +1753,8 @@
     "tags": [
       "c:glass_blocks",
       "c:glass_blocks/cheap",
-      "c:dyed/black",
-      "c:dyed"
+      "c:dyed",
+      "c:dyed/black"
     ],
     "components": {
       "enchantments": []
@@ -1770,9 +1770,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyed/black",
       "c:glass_panes",
-      "c:dyed"
+      "c:dyed",
+      "c:dyed/black"
     ],
     "components": {
       "enchantments": []
@@ -1788,9 +1788,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "c:dyed",
       "c:dyed/black",
-      "minecraft:terracotta",
-      "c:dyed"
+      "minecraft:terracotta"
     ],
     "components": {
       "enchantments": []
@@ -1806,8 +1806,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyed/black",
       "c:dyed",
+      "c:dyed/black",
       "minecraft:dampens_vibrations",
       "minecraft:wool"
     ],
@@ -1825,8 +1825,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:stone_crafting_materials",
-      "minecraft:stone_tool_materials"
+      "minecraft:stone_tool_materials",
+      "minecraft:stone_crafting_materials"
     ],
     "components": {
       "enchantments": []
@@ -1890,8 +1890,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:decorated_pot_sherds",
-      "minecraft:decorated_pot_ingredients"
+      "minecraft:decorated_pot_ingredients",
+      "minecraft:decorated_pot_sherds"
     ],
     "components": {
       "enchantments": []
@@ -1937,8 +1937,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:rods",
-      "c:rods/blaze"
+      "c:rods/blaze",
+      "c:rods"
     ],
     "components": {
       "enchantments": []
@@ -2004,8 +2004,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyed/blue",
       "minecraft:candles",
+      "c:dyed/blue",
       "c:dyed"
     ],
     "components": {
@@ -2041,9 +2041,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "c:dyed/blue",
       "c:concretes",
       "c:concrete",
-      "c:dyed/blue",
       "c:dyed"
     ],
     "components": {
@@ -2079,8 +2079,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyes/blue",
-      "c:dyes"
+      "c:dyes",
+      "c:dyes/blue"
     ],
     "components": {
       "enchantments": []
@@ -2097,9 +2097,9 @@
     "use_animation": "NONE",
     "tags": [
       "c:glazed_terracotta",
-      "c:glazed_terracottas",
+      "c:dyed",
       "c:dyed/blue",
-      "c:dyed"
+      "c:glazed_terracottas"
     ],
     "components": {
       "enchantments": []
@@ -2131,8 +2131,8 @@
     "tags": [
       "c:animal_foods",
       "minecraft:bee_food",
-      "minecraft:flowers",
-      "minecraft:small_flowers"
+      "minecraft:small_flowers",
+      "minecraft:flowers"
     ],
     "components": {
       "enchantments": []
@@ -2148,9 +2148,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "c:dyed",
       "c:dyed/blue",
-      "c:shulker_boxes",
-      "c:dyed"
+      "c:shulker_boxes"
     ],
     "components": {
       "enchantments": []
@@ -2185,8 +2185,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyed/blue",
       "c:glass_panes",
+      "c:dyed/blue",
       "c:dyed"
     ],
     "components": {
@@ -2204,8 +2204,8 @@
     "use_animation": "NONE",
     "tags": [
       "c:dyed/blue",
-      "minecraft:terracotta",
-      "c:dyed"
+      "c:dyed",
+      "minecraft:terracotta"
     ],
     "components": {
       "enchantments": []
@@ -2286,8 +2286,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:storage_blocks/bone_meal",
-      "c:storage_blocks"
+      "c:storage_blocks",
+      "c:storage_blocks/bone_meal"
     ],
     "components": {
       "enchantments": []
@@ -2351,15 +2351,15 @@
     "fireproof": false,
     "use_animation": "BOW",
     "tags": [
+      "c:tools/bows",
+      "minecraft:enchantable/vanishing",
       "minecraft:enchantable/durability",
       "c:tools/bow",
-      "minecraft:enchantable/bow",
-      "c:tools/ranged_weapons",
       "c:enchantables",
+      "c:tools/ranged_weapons",
+      "minecraft:enchantable/bow",
       "c:tools",
-      "c:tools/ranged_weapon",
-      "minecraft:enchantable/vanishing",
-      "c:tools/bows"
+      "c:tools/ranged_weapon"
     ],
     "components": {
       "max_damage": 384,
@@ -2434,8 +2434,8 @@
     "fireproof": false,
     "use_animation": "EAT",
     "tags": [
-      "c:foods",
       "c:foods/bread",
+      "c:foods",
       "c:foods/breads"
     ],
     "components": {
@@ -2457,8 +2457,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:rods/breeze",
-      "c:rods"
+      "c:rods",
+      "c:rods/breeze"
     ],
     "components": {
       "enchantments": []
@@ -2488,8 +2488,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:decorated_pot_sherds",
-      "minecraft:decorated_pot_ingredients"
+      "minecraft:decorated_pot_ingredients",
+      "minecraft:decorated_pot_sherds"
     ],
     "components": {
       "enchantments": []
@@ -2637,8 +2637,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyed/brown",
       "minecraft:candles",
+      "c:dyed/brown",
       "c:dyed"
     ],
     "components": {
@@ -2694,8 +2694,8 @@
     "use_animation": "NONE",
     "tags": [
       "c:concrete_powders",
-      "c:dyed",
       "c:dyed/brown",
+      "c:dyed",
       "c:concrete_powder"
     ],
     "components": {
@@ -2730,8 +2730,8 @@
     "use_animation": "NONE",
     "tags": [
       "c:glazed_terracotta",
-      "c:glazed_terracottas",
       "c:dyed",
+      "c:glazed_terracottas",
       "c:dyed/brown"
     ],
     "components": {
@@ -2779,8 +2779,8 @@
     "use_animation": "NONE",
     "tags": [
       "c:dyed/brown",
-      "c:shulker_boxes",
-      "c:dyed"
+      "c:dyed",
+      "c:shulker_boxes"
     ],
     "components": {
       "enchantments": []
@@ -2815,8 +2815,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyed/brown",
       "c:glass_panes",
+      "c:dyed/brown",
       "c:dyed"
     ],
     "components": {
@@ -2834,8 +2834,8 @@
     "use_animation": "NONE",
     "tags": [
       "c:dyed/brown",
-      "minecraft:terracotta",
-      "c:dyed"
+      "c:dyed",
+      "minecraft:terracotta"
     ],
     "components": {
       "enchantments": []
@@ -2851,8 +2851,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyed",
       "c:dyed/brown",
+      "c:dyed",
       "minecraft:dampens_vibrations",
       "minecraft:wool"
     ],
@@ -2871,11 +2871,11 @@
     "use_animation": "BRUSH",
     "tags": [
       "minecraft:enchantable/vanishing",
-      "c:tools",
       "c:enchantables",
       "minecraft:enchantable/durability",
       "c:tools/brush",
-      "c:tools/brushes"
+      "c:tools/brushes",
+      "c:tools"
     ],
     "components": {
       "max_damage": 64,
@@ -2936,8 +2936,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:buckets",
-      "c:buckets/empty"
+      "c:buckets/empty",
+      "c:buckets"
     ],
     "components": {
       "enchantments": []
@@ -2983,8 +2983,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:decorated_pot_sherds",
-      "minecraft:decorated_pot_ingredients"
+      "minecraft:decorated_pot_ingredients",
+      "minecraft:decorated_pot_sherds"
     ],
     "components": {
       "enchantments": []
@@ -3109,14 +3109,14 @@
     "use_animation": "EAT",
     "tags": [
       "c:crops/carrot",
-      "minecraft:rabbit_food",
       "minecraft:pig_food",
+      "minecraft:rabbit_food",
       "c:foods/vegetables",
       "c:foods",
-      "c:foods/vegetable",
-      "c:crops",
       "c:animal_foods",
-      "minecraft:villager_plantable_seeds"
+      "minecraft:villager_plantable_seeds",
+      "c:foods/vegetable",
+      "c:crops"
     ],
     "components": {
       "food": {
@@ -3174,11 +3174,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:enchantable/vanishing",
-      "c:pumpkins/carved",
-      "minecraft:enchantable/equippable",
       "c:enchantables",
-      "c:pumpkins"
+      "minecraft:enchantable/vanishing",
+      "c:pumpkins",
+      "minecraft:enchantable/equippable",
+      "c:pumpkins/carved"
     ],
     "components": {
       "enchantments": []
@@ -3268,15 +3268,15 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "minecraft:enchantable/equippable",
+      "minecraft:enchantable/vanishing",
       "minecraft:enchantable/durability",
       "c:armors",
       "minecraft:enchantable/foot_armor",
       "c:enchantables",
-      "minecraft:enchantable/vanishing",
-      "minecraft:foot_armor",
       "minecraft:enchantable/armor",
-      "minecraft:enchantable/equippable",
-      "minecraft:trimmable_armor"
+      "minecraft:trimmable_armor",
+      "minecraft:foot_armor"
     ],
     "components": {
       "max_damage": 195,
@@ -3295,14 +3295,14 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "minecraft:enchantable/equippable",
+      "minecraft:enchantable/vanishing",
       "minecraft:enchantable/durability",
       "c:armors",
-      "minecraft:enchantable/chest_armor",
       "minecraft:chest_armor",
       "c:enchantables",
-      "minecraft:enchantable/vanishing",
+      "minecraft:enchantable/chest_armor",
       "minecraft:enchantable/armor",
-      "minecraft:enchantable/equippable",
       "minecraft:trimmable_armor"
     ],
     "components": {
@@ -3322,14 +3322,14 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:enchantable/head_armor",
+      "minecraft:enchantable/equippable",
+      "minecraft:enchantable/vanishing",
       "minecraft:enchantable/durability",
       "c:armors",
+      "minecraft:enchantable/head_armor",
       "c:enchantables",
-      "minecraft:enchantable/vanishing",
       "minecraft:head_armor",
       "minecraft:enchantable/armor",
-      "minecraft:enchantable/equippable",
       "minecraft:trimmable_armor"
     ],
     "components": {
@@ -3349,15 +3349,15 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "minecraft:enchantable/equippable",
+      "minecraft:enchantable/vanishing",
       "minecraft:enchantable/durability",
       "c:armors",
       "c:enchantables",
       "minecraft:leg_armor",
-      "minecraft:enchantable/vanishing",
-      "minecraft:enchantable/leg_armor",
       "minecraft:enchantable/armor",
-      "minecraft:enchantable/equippable",
-      "minecraft:trimmable_armor"
+      "minecraft:trimmable_armor",
+      "minecraft:enchantable/leg_armor"
     ],
     "components": {
       "max_damage": 225,
@@ -3376,8 +3376,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:coals",
-      "c:coal"
+      "c:coal",
+      "minecraft:coals"
     ],
     "components": {
       "enchantments": []
@@ -3409,8 +3409,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:wooden_buttons",
-      "minecraft:buttons"
+      "minecraft:buttons",
+      "minecraft:wooden_buttons"
     ],
     "components": {
       "enchantments": []
@@ -3443,8 +3443,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:wooden_doors",
-      "minecraft:doors"
+      "minecraft:doors",
+      "minecraft:wooden_doors"
     ],
     "components": {
       "enchantments": []
@@ -3513,11 +3513,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:bee_food",
-      "minecraft:flowers",
-      "c:animal_foods",
       "minecraft:leaves",
-      "minecraft:completes_find_tree_tutorial"
+      "minecraft:flowers",
+      "minecraft:completes_find_tree_tutorial",
+      "minecraft:bee_food",
+      "c:animal_foods"
     ],
     "components": {
       "enchantments": []
@@ -3533,8 +3533,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:logs",
       "minecraft:logs_that_burn",
+      "minecraft:logs",
       "minecraft:completes_find_tree_tutorial",
       "minecraft:cherry_logs"
     ],
@@ -3667,8 +3667,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:logs",
       "minecraft:logs_that_burn",
+      "minecraft:logs",
       "minecraft:completes_find_tree_tutorial",
       "minecraft:cherry_logs"
     ],
@@ -3719,11 +3719,11 @@
     "tags": [
       "minecraft:meat",
       "c:foods/raw_meat",
-      "minecraft:wolf_food",
-      "c:foods/food_poisoning",
-      "c:foods",
       "c:foods/raw_meats",
-      "c:animal_foods"
+      "minecraft:wolf_food",
+      "c:animal_foods",
+      "c:foods",
+      "c:foods/food_poisoning"
     ],
     "components": {
       "food": {
@@ -3858,8 +3858,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:sandstone/red_blocks",
-      "c:sandstone/blocks"
+      "c:sandstone/blocks",
+      "c:sandstone/red_blocks"
     ],
     "components": {
       "enchantments": []
@@ -3875,8 +3875,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:sandstone/blocks",
-      "c:sandstone/uncolored_blocks"
+      "c:sandstone/uncolored_blocks",
+      "c:sandstone/blocks"
     ],
     "components": {
       "enchantments": []
@@ -3954,8 +3954,8 @@
     "fireproof": false,
     "use_animation": "EAT",
     "tags": [
-      "c:foods",
-      "c:foods/fruit"
+      "c:foods/fruit",
+      "c:foods"
     ],
     "components": {
       "food": {
@@ -4034,8 +4034,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:coals",
-      "c:coal"
+      "c:coal",
+      "minecraft:coals"
     ],
     "components": {
       "enchantments": []
@@ -4051,8 +4051,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:storage_blocks/coal",
-      "c:storage_blocks"
+      "c:storage_blocks",
+      "c:storage_blocks/coal"
     ],
     "components": {
       "enchantments": []
@@ -4068,10 +4068,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:ores_in_ground/stone",
+      "c:ore_rates/singular",
       "minecraft:coal_ores",
       "c:ores",
-      "c:ore_rates/singular",
+      "c:ores_in_ground/stone",
       "c:ores/coal"
     ],
     "components": {
@@ -4189,8 +4189,8 @@
     "tags": [
       "minecraft:stone_crafting_materials",
       "minecraft:stone_tool_materials",
-      "c:cobblestones/normal",
-      "c:cobblestones"
+      "c:cobblestones",
+      "c:cobblestones/normal"
     ],
     "components": {
       "enchantments": []
@@ -4268,8 +4268,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:crops",
-      "c:crops/cocoa_bean"
+      "c:crops/cocoa_bean",
+      "c:crops"
     ],
     "components": {
       "enchantments": []
@@ -4286,12 +4286,12 @@
     "use_animation": "EAT",
     "tags": [
       "c:foods/raw_fish",
-      "minecraft:fishes",
       "minecraft:cat_food",
       "c:foods/raw_fishes",
-      "minecraft:ocelot_food",
+      "c:animal_foods",
       "c:foods",
-      "c:animal_foods"
+      "minecraft:fishes",
+      "minecraft:ocelot_food"
     ],
     "components": {
       "food": {
@@ -4385,8 +4385,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:enchantables",
       "minecraft:enchantable/vanishing",
+      "c:enchantables",
       "minecraft:compasses"
     ],
     "components": {
@@ -4434,11 +4434,11 @@
     "use_animation": "EAT",
     "tags": [
       "minecraft:meat",
+      "minecraft:wolf_food",
       "c:foods",
       "c:foods/cooked_meat",
-      "minecraft:wolf_food",
-      "c:foods/cooked_meats",
-      "c:animal_foods"
+      "c:animal_foods",
+      "c:foods/cooked_meats"
     ],
     "components": {
       "food": {
@@ -4460,11 +4460,11 @@
     "use_animation": "EAT",
     "tags": [
       "minecraft:meat",
+      "minecraft:wolf_food",
       "c:foods",
       "c:foods/cooked_meat",
-      "minecraft:wolf_food",
-      "c:foods/cooked_meats",
-      "c:animal_foods"
+      "c:animal_foods",
+      "c:foods/cooked_meats"
     ],
     "components": {
       "food": {
@@ -4485,9 +4485,9 @@
     "fireproof": false,
     "use_animation": "EAT",
     "tags": [
+      "c:foods",
       "c:foods/cooked_fish",
       "c:foods/cooked_fishes",
-      "c:foods",
       "minecraft:fishes"
     ],
     "components": {
@@ -4510,11 +4510,11 @@
     "use_animation": "EAT",
     "tags": [
       "minecraft:meat",
+      "minecraft:wolf_food",
       "c:foods",
       "c:foods/cooked_meat",
-      "minecraft:wolf_food",
-      "c:foods/cooked_meats",
-      "c:animal_foods"
+      "c:animal_foods",
+      "c:foods/cooked_meats"
     ],
     "components": {
       "food": {
@@ -4540,8 +4540,8 @@
       "c:foods/cooked_meats",
       "minecraft:wolf_food",
       "c:foods/cooked_meat",
-      "c:foods",
-      "c:animal_foods"
+      "c:animal_foods",
+      "c:foods"
     ],
     "components": {
       "food": {
@@ -4563,11 +4563,11 @@
     "use_animation": "EAT",
     "tags": [
       "minecraft:meat",
+      "minecraft:wolf_food",
       "c:foods",
       "c:foods/cooked_meat",
-      "minecraft:wolf_food",
-      "c:foods/cooked_meats",
-      "c:animal_foods"
+      "c:animal_foods",
+      "c:foods/cooked_meats"
     ],
     "components": {
       "food": {
@@ -4588,9 +4588,9 @@
     "fireproof": false,
     "use_animation": "EAT",
     "tags": [
+      "c:foods",
       "c:foods/cooked_fish",
       "c:foods/cooked_fishes",
-      "c:foods",
       "minecraft:fishes"
     ],
     "components": {
@@ -4612,10 +4612,10 @@
     "fireproof": false,
     "use_animation": "EAT",
     "tags": [
+      "c:foods",
       "minecraft:parrot_poisonous_food",
-      "c:foods/cookies",
       "c:foods/cookie",
-      "c:foods"
+      "c:foods/cookies"
     ],
     "components": {
       "food": {
@@ -4698,8 +4698,8 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:trim_materials",
-      "c:ingots",
-      "c:ingots/copper"
+      "c:ingots/copper",
+      "c:ingots"
     ],
     "components": {
       "enchantments": []
@@ -4715,11 +4715,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "c:ores",
       "c:ore_rates/dense",
       "c:ores_in_ground/stone",
-      "minecraft:copper_ores",
       "c:ores/copper",
-      "c:ores"
+      "minecraft:copper_ores"
     ],
     "components": {
       "enchantments": []
@@ -4753,8 +4753,8 @@
     "tags": [
       "c:animal_foods",
       "minecraft:bee_food",
-      "minecraft:flowers",
-      "minecraft:small_flowers"
+      "minecraft:small_flowers",
+      "minecraft:flowers"
     ],
     "components": {
       "enchantments": []
@@ -4900,11 +4900,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "c:enchantables",
       "minecraft:enchantable/vanishing",
       "minecraft:noteblock_top_instruments",
       "minecraft:skulls",
-      "minecraft:enchantable/equippable",
-      "c:enchantables"
+      "minecraft:enchantable/equippable"
     ],
     "components": {
       "enchantments": []
@@ -4952,9 +4952,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:doors",
+      "minecraft:wooden_doors",
       "minecraft:non_flammable_wood",
-      "minecraft:wooden_doors"
+      "minecraft:doors"
     ],
     "components": {
       "enchantments": []
@@ -4970,11 +4970,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:non_flammable_wood",
-      "minecraft:wooden_fences",
       "c:fences",
+      "minecraft:fences",
       "c:fences/wooden",
-      "minecraft:fences"
+      "minecraft:non_flammable_wood",
+      "minecraft:wooden_fences"
     ],
     "components": {
       "enchantments": []
@@ -5026,8 +5026,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:non_flammable_wood",
-      "minecraft:hanging_signs"
+      "minecraft:hanging_signs",
+      "minecraft:non_flammable_wood"
     ],
     "components": {
       "enchantments": []
@@ -5076,8 +5076,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:planks",
-      "minecraft:non_flammable_wood"
+      "minecraft:non_flammable_wood",
+      "minecraft:planks"
     ],
     "components": {
       "enchantments": []
@@ -5093,8 +5093,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:wooden_pressure_plates",
-      "minecraft:non_flammable_wood"
+      "minecraft:non_flammable_wood",
+      "minecraft:wooden_pressure_plates"
     ],
     "components": {
       "enchantments": []
@@ -5141,9 +5141,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "minecraft:wooden_slabs",
       "minecraft:slabs",
-      "minecraft:non_flammable_wood",
-      "minecraft:wooden_slabs"
+      "minecraft:non_flammable_wood"
     ],
     "components": {
       "enchantments": []
@@ -5159,8 +5159,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:wooden_stairs",
       "minecraft:stairs",
+      "minecraft:wooden_stairs",
       "minecraft:non_flammable_wood"
     ],
     "components": {
@@ -5214,15 +5214,15 @@
     "fireproof": false,
     "use_animation": "CROSSBOW",
     "tags": [
+      "minecraft:enchantable/vanishing",
       "minecraft:enchantable/durability",
       "c:tools/crossbow",
       "c:tools/crossbows",
-      "c:tools/ranged_weapons",
       "c:enchantables",
+      "c:tools/ranged_weapons",
       "c:tools",
       "minecraft:enchantable/crossbow",
-      "c:tools/ranged_weapon",
-      "minecraft:enchantable/vanishing"
+      "c:tools/ranged_weapon"
     ],
     "components": {
       "max_damage": 465,
@@ -5241,8 +5241,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:obsidians",
-      "c:obsidians/crying"
+      "c:obsidians/crying",
+      "c:obsidians"
     ],
     "components": {
       "enchantments": []
@@ -5304,8 +5304,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:sandstone/red_blocks",
-      "c:sandstone/blocks"
+      "c:sandstone/blocks",
+      "c:sandstone/red_blocks"
     ],
     "components": {
       "enchantments": []
@@ -5321,9 +5321,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "c:sandstone/slabs",
       "minecraft:slabs",
-      "c:sandstone/red_slabs",
-      "c:sandstone/slabs"
+      "c:sandstone/red_slabs"
     ],
     "components": {
       "enchantments": []
@@ -5339,8 +5339,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:sandstone/blocks",
-      "c:sandstone/uncolored_blocks"
+      "c:sandstone/uncolored_blocks",
+      "c:sandstone/blocks"
     ],
     "components": {
       "enchantments": []
@@ -5356,9 +5356,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:slabs",
       "c:sandstone/uncolored_slabs",
-      "c:sandstone/slabs"
+      "c:sandstone/slabs",
+      "minecraft:slabs"
     ],
     "components": {
       "enchantments": []
@@ -5375,8 +5375,8 @@
     "use_animation": "NONE",
     "tags": [
       "c:dyed",
-      "c:dyed/cyan",
-      "minecraft:banners"
+      "minecraft:banners",
+      "c:dyed/cyan"
     ],
     "components": {
       "enchantments": []
@@ -5428,8 +5428,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:wool_carpets",
       "c:dyed/cyan",
+      "minecraft:wool_carpets",
       "c:dyed",
       "minecraft:dampens_vibrations"
     ],
@@ -5447,8 +5447,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:concretes",
       "c:dyed/cyan",
+      "c:concretes",
       "c:concrete",
       "c:dyed"
     ],
@@ -5485,8 +5485,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyes/cyan",
-      "c:dyes"
+      "c:dyes",
+      "c:dyes/cyan"
     ],
     "components": {
       "enchantments": []
@@ -5504,8 +5504,8 @@
     "tags": [
       "c:glazed_terracotta",
       "c:dyed/cyan",
-      "c:glazed_terracottas",
-      "c:dyed"
+      "c:dyed",
+      "c:glazed_terracottas"
     ],
     "components": {
       "enchantments": []
@@ -5521,8 +5521,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:shulker_boxes",
       "c:dyed",
+      "c:shulker_boxes",
       "c:dyed/cyan"
     ],
     "components": {
@@ -5576,8 +5576,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:terracotta",
       "c:dyed",
+      "minecraft:terracotta",
       "c:dyed/cyan"
     ],
     "components": {
@@ -5629,10 +5629,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:bee_food",
       "minecraft:flowers",
-      "c:animal_foods",
+      "minecraft:bee_food",
       "minecraft:small_flowers",
+      "c:animal_foods",
       "minecraft:rabbit_food"
     ],
     "components": {
@@ -5649,8 +5649,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:decorated_pot_sherds",
-      "minecraft:decorated_pot_ingredients"
+      "minecraft:decorated_pot_ingredients",
+      "minecraft:decorated_pot_sherds"
     ],
     "components": {
       "enchantments": []
@@ -5682,8 +5682,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:wooden_buttons",
-      "minecraft:buttons"
+      "minecraft:buttons",
+      "minecraft:wooden_buttons"
     ],
     "components": {
       "enchantments": []
@@ -5716,8 +5716,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:wooden_doors",
-      "minecraft:doors"
+      "minecraft:doors",
+      "minecraft:wooden_doors"
     ],
     "components": {
       "enchantments": []
@@ -5804,8 +5804,8 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:dark_oak_logs",
-      "minecraft:logs",
       "minecraft:logs_that_burn",
+      "minecraft:logs",
       "minecraft:completes_find_tree_tutorial"
     ],
     "components": {
@@ -5938,8 +5938,8 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:dark_oak_logs",
-      "minecraft:logs",
       "minecraft:logs_that_burn",
+      "minecraft:logs",
       "minecraft:completes_find_tree_tutorial"
     ],
     "components": {
@@ -6268,8 +6268,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:stones",
-      "c:ore_bearing_ground/deepslate"
+      "c:ore_bearing_ground/deepslate",
+      "c:stones"
     ],
     "components": {
       "enchantments": []
@@ -6347,10 +6347,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "c:ore_rates/singular",
       "c:ores_in_ground/deepslate",
       "minecraft:coal_ores",
       "c:ores",
-      "c:ore_rates/singular",
       "c:ores/coal"
     ],
     "components": {
@@ -6367,11 +6367,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:ore_rates/dense",
+      "c:ores",
       "c:ores_in_ground/deepslate",
-      "minecraft:copper_ores",
+      "c:ore_rates/dense",
       "c:ores/copper",
-      "c:ores"
+      "minecraft:copper_ores"
     ],
     "components": {
       "enchantments": []
@@ -6387,9 +6387,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:ores/diamond",
-      "c:ores_in_ground/deepslate",
       "c:ore_rates/singular",
+      "c:ores_in_ground/deepslate",
+      "c:ores/diamond",
       "c:ores",
       "minecraft:diamond_ores"
     ],
@@ -6407,11 +6407,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "c:ore_rates/singular",
       "minecraft:emerald_ores",
       "c:ores_in_ground/deepslate",
-      "c:ores/emerald",
       "c:ores",
-      "c:ore_rates/singular"
+      "c:ores/emerald"
     ],
     "components": {
       "enchantments": []
@@ -6427,12 +6427,12 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "c:ores/gold",
       "c:ores",
-      "c:ore_rates/singular",
+      "minecraft:gold_ores",
       "c:ores_in_ground/deepslate",
       "minecraft:piglin_loved",
-      "minecraft:gold_ores",
-      "c:ores/gold"
+      "c:ore_rates/singular"
     ],
     "components": {
       "enchantments": []
@@ -6448,11 +6448,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:iron_ores",
+      "c:ore_rates/singular",
       "c:ores/iron",
       "c:ores_in_ground/deepslate",
       "c:ores",
-      "c:ore_rates/singular"
+      "minecraft:iron_ores"
     ],
     "components": {
       "enchantments": []
@@ -6468,11 +6468,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:ore_rates/dense",
       "c:ores/lapis",
+      "c:ores",
       "c:ores_in_ground/deepslate",
-      "minecraft:lapis_ores",
-      "c:ores"
+      "c:ore_rates/dense",
+      "minecraft:lapis_ores"
     ],
     "components": {
       "enchantments": []
@@ -6488,9 +6488,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:ores/redstone",
       "c:ore_rates/dense",
       "c:ores_in_ground/deepslate",
+      "c:ores/redstone",
       "c:ores",
       "minecraft:redstone_ores"
     ],
@@ -6605,18 +6605,18 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:tools",
-      "minecraft:enchantable/sharp_weapon",
-      "minecraft:enchantable/durability",
-      "c:tools/melee_weapon",
-      "c:tools/melee_weapons",
-      "minecraft:axes",
-      "minecraft:enchantable/mining_loot",
+      "minecraft:enchantable/vanishing",
       "c:enchantables",
       "minecraft:breaks_decorated_pots",
+      "minecraft:enchantable/sharp_weapon",
+      "c:tools/melee_weapon",
+      "c:tools",
       "minecraft:enchantable/mining",
-      "minecraft:enchantable/vanishing",
-      "minecraft:enchantable/weapon"
+      "minecraft:enchantable/weapon",
+      "minecraft:axes",
+      "minecraft:enchantable/durability",
+      "minecraft:enchantable/mining_loot",
+      "c:tools/melee_weapons"
     ],
     "components": {
       "max_damage": 1561,
@@ -6636,8 +6636,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:storage_blocks/diamond",
-      "c:storage_blocks"
+      "c:storage_blocks",
+      "c:storage_blocks/diamond"
     ],
     "components": {
       "enchantments": []
@@ -6653,15 +6653,15 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "minecraft:enchantable/equippable",
+      "minecraft:enchantable/vanishing",
       "minecraft:enchantable/durability",
       "c:armors",
       "minecraft:enchantable/foot_armor",
       "c:enchantables",
-      "minecraft:enchantable/vanishing",
-      "minecraft:foot_armor",
       "minecraft:enchantable/armor",
-      "minecraft:enchantable/equippable",
-      "minecraft:trimmable_armor"
+      "minecraft:trimmable_armor",
+      "minecraft:foot_armor"
     ],
     "components": {
       "max_damage": 429,
@@ -6680,14 +6680,14 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "minecraft:enchantable/equippable",
+      "minecraft:enchantable/vanishing",
       "minecraft:enchantable/durability",
       "c:armors",
-      "minecraft:enchantable/chest_armor",
       "minecraft:chest_armor",
       "c:enchantables",
-      "minecraft:enchantable/vanishing",
+      "minecraft:enchantable/chest_armor",
       "minecraft:enchantable/armor",
-      "minecraft:enchantable/equippable",
       "minecraft:trimmable_armor"
     ],
     "components": {
@@ -6707,14 +6707,14 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:enchantable/head_armor",
+      "minecraft:enchantable/equippable",
+      "minecraft:enchantable/vanishing",
       "minecraft:enchantable/durability",
       "c:armors",
+      "minecraft:enchantable/head_armor",
       "c:enchantables",
-      "minecraft:enchantable/vanishing",
       "minecraft:head_armor",
       "minecraft:enchantable/armor",
-      "minecraft:enchantable/equippable",
       "minecraft:trimmable_armor"
     ],
     "components": {
@@ -6734,14 +6734,14 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:breaks_decorated_pots",
       "minecraft:enchantable/vanishing",
-      "minecraft:enchantable/mining",
       "minecraft:enchantable/mining_loot",
       "c:enchantables",
       "minecraft:hoes",
       "c:tools",
-      "minecraft:enchantable/durability"
+      "minecraft:enchantable/durability",
+      "minecraft:breaks_decorated_pots",
+      "minecraft:enchantable/mining"
     ],
     "components": {
       "max_damage": 1561,
@@ -6775,15 +6775,15 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "minecraft:enchantable/equippable",
+      "minecraft:enchantable/vanishing",
       "minecraft:enchantable/durability",
       "c:armors",
       "c:enchantables",
       "minecraft:leg_armor",
-      "minecraft:enchantable/vanishing",
-      "minecraft:enchantable/leg_armor",
       "minecraft:enchantable/armor",
-      "minecraft:enchantable/equippable",
-      "minecraft:trimmable_armor"
+      "minecraft:trimmable_armor",
+      "minecraft:enchantable/leg_armor"
     ],
     "components": {
       "max_damage": 495,
@@ -6802,10 +6802,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:ores_in_ground/stone",
-      "c:ores/diamond",
       "c:ore_rates/singular",
       "c:ores",
+      "c:ores/diamond",
+      "c:ores_in_ground/stone",
       "minecraft:diamond_ores"
     ],
     "components": {
@@ -6822,17 +6822,17 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "minecraft:cluster_max_harvestables",
+      "minecraft:enchantable/mining_loot",
+      "minecraft:enchantable/vanishing",
+      "c:tools/mining_tool",
+      "minecraft:pickaxes",
+      "minecraft:enchantable/durability",
+      "c:tools",
       "minecraft:enchantable/mining",
       "c:enchantables",
       "c:tools/mining_tools",
-      "minecraft:breaks_decorated_pots",
-      "minecraft:cluster_max_harvestables",
-      "minecraft:enchantable/mining_loot",
-      "minecraft:pickaxes",
-      "minecraft:enchantable/vanishing",
-      "c:tools/mining_tool",
-      "c:tools",
-      "minecraft:enchantable/durability"
+      "minecraft:breaks_decorated_pots"
     ],
     "components": {
       "max_damage": 1561,
@@ -6852,14 +6852,14 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:breaks_decorated_pots",
-      "minecraft:shovels",
       "minecraft:enchantable/vanishing",
-      "minecraft:enchantable/mining",
       "minecraft:enchantable/mining_loot",
       "c:enchantables",
       "c:tools",
-      "minecraft:enchantable/durability"
+      "minecraft:enchantable/durability",
+      "minecraft:breaks_decorated_pots",
+      "minecraft:shovels",
+      "minecraft:enchantable/mining"
     ],
     "components": {
       "max_damage": 1561,
@@ -6879,18 +6879,18 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:enchantable/sharp_weapon",
-      "minecraft:enchantable/durability",
-      "minecraft:swords",
-      "c:tools/melee_weapon",
-      "c:tools/melee_weapons",
-      "minecraft:enchantable/fire_aspect",
+      "minecraft:enchantable/vanishing",
       "c:enchantables",
       "minecraft:breaks_decorated_pots",
-      "minecraft:enchantable/vanishing",
-      "minecraft:enchantable/weapon",
+      "minecraft:enchantable/sharp_weapon",
+      "c:tools/melee_weapon",
+      "minecraft:swords",
       "c:tools",
-      "minecraft:enchantable/sword"
+      "minecraft:enchantable/sword",
+      "minecraft:enchantable/weapon",
+      "minecraft:enchantable/durability",
+      "c:tools/melee_weapons",
+      "minecraft:enchantable/fire_aspect"
     ],
     "components": {
       "max_damage": 1561,
@@ -7088,11 +7088,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "c:enchantables",
       "minecraft:enchantable/vanishing",
       "minecraft:noteblock_top_instruments",
       "minecraft:skulls",
-      "minecraft:enchantable/equippable",
-      "c:enchantables"
+      "minecraft:enchantable/equippable"
     ],
     "components": {
       "enchantments": []
@@ -7306,11 +7306,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "c:ore_rates/singular",
       "minecraft:emerald_ores",
-      "c:ores_in_ground/stone",
-      "c:ores/emerald",
       "c:ores",
-      "c:ore_rates/singular"
+      "c:ores_in_ground/stone",
+      "c:ores/emerald"
     ],
     "components": {
       "enchantments": []
@@ -7342,14 +7342,14 @@
     "fireproof": false,
     "use_animation": "EAT",
     "tags": [
-      "c:foods",
-      "minecraft:horse_food",
-      "minecraft:horse_tempt_items",
-      "c:foods/golden",
       "c:animal_foods",
       "minecraft:piglin_loved",
       "c:foods/fruit",
-      "c:foods/fruits"
+      "c:foods/fruits",
+      "c:foods",
+      "minecraft:horse_food",
+      "minecraft:horse_tempt_items",
+      "c:foods/golden"
     ],
     "components": {
       "food": {
@@ -7504,8 +7504,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:chests/ender",
-      "c:chests"
+      "c:chests",
+      "c:chests/ender"
     ],
     "components": {
       "enchantments": []
@@ -7621,8 +7621,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:decorated_pot_sherds",
-      "minecraft:decorated_pot_ingredients"
+      "minecraft:decorated_pot_ingredients",
+      "minecraft:decorated_pot_sherds"
     ],
     "components": {
       "enchantments": []
@@ -7946,9 +7946,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "c:enchantables",
       "c:tools/fishing_rods",
       "c:tools",
-      "c:enchantables",
       "minecraft:enchantable/durability",
       "minecraft:enchantable/vanishing",
       "c:tools/fishing_rod",
@@ -8001,12 +8001,12 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "minecraft:creeper_igniters",
       "minecraft:enchantable/vanishing",
-      "c:tools",
       "c:enchantables",
-      "c:tools/igniter",
       "minecraft:enchantable/durability",
-      "minecraft:creeper_igniters"
+      "c:tools/igniter",
+      "c:tools"
     ],
     "components": {
       "max_damage": 64,
@@ -8055,8 +8055,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:decorated_pot_sherds",
-      "minecraft:decorated_pot_ingredients"
+      "minecraft:decorated_pot_ingredients",
+      "minecraft:decorated_pot_sherds"
     ],
     "components": {
       "enchantments": []
@@ -8100,10 +8100,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:animal_foods",
       "minecraft:saplings",
+      "minecraft:bee_food",
       "minecraft:flowers",
-      "minecraft:bee_food"
+      "c:animal_foods"
     ],
     "components": {
       "enchantments": []
@@ -8119,11 +8119,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:bee_food",
-      "minecraft:flowers",
-      "c:animal_foods",
       "minecraft:leaves",
-      "minecraft:completes_find_tree_tutorial"
+      "minecraft:flowers",
+      "minecraft:completes_find_tree_tutorial",
+      "minecraft:bee_food",
+      "c:animal_foods"
     ],
     "components": {
       "enchantments": []
@@ -8153,8 +8153,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:decorated_pot_sherds",
-      "minecraft:decorated_pot_ingredients"
+      "minecraft:decorated_pot_ingredients",
+      "minecraft:decorated_pot_sherds"
     ],
     "components": {
       "enchantments": []
@@ -8304,8 +8304,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:glass_panes",
-      "c:glass_panes/colorless"
+      "c:glass_panes/colorless",
+      "c:glass_panes"
     ],
     "components": {
       "enchantments": []
@@ -8352,9 +8352,9 @@
     "use_animation": "EAT",
     "tags": [
       "minecraft:fox_food",
-      "c:animal_foods",
       "c:foods/berry",
       "c:foods/berries",
+      "c:animal_foods",
       "c:foods"
     ],
     "components": {
@@ -8491,9 +8491,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:storage_blocks/gold",
       "minecraft:piglin_loved",
-      "c:storage_blocks"
+      "c:storage_blocks",
+      "c:storage_blocks/gold"
     ],
     "components": {
       "enchantments": []
@@ -8511,9 +8511,9 @@
     "tags": [
       "minecraft:beacon_payment_items",
       "minecraft:trim_materials",
+      "minecraft:piglin_loved",
       "c:ingots",
-      "c:ingots/gold",
-      "minecraft:piglin_loved"
+      "c:ingots/gold"
     ],
     "components": {
       "enchantments": []
@@ -8546,12 +8546,12 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:ores",
-      "c:ore_rates/singular",
-      "minecraft:piglin_loved",
-      "minecraft:gold_ores",
       "c:ores/gold",
-      "c:ores_in_ground/stone"
+      "c:ores",
+      "minecraft:gold_ores",
+      "minecraft:piglin_loved",
+      "c:ores_in_ground/stone",
+      "c:ore_rates/singular"
     ],
     "components": {
       "enchantments": []
@@ -8567,14 +8567,14 @@
     "fireproof": false,
     "use_animation": "EAT",
     "tags": [
-      "c:foods",
-      "minecraft:horse_food",
-      "minecraft:horse_tempt_items",
-      "c:foods/golden",
       "c:animal_foods",
       "minecraft:piglin_loved",
       "c:foods/fruit",
-      "c:foods/fruits"
+      "c:foods/fruits",
+      "c:foods",
+      "minecraft:horse_food",
+      "minecraft:horse_tempt_items",
+      "c:foods/golden"
     ],
     "components": {
       "food": {
@@ -8595,19 +8595,19 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:enchantable/vanishing",
-      "minecraft:enchantable/sharp_weapon",
       "minecraft:enchantable/durability",
+      "c:tools",
       "c:enchantables",
       "minecraft:breaks_decorated_pots",
-      "c:tools",
-      "minecraft:enchantable/mining",
       "minecraft:piglin_loved",
+      "minecraft:enchantable/mining",
       "minecraft:axes",
       "c:tools/melee_weapons",
       "minecraft:enchantable/mining_loot",
+      "c:tools/melee_weapon",
       "minecraft:enchantable/weapon",
-      "c:tools/melee_weapon"
+      "minecraft:enchantable/vanishing",
+      "minecraft:enchantable/sharp_weapon"
     ],
     "components": {
       "max_damage": 32,
@@ -8627,15 +8627,15 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:trimmable_armor",
-      "minecraft:enchantable/armor",
+      "c:enchantables",
+      "minecraft:enchantable/foot_armor",
       "minecraft:enchantable/equippable",
-      "minecraft:enchantable/durability",
+      "minecraft:enchantable/armor",
       "minecraft:foot_armor",
+      "minecraft:trimmable_armor",
+      "minecraft:enchantable/durability",
       "minecraft:enchantable/vanishing",
       "c:armors",
-      "minecraft:enchantable/foot_armor",
-      "c:enchantables",
       "minecraft:piglin_loved"
     ],
     "components": {
@@ -8657,13 +8657,13 @@
     "tags": [
       "minecraft:piglin_loved",
       "minecraft:rabbit_food",
-      "c:foods/vegetables",
       "c:foods",
+      "c:foods/golden",
+      "c:foods/vegetables",
       "minecraft:horse_tempt_items",
       "minecraft:horse_food",
-      "c:foods/golden",
-      "c:foods/vegetable",
-      "c:animal_foods"
+      "c:animal_foods",
+      "c:foods/vegetable"
     ],
     "components": {
       "food": {
@@ -8684,15 +8684,15 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:enchantable/chest_armor",
-      "minecraft:trimmable_armor",
-      "minecraft:enchantable/armor",
-      "minecraft:enchantable/equippable",
-      "minecraft:enchantable/durability",
-      "minecraft:chest_armor",
-      "minecraft:enchantable/vanishing",
-      "c:armors",
       "c:enchantables",
+      "minecraft:enchantable/equippable",
+      "minecraft:enchantable/chest_armor",
+      "minecraft:enchantable/armor",
+      "minecraft:trimmable_armor",
+      "minecraft:enchantable/durability",
+      "minecraft:enchantable/vanishing",
+      "minecraft:chest_armor",
+      "c:armors",
       "minecraft:piglin_loved"
     ],
     "components": {
@@ -8712,15 +8712,15 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:enchantable/head_armor",
-      "minecraft:trimmable_armor",
-      "minecraft:enchantable/armor",
-      "minecraft:enchantable/equippable",
-      "minecraft:enchantable/durability",
-      "minecraft:head_armor",
-      "minecraft:enchantable/vanishing",
-      "c:armors",
       "c:enchantables",
+      "minecraft:enchantable/head_armor",
+      "minecraft:enchantable/equippable",
+      "minecraft:enchantable/armor",
+      "minecraft:trimmable_armor",
+      "minecraft:enchantable/durability",
+      "minecraft:enchantable/vanishing",
+      "minecraft:head_armor",
+      "c:armors",
       "minecraft:piglin_loved"
     ],
     "components": {
@@ -8740,15 +8740,15 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "minecraft:enchantable/vanishing",
       "minecraft:enchantable/mining",
-      "minecraft:piglin_loved",
       "minecraft:enchantable/durability",
-      "minecraft:hoes",
-      "minecraft:enchantable/mining_loot",
+      "minecraft:piglin_loved",
       "c:enchantables",
+      "minecraft:enchantable/mining_loot",
+      "minecraft:hoes",
       "c:tools",
-      "minecraft:breaks_decorated_pots",
-      "minecraft:enchantable/vanishing"
+      "minecraft:breaks_decorated_pots"
     ],
     "components": {
       "max_damage": 32,
@@ -8784,15 +8784,15 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:trimmable_armor",
-      "minecraft:enchantable/armor",
+      "c:enchantables",
       "minecraft:enchantable/equippable",
       "minecraft:enchantable/leg_armor",
+      "minecraft:enchantable/armor",
+      "minecraft:trimmable_armor",
       "minecraft:enchantable/durability",
       "minecraft:enchantable/vanishing",
-      "c:armors",
       "minecraft:leg_armor",
-      "c:enchantables",
+      "c:armors",
       "minecraft:piglin_loved"
     ],
     "components": {
@@ -8812,18 +8812,18 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:tools/mining_tool",
-      "c:tools",
-      "minecraft:piglin_loved",
-      "minecraft:enchantable/durability",
-      "minecraft:cluster_max_harvestables",
-      "minecraft:pickaxes",
-      "minecraft:enchantable/mining_loot",
       "c:enchantables",
+      "minecraft:enchantable/vanishing",
       "c:tools/mining_tools",
       "minecraft:breaks_decorated_pots",
+      "minecraft:piglin_loved",
+      "c:tools",
       "minecraft:enchantable/mining",
-      "minecraft:enchantable/vanishing"
+      "minecraft:cluster_max_harvestables",
+      "c:tools/mining_tool",
+      "minecraft:pickaxes",
+      "minecraft:enchantable/durability",
+      "minecraft:enchantable/mining_loot"
     ],
     "components": {
       "max_damage": 32,
@@ -8844,14 +8844,14 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:shovels",
+      "minecraft:enchantable/vanishing",
       "minecraft:enchantable/mining",
-      "minecraft:piglin_loved",
       "minecraft:enchantable/durability",
-      "minecraft:enchantable/mining_loot",
+      "minecraft:piglin_loved",
       "c:enchantables",
+      "minecraft:enchantable/mining_loot",
       "c:tools",
-      "minecraft:breaks_decorated_pots",
-      "minecraft:enchantable/vanishing"
+      "minecraft:breaks_decorated_pots"
     ],
     "components": {
       "max_damage": 32,
@@ -8871,19 +8871,19 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:enchantable/vanishing",
-      "minecraft:enchantable/sharp_weapon",
       "minecraft:enchantable/durability",
-      "c:enchantables",
-      "minecraft:breaks_decorated_pots",
       "c:tools",
       "minecraft:swords",
+      "minecraft:breaks_decorated_pots",
       "minecraft:piglin_loved",
       "minecraft:enchantable/fire_aspect",
       "c:tools/melee_weapons",
       "minecraft:enchantable/sword",
+      "c:tools/melee_weapon",
       "minecraft:enchantable/weapon",
-      "c:tools/melee_weapon"
+      "minecraft:enchantable/vanishing",
+      "c:enchantables",
+      "minecraft:enchantable/sharp_weapon"
     ],
     "components": {
       "max_damage": 32,
@@ -9035,8 +9035,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyed/gray",
       "minecraft:candles",
+      "c:dyed/gray",
       "c:dyed"
     ],
     "components": {
@@ -9072,8 +9072,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:concretes",
       "c:dyed/gray",
+      "c:concretes",
       "c:concrete",
       "c:dyed"
     ],
@@ -9110,8 +9110,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyes/gray",
-      "c:dyes"
+      "c:dyes",
+      "c:dyes/gray"
     ],
     "components": {
       "enchantments": []
@@ -9129,8 +9129,8 @@
     "tags": [
       "c:glazed_terracotta",
       "c:dyed/gray",
-      "c:glazed_terracottas",
-      "c:dyed"
+      "c:dyed",
+      "c:glazed_terracottas"
     ],
     "components": {
       "enchantments": []
@@ -9146,9 +9146,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:shulker_boxes",
       "c:dyed/gray",
-      "c:dyed"
+      "c:dyed",
+      "c:shulker_boxes"
     ],
     "components": {
       "enchantments": []
@@ -9202,8 +9202,8 @@
     "use_animation": "NONE",
     "tags": [
       "c:dyed/gray",
-      "minecraft:terracotta",
-      "c:dyed"
+      "c:dyed",
+      "minecraft:terracotta"
     ],
     "components": {
       "enchantments": []
@@ -9238,9 +9238,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "c:dyed/green",
       "c:dyed",
-      "minecraft:banners",
-      "c:dyed/green"
+      "minecraft:banners"
     ],
     "components": {
       "enchantments": []
@@ -9256,8 +9256,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyed",
       "c:dyed/green",
+      "c:dyed",
       "minecraft:beds"
     ],
     "components": {
@@ -9330,8 +9330,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:concrete_powders",
       "c:dyed/green",
+      "c:concrete_powders",
       "c:dyed",
       "c:concrete_powder"
     ],
@@ -9349,8 +9349,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyes/green",
-      "c:dyes"
+      "c:dyes",
+      "c:dyes/green"
     ],
     "components": {
       "enchantments": []
@@ -9368,8 +9368,8 @@
     "tags": [
       "c:dyed/green",
       "c:glazed_terracotta",
-      "c:glazed_terracottas",
-      "c:dyed"
+      "c:dyed",
+      "c:glazed_terracottas"
     ],
     "components": {
       "enchantments": []
@@ -9385,9 +9385,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:shulker_boxes",
+      "c:dyed/green",
       "c:dyed",
-      "c:dyed/green"
+      "c:shulker_boxes"
     ],
     "components": {
       "enchantments": []
@@ -9422,9 +9422,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:glass_panes",
+      "c:dyed/green",
       "c:dyed",
-      "c:dyed/green"
+      "c:glass_panes"
     ],
     "components": {
       "enchantments": []
@@ -9440,9 +9440,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:terracotta",
+      "c:dyed/green",
       "c:dyed",
-      "c:dyed/green"
+      "minecraft:terracotta"
     ],
     "components": {
       "enchantments": []
@@ -9537,8 +9537,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:decorated_pot_sherds",
-      "minecraft:decorated_pot_ingredients"
+      "minecraft:decorated_pot_ingredients",
+      "minecraft:decorated_pot_sherds"
     ],
     "components": {
       "enchantments": []
@@ -9568,11 +9568,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:llama_tempt_items",
-      "minecraft:llama_food",
-      "c:storage_blocks",
       "c:storage_blocks/wheat",
+      "minecraft:llama_food",
       "c:animal_foods",
+      "c:storage_blocks",
+      "minecraft:llama_tempt_items",
       "minecraft:horse_food"
     ],
     "components": {
@@ -9603,8 +9603,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:decorated_pot_sherds",
-      "minecraft:decorated_pot_ingredients"
+      "minecraft:decorated_pot_ingredients",
+      "minecraft:decorated_pot_sherds"
     ],
     "components": {
       "enchantments": []
@@ -9620,8 +9620,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:decorated_pot_sherds",
-      "minecraft:decorated_pot_ingredients"
+      "minecraft:decorated_pot_ingredients",
+      "minecraft:decorated_pot_sherds"
     ],
     "components": {
       "enchantments": []
@@ -9845,8 +9845,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:decorated_pot_sherds",
-      "minecraft:decorated_pot_ingredients"
+      "minecraft:decorated_pot_ingredients",
+      "minecraft:decorated_pot_sherds"
     ],
     "components": {
       "enchantments": []
@@ -9904,8 +9904,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:cobblestones",
-      "c:cobblestones/infested"
+      "c:cobblestones/infested",
+      "c:cobblestones"
     ],
     "components": {
       "enchantments": []
@@ -10005,18 +10005,18 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:tools",
-      "minecraft:enchantable/sharp_weapon",
-      "minecraft:enchantable/durability",
-      "c:tools/melee_weapon",
-      "c:tools/melee_weapons",
-      "minecraft:axes",
-      "minecraft:enchantable/mining_loot",
+      "minecraft:enchantable/vanishing",
       "c:enchantables",
       "minecraft:breaks_decorated_pots",
+      "minecraft:enchantable/sharp_weapon",
+      "c:tools/melee_weapon",
+      "c:tools",
       "minecraft:enchantable/mining",
-      "minecraft:enchantable/vanishing",
-      "minecraft:enchantable/weapon"
+      "minecraft:enchantable/weapon",
+      "minecraft:axes",
+      "minecraft:enchantable/durability",
+      "minecraft:enchantable/mining_loot",
+      "c:tools/melee_weapons"
     ],
     "components": {
       "max_damage": 250,
@@ -10050,8 +10050,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:storage_blocks/iron",
-      "c:storage_blocks"
+      "c:storage_blocks",
+      "c:storage_blocks/iron"
     ],
     "components": {
       "enchantments": []
@@ -10067,15 +10067,15 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "minecraft:enchantable/equippable",
+      "minecraft:enchantable/vanishing",
       "minecraft:enchantable/durability",
       "c:armors",
       "minecraft:enchantable/foot_armor",
       "c:enchantables",
-      "minecraft:enchantable/vanishing",
-      "minecraft:foot_armor",
       "minecraft:enchantable/armor",
-      "minecraft:enchantable/equippable",
-      "minecraft:trimmable_armor"
+      "minecraft:trimmable_armor",
+      "minecraft:foot_armor"
     ],
     "components": {
       "max_damage": 195,
@@ -10094,14 +10094,14 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "minecraft:enchantable/equippable",
+      "minecraft:enchantable/vanishing",
       "minecraft:enchantable/durability",
       "c:armors",
-      "minecraft:enchantable/chest_armor",
       "minecraft:chest_armor",
       "c:enchantables",
-      "minecraft:enchantable/vanishing",
+      "minecraft:enchantable/chest_armor",
       "minecraft:enchantable/armor",
-      "minecraft:enchantable/equippable",
       "minecraft:trimmable_armor"
     ],
     "components": {
@@ -10151,14 +10151,14 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:enchantable/head_armor",
+      "minecraft:enchantable/equippable",
+      "minecraft:enchantable/vanishing",
       "minecraft:enchantable/durability",
       "c:armors",
+      "minecraft:enchantable/head_armor",
       "c:enchantables",
-      "minecraft:enchantable/vanishing",
       "minecraft:head_armor",
       "minecraft:enchantable/armor",
-      "minecraft:enchantable/equippable",
       "minecraft:trimmable_armor"
     ],
     "components": {
@@ -10178,14 +10178,14 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:breaks_decorated_pots",
       "minecraft:enchantable/vanishing",
-      "minecraft:enchantable/mining",
       "minecraft:enchantable/mining_loot",
       "c:enchantables",
       "minecraft:hoes",
       "c:tools",
-      "minecraft:enchantable/durability"
+      "minecraft:enchantable/durability",
+      "minecraft:breaks_decorated_pots",
+      "minecraft:enchantable/mining"
     ],
     "components": {
       "max_damage": 250,
@@ -10238,15 +10238,15 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "minecraft:enchantable/equippable",
+      "minecraft:enchantable/vanishing",
       "minecraft:enchantable/durability",
       "c:armors",
       "c:enchantables",
       "minecraft:leg_armor",
-      "minecraft:enchantable/vanishing",
-      "minecraft:enchantable/leg_armor",
       "minecraft:enchantable/armor",
-      "minecraft:enchantable/equippable",
-      "minecraft:trimmable_armor"
+      "minecraft:trimmable_armor",
+      "minecraft:enchantable/leg_armor"
     ],
     "components": {
       "max_damage": 225,
@@ -10282,11 +10282,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:iron_ores",
-      "c:ores_in_ground/stone",
+      "c:ore_rates/singular",
       "c:ores/iron",
       "c:ores",
-      "c:ore_rates/singular"
+      "c:ores_in_ground/stone",
+      "minecraft:iron_ores"
     ],
     "components": {
       "enchantments": []
@@ -10302,17 +10302,17 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "minecraft:cluster_max_harvestables",
+      "minecraft:enchantable/mining_loot",
+      "minecraft:enchantable/vanishing",
+      "c:tools/mining_tool",
+      "minecraft:pickaxes",
+      "minecraft:enchantable/durability",
+      "c:tools",
       "minecraft:enchantable/mining",
       "c:enchantables",
       "c:tools/mining_tools",
-      "minecraft:breaks_decorated_pots",
-      "minecraft:cluster_max_harvestables",
-      "minecraft:enchantable/mining_loot",
-      "minecraft:pickaxes",
-      "minecraft:enchantable/vanishing",
-      "c:tools/mining_tool",
-      "c:tools",
-      "minecraft:enchantable/durability"
+      "minecraft:breaks_decorated_pots"
     ],
     "components": {
       "max_damage": 250,
@@ -10332,14 +10332,14 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:breaks_decorated_pots",
-      "minecraft:shovels",
       "minecraft:enchantable/vanishing",
-      "minecraft:enchantable/mining",
       "minecraft:enchantable/mining_loot",
       "c:enchantables",
       "c:tools",
-      "minecraft:enchantable/durability"
+      "minecraft:enchantable/durability",
+      "minecraft:breaks_decorated_pots",
+      "minecraft:shovels",
+      "minecraft:enchantable/mining"
     ],
     "components": {
       "max_damage": 250,
@@ -10359,18 +10359,18 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:enchantable/sharp_weapon",
-      "minecraft:enchantable/durability",
-      "minecraft:swords",
-      "c:tools/melee_weapon",
-      "c:tools/melee_weapons",
-      "minecraft:enchantable/fire_aspect",
+      "minecraft:enchantable/vanishing",
       "c:enchantables",
       "minecraft:breaks_decorated_pots",
-      "minecraft:enchantable/vanishing",
-      "minecraft:enchantable/weapon",
+      "minecraft:enchantable/sharp_weapon",
+      "c:tools/melee_weapon",
+      "minecraft:swords",
       "c:tools",
-      "minecraft:enchantable/sword"
+      "minecraft:enchantable/sword",
+      "minecraft:enchantable/weapon",
+      "minecraft:enchantable/durability",
+      "c:tools/melee_weapons",
+      "minecraft:enchantable/fire_aspect"
     ],
     "components": {
       "max_damage": 250,
@@ -10481,8 +10481,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:wooden_buttons",
-      "minecraft:buttons"
+      "minecraft:buttons",
+      "minecraft:wooden_buttons"
     ],
     "components": {
       "enchantments": []
@@ -10515,8 +10515,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:wooden_doors",
-      "minecraft:doors"
+      "minecraft:doors",
+      "minecraft:wooden_doors"
     ],
     "components": {
       "enchantments": []
@@ -10603,8 +10603,8 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:jungle_logs",
-      "minecraft:logs",
       "minecraft:logs_that_burn",
+      "minecraft:logs",
       "minecraft:completes_find_tree_tutorial"
     ],
     "components": {
@@ -10737,8 +10737,8 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:jungle_logs",
-      "minecraft:logs",
       "minecraft:logs_that_burn",
+      "minecraft:logs",
       "minecraft:completes_find_tree_tutorial"
     ],
     "components": {
@@ -10813,8 +10813,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:storage_blocks/lapis",
-      "c:storage_blocks"
+      "c:storage_blocks",
+      "c:storage_blocks/lapis"
     ],
     "components": {
       "enchantments": []
@@ -10830,9 +10830,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:gems",
+      "c:gems/lapis",
       "minecraft:trim_materials",
-      "c:gems/lapis"
+      "c:gems"
     ],
     "components": {
       "enchantments": []
@@ -10849,10 +10849,10 @@
     "use_animation": "NONE",
     "tags": [
       "c:ores/lapis",
-      "c:ore_rates/dense",
-      "c:ores_in_ground/stone",
+      "c:ores",
       "minecraft:lapis_ores",
-      "c:ores"
+      "c:ore_rates/dense",
+      "c:ores_in_ground/stone"
     ],
     "components": {
       "enchantments": []
@@ -10898,8 +10898,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:buckets",
-      "c:buckets/lava"
+      "c:buckets/lava",
+      "c:buckets"
     ],
     "components": {
       "enchantments": []
@@ -10946,17 +10946,17 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "minecraft:dyeable",
+      "minecraft:enchantable/equippable",
+      "minecraft:enchantable/vanishing",
+      "minecraft:enchantable/durability",
+      "c:armors",
+      "minecraft:foot_armor",
       "minecraft:freeze_immune_wearables",
       "c:enchantables",
       "minecraft:enchantable/foot_armor",
-      "minecraft:trimmable_armor",
       "minecraft:enchantable/armor",
-      "minecraft:enchantable/equippable",
-      "minecraft:dyeable",
-      "minecraft:enchantable/vanishing",
-      "minecraft:foot_armor",
-      "minecraft:enchantable/durability",
-      "c:armors"
+      "minecraft:trimmable_armor"
     ],
     "components": {
       "max_damage": 65,
@@ -10975,17 +10975,17 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:freeze_immune_wearables",
-      "minecraft:enchantable/chest_armor",
-      "c:enchantables",
-      "minecraft:chest_armor",
-      "minecraft:trimmable_armor",
-      "minecraft:enchantable/armor",
-      "minecraft:enchantable/equippable",
       "minecraft:dyeable",
+      "minecraft:enchantable/equippable",
       "minecraft:enchantable/vanishing",
       "minecraft:enchantable/durability",
-      "c:armors"
+      "c:armors",
+      "minecraft:freeze_immune_wearables",
+      "c:enchantables",
+      "minecraft:chest_armor",
+      "minecraft:enchantable/armor",
+      "minecraft:enchantable/chest_armor",
+      "minecraft:trimmable_armor"
     ],
     "components": {
       "max_damage": 80,
@@ -11004,17 +11004,17 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "minecraft:head_armor",
+      "minecraft:dyeable",
+      "minecraft:enchantable/equippable",
+      "minecraft:enchantable/vanishing",
+      "minecraft:enchantable/durability",
+      "c:armors",
+      "minecraft:enchantable/head_armor",
       "minecraft:freeze_immune_wearables",
       "c:enchantables",
-      "minecraft:trimmable_armor",
       "minecraft:enchantable/armor",
-      "minecraft:head_armor",
-      "minecraft:enchantable/equippable",
-      "minecraft:dyeable",
-      "minecraft:enchantable/vanishing",
-      "minecraft:enchantable/head_armor",
-      "minecraft:enchantable/durability",
-      "c:armors"
+      "minecraft:trimmable_armor"
     ],
     "components": {
       "max_damage": 55,
@@ -11050,17 +11050,17 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:freeze_immune_wearables",
-      "c:enchantables",
-      "minecraft:leg_armor",
-      "minecraft:trimmable_armor",
-      "minecraft:enchantable/armor",
-      "minecraft:enchantable/equippable",
       "minecraft:dyeable",
+      "minecraft:enchantable/equippable",
       "minecraft:enchantable/vanishing",
       "minecraft:enchantable/durability",
       "c:armors",
-      "minecraft:enchantable/leg_armor"
+      "minecraft:enchantable/leg_armor",
+      "minecraft:freeze_immune_wearables",
+      "c:enchantables",
+      "minecraft:leg_armor",
+      "minecraft:enchantable/armor",
+      "minecraft:trimmable_armor"
     ],
     "components": {
       "max_damage": 75,
@@ -11159,9 +11159,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyed/light_blue",
       "minecraft:candles",
-      "c:dyed"
+      "c:dyed",
+      "c:dyed/light_blue"
     ],
     "components": {
       "enchantments": []
@@ -11196,8 +11196,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:concretes",
       "c:dyed/light_blue",
+      "c:concretes",
       "c:concrete",
       "c:dyed"
     ],
@@ -11253,8 +11253,8 @@
     "tags": [
       "c:glazed_terracotta",
       "c:dyed/light_blue",
-      "c:glazed_terracottas",
-      "c:dyed"
+      "c:dyed",
+      "c:glazed_terracottas"
     ],
     "components": {
       "enchantments": []
@@ -11270,9 +11270,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:shulker_boxes",
       "c:dyed/light_blue",
-      "c:dyed"
+      "c:dyed",
+      "c:shulker_boxes"
     ],
     "components": {
       "enchantments": []
@@ -11308,8 +11308,8 @@
     "use_animation": "NONE",
     "tags": [
       "c:glass_panes",
-      "c:dyed/light_blue",
-      "c:dyed"
+      "c:dyed",
+      "c:dyed/light_blue"
     ],
     "components": {
       "enchantments": []
@@ -11326,8 +11326,8 @@
     "use_animation": "NONE",
     "tags": [
       "c:dyed/light_blue",
-      "minecraft:terracotta",
-      "c:dyed"
+      "c:dyed",
+      "minecraft:terracotta"
     ],
     "components": {
       "enchantments": []
@@ -11473,8 +11473,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyes/light_gray",
-      "c:dyes"
+      "c:dyes",
+      "c:dyes/light_gray"
     ],
     "components": {
       "enchantments": []
@@ -11490,10 +11490,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyed/light_gray",
       "c:glazed_terracotta",
-      "c:glazed_terracottas",
-      "c:dyed"
+      "c:dyed/light_gray",
+      "c:dyed",
+      "c:glazed_terracottas"
     ],
     "components": {
       "enchantments": []
@@ -11509,9 +11509,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:shulker_boxes",
+      "c:dyed",
       "c:dyed/light_gray",
-      "c:dyed"
+      "c:shulker_boxes"
     ],
     "components": {
       "enchantments": []
@@ -11565,8 +11565,8 @@
     "use_animation": "NONE",
     "tags": [
       "c:dyed/light_gray",
-      "minecraft:terracotta",
-      "c:dyed"
+      "c:dyed",
+      "minecraft:terracotta"
     ],
     "components": {
       "enchantments": []
@@ -11652,8 +11652,8 @@
     "tags": [
       "c:animal_foods",
       "minecraft:bee_food",
-      "minecraft:flowers",
-      "minecraft:small_flowers"
+      "minecraft:small_flowers",
+      "minecraft:flowers"
     ],
     "components": {
       "enchantments": []
@@ -11683,8 +11683,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyed/lime",
       "c:dyed",
+      "c:dyed/lime",
       "minecraft:banners"
     ],
     "components": {
@@ -11701,8 +11701,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyed/lime",
       "c:dyed",
+      "c:dyed/lime",
       "minecraft:beds"
     ],
     "components": {
@@ -11719,9 +11719,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyed/lime",
       "minecraft:candles",
-      "c:dyed"
+      "c:dyed",
+      "c:dyed/lime"
     ],
     "components": {
       "enchantments": []
@@ -11775,8 +11775,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:concrete_powders",
       "c:dyed/lime",
+      "c:concrete_powders",
       "c:dyed",
       "c:concrete_powder"
     ],
@@ -11794,8 +11794,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyes/lime",
-      "c:dyes"
+      "c:dyes",
+      "c:dyes/lime"
     ],
     "components": {
       "enchantments": []
@@ -11813,8 +11813,8 @@
     "tags": [
       "c:dyed/lime",
       "c:glazed_terracotta",
-      "c:glazed_terracottas",
-      "c:dyed"
+      "c:dyed",
+      "c:glazed_terracottas"
     ],
     "components": {
       "enchantments": []
@@ -11830,9 +11830,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:shulker_boxes",
+      "c:dyed",
       "c:dyed/lime",
-      "c:dyed"
+      "c:shulker_boxes"
     ],
     "components": {
       "enchantments": []
@@ -11868,8 +11868,8 @@
     "use_animation": "NONE",
     "tags": [
       "c:glass_panes",
-      "c:dyed/lime",
-      "c:dyed"
+      "c:dyed",
+      "c:dyed/lime"
     ],
     "components": {
       "enchantments": []
@@ -11885,9 +11885,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "c:dyed",
       "c:dyed/lime",
-      "minecraft:terracotta",
-      "c:dyed"
+      "minecraft:terracotta"
     ],
     "components": {
       "enchantments": []
@@ -11983,16 +11983,16 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:enchantable/fire_aspect",
+      "c:enchantables",
+      "minecraft:enchantable/mace",
       "c:tools",
+      "minecraft:enchantable/fire_aspect",
       "minecraft:enchantable/durability",
       "minecraft:enchantable/weapon",
-      "minecraft:breaks_decorated_pots",
       "minecraft:enchantable/vanishing",
       "c:tools/melee_weapon",
-      "c:tools/mace",
-      "minecraft:enchantable/mace",
-      "c:enchantables"
+      "minecraft:breaks_decorated_pots",
+      "c:tools/mace"
     ],
     "components": {
       "max_damage": 500,
@@ -12085,8 +12085,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:concretes",
       "c:dyed/magenta",
+      "c:concretes",
       "c:concrete",
       "c:dyed"
     ],
@@ -12142,8 +12142,8 @@
     "tags": [
       "c:glazed_terracotta",
       "c:dyed/magenta",
-      "c:glazed_terracottas",
-      "c:dyed"
+      "c:dyed",
+      "c:glazed_terracottas"
     ],
     "components": {
       "enchantments": []
@@ -12159,9 +12159,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:shulker_boxes",
       "c:dyed",
-      "c:dyed/magenta"
+      "c:dyed/magenta",
+      "c:shulker_boxes"
     ],
     "components": {
       "enchantments": []
@@ -12214,9 +12214,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:terracotta",
       "c:dyed",
-      "c:dyed/magenta"
+      "c:dyed/magenta",
+      "minecraft:terracotta"
     ],
     "components": {
       "enchantments": []
@@ -12309,8 +12309,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:wooden_buttons",
-      "minecraft:buttons"
+      "minecraft:buttons",
+      "minecraft:wooden_buttons"
     ],
     "components": {
       "enchantments": []
@@ -12343,8 +12343,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:wooden_doors",
-      "minecraft:doors"
+      "minecraft:doors",
+      "minecraft:wooden_doors"
     ],
     "components": {
       "enchantments": []
@@ -12430,8 +12430,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:logs",
       "minecraft:logs_that_burn",
+      "minecraft:logs",
       "minecraft:completes_find_tree_tutorial",
       "minecraft:mangrove_logs"
     ],
@@ -12481,10 +12481,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:animal_foods",
       "minecraft:saplings",
+      "minecraft:bee_food",
       "minecraft:flowers",
-      "minecraft:bee_food"
+      "c:animal_foods"
     ],
     "components": {
       "enchantments": []
@@ -12581,8 +12581,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:logs",
       "minecraft:logs_that_burn",
+      "minecraft:logs",
       "minecraft:completes_find_tree_tutorial",
       "minecraft:mangrove_logs"
     ],
@@ -12630,8 +12630,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:crops",
-      "c:crops/melon"
+      "c:crops/melon",
+      "c:crops"
     ],
     "components": {
       "enchantments": []
@@ -12647,11 +12647,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "minecraft:chicken_food",
       "c:seeds/melon",
-      "c:animal_foods",
-      "minecraft:parrot_food",
       "c:seeds",
-      "minecraft:chicken_food"
+      "c:animal_foods",
+      "minecraft:parrot_food"
     ],
     "components": {
       "enchantments": []
@@ -12667,9 +12667,9 @@
     "fireproof": false,
     "use_animation": "EAT",
     "tags": [
-      "c:foods",
       "c:foods/fruits",
-      "c:foods/fruit"
+      "c:foods/fruit",
+      "c:foods"
     ],
     "components": {
       "food": {
@@ -12690,11 +12690,11 @@
     "fireproof": false,
     "use_animation": "DRINK",
     "tags": [
+      "c:drink_containing/bucket",
       "c:drinks/milk",
-      "c:buckets",
-      "c:drinks",
       "c:buckets/milk",
-      "c:drink_containing/bucket"
+      "c:drinks",
+      "c:buckets"
     ],
     "components": {
       "enchantments": []
@@ -12724,8 +12724,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:decorated_pot_sherds",
-      "minecraft:decorated_pot_ingredients"
+      "minecraft:decorated_pot_ingredients",
+      "minecraft:decorated_pot_sherds"
     ],
     "components": {
       "enchantments": []
@@ -12799,8 +12799,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:cobblestones",
-      "c:cobblestones/mossy"
+      "c:cobblestones/mossy",
+      "c:cobblestones"
     ],
     "components": {
       "enchantments": []
@@ -12928,8 +12928,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:decorated_pot_sherds",
-      "minecraft:decorated_pot_ingredients"
+      "minecraft:decorated_pot_ingredients",
+      "minecraft:decorated_pot_sherds"
     ],
     "components": {
       "enchantments": []
@@ -13067,9 +13067,9 @@
     "fireproof": false,
     "use_animation": "EAT",
     "tags": [
-      "c:foods",
       "c:foods/soups",
-      "c:foods/soup"
+      "c:foods/soup",
+      "c:foods"
     ],
     "components": {
       "food": {
@@ -13407,11 +13407,11 @@
     "use_animation": "EAT",
     "tags": [
       "minecraft:meat",
-      "c:foods/raw_meats",
-      "c:foods",
-      "c:foods/raw_meat",
       "minecraft:wolf_food",
-      "c:animal_foods"
+      "c:foods",
+      "c:animal_foods",
+      "c:foods/raw_meat",
+      "c:foods/raw_meats"
     ],
     "components": {
       "food": {
@@ -13493,9 +13493,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "c:fences",
       "c:fences/nether_brick",
-      "minecraft:fences",
-      "c:fences"
+      "minecraft:fences"
     ],
     "components": {
       "enchantments": []
@@ -13573,12 +13573,12 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:ores",
-      "c:ores_in_ground/netherrack",
+      "c:ores/gold",
       "c:ore_rates/sparse",
-      "minecraft:piglin_loved",
+      "c:ores_in_ground/netherrack",
       "minecraft:gold_ores",
-      "c:ores/gold"
+      "minecraft:piglin_loved",
+      "c:ores"
     ],
     "components": {
       "enchantments": []
@@ -13594,8 +13594,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:ores/quartz",
       "c:ores",
+      "c:ores/quartz",
       "c:ore_rates/singular",
       "c:ores_in_ground/netherrack"
     ],
@@ -13643,8 +13643,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:crops",
-      "c:crops/nether_wart"
+      "c:crops/nether_wart",
+      "c:crops"
     ],
     "components": {
       "enchantments": []
@@ -13677,18 +13677,18 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:tools",
-      "minecraft:enchantable/sharp_weapon",
-      "minecraft:enchantable/durability",
-      "c:tools/melee_weapon",
-      "c:tools/melee_weapons",
-      "minecraft:axes",
-      "minecraft:enchantable/mining_loot",
+      "minecraft:enchantable/vanishing",
       "c:enchantables",
       "minecraft:breaks_decorated_pots",
+      "minecraft:enchantable/sharp_weapon",
+      "c:tools/melee_weapon",
+      "c:tools",
       "minecraft:enchantable/mining",
-      "minecraft:enchantable/vanishing",
-      "minecraft:enchantable/weapon"
+      "minecraft:enchantable/weapon",
+      "minecraft:axes",
+      "minecraft:enchantable/durability",
+      "minecraft:enchantable/mining_loot",
+      "c:tools/melee_weapons"
     ],
     "components": {
       "max_damage": 2031,
@@ -13725,15 +13725,15 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "minecraft:enchantable/equippable",
+      "minecraft:enchantable/vanishing",
       "minecraft:enchantable/durability",
       "c:armors",
       "minecraft:enchantable/foot_armor",
       "c:enchantables",
-      "minecraft:enchantable/vanishing",
-      "minecraft:foot_armor",
       "minecraft:enchantable/armor",
-      "minecraft:enchantable/equippable",
-      "minecraft:trimmable_armor"
+      "minecraft:trimmable_armor",
+      "minecraft:foot_armor"
     ],
     "components": {
       "max_damage": 481,
@@ -13752,14 +13752,14 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "minecraft:enchantable/equippable",
+      "minecraft:enchantable/vanishing",
       "minecraft:enchantable/durability",
       "c:armors",
-      "minecraft:enchantable/chest_armor",
       "minecraft:chest_armor",
       "c:enchantables",
-      "minecraft:enchantable/vanishing",
+      "minecraft:enchantable/chest_armor",
       "minecraft:enchantable/armor",
-      "minecraft:enchantable/equippable",
       "minecraft:trimmable_armor"
     ],
     "components": {
@@ -13779,14 +13779,14 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:enchantable/head_armor",
+      "minecraft:enchantable/equippable",
+      "minecraft:enchantable/vanishing",
       "minecraft:enchantable/durability",
       "c:armors",
+      "minecraft:enchantable/head_armor",
       "c:enchantables",
-      "minecraft:enchantable/vanishing",
       "minecraft:head_armor",
       "minecraft:enchantable/armor",
-      "minecraft:enchantable/equippable",
       "minecraft:trimmable_armor"
     ],
     "components": {
@@ -13806,14 +13806,14 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:breaks_decorated_pots",
       "minecraft:enchantable/vanishing",
-      "minecraft:enchantable/mining",
       "minecraft:enchantable/mining_loot",
       "c:enchantables",
       "minecraft:hoes",
       "c:tools",
-      "minecraft:enchantable/durability"
+      "minecraft:enchantable/durability",
+      "minecraft:breaks_decorated_pots",
+      "minecraft:enchantable/mining"
     ],
     "components": {
       "max_damage": 2031,
@@ -13852,15 +13852,15 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "minecraft:enchantable/equippable",
+      "minecraft:enchantable/vanishing",
       "minecraft:enchantable/durability",
       "c:armors",
       "c:enchantables",
       "minecraft:leg_armor",
-      "minecraft:enchantable/vanishing",
-      "minecraft:enchantable/leg_armor",
       "minecraft:enchantable/armor",
-      "minecraft:enchantable/equippable",
-      "minecraft:trimmable_armor"
+      "minecraft:trimmable_armor",
+      "minecraft:enchantable/leg_armor"
     ],
     "components": {
       "max_damage": 555,
@@ -13879,17 +13879,17 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "minecraft:cluster_max_harvestables",
+      "minecraft:enchantable/mining_loot",
+      "minecraft:enchantable/vanishing",
+      "c:tools/mining_tool",
+      "minecraft:pickaxes",
+      "minecraft:enchantable/durability",
+      "c:tools",
       "minecraft:enchantable/mining",
       "c:enchantables",
       "c:tools/mining_tools",
-      "minecraft:breaks_decorated_pots",
-      "minecraft:cluster_max_harvestables",
-      "minecraft:enchantable/mining_loot",
-      "minecraft:pickaxes",
-      "minecraft:enchantable/vanishing",
-      "c:tools/mining_tool",
-      "c:tools",
-      "minecraft:enchantable/durability"
+      "minecraft:breaks_decorated_pots"
     ],
     "components": {
       "max_damage": 2031,
@@ -13923,14 +13923,14 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:breaks_decorated_pots",
-      "minecraft:shovels",
       "minecraft:enchantable/vanishing",
-      "minecraft:enchantable/mining",
       "minecraft:enchantable/mining_loot",
       "c:enchantables",
       "c:tools",
-      "minecraft:enchantable/durability"
+      "minecraft:enchantable/durability",
+      "minecraft:breaks_decorated_pots",
+      "minecraft:shovels",
+      "minecraft:enchantable/mining"
     ],
     "components": {
       "max_damage": 2031,
@@ -13950,18 +13950,18 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:enchantable/sharp_weapon",
-      "minecraft:enchantable/durability",
-      "minecraft:swords",
-      "c:tools/melee_weapon",
-      "c:tools/melee_weapons",
-      "minecraft:enchantable/fire_aspect",
+      "minecraft:enchantable/vanishing",
       "c:enchantables",
       "minecraft:breaks_decorated_pots",
-      "minecraft:enchantable/vanishing",
-      "minecraft:enchantable/weapon",
+      "minecraft:enchantable/sharp_weapon",
+      "c:tools/melee_weapon",
+      "minecraft:swords",
       "c:tools",
-      "minecraft:enchantable/sword"
+      "minecraft:enchantable/sword",
+      "minecraft:enchantable/weapon",
+      "minecraft:enchantable/durability",
+      "c:tools/melee_weapons",
+      "minecraft:enchantable/fire_aspect"
     ],
     "components": {
       "max_damage": 2031,
@@ -14042,8 +14042,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:wooden_buttons",
-      "minecraft:buttons"
+      "minecraft:buttons",
+      "minecraft:wooden_buttons"
     ],
     "components": {
       "enchantments": []
@@ -14076,8 +14076,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:wooden_doors",
-      "minecraft:doors"
+      "minecraft:doors",
+      "minecraft:wooden_doors"
     ],
     "components": {
       "enchantments": []
@@ -14163,8 +14163,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:logs",
       "minecraft:logs_that_burn",
+      "minecraft:logs",
       "minecraft:completes_find_tree_tutorial",
       "minecraft:oak_logs"
     ],
@@ -14297,8 +14297,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:logs",
       "minecraft:logs_that_burn",
+      "minecraft:logs",
       "minecraft:completes_find_tree_tutorial",
       "minecraft:oak_logs"
     ],
@@ -14330,8 +14330,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:obsidians",
-      "c:obsidians/normal"
+      "c:obsidians/normal",
+      "c:obsidians"
     ],
     "components": {
       "enchantments": []
@@ -14525,8 +14525,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyes/orange",
-      "c:dyes"
+      "c:dyes",
+      "c:dyes/orange"
     ],
     "components": {
       "enchantments": []
@@ -14544,8 +14544,8 @@
     "tags": [
       "c:dyed/orange",
       "c:glazed_terracotta",
-      "c:glazed_terracottas",
-      "c:dyed"
+      "c:dyed",
+      "c:glazed_terracottas"
     ],
     "components": {
       "enchantments": []
@@ -14561,9 +14561,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:shulker_boxes",
+      "c:dyed",
       "c:dyed/orange",
-      "c:dyed"
+      "c:shulker_boxes"
     ],
     "components": {
       "enchantments": []
@@ -14579,10 +14579,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:glass_blocks",
       "c:glass_blocks/cheap",
+      "c:dyed/orange",
       "c:dyed",
-      "c:dyed/orange"
+      "c:glass_blocks"
     ],
     "components": {
       "enchantments": []
@@ -14616,9 +14616,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:terracotta",
       "c:dyed/orange",
-      "c:dyed"
+      "c:dyed",
+      "minecraft:terracotta"
     ],
     "components": {
       "enchantments": []
@@ -14636,8 +14636,8 @@
     "tags": [
       "c:animal_foods",
       "minecraft:bee_food",
-      "minecraft:flowers",
-      "minecraft:small_flowers"
+      "minecraft:small_flowers",
+      "minecraft:flowers"
     ],
     "components": {
       "enchantments": []
@@ -14674,8 +14674,8 @@
     "tags": [
       "c:animal_foods",
       "minecraft:bee_food",
-      "minecraft:flowers",
-      "minecraft:small_flowers"
+      "minecraft:small_flowers",
+      "minecraft:flowers"
     ],
     "components": {
       "enchantments": []
@@ -15028,11 +15028,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "c:enchantables",
       "minecraft:enchantable/vanishing",
       "minecraft:noteblock_top_instruments",
       "minecraft:skulls",
-      "minecraft:enchantable/equippable",
-      "c:enchantables"
+      "minecraft:enchantable/equippable"
     ],
     "components": {
       "enchantments": []
@@ -15076,8 +15076,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyed/pink",
       "c:dyed",
+      "c:dyed/pink",
       "minecraft:banners"
     ],
     "components": {
@@ -15094,8 +15094,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyed/pink",
       "c:dyed",
+      "c:dyed/pink",
       "minecraft:beds"
     ],
     "components": {
@@ -15113,8 +15113,8 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:candles",
-      "c:dyed/pink",
-      "c:dyed"
+      "c:dyed",
+      "c:dyed/pink"
     ],
     "components": {
       "enchantments": []
@@ -15187,8 +15187,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyes/pink",
-      "c:dyes"
+      "c:dyes",
+      "c:dyes/pink"
     ],
     "components": {
       "enchantments": []
@@ -15206,8 +15206,8 @@
     "tags": [
       "c:dyed/pink",
       "c:glazed_terracotta",
-      "c:glazed_terracottas",
-      "c:dyed"
+      "c:dyed",
+      "c:glazed_terracottas"
     ],
     "components": {
       "enchantments": []
@@ -15241,9 +15241,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "c:dyed",
       "c:shulker_boxes",
-      "c:dyed/pink",
-      "c:dyed"
+      "c:dyed/pink"
     ],
     "components": {
       "enchantments": []
@@ -15259,10 +15259,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:glass_blocks",
       "c:glass_blocks/cheap",
+      "c:dyed/pink",
       "c:dyed",
-      "c:dyed/pink"
+      "c:glass_blocks"
     ],
     "components": {
       "enchantments": []
@@ -15279,8 +15279,8 @@
     "use_animation": "NONE",
     "tags": [
       "c:glass_panes",
-      "c:dyed/pink",
-      "c:dyed"
+      "c:dyed",
+      "c:dyed/pink"
     ],
     "components": {
       "enchantments": []
@@ -15296,9 +15296,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyed/pink",
+      "c:dyed",
       "minecraft:terracotta",
-      "c:dyed"
+      "c:dyed/pink"
     ],
     "components": {
       "enchantments": []
@@ -15316,8 +15316,8 @@
     "tags": [
       "c:animal_foods",
       "minecraft:bee_food",
-      "minecraft:flowers",
-      "minecraft:small_flowers"
+      "minecraft:small_flowers",
+      "minecraft:flowers"
     ],
     "components": {
       "enchantments": []
@@ -15386,9 +15386,9 @@
     "use_animation": "NONE",
     "tags": [
       "c:animal_foods",
-      "minecraft:parrot_food",
+      "minecraft:villager_plantable_seeds",
       "minecraft:chicken_food",
-      "minecraft:villager_plantable_seeds"
+      "minecraft:parrot_food"
     ],
     "components": {
       "enchantments": []
@@ -15404,11 +15404,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "c:enchantables",
       "minecraft:enchantable/vanishing",
       "minecraft:noteblock_top_instruments",
       "minecraft:skulls",
-      "minecraft:enchantable/equippable",
-      "c:enchantables"
+      "minecraft:enchantable/equippable"
     ],
     "components": {
       "enchantments": []
@@ -15424,8 +15424,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:decorated_pot_sherds",
-      "minecraft:decorated_pot_ingredients"
+      "minecraft:decorated_pot_ingredients",
+      "minecraft:decorated_pot_sherds"
     ],
     "components": {
       "enchantments": []
@@ -15471,8 +15471,8 @@
     "fireproof": false,
     "use_animation": "EAT",
     "tags": [
-      "c:foods",
-      "c:foods/food_poisoning"
+      "c:foods/food_poisoning",
+      "c:foods"
     ],
     "components": {
       "food": {
@@ -15643,8 +15643,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:stone_buttons",
-      "minecraft:buttons"
+      "minecraft:buttons",
+      "minecraft:stone_buttons"
     ],
     "components": {
       "enchantments": []
@@ -15954,8 +15954,8 @@
     "tags": [
       "c:animal_foods",
       "minecraft:bee_food",
-      "minecraft:flowers",
-      "minecraft:small_flowers"
+      "minecraft:small_flowers",
+      "minecraft:flowers"
     ],
     "components": {
       "enchantments": []
@@ -15971,13 +15971,13 @@
     "fireproof": false,
     "use_animation": "EAT",
     "tags": [
+      "c:foods/raw_meat",
       "minecraft:meat",
       "minecraft:piglin_food",
-      "minecraft:wolf_food",
-      "c:foods",
       "c:foods/raw_meats",
-      "c:foods/raw_meat",
-      "c:animal_foods"
+      "minecraft:wolf_food",
+      "c:animal_foods",
+      "c:foods"
     ],
     "components": {
       "food": {
@@ -15998,14 +15998,14 @@
     "fireproof": false,
     "use_animation": "EAT",
     "tags": [
-      "minecraft:villager_plantable_seeds",
-      "c:foods/vegetable",
-      "minecraft:pig_food",
-      "c:foods",
-      "c:crops/potato",
-      "c:crops",
       "c:animal_foods",
-      "c:foods/vegetables"
+      "c:foods/vegetables",
+      "minecraft:pig_food",
+      "c:foods/vegetable",
+      "c:foods",
+      "minecraft:villager_plantable_seeds",
+      "c:crops",
+      "c:crops/potato"
     ],
     "components": {
       "food": {
@@ -16026,12 +16026,12 @@
     "fireproof": false,
     "use_animation": "DRINK",
     "tags": [
-      "c:drinks/magic",
-      "c:drink_containing/bottle",
       "c:potions/bottle",
-      "c:potions",
       "c:drinks",
-      "c:drinks/watery"
+      "c:drinks/magic",
+      "c:drinks/watery",
+      "c:potions",
+      "c:drink_containing/bottle"
     ],
     "components": {
       "enchantments": []
@@ -16047,8 +16047,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:buckets",
-      "c:buckets/powder_snow"
+      "c:buckets/powder_snow",
+      "c:buckets"
     ],
     "components": {
       "enchantments": []
@@ -16140,8 +16140,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:gems/prismarine",
-      "c:gems"
+      "c:gems",
+      "c:gems/prismarine"
     ],
     "components": {
       "enchantments": []
@@ -16219,8 +16219,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:decorated_pot_sherds",
-      "minecraft:decorated_pot_ingredients"
+      "minecraft:decorated_pot_ingredients",
+      "minecraft:decorated_pot_sherds"
     ],
     "components": {
       "enchantments": []
@@ -16237,10 +16237,10 @@
     "use_animation": "EAT",
     "tags": [
       "c:foods/raw_fishes",
-      "minecraft:fishes",
+      "c:foods",
       "c:foods/raw_fish",
-      "c:foods/food_poisoning",
-      "c:foods"
+      "minecraft:fishes",
+      "c:foods/food_poisoning"
     ],
     "components": {
       "food": {
@@ -16292,10 +16292,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:pumpkins",
-      "c:crops/pumpkin",
+      "c:pumpkins/normal",
       "c:crops",
-      "c:pumpkins/normal"
+      "c:crops/pumpkin",
+      "c:pumpkins"
     ],
     "components": {
       "enchantments": []
@@ -16311,8 +16311,8 @@
     "fireproof": false,
     "use_animation": "EAT",
     "tags": [
-      "c:foods",
-      "c:foods/pie"
+      "c:foods/pie",
+      "c:foods"
     ],
     "components": {
       "food": {
@@ -16334,9 +16334,9 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:chicken_food",
+      "c:seeds",
       "c:animal_foods",
       "minecraft:parrot_food",
-      "c:seeds",
       "c:seeds/pumpkin"
     ],
     "components": {
@@ -16354,8 +16354,8 @@
     "use_animation": "NONE",
     "tags": [
       "c:dyed",
-      "minecraft:banners",
-      "c:dyed/purple"
+      "c:dyed/purple",
+      "minecraft:banners"
     ],
     "components": {
       "enchantments": []
@@ -16464,8 +16464,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyes/purple",
-      "c:dyes"
+      "c:dyes",
+      "c:dyes/purple"
     ],
     "components": {
       "enchantments": []
@@ -16483,8 +16483,8 @@
     "tags": [
       "c:dyed/purple",
       "c:glazed_terracotta",
-      "c:glazed_terracottas",
-      "c:dyed"
+      "c:dyed",
+      "c:glazed_terracottas"
     ],
     "components": {
       "enchantments": []
@@ -16500,8 +16500,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:shulker_boxes",
       "c:dyed",
+      "c:shulker_boxes",
       "c:dyed/purple"
     ],
     "components": {
@@ -16555,9 +16555,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:terracotta",
       "c:dyed",
-      "c:dyed/purple"
+      "c:dyed/purple",
+      "minecraft:terracotta"
     ],
     "components": {
       "enchantments": []
@@ -16652,8 +16652,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:gems",
       "minecraft:trim_materials",
+      "c:gems",
       "c:gems/quartz"
     ],
     "components": {
@@ -16745,11 +16745,11 @@
     "use_animation": "EAT",
     "tags": [
       "minecraft:meat",
-      "c:foods/raw_meats",
-      "c:foods",
-      "c:foods/raw_meat",
       "minecraft:wolf_food",
-      "c:animal_foods"
+      "c:foods",
+      "c:animal_foods",
+      "c:foods/raw_meat",
+      "c:foods/raw_meats"
     ],
     "components": {
       "food": {
@@ -16812,9 +16812,9 @@
     "fireproof": false,
     "use_animation": "EAT",
     "tags": [
-      "c:foods",
       "c:foods/soups",
-      "c:foods/soup"
+      "c:foods/soup",
+      "c:foods"
     ],
     "components": {
       "food": {
@@ -16918,8 +16918,8 @@
     "use_animation": "NONE",
     "tags": [
       "c:raw_materials/gold",
-      "minecraft:piglin_loved",
-      "c:raw_materials"
+      "c:raw_materials",
+      "minecraft:piglin_loved"
     ],
     "components": {
       "enchantments": []
@@ -16936,10 +16936,10 @@
     "use_animation": "NONE",
     "tags": [
       "c:storage_blocks",
-      "c:storage_blocks/raw_gold",
       "c:raw_blocks/gold",
-      "minecraft:piglin_loved",
-      "c:raw_blocks"
+      "c:raw_blocks",
+      "c:storage_blocks/raw_gold",
+      "minecraft:piglin_loved"
     ],
     "components": {
       "enchantments": []
@@ -16955,8 +16955,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:raw_materials",
-      "c:raw_materials/iron"
+      "c:raw_materials/iron",
+      "c:raw_materials"
     ],
     "components": {
       "enchantments": []
@@ -16972,10 +16972,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:raw_blocks/iron",
+      "c:storage_blocks",
       "c:raw_blocks",
       "c:storage_blocks/raw_iron",
-      "c:storage_blocks"
+      "c:raw_blocks/iron"
     ],
     "components": {
       "enchantments": []
@@ -17044,8 +17044,8 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:candles",
-      "c:dyed/red",
-      "c:dyed"
+      "c:dyed",
+      "c:dyed/red"
     ],
     "components": {
       "enchantments": []
@@ -17080,8 +17080,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:concretes",
       "c:dyed/red",
+      "c:concretes",
       "c:concrete",
       "c:dyed"
     ],
@@ -17137,8 +17137,8 @@
     "tags": [
       "c:glazed_terracotta",
       "c:dyed/red",
-      "c:glazed_terracottas",
-      "c:dyed"
+      "c:dyed",
+      "c:glazed_terracottas"
     ],
     "components": {
       "enchantments": []
@@ -17265,8 +17265,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:sandstone/red_blocks",
-      "c:sandstone/blocks"
+      "c:sandstone/blocks",
+      "c:sandstone/red_blocks"
     ],
     "components": {
       "enchantments": []
@@ -17282,9 +17282,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "c:sandstone/slabs",
       "minecraft:slabs",
-      "c:sandstone/red_slabs",
-      "c:sandstone/slabs"
+      "c:sandstone/red_slabs"
     ],
     "components": {
       "enchantments": []
@@ -17334,9 +17334,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:shulker_boxes",
       "c:dyed/red",
-      "c:dyed"
+      "c:dyed",
+      "c:shulker_boxes"
     ],
     "components": {
       "enchantments": []
@@ -17371,9 +17371,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:glass_panes",
       "c:dyed/red",
-      "c:dyed"
+      "c:dyed",
+      "c:glass_panes"
     ],
     "components": {
       "enchantments": []
@@ -17390,8 +17390,8 @@
     "use_animation": "NONE",
     "tags": [
       "c:dyed/red",
-      "minecraft:terracotta",
-      "c:dyed"
+      "c:dyed",
+      "minecraft:terracotta"
     ],
     "components": {
       "enchantments": []
@@ -17409,8 +17409,8 @@
     "tags": [
       "c:animal_foods",
       "minecraft:bee_food",
-      "minecraft:flowers",
-      "minecraft:small_flowers"
+      "minecraft:small_flowers",
+      "minecraft:flowers"
     ],
     "components": {
       "enchantments": []
@@ -17445,9 +17445,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dusts",
       "minecraft:trim_materials",
-      "c:dusts/redstone"
+      "c:dusts/redstone",
+      "c:dusts"
     ],
     "components": {
       "enchantments": []
@@ -17463,8 +17463,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:storage_blocks/redstone",
-      "c:storage_blocks"
+      "c:storage_blocks",
+      "c:storage_blocks/redstone"
     ],
     "components": {
       "enchantments": []
@@ -17494,10 +17494,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:ores/redstone",
-      "c:ore_rates/dense",
-      "c:ores_in_ground/stone",
       "c:ores",
+      "c:ore_rates/dense",
+      "c:ores/redstone",
+      "c:ores_in_ground/stone",
       "minecraft:redstone_ores"
     ],
     "components": {
@@ -17636,10 +17636,10 @@
     "use_animation": "EAT",
     "tags": [
       "minecraft:wolf_food",
-      "c:animal_foods",
+      "c:foods",
       "minecraft:meat",
-      "c:foods/food_poisoning",
-      "c:foods"
+      "c:animal_foods",
+      "c:foods/food_poisoning"
     ],
     "components": {
       "food": {
@@ -17675,12 +17675,12 @@
     "use_animation": "EAT",
     "tags": [
       "c:foods/raw_fish",
-      "minecraft:fishes",
       "minecraft:cat_food",
       "c:foods/raw_fishes",
-      "minecraft:ocelot_food",
+      "c:animal_foods",
       "c:foods",
-      "c:animal_foods"
+      "minecraft:fishes",
+      "minecraft:ocelot_food"
     ],
     "components": {
       "food": {
@@ -17751,8 +17751,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:sandstone/blocks",
-      "c:sandstone/uncolored_blocks"
+      "c:sandstone/uncolored_blocks",
+      "c:sandstone/blocks"
     ],
     "components": {
       "enchantments": []
@@ -17768,9 +17768,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:slabs",
       "c:sandstone/uncolored_slabs",
-      "c:sandstone/slabs"
+      "c:sandstone/slabs",
+      "minecraft:slabs"
     ],
     "components": {
       "enchantments": []
@@ -17787,8 +17787,8 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:stairs",
-      "c:sandstone/uncolored_stairs",
-      "c:sandstone/stairs"
+      "c:sandstone/stairs",
+      "c:sandstone/uncolored_stairs"
     ],
     "components": {
       "enchantments": []
@@ -17834,8 +17834,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:decorated_pot_sherds",
-      "minecraft:decorated_pot_ingredients"
+      "minecraft:decorated_pot_ingredients",
+      "minecraft:decorated_pot_sherds"
     ],
     "components": {
       "enchantments": []
@@ -17998,8 +17998,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:decorated_pot_sherds",
-      "minecraft:decorated_pot_ingredients"
+      "minecraft:decorated_pot_ingredients",
+      "minecraft:decorated_pot_sherds"
     ],
     "components": {
       "enchantments": []
@@ -18015,13 +18015,13 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:tools/shear",
-      "c:tools",
       "c:tools/shears",
       "c:enchantables",
+      "c:tools",
       "minecraft:enchantable/durability",
       "minecraft:enchantable/vanishing",
-      "minecraft:enchantable/mining"
+      "minecraft:enchantable/mining",
+      "c:tools/shear"
     ],
     "components": {
       "max_damage": 238,
@@ -18055,8 +18055,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:decorated_pot_sherds",
-      "minecraft:decorated_pot_ingredients"
+      "minecraft:decorated_pot_ingredients",
+      "minecraft:decorated_pot_sherds"
     ],
     "components": {
       "enchantments": []
@@ -18073,9 +18073,9 @@
     "use_animation": "BLOCK",
     "tags": [
       "minecraft:enchantable/vanishing",
-      "c:tools",
       "c:enchantables",
       "minecraft:enchantable/durability",
+      "c:tools",
       "c:tools/shields",
       "c:tools/shield"
     ],
@@ -18212,11 +18212,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "c:enchantables",
       "minecraft:enchantable/vanishing",
       "minecraft:noteblock_top_instruments",
       "minecraft:skulls",
-      "minecraft:enchantable/equippable",
-      "c:enchantables"
+      "minecraft:enchantable/equippable"
     ],
     "components": {
       "enchantments": []
@@ -18260,8 +18260,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:decorated_pot_sherds",
-      "minecraft:decorated_pot_ingredients"
+      "minecraft:decorated_pot_ingredients",
+      "minecraft:decorated_pot_sherds"
     ],
     "components": {
       "enchantments": []
@@ -18448,8 +18448,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:sandstone/red_blocks",
-      "c:sandstone/blocks"
+      "c:sandstone/blocks",
+      "c:sandstone/red_blocks"
     ],
     "components": {
       "enchantments": []
@@ -18465,9 +18465,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "c:sandstone/slabs",
       "minecraft:slabs",
-      "c:sandstone/red_slabs",
-      "c:sandstone/slabs"
+      "c:sandstone/red_slabs"
     ],
     "components": {
       "enchantments": []
@@ -18501,8 +18501,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:sandstone/blocks",
-      "c:sandstone/uncolored_blocks"
+      "c:sandstone/uncolored_blocks",
+      "c:sandstone/blocks"
     ],
     "components": {
       "enchantments": []
@@ -18518,9 +18518,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:slabs",
       "c:sandstone/uncolored_slabs",
-      "c:sandstone/slabs"
+      "c:sandstone/slabs",
+      "minecraft:slabs"
     ],
     "components": {
       "enchantments": []
@@ -18537,8 +18537,8 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:stairs",
-      "c:sandstone/uncolored_stairs",
-      "c:sandstone/stairs"
+      "c:sandstone/stairs",
+      "c:sandstone/uncolored_stairs"
     ],
     "components": {
       "enchantments": []
@@ -18612,8 +18612,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:decorated_pot_sherds",
-      "minecraft:decorated_pot_ingredients"
+      "minecraft:decorated_pot_ingredients",
+      "minecraft:decorated_pot_sherds"
     ],
     "components": {
       "enchantments": []
@@ -18930,8 +18930,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:wooden_buttons",
-      "minecraft:buttons"
+      "minecraft:buttons",
+      "minecraft:wooden_buttons"
     ],
     "components": {
       "enchantments": []
@@ -18964,8 +18964,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:wooden_doors",
-      "minecraft:doors"
+      "minecraft:doors",
+      "minecraft:wooden_doors"
     ],
     "components": {
       "enchantments": []
@@ -19052,8 +19052,8 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:spruce_logs",
-      "minecraft:logs",
       "minecraft:logs_that_burn",
+      "minecraft:logs",
       "minecraft:completes_find_tree_tutorial"
     ],
     "components": {
@@ -19186,8 +19186,8 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:spruce_logs",
-      "minecraft:logs",
       "minecraft:logs_that_burn",
+      "minecraft:logs",
       "minecraft:completes_find_tree_tutorial"
     ],
     "components": {
@@ -19232,8 +19232,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:rods",
-      "c:rods/wooden"
+      "c:rods/wooden",
+      "c:rods"
     ],
     "components": {
       "enchantments": []
@@ -19263,8 +19263,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:stones",
-      "c:ore_bearing_ground/stone"
+      "c:ore_bearing_ground/stone",
+      "c:stones"
     ],
     "components": {
       "enchantments": []
@@ -19280,18 +19280,18 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:tools",
-      "minecraft:enchantable/sharp_weapon",
-      "minecraft:enchantable/durability",
-      "c:tools/melee_weapon",
-      "c:tools/melee_weapons",
-      "minecraft:axes",
-      "minecraft:enchantable/mining_loot",
+      "minecraft:enchantable/vanishing",
       "c:enchantables",
       "minecraft:breaks_decorated_pots",
+      "minecraft:enchantable/sharp_weapon",
+      "c:tools/melee_weapon",
+      "c:tools",
       "minecraft:enchantable/mining",
-      "minecraft:enchantable/vanishing",
-      "minecraft:enchantable/weapon"
+      "minecraft:enchantable/weapon",
+      "minecraft:axes",
+      "minecraft:enchantable/durability",
+      "minecraft:enchantable/mining_loot",
+      "c:tools/melee_weapons"
     ],
     "components": {
       "max_damage": 131,
@@ -19375,8 +19375,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:stone_buttons",
-      "minecraft:buttons"
+      "minecraft:buttons",
+      "minecraft:stone_buttons"
     ],
     "components": {
       "enchantments": []
@@ -19392,14 +19392,14 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:breaks_decorated_pots",
       "minecraft:enchantable/vanishing",
-      "minecraft:enchantable/mining",
       "minecraft:enchantable/mining_loot",
       "c:enchantables",
       "minecraft:hoes",
       "c:tools",
-      "minecraft:enchantable/durability"
+      "minecraft:enchantable/durability",
+      "minecraft:breaks_decorated_pots",
+      "minecraft:enchantable/mining"
     ],
     "components": {
       "max_damage": 131,
@@ -19419,17 +19419,17 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "minecraft:cluster_max_harvestables",
+      "minecraft:enchantable/mining_loot",
+      "minecraft:enchantable/vanishing",
+      "c:tools/mining_tool",
+      "minecraft:pickaxes",
+      "minecraft:enchantable/durability",
+      "c:tools",
       "minecraft:enchantable/mining",
       "c:enchantables",
       "c:tools/mining_tools",
-      "minecraft:breaks_decorated_pots",
-      "minecraft:cluster_max_harvestables",
-      "minecraft:enchantable/mining_loot",
-      "minecraft:pickaxes",
-      "minecraft:enchantable/vanishing",
-      "c:tools/mining_tool",
-      "c:tools",
-      "minecraft:enchantable/durability"
+      "minecraft:breaks_decorated_pots"
     ],
     "components": {
       "max_damage": 131,
@@ -19463,14 +19463,14 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:breaks_decorated_pots",
-      "minecraft:shovels",
       "minecraft:enchantable/vanishing",
-      "minecraft:enchantable/mining",
       "minecraft:enchantable/mining_loot",
       "c:enchantables",
       "c:tools",
-      "minecraft:enchantable/durability"
+      "minecraft:enchantable/durability",
+      "minecraft:breaks_decorated_pots",
+      "minecraft:shovels",
+      "minecraft:enchantable/mining"
     ],
     "components": {
       "max_damage": 131,
@@ -19522,18 +19522,18 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:enchantable/sharp_weapon",
-      "minecraft:enchantable/durability",
-      "minecraft:swords",
-      "c:tools/melee_weapon",
-      "c:tools/melee_weapons",
-      "minecraft:enchantable/fire_aspect",
+      "minecraft:enchantable/vanishing",
       "c:enchantables",
       "minecraft:breaks_decorated_pots",
-      "minecraft:enchantable/vanishing",
-      "minecraft:enchantable/weapon",
+      "minecraft:enchantable/sharp_weapon",
+      "c:tools/melee_weapon",
+      "minecraft:swords",
       "c:tools",
-      "minecraft:enchantable/sword"
+      "minecraft:enchantable/sword",
+      "minecraft:enchantable/weapon",
+      "minecraft:enchantable/durability",
+      "c:tools/melee_weapons",
+      "minecraft:enchantable/fire_aspect"
     ],
     "components": {
       "max_damage": 131,
@@ -19614,10 +19614,10 @@
     "use_animation": "NONE",
     "tags": [
       "c:stripped_logs",
-      "minecraft:logs_that_burn",
-      "minecraft:acacia_logs",
+      "minecraft:completes_find_tree_tutorial",
       "minecraft:logs",
-      "minecraft:completes_find_tree_tutorial"
+      "minecraft:logs_that_burn",
+      "minecraft:acacia_logs"
     ],
     "components": {
       "enchantments": []
@@ -19634,10 +19634,10 @@
     "use_animation": "NONE",
     "tags": [
       "c:stripped_woods",
-      "minecraft:logs_that_burn",
-      "minecraft:acacia_logs",
+      "minecraft:completes_find_tree_tutorial",
       "minecraft:logs",
-      "minecraft:completes_find_tree_tutorial"
+      "minecraft:logs_that_burn",
+      "minecraft:acacia_logs"
     ],
     "components": {
       "enchantments": []
@@ -19653,8 +19653,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:stripped_logs",
-      "minecraft:bamboo_blocks"
+      "minecraft:bamboo_blocks",
+      "c:stripped_logs"
     ],
     "components": {
       "enchantments": []
@@ -19671,10 +19671,10 @@
     "use_animation": "NONE",
     "tags": [
       "c:stripped_logs",
-      "minecraft:logs_that_burn",
+      "minecraft:completes_find_tree_tutorial",
       "minecraft:logs",
-      "minecraft:birch_logs",
-      "minecraft:completes_find_tree_tutorial"
+      "minecraft:logs_that_burn",
+      "minecraft:birch_logs"
     ],
     "components": {
       "enchantments": []
@@ -19690,11 +19690,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:logs_that_burn",
       "c:stripped_woods",
+      "minecraft:completes_find_tree_tutorial",
       "minecraft:logs",
-      "minecraft:birch_logs",
-      "minecraft:completes_find_tree_tutorial"
+      "minecraft:logs_that_burn",
+      "minecraft:birch_logs"
     ],
     "components": {
       "enchantments": []
@@ -19711,9 +19711,9 @@
     "use_animation": "NONE",
     "tags": [
       "c:stripped_logs",
-      "minecraft:logs_that_burn",
-      "minecraft:logs",
       "minecraft:completes_find_tree_tutorial",
+      "minecraft:logs",
+      "minecraft:logs_that_burn",
       "minecraft:cherry_logs"
     ],
     "components": {
@@ -19730,10 +19730,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:logs_that_burn",
       "c:stripped_woods",
-      "minecraft:logs",
       "minecraft:completes_find_tree_tutorial",
+      "minecraft:logs",
+      "minecraft:logs_that_burn",
       "minecraft:cherry_logs"
     ],
     "components": {
@@ -19751,10 +19751,10 @@
     "use_animation": "NONE",
     "tags": [
       "c:stripped_woods",
-      "minecraft:non_flammable_wood",
+      "minecraft:completes_find_tree_tutorial",
       "minecraft:logs",
-      "minecraft:crimson_stems",
-      "minecraft:completes_find_tree_tutorial"
+      "minecraft:non_flammable_wood",
+      "minecraft:crimson_stems"
     ],
     "components": {
       "enchantments": []
@@ -19771,10 +19771,10 @@
     "use_animation": "NONE",
     "tags": [
       "c:stripped_logs",
-      "minecraft:non_flammable_wood",
+      "minecraft:completes_find_tree_tutorial",
       "minecraft:logs",
-      "minecraft:crimson_stems",
-      "minecraft:completes_find_tree_tutorial"
+      "minecraft:non_flammable_wood",
+      "minecraft:crimson_stems"
     ],
     "components": {
       "enchantments": []
@@ -19791,10 +19791,10 @@
     "use_animation": "NONE",
     "tags": [
       "c:stripped_logs",
-      "minecraft:logs_that_burn",
-      "minecraft:dark_oak_logs",
+      "minecraft:completes_find_tree_tutorial",
       "minecraft:logs",
-      "minecraft:completes_find_tree_tutorial"
+      "minecraft:logs_that_burn",
+      "minecraft:dark_oak_logs"
     ],
     "components": {
       "enchantments": []
@@ -19811,10 +19811,10 @@
     "use_animation": "NONE",
     "tags": [
       "c:stripped_woods",
-      "minecraft:logs_that_burn",
-      "minecraft:dark_oak_logs",
+      "minecraft:completes_find_tree_tutorial",
       "minecraft:logs",
-      "minecraft:completes_find_tree_tutorial"
+      "minecraft:logs_that_burn",
+      "minecraft:dark_oak_logs"
     ],
     "components": {
       "enchantments": []
@@ -19831,10 +19831,10 @@
     "use_animation": "NONE",
     "tags": [
       "c:stripped_logs",
-      "minecraft:logs_that_burn",
+      "minecraft:completes_find_tree_tutorial",
       "minecraft:logs",
-      "minecraft:jungle_logs",
-      "minecraft:completes_find_tree_tutorial"
+      "minecraft:logs_that_burn",
+      "minecraft:jungle_logs"
     ],
     "components": {
       "enchantments": []
@@ -19850,11 +19850,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:logs_that_burn",
       "c:stripped_woods",
+      "minecraft:completes_find_tree_tutorial",
       "minecraft:logs",
-      "minecraft:jungle_logs",
-      "minecraft:completes_find_tree_tutorial"
+      "minecraft:logs_that_burn",
+      "minecraft:jungle_logs"
     ],
     "components": {
       "enchantments": []
@@ -19870,11 +19870,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:stripped_logs",
-      "minecraft:logs_that_burn",
-      "minecraft:logs",
       "minecraft:mangrove_logs",
-      "minecraft:completes_find_tree_tutorial"
+      "c:stripped_logs",
+      "minecraft:completes_find_tree_tutorial",
+      "minecraft:logs",
+      "minecraft:logs_that_burn"
     ],
     "components": {
       "enchantments": []
@@ -19890,11 +19890,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:stripped_woods",
-      "minecraft:logs_that_burn",
-      "minecraft:logs",
       "minecraft:mangrove_logs",
-      "minecraft:completes_find_tree_tutorial"
+      "c:stripped_woods",
+      "minecraft:completes_find_tree_tutorial",
+      "minecraft:logs",
+      "minecraft:logs_that_burn"
     ],
     "components": {
       "enchantments": []
@@ -19911,10 +19911,10 @@
     "use_animation": "NONE",
     "tags": [
       "c:stripped_logs",
-      "minecraft:logs_that_burn",
+      "minecraft:completes_find_tree_tutorial",
       "minecraft:logs",
       "minecraft:oak_logs",
-      "minecraft:completes_find_tree_tutorial"
+      "minecraft:logs_that_burn"
     ],
     "components": {
       "enchantments": []
@@ -19930,11 +19930,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:logs_that_burn",
       "c:stripped_woods",
+      "minecraft:completes_find_tree_tutorial",
       "minecraft:logs",
       "minecraft:oak_logs",
-      "minecraft:completes_find_tree_tutorial"
+      "minecraft:logs_that_burn"
     ],
     "components": {
       "enchantments": []
@@ -19951,10 +19951,10 @@
     "use_animation": "NONE",
     "tags": [
       "c:stripped_logs",
-      "minecraft:logs_that_burn",
-      "minecraft:logs",
+      "minecraft:completes_find_tree_tutorial",
       "minecraft:spruce_logs",
-      "minecraft:completes_find_tree_tutorial"
+      "minecraft:logs",
+      "minecraft:logs_that_burn"
     ],
     "components": {
       "enchantments": []
@@ -19970,11 +19970,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:logs_that_burn",
       "c:stripped_woods",
-      "minecraft:logs",
+      "minecraft:completes_find_tree_tutorial",
       "minecraft:spruce_logs",
-      "minecraft:completes_find_tree_tutorial"
+      "minecraft:logs",
+      "minecraft:logs_that_burn"
     ],
     "components": {
       "enchantments": []
@@ -19992,9 +19992,9 @@
     "tags": [
       "minecraft:warped_stems",
       "c:stripped_woods",
-      "minecraft:non_flammable_wood",
+      "minecraft:completes_find_tree_tutorial",
       "minecraft:logs",
-      "minecraft:completes_find_tree_tutorial"
+      "minecraft:non_flammable_wood"
     ],
     "components": {
       "enchantments": []
@@ -20012,9 +20012,9 @@
     "tags": [
       "minecraft:warped_stems",
       "c:stripped_logs",
-      "minecraft:non_flammable_wood",
+      "minecraft:completes_find_tree_tutorial",
       "minecraft:logs",
-      "minecraft:completes_find_tree_tutorial"
+      "minecraft:non_flammable_wood"
     ],
     "components": {
       "enchantments": []
@@ -20075,8 +20075,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:crops",
-      "c:crops/sugar_cane"
+      "c:crops/sugar_cane",
+      "c:crops"
     ],
     "components": {
       "enchantments": []
@@ -20141,9 +20141,9 @@
     "fireproof": false,
     "use_animation": "EAT",
     "tags": [
-      "c:foods",
       "c:foods/soups",
-      "c:foods/soup"
+      "c:foods/soup",
+      "c:foods"
     ],
     "components": {
       "food": {
@@ -20165,9 +20165,9 @@
     "use_animation": "EAT",
     "tags": [
       "minecraft:fox_food",
-      "c:animal_foods",
       "c:foods/berry",
       "c:foods/berries",
+      "c:animal_foods",
       "c:foods"
     ],
     "components": {
@@ -20280,8 +20280,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:glass_blocks",
-      "c:glass_blocks/tinted"
+      "c:glass_blocks/tinted",
+      "c:glass_blocks"
     ],
     "components": {
       "enchantments": []
@@ -20357,8 +20357,8 @@
     "tags": [
       "c:animal_foods",
       "minecraft:bee_food",
-      "minecraft:flowers",
-      "minecraft:small_flowers"
+      "minecraft:small_flowers",
+      "minecraft:flowers"
     ],
     "components": {
       "enchantments": []
@@ -20374,13 +20374,13 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:villager_plantable_seeds",
-      "c:seeds",
       "minecraft:parrot_food",
+      "c:seeds",
       "minecraft:sniffer_food",
       "c:seeds/torchflower",
+      "c:animal_foods",
       "minecraft:chicken_food",
-      "c:animal_foods"
+      "minecraft:villager_plantable_seeds"
     ],
     "components": {
       "enchantments": []
@@ -20424,9 +20424,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:chests/trapped",
       "c:chests",
-      "c:chests/wooden"
+      "c:chests/wooden",
+      "c:chests/trapped"
     ],
     "components": {
       "enchantments": []
@@ -20470,17 +20470,17 @@
     "fireproof": false,
     "use_animation": "SPEAR",
     "tags": [
-      "c:enchantables",
-      "minecraft:breaks_decorated_pots",
-      "c:tools/ranged_weapons",
       "c:tools/spears",
       "minecraft:enchantable/vanishing",
+      "minecraft:enchantable/durability",
       "c:tools/ranged_weapon",
       "c:tools/spear",
       "c:tools",
-      "minecraft:enchantable/durability",
       "minecraft:enchantable/trident",
-      "c:tools/melee_weapon"
+      "c:tools/melee_weapon",
+      "c:enchantables",
+      "minecraft:breaks_decorated_pots",
+      "c:tools/ranged_weapons"
     ],
     "components": {
       "max_damage": 250,
@@ -20538,10 +20538,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:animal_foods",
+      "c:buckets/entity_water",
       "c:buckets",
       "minecraft:axolotl_food",
-      "c:buckets/entity_water"
+      "c:animal_foods"
     ],
     "components": {
       "enchantments": []
@@ -20753,14 +20753,14 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:enchantable/head_armor",
+      "minecraft:enchantable/equippable",
+      "minecraft:enchantable/vanishing",
       "minecraft:enchantable/durability",
       "c:armors",
+      "minecraft:enchantable/head_armor",
       "c:enchantables",
-      "minecraft:enchantable/vanishing",
       "minecraft:head_armor",
       "minecraft:enchantable/armor",
-      "minecraft:enchantable/equippable",
       "minecraft:trimmable_armor"
     ],
     "components": {
@@ -20984,9 +20984,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:doors",
+      "minecraft:wooden_doors",
       "minecraft:non_flammable_wood",
-      "minecraft:wooden_doors"
+      "minecraft:doors"
     ],
     "components": {
       "enchantments": []
@@ -21002,11 +21002,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:non_flammable_wood",
-      "minecraft:wooden_fences",
       "c:fences",
+      "minecraft:fences",
       "c:fences/wooden",
-      "minecraft:fences"
+      "minecraft:non_flammable_wood",
+      "minecraft:wooden_fences"
     ],
     "components": {
       "enchantments": []
@@ -21041,9 +21041,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:strider_tempt_items",
+      "minecraft:strider_food",
       "c:animal_foods",
-      "minecraft:strider_food"
+      "minecraft:strider_tempt_items"
     ],
     "components": {
       "enchantments": []
@@ -21081,8 +21081,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:non_flammable_wood",
-      "minecraft:hanging_signs"
+      "minecraft:hanging_signs",
+      "minecraft:non_flammable_wood"
     ],
     "components": {
       "enchantments": []
@@ -21131,8 +21131,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:planks",
-      "minecraft:non_flammable_wood"
+      "minecraft:non_flammable_wood",
+      "minecraft:planks"
     ],
     "components": {
       "enchantments": []
@@ -21148,8 +21148,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:wooden_pressure_plates",
-      "minecraft:non_flammable_wood"
+      "minecraft:non_flammable_wood",
+      "minecraft:wooden_pressure_plates"
     ],
     "components": {
       "enchantments": []
@@ -21196,9 +21196,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "minecraft:wooden_slabs",
       "minecraft:slabs",
-      "minecraft:non_flammable_wood",
-      "minecraft:wooden_slabs"
+      "minecraft:non_flammable_wood"
     ],
     "components": {
       "enchantments": []
@@ -21214,8 +21214,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:wooden_stairs",
       "minecraft:stairs",
+      "minecraft:wooden_stairs",
       "minecraft:non_flammable_wood"
     ],
     "components": {
@@ -21286,8 +21286,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:buckets",
-      "c:buckets/water"
+      "c:buckets/water",
+      "c:buckets"
     ],
     "components": {
       "enchantments": []
@@ -22017,14 +22017,14 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:cow_food",
-      "minecraft:horse_food",
-      "c:crops",
       "c:animal_foods",
       "minecraft:llama_food",
       "c:crops/wheat",
+      "minecraft:sheep_food",
       "minecraft:goat_food",
-      "minecraft:sheep_food"
+      "minecraft:cow_food",
+      "minecraft:horse_food",
+      "c:crops"
     ],
     "components": {
       "enchantments": []
@@ -22040,12 +22040,12 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:villager_plantable_seeds",
-      "minecraft:chicken_food",
+      "c:seeds",
       "c:seeds/wheat",
       "minecraft:parrot_food",
-      "c:seeds",
-      "c:animal_foods"
+      "c:animal_foods",
+      "minecraft:chicken_food",
+      "minecraft:villager_plantable_seeds"
     ],
     "components": {
       "enchantments": []
@@ -22061,8 +22061,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyed/white",
       "c:dyed",
+      "c:dyed/white",
       "minecraft:banners"
     ],
     "components": {
@@ -22079,8 +22079,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyed/white",
       "c:dyed",
+      "c:dyed/white",
       "minecraft:beds"
     ],
     "components": {
@@ -22097,9 +22097,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyed/white",
       "minecraft:candles",
-      "c:dyed"
+      "c:dyed",
+      "c:dyed/white"
     ],
     "components": {
       "enchantments": []
@@ -22115,8 +22115,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyed/white",
       "minecraft:wool_carpets",
+      "c:dyed/white",
       "c:dyed",
       "minecraft:dampens_vibrations"
     ],
@@ -22191,8 +22191,8 @@
     "tags": [
       "c:glazed_terracotta",
       "c:dyed/white",
-      "c:glazed_terracottas",
-      "c:dyed"
+      "c:dyed",
+      "c:glazed_terracottas"
     ],
     "components": {
       "enchantments": []
@@ -22208,9 +22208,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "c:dyed",
       "c:dyed/white",
-      "c:shulker_boxes",
-      "c:dyed"
+      "c:shulker_boxes"
     ],
     "components": {
       "enchantments": []
@@ -22245,9 +22245,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyed/white",
       "c:glass_panes",
-      "c:dyed"
+      "c:dyed",
+      "c:dyed/white"
     ],
     "components": {
       "enchantments": []
@@ -22263,9 +22263,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "c:dyed",
       "c:dyed/white",
-      "minecraft:terracotta",
-      "c:dyed"
+      "minecraft:terracotta"
     ],
     "components": {
       "enchantments": []
@@ -22283,8 +22283,8 @@
     "tags": [
       "c:animal_foods",
       "minecraft:bee_food",
-      "minecraft:flowers",
-      "minecraft:small_flowers"
+      "minecraft:small_flowers",
+      "minecraft:flowers"
     ],
     "components": {
       "enchantments": []
@@ -22365,8 +22365,8 @@
     "tags": [
       "c:animal_foods",
       "minecraft:bee_food",
-      "minecraft:flowers",
-      "minecraft:small_flowers"
+      "minecraft:small_flowers",
+      "minecraft:flowers"
     ],
     "components": {
       "enchantments": []
@@ -22382,11 +22382,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "c:enchantables",
       "minecraft:enchantable/vanishing",
       "minecraft:noteblock_top_instruments",
       "minecraft:skulls",
-      "minecraft:enchantable/equippable",
-      "c:enchantables"
+      "minecraft:enchantable/equippable"
     ],
     "components": {
       "enchantments": []
@@ -22463,18 +22463,18 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:tools",
-      "minecraft:enchantable/sharp_weapon",
-      "minecraft:enchantable/durability",
-      "c:tools/melee_weapon",
-      "c:tools/melee_weapons",
-      "minecraft:axes",
-      "minecraft:enchantable/mining_loot",
+      "minecraft:enchantable/vanishing",
       "c:enchantables",
       "minecraft:breaks_decorated_pots",
+      "minecraft:enchantable/sharp_weapon",
+      "c:tools/melee_weapon",
+      "c:tools",
       "minecraft:enchantable/mining",
-      "minecraft:enchantable/vanishing",
-      "minecraft:enchantable/weapon"
+      "minecraft:enchantable/weapon",
+      "minecraft:axes",
+      "minecraft:enchantable/durability",
+      "minecraft:enchantable/mining_loot",
+      "c:tools/melee_weapons"
     ],
     "components": {
       "max_damage": 59,
@@ -22494,14 +22494,14 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:breaks_decorated_pots",
       "minecraft:enchantable/vanishing",
-      "minecraft:enchantable/mining",
       "minecraft:enchantable/mining_loot",
       "c:enchantables",
       "minecraft:hoes",
       "c:tools",
-      "minecraft:enchantable/durability"
+      "minecraft:enchantable/durability",
+      "minecraft:breaks_decorated_pots",
+      "minecraft:enchantable/mining"
     ],
     "components": {
       "max_damage": 59,
@@ -22521,17 +22521,17 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "minecraft:cluster_max_harvestables",
+      "minecraft:enchantable/mining_loot",
+      "minecraft:enchantable/vanishing",
+      "c:tools/mining_tool",
+      "minecraft:pickaxes",
+      "minecraft:enchantable/durability",
+      "c:tools",
       "minecraft:enchantable/mining",
       "c:enchantables",
       "c:tools/mining_tools",
-      "minecraft:breaks_decorated_pots",
-      "minecraft:cluster_max_harvestables",
-      "minecraft:enchantable/mining_loot",
-      "minecraft:pickaxes",
-      "minecraft:enchantable/vanishing",
-      "c:tools/mining_tool",
-      "c:tools",
-      "minecraft:enchantable/durability"
+      "minecraft:breaks_decorated_pots"
     ],
     "components": {
       "max_damage": 59,
@@ -22551,14 +22551,14 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:breaks_decorated_pots",
-      "minecraft:shovels",
       "minecraft:enchantable/vanishing",
-      "minecraft:enchantable/mining",
       "minecraft:enchantable/mining_loot",
       "c:enchantables",
       "c:tools",
-      "minecraft:enchantable/durability"
+      "minecraft:enchantable/durability",
+      "minecraft:breaks_decorated_pots",
+      "minecraft:shovels",
+      "minecraft:enchantable/mining"
     ],
     "components": {
       "max_damage": 59,
@@ -22578,18 +22578,18 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:enchantable/sharp_weapon",
-      "minecraft:enchantable/durability",
-      "minecraft:swords",
-      "c:tools/melee_weapon",
-      "c:tools/melee_weapons",
-      "minecraft:enchantable/fire_aspect",
+      "minecraft:enchantable/vanishing",
       "c:enchantables",
       "minecraft:breaks_decorated_pots",
-      "minecraft:enchantable/vanishing",
-      "minecraft:enchantable/weapon",
+      "minecraft:enchantable/sharp_weapon",
+      "c:tools/melee_weapon",
+      "minecraft:swords",
       "c:tools",
-      "minecraft:enchantable/sword"
+      "minecraft:enchantable/sword",
+      "minecraft:enchantable/weapon",
+      "minecraft:enchantable/durability",
+      "c:tools/melee_weapons",
+      "minecraft:enchantable/fire_aspect"
     ],
     "components": {
       "max_damage": 59,
@@ -22609,8 +22609,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:lectern_books",
-      "minecraft:bookshelf_books"
+      "minecraft:bookshelf_books",
+      "minecraft:lectern_books"
     ],
     "components": {
       "enchantments": []
@@ -22626,8 +22626,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:lectern_books",
-      "minecraft:bookshelf_books"
+      "minecraft:bookshelf_books",
+      "minecraft:lectern_books"
     ],
     "components": {
       "enchantments": []
@@ -22643,9 +22643,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyed/yellow",
       "c:dyed",
-      "minecraft:banners"
+      "minecraft:banners",
+      "c:dyed/yellow"
     ],
     "components": {
       "enchantments": []
@@ -22661,9 +22661,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyed/yellow",
       "c:dyed",
-      "minecraft:beds"
+      "minecraft:beds",
+      "c:dyed/yellow"
     ],
     "components": {
       "enchantments": []
@@ -22679,9 +22679,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyed/yellow",
       "minecraft:candles",
-      "c:dyed"
+      "c:dyed",
+      "c:dyed/yellow"
     ],
     "components": {
       "enchantments": []
@@ -22754,8 +22754,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyes/yellow",
-      "c:dyes"
+      "c:dyes",
+      "c:dyes/yellow"
     ],
     "components": {
       "enchantments": []
@@ -22773,8 +22773,8 @@
     "tags": [
       "c:dyed/yellow",
       "c:glazed_terracotta",
-      "c:glazed_terracottas",
-      "c:dyed"
+      "c:dyed",
+      "c:glazed_terracottas"
     ],
     "components": {
       "enchantments": []
@@ -22790,9 +22790,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyed/yellow",
+      "c:dyed",
       "c:shulker_boxes",
-      "c:dyed"
+      "c:dyed/yellow"
     ],
     "components": {
       "enchantments": []
@@ -22827,9 +22827,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyed/yellow",
       "c:glass_panes",
-      "c:dyed"
+      "c:dyed",
+      "c:dyed/yellow"
     ],
     "components": {
       "enchantments": []
@@ -22845,9 +22845,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyed/yellow",
+      "c:dyed",
       "minecraft:terracotta",
-      "c:dyed"
+      "c:dyed/yellow"
     ],
     "components": {
       "enchantments": []
@@ -22896,11 +22896,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "c:enchantables",
       "minecraft:enchantable/vanishing",
       "minecraft:noteblock_top_instruments",
       "minecraft:skulls",
-      "minecraft:enchantable/equippable",
-      "c:enchantables"
+      "minecraft:enchantable/equippable"
     ],
     "components": {
       "enchantments": []
