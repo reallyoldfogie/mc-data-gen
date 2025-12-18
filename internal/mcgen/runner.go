@@ -46,8 +46,14 @@ func PrepareProject(templateDir, projectDir string, meta *FabricMeta) error {
 			lines[i] = "minecraft_version=" + meta.MinecraftVersion
 			foundMC = true
 		case strings.HasPrefix(trimmed, "yarn_mappings="):
-			lines[i] = "yarn_mappings=" + meta.YarnVersion
-			foundYarn = true
+			// Only set if we have a Yarn version (< 26.1)
+			if meta.YarnVersion != "" {
+				lines[i] = "yarn_mappings=" + meta.YarnVersion
+				foundYarn = true
+			} else {
+				// Remove the line for versions that don't need Yarn
+				lines[i] = ""
+			}
 		case strings.HasPrefix(trimmed, "loader_version="):
 			lines[i] = "loader_version=" + meta.LoaderVersion
 			foundLoader = true
@@ -60,6 +66,7 @@ func PrepareProject(templateDir, projectDir string, meta *FabricMeta) error {
 	if !foundMC {
 		lines = append(lines, "minecraft_version="+meta.MinecraftVersion)
 	}
+	// Only add yarn_mappings if version needs it (< 26.1)
 	if meta.YarnVersion != "" && !foundYarn {
 		lines = append(lines, "yarn_mappings="+meta.YarnVersion)
 	}

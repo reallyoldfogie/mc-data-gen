@@ -7,6 +7,7 @@ import (
     "io"
     "net/http"
     "sort"
+    "strconv"
     "strings"
     "time"
 )
@@ -14,9 +15,68 @@ import (
 // FabricMeta holds the resolved versions for a given Minecraft version.
 type FabricMeta struct {
     MinecraftVersion  string
-    YarnVersion       string // e.g. "1.21.1+build.1"
+    YarnVersion       string // e.g. "1.21.1+build.1" (empty for 26.1+)
     LoaderVersion     string // e.g. "0.16.0"
     FabricAPIVersion  string // e.g. "0.103.0+1.21.1"
+}
+
+// minecraftVersion represents a parsed Minecraft version for comparison.
+type minecraftVersion struct {
+    major int
+    minor int
+    patch int
+}
+
+// parseMinecraftVersion parses a version string like "1.21.1" or "26.1-snapshot-1".
+func parseMinecraftVersion(version string) (minecraftVersion, error) {
+    // Remove snapshot suffix if present
+    version = strings.Split(version, "-")[0]
+    
+    parts := strings.Split(version, ".")
+    if len(parts) < 2 {
+        return minecraftVersion{}, fmt.Errorf("invalid version format: %s", version)
+    }
+    
+    major, err := strconv.Atoi(parts[0])
+    if err != nil {
+        return minecraftVersion{}, fmt.Errorf("invalid major version: %s", parts[0])
+    }
+    
+    minor, err := strconv.Atoi(parts[1])
+    if err != nil {
+        return minecraftVersion{}, fmt.Errorf("invalid minor version: %s", parts[1])
+    }
+    
+    patch := 0
+    if len(parts) >= 3 {
+        patch, err = strconv.Atoi(parts[2])
+        if err != nil {
+            return minecraftVersion{}, fmt.Errorf("invalid patch version: %s", parts[2])
+        }
+    }
+    
+    return minecraftVersion{major: major, minor: minor, patch: patch}, nil
+}
+
+// needsYarnMappings determines if a Minecraft version needs Yarn mappings.
+// Versions >= 26.1 ship with non-obfuscated code and don't need Yarn.
+func needsYarnMappings(mcVersion string) bool {
+    v, err := parseMinecraftVersion(mcVersion)
+    if err != nil {
+        // If we can't parse, assume it needs Yarn (safer default)
+        return true
+    }
+    
+    // Versions before 26.1 need Yarn mappings
+    if v.major < 26 {
+        return true
+    }
+    if v.major == 26 && v.minor < 1 {
+        return true
+    }
+    
+    // 26.1+ doesn't need Yarn
+    return false
 }
 
 // ResolveFabricMeta queries Fabric Meta and Maven to resolve
@@ -24,10 +84,16 @@ type FabricMeta struct {
 func ResolveFabricMeta(mcVersion string) (*FabricMeta, error) {
     client := &http.Client{Timeout: 20 * time.Second}
 
-    yarn, err := fetchYarnForGame(client, mcVersion)
-    if err != nil {
-        return nil, err
+    // Versions >= 26.1 don't need Yarn mappings (non-obfuscated)
+    yarn := ""
+    if needsYarnMappings(mcVersion) {
+        var err error
+        yarn, err = fetchYarnForGame(client, mcVersion)
+        if err != nil {
+            return nil, err
+        }
     }
+    
     loader, err := fetchLoaderForGame(client, mcVersion)
     if err != nil {
         return nil, err

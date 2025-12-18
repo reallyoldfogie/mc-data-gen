@@ -21,7 +21,13 @@ def fabricApiVersion = project.properties["fabric_api_version"]
 
 dependencies {
     minecraft "com.mojang:minecraft:${minecraftVersion}"
-    mappings "net.fabricmc:yarn:${yarnMappings}:v2"
+    
+    // Only use Yarn mappings if provided (versions < 26.1)
+    // Versions >= 26.1 ship with non-obfuscated code
+    if (yarnMappings != null && !yarnMappings.isEmpty()) {
+        mappings "net.fabricmc:yarn:${yarnMappings}:v2"
+    }
+    
     modImplementation "net.fabricmc:fabric-loader:${loaderVersion}"
     modImplementation "net.fabricmc.fabric-api:fabric-api:${fabricApiVersion}"
 }
