@@ -41,6 +41,7 @@ func PrepareProject(templateDir, projectDir string, meta *FabricMeta) error {
 	foundYarn := false
 	foundLoader := false
 	foundAPI := false
+	foundLoom := false
 
 	for i, line := range lines {
 		trimmed := strings.TrimSpace(line)
@@ -63,6 +64,9 @@ func PrepareProject(templateDir, projectDir string, meta *FabricMeta) error {
 		case strings.HasPrefix(trimmed, "fabric_api_version="):
 			lines[i] = "fabric_api_version=" + meta.FabricAPIVersion
 			foundAPI = true
+		case strings.HasPrefix(trimmed, "loom_version="):
+			lines[i] = "loom_version=" + meta.LoomVersion
+			foundLoom = true
 		}
 	}
 
@@ -79,12 +83,45 @@ func PrepareProject(templateDir, projectDir string, meta *FabricMeta) error {
 	if meta.FabricAPIVersion != "" && !foundAPI {
 		lines = append(lines, "fabric_api_version="+meta.FabricAPIVersion)
 	}
+	if meta.LoomVersion != "" && !foundLoom {
+		lines = append(lines, "loom_version="+meta.LoomVersion)
+	}
 
 	out := strings.Join(lines, "\n")
 	if err := os.WriteFile(gradlePropsPath, []byte(out), 0o644); err != nil {
 		return fmt.Errorf("write gradle.properties: %w", err)
 	}
 
+	// Update Loom version in build.gradle
+	if err := updateLoomVersion(projectDir, meta.LoomVersion); err != nil {
+		return fmt.Errorf("update loom version: %w", err)
+	}
+
+	return nil
+}
+
+// updateLoomVersion replaces the Loom version in build.gradle
+func updateLoomVersion(projectDir, loomVersion string) error {
+	buildGradlePath := filepath.Join(projectDir, "build.gradle")
+	
+	data, err := os.ReadFile(buildGradlePath)
+	if err != nil {
+		return fmt.Errorf("read build.gradle: %w", err)
+	}
+	
+	// Replace the Loom version line
+	content := string(data)
+	content = strings.ReplaceAll(content,
+		`id "fabric-loom" version "1.11-SNAPSHOT"`,
+		`id "fabric-loom" version "`+loomVersion+`"`)
+	content = strings.ReplaceAll(content,
+		`id "fabric-loom" version "1.14-SNAPSHOT"`,
+		`id "fabric-loom" version "`+loomVersion+`"`)
+	
+	if err := os.WriteFile(buildGradlePath, []byte(content), 0o644); err != nil {
+		return fmt.Errorf("write build.gradle: %w", err)
+	}
+	
 	return nil
 }
 

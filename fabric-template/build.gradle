@@ -1,5 +1,5 @@
 plugins {
-    id "fabric-loom" version "1.14-SNAPSHOT"
+    id "fabric-loom" version "1.11-SNAPSHOT"
     id "java"
 }
 
@@ -37,18 +37,6 @@ loom {
         server {
             server()
             name "Data Exporter Server"
-            
-            // Override JVM args to remove Java 23+ flags when using Java 21
-            if (minecraftVersion != null) {
-                def versionParts = minecraftVersion.tokenize('.')
-                if (versionParts.size() >= 1) {
-                    def major = versionParts[0].toInteger()
-                    if (major < 26) {
-                        // For Minecraft < 26.1 (Java 21), clear incompatible flags
-                        property "fabric-loom.jvmArgs", ""
-                    }
-                }
-            }
         }
     }
 }

@@ -84,6 +84,7 @@ func processVersion(version, workDir string, cfg *mcgen.Config) error {
 	fmt.Printf("  yarn_mappings     = %s\n", meta.YarnVersion)
 	fmt.Printf("  loader_version    = %s\n", meta.LoaderVersion)
 	fmt.Printf("  fabric_api_version= %s\n", meta.FabricAPIVersion)
+	fmt.Printf("  loom_version      = %s\n", meta.LoomVersion)
 
 	projectDir := filepath.Join(workDir, version)
 

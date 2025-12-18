@@ -18,6 +18,7 @@ type FabricMeta struct {
     YarnVersion       string // e.g. "1.21.1+build.1" (empty for 26.1+)
     LoaderVersion     string // e.g. "0.16.0"
     FabricAPIVersion  string // e.g. "0.103.0+1.21.1"
+    LoomVersion       string // e.g. "1.11-SNAPSHOT" or "1.14-SNAPSHOT"
 }
 
 // minecraftVersion represents a parsed Minecraft version for comparison.
@@ -103,11 +104,21 @@ func ResolveFabricMeta(mcVersion string) (*FabricMeta, error) {
         return nil, err
     }
 
+    // Select Loom version based on Minecraft version
+    // 26.1+ uses Loom 1.14-SNAPSHOT (supports Java 25)
+    // < 26.1 uses Loom 1.11-SNAPSHOT (no Java 23+ flags)
+    loomVersion := "1.11-SNAPSHOT"
+    v, err := parseMinecraftVersion(mcVersion)
+    if err == nil && v.major >= 26 {
+        loomVersion = "1.14-SNAPSHOT"
+    }
+
     return &FabricMeta{
         MinecraftVersion: mcVersion,
         YarnVersion:      yarn,
         LoaderVersion:    loader,
         FabricAPIVersion: fabricAPI,
+        LoomVersion:      loomVersion,
     }, nil
 }
 
