@@ -6,6 +6,7 @@ import (
 	"os"
 	"os/exec"
 	"path/filepath"
+	"sort"
 	"strings"
 
 	loader "github.com/reallyoldfogie/mc-data-gen/loader"
@@ -204,7 +205,15 @@ func shardFile(inputPath, outRoot string) error {
 		byBlock[r.BlockID] = append(byBlock[r.BlockID], slim)
 	}
 
-	for blockID, states := range byBlock {
+	// Process blocks in sorted order for deterministic output
+	var blockIDs []string
+	for blockID := range byBlock {
+		blockIDs = append(blockIDs, blockID)
+	}
+	sort.Strings(blockIDs)
+
+	for _, blockID := range blockIDs {
+		states := byBlock[blockID]
 		ns, path := splitBlockID(blockID) // e.g. "minecraft", "oak_fence"
 
 		dir := filepath.Join(outRoot, ns)

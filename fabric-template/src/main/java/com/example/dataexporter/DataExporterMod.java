@@ -34,9 +34,12 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.TreeMap;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -80,7 +83,8 @@ public class DataExporterMod implements ModInitializer {
 
         LOGGER.info("[DataExporter] Writing block data to {}", outFile.toAbsolutePath());
 
-        JsonArray allStates = new JsonArray();
+        // Collect all block entries first, then sort by block ID
+        List<JsonObject> allEntries = new ArrayList<>();
 
         var world = server.getOverworld();
         BlockPos pos = BlockPos.ORIGIN;
@@ -146,8 +150,17 @@ public class DataExporterMod implements ModInitializer {
 
                 // --- END TAG SEMANTICS ---
 
-                allStates.add(entry);
+                allEntries.add(entry);
             }
+        }
+
+        // Sort by block_id for deterministic output
+        allEntries.sort(Comparator.comparing(e -> e.get("block_id").getAsString()));
+
+        // Convert to JsonArray
+        JsonArray allStates = new JsonArray();
+        for (JsonObject entry : allEntries) {
+            allStates.add(entry);
         }
 
         try (var writer = new OutputStreamWriter(
@@ -165,8 +178,8 @@ public class DataExporterMod implements ModInitializer {
         Files.createDirectories(outDir);
         Path outFile = outDir.resolve("items.json");
 
-        Map<String, Object> allItems = new LinkedHashMap<>();
-        // JsonArray allItems = new JsonArray();
+        // Use TreeMap for automatic sorting by key (item ID)
+        Map<String, Object> allItems = new TreeMap<>();
 
         for (Identifier id : Registries.ITEM.getIds()) {
             Item item = Registries.ITEM.get(id);
