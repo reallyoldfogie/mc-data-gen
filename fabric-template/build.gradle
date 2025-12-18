@@ -23,9 +23,11 @@ dependencies {
     minecraft "com.mojang:minecraft:${minecraftVersion}"
     
     // Only use Yarn mappings if provided (versions < 26.1)
-    // Versions >= 26.1 ship with non-obfuscated code
+    // Versions >= 26.1 ship with non-obfuscated code, use official Mojang mappings
     if (yarnMappings != null && !yarnMappings.isEmpty()) {
         mappings "net.fabricmc:yarn:${yarnMappings}:v2"
+    } else {
+        mappings loom.officialMojangMappings()
     }
     
     modImplementation "net.fabricmc:fabric-loader:${loaderVersion}"
