@@ -8898,6 +8898,7 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "minecraft:piglin_loved",
       "minecraft:breaks_decorated_pots",
       "c:tools/mining_tools",
       "c:enchantables",
@@ -8908,8 +8909,7 @@
       "c:tools",
       "c:tools/mining_tool",
       "minecraft:enchantable/vanishing",
-      "minecraft:enchantable/mining",
-      "minecraft:piglin_loved"
+      "minecraft:enchantable/mining"
     ],
     "components": {
       "max_damage": 32,

@@ -210,7 +210,11 @@ func fetchFabricAPIVersion(client *http.Client, mcVersion string) (string, error
         return "", fmt.Errorf("decode fabric-api metadata: %w", err)
     }
 
-    suffix := "+" + mcVersion
+    // Strip snapshot suffix for Fabric API lookup (e.g., 26.1-snapshot-1 -> 26.1)
+    // Fabric API versions use base version numbers only
+    baseVersion := strings.Split(mcVersion, "-")[0]
+    suffix := "+" + baseVersion
+    
     var candidates []string
     for _, v := range meta.Versioning.Versions {
         if strings.HasSuffix(v, suffix) {
@@ -218,7 +222,7 @@ func fetchFabricAPIVersion(client *http.Client, mcVersion string) (string, error
         }
     }
     if len(candidates) == 0 {
-        return "", fmt.Errorf("no fabric-api versions for minecraft %s", mcVersion)
+        return "", fmt.Errorf("no fabric-api versions for minecraft %s (base: %s)", mcVersion, baseVersion)
     }
     sort.Strings(candidates)
     return candidates[len(candidates)-1], nil
