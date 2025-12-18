@@ -33,6 +33,18 @@ dependencies {
 }
 
 loom {
+    // Disable Java 23+ JVM flags for Java 21
+    if (minecraftVersion != null) {
+        def versionParts = minecraftVersion.tokenize('.')
+        if (versionParts.size() >= 1) {
+            def major = versionParts[0].toInteger()
+            if (major < 26) {
+                // For Minecraft < 26.1 (Java 21), disable the unsafe memory access flag
+                serverJvmArgs = []
+            }
+        }
+    }
+    
     runs {
         server {
             server()
