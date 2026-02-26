@@ -25,7 +25,7 @@ versions:
   - "1.21.8"
   - "1.21.9"
   - "1.21.10"
-  - "26.1-snapshot-1"
+  - "1.21.11"
 
 # Where the Fabric mod writes its JSON (relative to project root).
 generator_output_rel: "run/data"

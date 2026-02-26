@@ -106,11 +106,16 @@ func ResolveFabricMeta(mcVersion string) (*FabricMeta, error) {
 
     // Select Loom version based on Minecraft version
     // 26.1+ uses Loom 1.14-SNAPSHOT (supports Java 25)
-    // < 26.1 uses Loom 1.11-SNAPSHOT (no Java 23+ flags)
+    // 1.21.11+ requires Loom >= 1.13.3 (some Fabric API modules are built with newer Loom)
+    // Older versions use Loom 1.11-SNAPSHOT
     loomVersion := "1.11-SNAPSHOT"
     v, err := parseMinecraftVersion(mcVersion)
-    if err == nil && v.major >= 26 {
-        loomVersion = "1.14-SNAPSHOT"
+    if err == nil {
+        if v.major >= 26 {
+            loomVersion = "1.14-SNAPSHOT"
+        } else if v.major == 1 && v.minor == 21 && v.patch >= 11 {
+            loomVersion = "1.13.3"
+        }
     }
 
     return &FabricMeta{
