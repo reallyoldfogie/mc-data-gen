@@ -1,0 +1,17 @@
+{
+  "entity_id": "minecraft:glow_item_frame",
+  "data": {
+    "spawn_group": "MISC",
+    "fire_immune": false,
+    "default_dimensions": {
+      "width": 0.5,
+      "height": 0.5,
+      "eye_height": 0,
+      "fixed": false
+    },
+    "pose_dimensions": {},
+    "size_variants": [],
+    "attributes": [],
+    "tags": []
+  }
+}

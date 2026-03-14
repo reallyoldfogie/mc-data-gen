@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:emerald",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.emerald",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:gems/emerald",
+      "minecraft:beacon_payment_items",
+      "c:gems",
+      "minecraft:trim_materials"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

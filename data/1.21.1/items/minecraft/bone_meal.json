@@ -1,0 +1,16 @@
+{
+  "item_id": "minecraft:bone_meal",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.bone_meal",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:fertilizers"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

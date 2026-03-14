@@ -1,0 +1,59 @@
+{
+  "entity_id": "minecraft:goat",
+  "data": {
+    "spawn_group": "CREATURE",
+    "fire_immune": false,
+    "default_dimensions": {
+      "width": 0.9,
+      "height": 1.3,
+      "eye_height": 1.105,
+      "fixed": false
+    },
+    "pose_dimensions": {
+      "long_jumping": {
+        "width": 0.63,
+        "height": 0.90999997,
+        "eye_height": 0.7735,
+        "fixed": false
+      }
+    },
+    "size_variants": [],
+    "baby_dimensions": {
+      "width": 0.45,
+      "height": 0.65,
+      "eye_height": 0.5525,
+      "fixed": false
+    },
+    "attributes": [
+      {
+        "name": "minecraft:generic.max_health",
+        "base_value": 10
+      },
+      {
+        "name": "minecraft:generic.movement_speed",
+        "base_value": 0.20000000298023224
+      },
+      {
+        "name": "minecraft:generic.attack_damage",
+        "base_value": 2
+      },
+      {
+        "name": "minecraft:generic.attack_knockback",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:generic.armor",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:generic.follow_range",
+        "base_value": 16
+      },
+      {
+        "name": "minecraft:generic.knockback_resistance",
+        "base_value": 0
+      }
+    ],
+    "tags": []
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "item_id": "minecraft:light_blue_candle",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.light_blue_candle",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:dyed/light_blue",
+      "c:dyed",
+      "minecraft:candles"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

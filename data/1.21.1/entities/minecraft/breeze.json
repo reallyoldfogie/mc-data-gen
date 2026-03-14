@@ -1,0 +1,51 @@
+{
+  "entity_id": "minecraft:breeze",
+  "data": {
+    "spawn_group": "MONSTER",
+    "fire_immune": false,
+    "default_dimensions": {
+      "width": 0.6,
+      "height": 1.77,
+      "eye_height": 1.3452,
+      "fixed": false
+    },
+    "pose_dimensions": {},
+    "size_variants": [],
+    "attributes": [
+      {
+        "name": "minecraft:generic.max_health",
+        "base_value": 30
+      },
+      {
+        "name": "minecraft:generic.movement_speed",
+        "base_value": 0.6299999952316284
+      },
+      {
+        "name": "minecraft:generic.attack_damage",
+        "base_value": 3
+      },
+      {
+        "name": "minecraft:generic.attack_knockback",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:generic.armor",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:generic.follow_range",
+        "base_value": 24
+      },
+      {
+        "name": "minecraft:generic.knockback_resistance",
+        "base_value": 0
+      }
+    ],
+    "tags": [
+      "minecraft:can_turn_in_boats",
+      "minecraft:deflects_projectiles",
+      "minecraft:fall_damage_immune",
+      "minecraft:no_anger_from_wind_charge"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "entity_id": "minecraft:area_effect_cloud",
+  "data": {
+    "spawn_group": "MISC",
+    "fire_immune": true,
+    "default_dimensions": {
+      "width": 6,
+      "height": 0.5,
+      "eye_height": 0.425,
+      "fixed": false
+    },
+    "pose_dimensions": {},
+    "size_variants": [],
+    "attributes": [],
+    "tags": []
+  }
+}

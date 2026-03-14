@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:cobbled_deepslate",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.cobbled_deepslate",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:stone_tool_materials",
+      "c:cobblestones",
+      "c:cobblestones/deepslate",
+      "minecraft:stone_crafting_materials"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:magenta_carpet",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.magenta_carpet",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:dampens_vibrations",
+      "c:dyed",
+      "c:dyed/magenta",
+      "minecraft:wool_carpets"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

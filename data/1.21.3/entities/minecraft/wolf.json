@@ -1,0 +1,17 @@
+{
+  "entity_id": "minecraft:wolf",
+  "data": {
+    "spawn_group": "CREATURE",
+    "fire_immune": false,
+    "default_dimensions": {
+      "width": 0.6,
+      "height": 0.85,
+      "eye_height": 0.68,
+      "fixed": false
+    },
+    "pose_dimensions": {},
+    "size_variants": [],
+    "attributes": [],
+    "tags": []
+  }
+}

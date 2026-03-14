@@ -1,0 +1,23 @@
+{
+  "item_id": "minecraft:wheat",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.wheat",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:horse_food",
+      "minecraft:sheep_food",
+      "minecraft:cow_food",
+      "minecraft:goat_food",
+      "c:crops/wheat",
+      "minecraft:llama_food",
+      "c:animal_foods",
+      "c:crops"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "item_id": "minecraft:cod",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.cod",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "EAT",
+    "tags": [
+      "minecraft:cat_food",
+      "minecraft:ocelot_food",
+      "c:foods/raw_fish",
+      "c:animal_foods",
+      "minecraft:fishes",
+      "c:foods",
+      "c:foods/raw_fishes"
+    ],
+    "components": {
+      "food": {
+        "nutrition": 2,
+        "saturation": 0.4,
+        "can_always_eat": false
+      }
+    },
+    "is_weapon": false,
+    "is_food": true
+  }
+}

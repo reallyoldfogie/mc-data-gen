@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:light_blue_carpet",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.light_blue_carpet",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:wool_carpets",
+      "c:dyed/light_blue",
+      "minecraft:dampens_vibrations",
+      "c:dyed"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

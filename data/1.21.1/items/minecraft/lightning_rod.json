@@ -1,0 +1,14 @@
+{
+  "item_id": "minecraft:lightning_rod",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.lightning_rod",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

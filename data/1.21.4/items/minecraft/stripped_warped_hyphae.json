@@ -1,0 +1,20 @@
+{
+  "item_id": "minecraft:stripped_warped_hyphae",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.stripped_warped_hyphae",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:non_flammable_wood",
+      "minecraft:warped_stems",
+      "minecraft:completes_find_tree_tutorial",
+      "c:stripped_woods",
+      "minecraft:logs"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

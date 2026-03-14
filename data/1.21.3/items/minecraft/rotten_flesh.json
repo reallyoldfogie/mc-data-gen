@@ -1,0 +1,26 @@
+{
+  "item_id": "minecraft:rotten_flesh",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.rotten_flesh",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "EAT",
+    "tags": [
+      "minecraft:wolf_food",
+      "minecraft:meat",
+      "c:animal_foods",
+      "c:foods/food_poisoning",
+      "c:foods"
+    ],
+    "components": {
+      "food": {
+        "nutrition": 4,
+        "saturation": 0.8,
+        "can_always_eat": false
+      }
+    },
+    "is_weapon": false,
+    "is_food": true
+  }
+}

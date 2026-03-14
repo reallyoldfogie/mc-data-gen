@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:iron_block",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.iron_block",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:storage_blocks/iron",
+      "c:storage_blocks"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

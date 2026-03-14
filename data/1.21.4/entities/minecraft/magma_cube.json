@@ -1,0 +1,22 @@
+{
+  "entity_id": "minecraft:magma_cube",
+  "data": {
+    "spawn_group": "MONSTER",
+    "fire_immune": true,
+    "default_dimensions": {
+      "width": 0.52,
+      "height": 0.52,
+      "eye_height": 0.325,
+      "fixed": false
+    },
+    "pose_dimensions": {},
+    "size_variants": [],
+    "attributes": [],
+    "tags": [
+      "minecraft:fall_damage_immune",
+      "minecraft:freeze_hurts_extra_types",
+      "minecraft:frog_food",
+      "minecraft:non_controlling_rider"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "item_id": "minecraft:golden_axe",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.golden_axe",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:tools",
+      "minecraft:enchantable/durability",
+      "minecraft:breaks_decorated_pots",
+      "minecraft:enchantable/sharp_weapon",
+      "minecraft:piglin_loved",
+      "minecraft:enchantable/mining",
+      "minecraft:axes",
+      "c:tools/melee_weapons",
+      "minecraft:enchantable/mining_loot",
+      "c:tools/melee_weapon",
+      "minecraft:enchantable/weapon",
+      "minecraft:enchantable/vanishing",
+      "c:enchantables"
+    ],
+    "components": {
+      "max_damage": 32,
+      "max_damage_stack": 32,
+      "damage": 0,
+      "is_tool": true
+    },
+    "is_weapon": true,
+    "is_food": false
+  }
+}

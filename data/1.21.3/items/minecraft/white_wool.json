@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:white_wool",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.white_wool",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:wool",
+      "c:dyed/white",
+      "minecraft:dampens_vibrations",
+      "c:dyed"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

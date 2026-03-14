@@ -1,0 +1,20 @@
+{
+  "item_id": "minecraft:carved_pumpkin",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.carved_pumpkin",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:pumpkins/carved",
+      "minecraft:enchantable/vanishing",
+      "minecraft:enchantable/equippable",
+      "c:pumpkins",
+      "c:enchantables"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

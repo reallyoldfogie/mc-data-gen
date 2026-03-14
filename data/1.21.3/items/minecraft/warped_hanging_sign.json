@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:warped_hanging_sign",
+  "data": {
+    "max_stack_size": 16,
+    "translation_key": "block.minecraft.warped_hanging_sign",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:non_flammable_wood",
+      "minecraft:hanging_signs"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

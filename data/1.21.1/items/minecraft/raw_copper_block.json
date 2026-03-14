@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:raw_copper_block",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.raw_copper_block",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:storage_blocks",
+      "c:raw_blocks/copper",
+      "c:raw_blocks",
+      "c:storage_blocks/raw_copper"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

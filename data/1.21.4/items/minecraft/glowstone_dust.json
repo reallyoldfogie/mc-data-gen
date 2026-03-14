@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:glowstone_dust",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.glowstone_dust",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:dusts/glowstone",
+      "c:dusts"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "entity_id": "minecraft:axolotl",
+  "data": {
+    "spawn_group": "AXOLOTLS",
+    "fire_immune": false,
+    "default_dimensions": {
+      "width": 0.75,
+      "height": 0.42,
+      "eye_height": 0.2751,
+      "fixed": false
+    },
+    "pose_dimensions": {},
+    "size_variants": [],
+    "baby_dimensions": {
+      "width": 0.375,
+      "height": 0.21,
+      "eye_height": 0.13755,
+      "fixed": false
+    },
+    "attributes": [
+      {
+        "name": "minecraft:generic.max_health",
+        "base_value": 14
+      },
+      {
+        "name": "minecraft:generic.movement_speed",
+        "base_value": 1
+      },
+      {
+        "name": "minecraft:generic.attack_damage",
+        "base_value": 2
+      },
+      {
+        "name": "minecraft:generic.attack_knockback",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:generic.armor",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:generic.follow_range",
+        "base_value": 16
+      },
+      {
+        "name": "minecraft:generic.knockback_resistance",
+        "base_value": 0
+      }
+    ],
+    "tags": [
+      "minecraft:aquatic",
+      "minecraft:can_breathe_under_water",
+      "minecraft:sensitive_to_impaling"
+    ]
+  }
+}

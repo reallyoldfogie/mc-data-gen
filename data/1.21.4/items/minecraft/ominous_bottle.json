@@ -1,0 +1,20 @@
+{
+  "item_id": "minecraft:ominous_bottle",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.ominous_bottle",
+    "rarity": "UNCOMMON",
+    "fireproof": false,
+    "use_animation": "DRINK",
+    "tags": [
+      "c:drinks/magic",
+      "c:drinks",
+      "c:drink_containing/bottle",
+      "c:foods",
+      "c:drinks/ominous"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

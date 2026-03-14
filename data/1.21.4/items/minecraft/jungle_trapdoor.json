@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:jungle_trapdoor",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.jungle_trapdoor",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:trapdoors",
+      "minecraft:wooden_trapdoors"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

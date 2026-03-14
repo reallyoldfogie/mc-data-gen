@@ -1,0 +1,32 @@
+{
+  "item_id": "minecraft:diamond_sword",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.diamond_sword",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:tools/melee_weapons",
+      "minecraft:enchantable/fire_aspect",
+      "minecraft:enchantable/vanishing",
+      "c:enchantables",
+      "minecraft:breaks_decorated_pots",
+      "c:tools",
+      "c:tools/melee_weapon",
+      "minecraft:enchantable/sword",
+      "minecraft:enchantable/weapon",
+      "minecraft:enchantable/durability",
+      "minecraft:swords",
+      "minecraft:enchantable/sharp_weapon"
+    ],
+    "components": {
+      "max_damage": 1561,
+      "max_damage_stack": 1561,
+      "damage": 0,
+      "is_tool": true
+    },
+    "is_weapon": true,
+    "is_food": false
+  }
+}

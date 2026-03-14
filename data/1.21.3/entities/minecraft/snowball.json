@@ -1,0 +1,19 @@
+{
+  "entity_id": "minecraft:snowball",
+  "data": {
+    "spawn_group": "MISC",
+    "fire_immune": false,
+    "default_dimensions": {
+      "width": 0.25,
+      "height": 0.25,
+      "eye_height": 0.2125,
+      "fixed": false
+    },
+    "pose_dimensions": {},
+    "size_variants": [],
+    "attributes": [],
+    "tags": [
+      "minecraft:impact_projectiles"
+    ]
+  }
+}

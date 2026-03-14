@@ -1,0 +1,45 @@
+{
+  "entity_id": "minecraft:snow_golem",
+  "data": {
+    "spawn_group": "MISC",
+    "fire_immune": false,
+    "default_dimensions": {
+      "width": 0.7,
+      "height": 1.9,
+      "eye_height": 1.7,
+      "fixed": false
+    },
+    "pose_dimensions": {},
+    "size_variants": [],
+    "attributes": [
+      {
+        "name": "minecraft:generic.max_health",
+        "base_value": 4
+      },
+      {
+        "name": "minecraft:generic.movement_speed",
+        "base_value": 0.20000000298023224
+      },
+      {
+        "name": "minecraft:generic.attack_knockback",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:generic.armor",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:generic.follow_range",
+        "base_value": 16
+      },
+      {
+        "name": "minecraft:generic.knockback_resistance",
+        "base_value": 0
+      }
+    ],
+    "tags": [
+      "minecraft:fall_damage_immune",
+      "minecraft:freeze_immune_entity_types"
+    ]
+  }
+}

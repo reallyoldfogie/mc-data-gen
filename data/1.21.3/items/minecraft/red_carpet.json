@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:red_carpet",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.red_carpet",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:wool_carpets",
+      "c:dyed/red",
+      "minecraft:dampens_vibrations",
+      "c:dyed"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

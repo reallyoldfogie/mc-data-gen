@@ -1,0 +1,31 @@
+{
+  "item_id": "minecraft:stone_pickaxe",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.stone_pickaxe",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:pickaxes",
+      "minecraft:enchantable/vanishing",
+      "c:tools/mining_tool",
+      "minecraft:enchantable/durability",
+      "c:tools",
+      "minecraft:enchantable/mining",
+      "c:enchantables",
+      "c:tools/mining_tools",
+      "minecraft:breaks_decorated_pots",
+      "minecraft:cluster_max_harvestables",
+      "minecraft:enchantable/mining_loot"
+    ],
+    "components": {
+      "max_damage": 131,
+      "max_damage_stack": 131,
+      "damage": 0,
+      "is_tool": true
+    },
+    "is_weapon": false,
+    "is_food": false
+  }
+}

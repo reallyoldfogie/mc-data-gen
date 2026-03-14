@@ -1,0 +1,16 @@
+{
+  "item_id": "minecraft:spire_armor_trim_smithing_template",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.spire_armor_trim_smithing_template",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:trim_templates"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

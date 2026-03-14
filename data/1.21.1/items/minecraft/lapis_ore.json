@@ -1,0 +1,20 @@
+{
+  "item_id": "minecraft:lapis_ore",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.lapis_ore",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:lapis_ores",
+      "c:ore_rates/dense",
+      "c:ores_in_ground/stone",
+      "c:ores/lapis",
+      "c:ores"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "entity_id": "minecraft:ravager",
+  "data": {
+    "spawn_group": "MONSTER",
+    "fire_immune": false,
+    "default_dimensions": {
+      "width": 1.95,
+      "height": 2.2,
+      "eye_height": 1.8700001,
+      "fixed": false
+    },
+    "pose_dimensions": {},
+    "size_variants": [],
+    "attributes": [
+      {
+        "name": "minecraft:generic.max_health",
+        "base_value": 100
+      },
+      {
+        "name": "minecraft:generic.movement_speed",
+        "base_value": 0.3
+      },
+      {
+        "name": "minecraft:generic.attack_damage",
+        "base_value": 12
+      },
+      {
+        "name": "minecraft:generic.attack_knockback",
+        "base_value": 1.5
+      },
+      {
+        "name": "minecraft:generic.armor",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:generic.follow_range",
+        "base_value": 32
+      },
+      {
+        "name": "minecraft:generic.knockback_resistance",
+        "base_value": 0.75
+      }
+    ],
+    "tags": [
+      "minecraft:dismounts_underwater",
+      "minecraft:raiders"
+    ]
+  }
+}

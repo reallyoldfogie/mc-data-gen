@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:green_wool",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.green_wool",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:wool",
+      "c:dyed/green",
+      "minecraft:dampens_vibrations",
+      "c:dyed"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

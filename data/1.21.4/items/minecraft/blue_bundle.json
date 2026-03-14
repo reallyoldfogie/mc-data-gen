@@ -1,0 +1,18 @@
+{
+  "item_id": "minecraft:blue_bundle",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.blue_bundle",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "BUNDLE",
+    "tags": [
+      "c:dyed/blue",
+      "c:dyed",
+      "minecraft:bundles"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

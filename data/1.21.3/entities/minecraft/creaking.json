@@ -1,0 +1,17 @@
+{
+  "entity_id": "minecraft:creaking",
+  "data": {
+    "spawn_group": "MONSTER",
+    "fire_immune": true,
+    "default_dimensions": {
+      "width": 0.9,
+      "height": 2.7,
+      "eye_height": 2.3,
+      "fixed": false
+    },
+    "pose_dimensions": {},
+    "size_variants": [],
+    "attributes": [],
+    "tags": []
+  }
+}

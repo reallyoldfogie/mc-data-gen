@@ -1,0 +1,16 @@
+{
+  "item_id": "minecraft:splash_potion",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.splash_potion",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:potions"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

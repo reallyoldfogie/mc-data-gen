@@ -1,0 +1,18 @@
+{
+  "item_id": "minecraft:copper_ingot",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.copper_ingot",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:ingots",
+      "minecraft:trim_materials",
+      "c:ingots/copper"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:crimson_hanging_sign",
+  "data": {
+    "max_stack_size": 16,
+    "translation_key": "block.minecraft.crimson_hanging_sign",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:hanging_signs",
+      "minecraft:non_flammable_wood"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

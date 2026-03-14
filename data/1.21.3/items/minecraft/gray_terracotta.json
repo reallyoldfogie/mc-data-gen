@@ -1,0 +1,18 @@
+{
+  "item_id": "minecraft:gray_terracotta",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.gray_terracotta",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:dyed/gray",
+      "minecraft:terracotta",
+      "c:dyed"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

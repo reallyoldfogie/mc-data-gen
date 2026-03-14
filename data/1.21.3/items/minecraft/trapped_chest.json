@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:trapped_chest",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.trapped_chest",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:chests",
+      "c:chests/wooden"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:lily_of_the_valley",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.lily_of_the_valley",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:animal_foods",
+      "minecraft:bee_food",
+      "minecraft:small_flowers",
+      "minecraft:flowers"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

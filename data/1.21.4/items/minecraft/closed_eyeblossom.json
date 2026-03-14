@@ -1,0 +1,18 @@
+{
+  "item_id": "minecraft:closed_eyeblossom",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.closed_eyeblossom",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:flowers",
+      "c:flowers/small",
+      "minecraft:small_flowers"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

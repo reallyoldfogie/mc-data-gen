@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:white_concrete",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.white_concrete",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:dyed/white",
+      "c:concretes",
+      "c:concrete",
+      "c:dyed"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

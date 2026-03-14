@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:nether_brick",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.nether_brick",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:bricks/nether",
+      "c:bricks"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

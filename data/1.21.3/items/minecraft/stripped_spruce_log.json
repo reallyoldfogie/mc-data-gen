@@ -1,0 +1,20 @@
+{
+  "item_id": "minecraft:stripped_spruce_log",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.stripped_spruce_log",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:stripped_logs",
+      "minecraft:completes_find_tree_tutorial",
+      "minecraft:logs",
+      "minecraft:logs_that_burn",
+      "minecraft:spruce_logs"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

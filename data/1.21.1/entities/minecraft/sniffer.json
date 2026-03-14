@@ -1,0 +1,48 @@
+{
+  "entity_id": "minecraft:sniffer",
+  "data": {
+    "spawn_group": "CREATURE",
+    "fire_immune": false,
+    "default_dimensions": {
+      "width": 1.9,
+      "height": 1.75,
+      "eye_height": 1.05,
+      "fixed": false
+    },
+    "pose_dimensions": {},
+    "size_variants": [],
+    "baby_dimensions": {
+      "width": 0.95,
+      "height": 0.875,
+      "eye_height": 0.525,
+      "fixed": false
+    },
+    "attributes": [
+      {
+        "name": "minecraft:generic.max_health",
+        "base_value": 14
+      },
+      {
+        "name": "minecraft:generic.movement_speed",
+        "base_value": 0.10000000149011612
+      },
+      {
+        "name": "minecraft:generic.attack_knockback",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:generic.armor",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:generic.follow_range",
+        "base_value": 16
+      },
+      {
+        "name": "minecraft:generic.knockback_resistance",
+        "base_value": 0
+      }
+    ],
+    "tags": []
+  }
+}

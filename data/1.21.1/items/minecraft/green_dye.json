@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:green_dye",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.green_dye",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:dyes/green",
+      "c:dyes"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

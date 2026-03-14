@@ -1,0 +1,14 @@
+{
+  "item_id": "minecraft:clay_ball",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.clay_ball",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

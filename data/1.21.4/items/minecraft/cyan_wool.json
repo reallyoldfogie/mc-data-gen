@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:cyan_wool",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.cyan_wool",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:dyed",
+      "minecraft:dampens_vibrations",
+      "minecraft:wool",
+      "c:dyed/cyan"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

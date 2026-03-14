@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:leather",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.leather",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:leathers",
+      "minecraft:ignored_by_piglin_babies"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

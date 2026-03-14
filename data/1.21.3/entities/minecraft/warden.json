@@ -1,0 +1,17 @@
+{
+  "entity_id": "minecraft:warden",
+  "data": {
+    "spawn_group": "MONSTER",
+    "fire_immune": true,
+    "default_dimensions": {
+      "width": 0.9,
+      "height": 2.9,
+      "eye_height": 2.4650002,
+      "fixed": false
+    },
+    "pose_dimensions": {},
+    "size_variants": [],
+    "attributes": [],
+    "tags": []
+  }
+}

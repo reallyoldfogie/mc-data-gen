@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:birch_stairs",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.birch_stairs",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:wooden_stairs",
+      "minecraft:stairs"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

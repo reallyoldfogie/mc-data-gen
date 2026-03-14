@@ -1,0 +1,25 @@
+{
+  "item_id": "minecraft:spider_eye",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.spider_eye",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "EAT",
+    "tags": [
+      "c:foods/food_poisoning",
+      "c:animal_foods",
+      "minecraft:armadillo_food",
+      "c:foods"
+    ],
+    "components": {
+      "food": {
+        "nutrition": 2,
+        "saturation": 3.2,
+        "can_always_eat": false
+      }
+    },
+    "is_weapon": false,
+    "is_food": true
+  }
+}

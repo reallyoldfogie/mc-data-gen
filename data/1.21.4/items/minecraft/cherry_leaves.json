@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:cherry_leaves",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.cherry_leaves",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:completes_find_tree_tutorial",
+      "minecraft:leaves",
+      "c:animal_foods",
+      "minecraft:bee_food"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

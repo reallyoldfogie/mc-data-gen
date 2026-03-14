@@ -1,0 +1,22 @@
+{
+  "entity_id": "minecraft:bee",
+  "data": {
+    "spawn_group": "CREATURE",
+    "fire_immune": false,
+    "default_dimensions": {
+      "width": 0.7,
+      "height": 0.6,
+      "eye_height": 0.3,
+      "fixed": false
+    },
+    "pose_dimensions": {},
+    "size_variants": [],
+    "attributes": [],
+    "tags": [
+      "minecraft:arthropod",
+      "minecraft:beehive_inhabitors",
+      "minecraft:fall_damage_immune",
+      "minecraft:sensitive_to_bane_of_arthropods"
+    ]
+  }
+}

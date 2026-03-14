@@ -1,0 +1,30 @@
+{
+  "item_id": "minecraft:leather_boots",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.leather_boots",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:enchantable/equippable",
+      "minecraft:dyeable",
+      "minecraft:enchantable/vanishing",
+      "minecraft:enchantable/durability",
+      "minecraft:foot_armor",
+      "c:armors",
+      "minecraft:freeze_immune_wearables",
+      "c:enchantables",
+      "minecraft:enchantable/foot_armor",
+      "minecraft:trimmable_armor",
+      "minecraft:enchantable/armor"
+    ],
+    "components": {
+      "max_damage": 65,
+      "max_damage_stack": 65,
+      "damage": 0
+    },
+    "is_weapon": false,
+    "is_food": false
+  }
+}

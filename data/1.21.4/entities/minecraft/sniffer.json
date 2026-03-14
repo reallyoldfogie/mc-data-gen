@@ -1,0 +1,17 @@
+{
+  "entity_id": "minecraft:sniffer",
+  "data": {
+    "spawn_group": "CREATURE",
+    "fire_immune": false,
+    "default_dimensions": {
+      "width": 1.9,
+      "height": 1.75,
+      "eye_height": 1.05,
+      "fixed": false
+    },
+    "pose_dimensions": {},
+    "size_variants": [],
+    "attributes": [],
+    "tags": []
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "item_id": "minecraft:diamond_leggings",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.diamond_leggings",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:enchantable/durability",
+      "c:armors",
+      "minecraft:leg_armor",
+      "c:enchantables",
+      "minecraft:enchantable/leg_armor",
+      "minecraft:enchantable/equippable",
+      "minecraft:enchantable/armor",
+      "minecraft:trimmable_armor",
+      "minecraft:enchantable/vanishing"
+    ],
+    "components": {
+      "max_damage": 495,
+      "max_damage_stack": 495,
+      "damage": 0
+    },
+    "is_weapon": false,
+    "is_food": false
+  }
+}

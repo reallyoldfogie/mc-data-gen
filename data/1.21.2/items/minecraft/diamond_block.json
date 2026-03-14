@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:diamond_block",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.diamond_block",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:storage_blocks",
+      "c:storage_blocks/diamond"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

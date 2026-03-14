@@ -1,0 +1,14 @@
+{
+  "item_id": "minecraft:filled_map",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.filled_map",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

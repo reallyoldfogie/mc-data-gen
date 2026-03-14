@@ -1,0 +1,18 @@
+{
+  "item_id": "minecraft:black_bundle",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.black_bundle",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:bundles",
+      "c:dyed/black",
+      "c:dyed"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

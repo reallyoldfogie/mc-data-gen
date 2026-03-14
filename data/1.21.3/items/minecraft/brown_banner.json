@@ -1,0 +1,18 @@
+{
+  "item_id": "minecraft:brown_banner",
+  "data": {
+    "max_stack_size": 16,
+    "translation_key": "block.minecraft.brown_banner",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:dyed",
+      "minecraft:banners",
+      "c:dyed/brown"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

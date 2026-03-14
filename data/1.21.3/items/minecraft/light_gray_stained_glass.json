@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:light_gray_stained_glass",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.light_gray_stained_glass",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:glass_blocks",
+      "c:glass_blocks/cheap",
+      "c:dyed/light_gray",
+      "c:dyed"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

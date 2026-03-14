@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:mangrove_propagule",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.mangrove_propagule",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:bee_food",
+      "c:animal_foods",
+      "minecraft:saplings",
+      "minecraft:flowers"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

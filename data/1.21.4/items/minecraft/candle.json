@@ -1,0 +1,16 @@
+{
+  "item_id": "minecraft:candle",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.candle",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:candles"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

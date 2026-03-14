@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:lilac",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.lilac",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:tall_flowers",
+      "c:animal_foods",
+      "minecraft:bee_food",
+      "minecraft:flowers"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

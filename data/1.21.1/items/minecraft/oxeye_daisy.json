@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:oxeye_daisy",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.oxeye_daisy",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:flowers",
+      "minecraft:bee_food",
+      "c:animal_foods",
+      "minecraft:small_flowers"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

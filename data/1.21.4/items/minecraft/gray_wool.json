@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:gray_wool",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.gray_wool",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:dyed",
+      "minecraft:dampens_vibrations",
+      "minecraft:wool",
+      "c:dyed/gray"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "item_id": "minecraft:end_stone",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.end_stone",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

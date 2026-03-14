@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:green_shulker_box",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "block.minecraft.green_shulker_box",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:dyed",
+      "minecraft:shulker_boxes",
+      "c:dyed/green",
+      "c:shulker_boxes"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

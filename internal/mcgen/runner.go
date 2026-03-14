@@ -159,9 +159,13 @@ func CollectOutput(projectDir, generatorOutputRel, outputRoot, version string) e
 		return fmt.Errorf("collectBlocks: %w", err)
 	}
 
-	if err := collectItems(src, outputRoot, version); err != nil {
-		return fmt.Errorf("collectItems: %w", err)
-	}
+		if err := collectItems(src, outputRoot, version); err != nil {
+			return fmt.Errorf("collectItems: %w", err)
+		}
+
+		if err := collectEntities(src, outputRoot, version); err != nil {
+			return fmt.Errorf("collectEntities: %w", err)
+		}
 
 	return nil
 }
@@ -303,23 +307,36 @@ func collectBlocks(src, outputRoot, version string) error {
 func collectItems(src, outputRoot, version string) error {
 	itemsDestDir := filepath.Join(outputRoot, version, "items")
 	if err := os.MkdirAll(itemsDestDir, 0o755); err != nil {
-		return fmt.Errorf("create item dir: %w", err)
+		return fmt.Errorf("create items dest dir: %w", err)
 	}
 
 	itemsSrc := filepath.Join(src, "items.json")
 	if _, err := os.Stat(itemsSrc); err != nil {
 		return fmt.Errorf("generator output (items.json) not found at %s: %w", src, err)
 	}
-	itemDestFile := filepath.Join(itemsDestDir, "items.json")
 
-	data, err := os.ReadFile(itemsSrc)
-	if err != nil {
-		return fmt.Errorf("read generator item output: %w", err)
+	if err := shardItems(itemsSrc, itemsDestDir); err != nil {
+		return fmt.Errorf("shard items: %w", err)
 	}
 
-	if err := os.WriteFile(itemDestFile, data, 0o644); err != nil {
-		return fmt.Errorf("write dest item file: %w", err)
+	return nil
+}
+
+func collectEntities(src, outputRoot, version string) error {
+	entitiesDestDir := filepath.Join(outputRoot, version, "entities")
+	if err := os.MkdirAll(entitiesDestDir, 0o755); err != nil {
+		return fmt.Errorf("create entities dest dir: %w", err)
 	}
+
+	entitiesSrc := filepath.Join(src, "entities.json")
+	if _, err := os.Stat(entitiesSrc); err != nil {
+		return fmt.Errorf("generator output (entities.json) not found at %s: %w", src, err)
+	}
+
+	if err := shardEntities(entitiesSrc, entitiesDestDir); err != nil {
+		return fmt.Errorf("shard entities: %w", err)
+	}
+
 	return nil
 }
 
@@ -392,9 +409,139 @@ func shardFile(inputPath, outRoot string) error {
 	return nil
 }
 
+func shardItems(inputPath, outRoot string) error {
+	data, err := os.ReadFile(inputPath)
+	if err != nil {
+		return fmt.Errorf("read %s: %w", inputPath, err)
+	}
+
+	var records []loader.ItemRecord
+	if err := json.Unmarshal(data, &records); err != nil {
+		return fmt.Errorf("unmarshal %s: %w", inputPath, err)
+	}
+
+	// Group by item_id
+	byItem := make(map[string]loader.ItemRecordSlim)
+	for _, r := range records {
+		slim := loader.ItemRecordSlim{
+			MaxStackSize:   r.MaxStackSize,
+			TranslationKey: r.TranslationKey,
+			Rarity:         r.Rarity,
+			Fireproof:      r.Fireproof,
+			UseAnimation:   r.UseAnimation,
+			Tags:           r.Tags,
+			Components:     r.Components,
+			IsWeapon:       r.IsWeapon,
+			IsFood:         r.IsFood,
+		}
+		byItem[r.ID] = slim
+	}
+
+	// Process items in sorted order for deterministic output
+	var itemIDs []string
+	for itemID := range byItem {
+		itemIDs = append(itemIDs, itemID)
+	}
+	sort.Strings(itemIDs)
+
+	for _, itemID := range itemIDs {
+		data := byItem[itemID]
+		ns, path := splitID(itemID) // e.g. "minecraft", "iron_sword"
+
+		dir := filepath.Join(outRoot, ns)
+		if err := os.MkdirAll(dir, 0o755); err != nil {
+			return fmt.Errorf("mkdir %s: %w", dir, err)
+		}
+
+		outFile := filepath.Join(dir, path+".json")
+		file := loader.ItemFile{
+			ItemID: itemID,
+			Data:   data,
+		}
+		buf, err := json.MarshalIndent(file, "", "  ")
+		if err != nil {
+			return fmt.Errorf("marshal %s: %w", itemID, err)
+		}
+		if err := os.WriteFile(outFile, buf, 0o644); err != nil {
+			return fmt.Errorf("write %s: %w", outFile, err)
+		}
+	}
+
+	return nil
+}
+
+func shardEntities(inputPath, outRoot string) error {
+	data, err := os.ReadFile(inputPath)
+	if err != nil {
+		return fmt.Errorf("read %s: %w", inputPath, err)
+	}
+
+	var records []loader.EntityRecord
+	if err := json.Unmarshal(data, &records); err != nil {
+		return fmt.Errorf("unmarshal %s: %w", inputPath, err)
+	}
+
+	// Group by entity_id
+	byEntity := make(map[string]loader.EntityRecordSlim)
+	for _, r := range records {
+		slim := loader.EntityRecordSlim{
+			SpawnGroup:        r.SpawnGroup,
+			FireImmune:        r.FireImmune,
+			DefaultDimensions: r.DefaultDimensions,
+			PoseDimensions:    r.PoseDimensions,
+			SizeVariants:      r.SizeVariants,
+			BabyDimensions:    r.BabyDimensions,
+			Attributes:        r.Attributes,
+			Tags:              r.Tags,
+		}
+		byEntity[r.EntityID] = slim
+	}
+
+	// Process entities in sorted order for deterministic output
+	var entityIDs []string
+	for entityID := range byEntity {
+		entityIDs = append(entityIDs, entityID)
+	}
+	sort.Strings(entityIDs)
+
+	for _, entityID := range entityIDs {
+		data := byEntity[entityID]
+		ns, path := splitID(entityID) // e.g. "minecraft", "zombie"
+
+		dir := filepath.Join(outRoot, ns)
+		if err := os.MkdirAll(dir, 0o755); err != nil {
+			return fmt.Errorf("mkdir %s: %w", dir, err)
+		}
+
+		outFile := filepath.Join(dir, path+".json")
+		file := loader.EntityFile{
+			EntityID: entityID,
+			Data:     data,
+		}
+		buf, err := json.MarshalIndent(file, "", "  ")
+		if err != nil {
+			return fmt.Errorf("marshal %s: %w", entityID, err)
+		}
+		if err := os.WriteFile(outFile, buf, 0o644); err != nil {
+			return fmt.Errorf("write %s: %w", outFile, err)
+		}
+	}
+
+	return nil
+}
+
 func splitBlockID(blockID string) (namespace, path string) {
 	// blockID like "minecraft:oak_fence"
 	parts := strings.SplitN(blockID, ":", 2)
+	if len(parts) == 1 {
+		return "minecraft", parts[0]
+	}
+	return parts[0], parts[1]
+}
+
+func splitID(id string) (namespace, path string) {
+	// id like "minecraft:zombie" or "minecraft:iron_sword"
+	parts := strings.SplitN(id, ":", 2)
 	if len(parts) == 1 {
 		return "minecraft", parts[0]
 	}

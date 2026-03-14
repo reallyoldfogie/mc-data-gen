@@ -1,0 +1,33 @@
+{
+  "item_id": "minecraft:golden_sword",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.golden_sword",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:enchantable/fire_aspect",
+      "minecraft:swords",
+      "c:tools",
+      "minecraft:piglin_loved",
+      "minecraft:enchantable/sharp_weapon",
+      "minecraft:breaks_decorated_pots",
+      "c:enchantables",
+      "minecraft:enchantable/durability",
+      "minecraft:enchantable/vanishing",
+      "c:tools/melee_weapon",
+      "minecraft:enchantable/weapon",
+      "minecraft:enchantable/sword",
+      "c:tools/melee_weapons"
+    ],
+    "components": {
+      "max_damage": 32,
+      "max_damage_stack": 32,
+      "damage": 0,
+      "is_tool": true
+    },
+    "is_weapon": true,
+    "is_food": false
+  }
+}

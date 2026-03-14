@@ -1,0 +1,18 @@
+{
+  "item_id": "minecraft:redstone",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.redstone",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:trim_materials",
+      "c:dusts/redstone",
+      "c:dusts"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

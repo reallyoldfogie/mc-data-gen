@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:resin_clump",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.resin_clump",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:clumps/resin",
+      "c:clumps"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "item_id": "minecraft:cut_copper_stairs",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.cut_copper_stairs",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:stairs"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

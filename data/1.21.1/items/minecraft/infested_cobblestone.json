@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:infested_cobblestone",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.infested_cobblestone",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:cobblestones/infested",
+      "c:cobblestones"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

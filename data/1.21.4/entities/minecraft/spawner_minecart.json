@@ -1,0 +1,19 @@
+{
+  "entity_id": "minecraft:spawner_minecart",
+  "data": {
+    "spawn_group": "MISC",
+    "fire_immune": false,
+    "default_dimensions": {
+      "width": 0.98,
+      "height": 0.7,
+      "eye_height": 0.595,
+      "fixed": false
+    },
+    "pose_dimensions": {},
+    "size_variants": [],
+    "attributes": [],
+    "tags": [
+      "c:minecarts"
+    ]
+  }
+}

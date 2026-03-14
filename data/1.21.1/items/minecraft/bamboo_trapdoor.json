@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:bamboo_trapdoor",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.bamboo_trapdoor",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:wooden_trapdoors",
+      "minecraft:trapdoors"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

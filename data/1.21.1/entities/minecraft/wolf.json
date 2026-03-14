@@ -1,0 +1,52 @@
+{
+  "entity_id": "minecraft:wolf",
+  "data": {
+    "spawn_group": "CREATURE",
+    "fire_immune": false,
+    "default_dimensions": {
+      "width": 0.6,
+      "height": 0.85,
+      "eye_height": 0.68,
+      "fixed": false
+    },
+    "pose_dimensions": {},
+    "size_variants": [],
+    "baby_dimensions": {
+      "width": 0.3,
+      "height": 0.425,
+      "eye_height": 0.34,
+      "fixed": false
+    },
+    "attributes": [
+      {
+        "name": "minecraft:generic.max_health",
+        "base_value": 8
+      },
+      {
+        "name": "minecraft:generic.movement_speed",
+        "base_value": 0.30000001192092896
+      },
+      {
+        "name": "minecraft:generic.attack_damage",
+        "base_value": 4
+      },
+      {
+        "name": "minecraft:generic.attack_knockback",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:generic.armor",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:generic.follow_range",
+        "base_value": 16
+      },
+      {
+        "name": "minecraft:generic.knockback_resistance",
+        "base_value": 0
+      }
+    ],
+    "tags": []
+  }
+}

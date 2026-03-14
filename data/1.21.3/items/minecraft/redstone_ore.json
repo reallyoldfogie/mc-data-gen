@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:redstone_ore",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.redstone_ore",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:redstone_ores",
+      "c:ores"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

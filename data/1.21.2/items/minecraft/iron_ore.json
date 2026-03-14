@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:iron_ore",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.iron_ore",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:ores",
+      "minecraft:iron_ores"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

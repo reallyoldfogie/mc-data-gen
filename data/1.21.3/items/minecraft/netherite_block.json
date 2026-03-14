@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:netherite_block",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.netherite_block",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:storage_blocks",
+      "c:storage_blocks/netherite"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:written_book",
+  "data": {
+    "max_stack_size": 16,
+    "translation_key": "item.minecraft.written_book",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:lectern_books",
+      "minecraft:bookshelf_books"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

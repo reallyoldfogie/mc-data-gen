@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:netherrack",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.netherrack",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:ore_bearing_ground/netherrack",
+      "c:netherracks"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

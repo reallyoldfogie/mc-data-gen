@@ -1,0 +1,18 @@
+{
+  "item_id": "minecraft:bamboo",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.bamboo",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:panda_food",
+      "c:animal_foods",
+      "minecraft:panda_eats_from_ground"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

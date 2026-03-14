@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:oak_wood",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.oak_wood",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:completes_find_tree_tutorial",
+      "minecraft:oak_logs",
+      "minecraft:logs_that_burn",
+      "minecraft:logs"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

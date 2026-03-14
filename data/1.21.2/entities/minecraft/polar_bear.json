@@ -1,0 +1,19 @@
+{
+  "entity_id": "minecraft:polar_bear",
+  "data": {
+    "spawn_group": "CREATURE",
+    "fire_immune": false,
+    "default_dimensions": {
+      "width": 1.4,
+      "height": 1.4,
+      "eye_height": 1.19,
+      "fixed": false
+    },
+    "pose_dimensions": {},
+    "size_variants": [],
+    "attributes": [],
+    "tags": [
+      "minecraft:freeze_immune_entity_types"
+    ]
+  }
+}

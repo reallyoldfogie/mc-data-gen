@@ -1,0 +1,22 @@
+{
+  "entity_id": "minecraft:turtle",
+  "data": {
+    "spawn_group": "CREATURE",
+    "fire_immune": false,
+    "default_dimensions": {
+      "width": 1.2,
+      "height": 0.4,
+      "eye_height": 0.34,
+      "fixed": false
+    },
+    "pose_dimensions": {},
+    "size_variants": [],
+    "attributes": [],
+    "tags": [
+      "minecraft:aquatic",
+      "minecraft:can_breathe_under_water",
+      "minecraft:not_scary_for_pufferfish",
+      "minecraft:sensitive_to_impaling"
+    ]
+  }
+}

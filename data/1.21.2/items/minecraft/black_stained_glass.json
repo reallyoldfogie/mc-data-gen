@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:black_stained_glass",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.black_stained_glass",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:dyed/black",
+      "c:glass_blocks/cheap",
+      "c:glass_blocks",
+      "c:dyed"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

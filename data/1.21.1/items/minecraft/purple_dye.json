@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:purple_dye",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.purple_dye",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:dyes/purple",
+      "c:dyes"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

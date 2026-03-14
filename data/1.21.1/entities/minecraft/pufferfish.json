@@ -1,0 +1,151 @@
+{
+  "entity_id": "minecraft:pufferfish",
+  "data": {
+    "spawn_group": "WATER_AMBIENT",
+    "fire_immune": false,
+    "default_dimensions": {
+      "width": 0.7,
+      "height": 0.7,
+      "eye_height": 0.455,
+      "fixed": false
+    },
+    "pose_dimensions": {
+      "croaking": {
+        "width": 0.35,
+        "height": 0.35,
+        "eye_height": 0.2275,
+        "fixed": false
+      },
+      "crouching": {
+        "width": 0.35,
+        "height": 0.35,
+        "eye_height": 0.2275,
+        "fixed": false
+      },
+      "digging": {
+        "width": 0.35,
+        "height": 0.35,
+        "eye_height": 0.2275,
+        "fixed": false
+      },
+      "dying": {
+        "width": 0.35,
+        "height": 0.35,
+        "eye_height": 0.2275,
+        "fixed": false
+      },
+      "emerging": {
+        "width": 0.35,
+        "height": 0.35,
+        "eye_height": 0.2275,
+        "fixed": false
+      },
+      "fall_flying": {
+        "width": 0.35,
+        "height": 0.35,
+        "eye_height": 0.2275,
+        "fixed": false
+      },
+      "inhaling": {
+        "width": 0.35,
+        "height": 0.35,
+        "eye_height": 0.2275,
+        "fixed": false
+      },
+      "long_jumping": {
+        "width": 0.35,
+        "height": 0.35,
+        "eye_height": 0.2275,
+        "fixed": false
+      },
+      "roaring": {
+        "width": 0.35,
+        "height": 0.35,
+        "eye_height": 0.2275,
+        "fixed": false
+      },
+      "shooting": {
+        "width": 0.35,
+        "height": 0.35,
+        "eye_height": 0.2275,
+        "fixed": false
+      },
+      "sitting": {
+        "width": 0.35,
+        "height": 0.35,
+        "eye_height": 0.2275,
+        "fixed": false
+      },
+      "sliding": {
+        "width": 0.35,
+        "height": 0.35,
+        "eye_height": 0.2275,
+        "fixed": false
+      },
+      "sniffing": {
+        "width": 0.35,
+        "height": 0.35,
+        "eye_height": 0.2275,
+        "fixed": false
+      },
+      "spin_attack": {
+        "width": 0.35,
+        "height": 0.35,
+        "eye_height": 0.2275,
+        "fixed": false
+      },
+      "standing": {
+        "width": 0.35,
+        "height": 0.35,
+        "eye_height": 0.2275,
+        "fixed": false
+      },
+      "swimming": {
+        "width": 0.35,
+        "height": 0.35,
+        "eye_height": 0.2275,
+        "fixed": false
+      },
+      "using_tongue": {
+        "width": 0.35,
+        "height": 0.35,
+        "eye_height": 0.2275,
+        "fixed": false
+      }
+    },
+    "size_variants": [],
+    "attributes": [
+      {
+        "name": "minecraft:generic.max_health",
+        "base_value": 3
+      },
+      {
+        "name": "minecraft:generic.movement_speed",
+        "base_value": 0.7
+      },
+      {
+        "name": "minecraft:generic.attack_knockback",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:generic.armor",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:generic.follow_range",
+        "base_value": 16
+      },
+      {
+        "name": "minecraft:generic.knockback_resistance",
+        "base_value": 0
+      }
+    ],
+    "tags": [
+      "minecraft:aquatic",
+      "minecraft:axolotl_hunt_targets",
+      "minecraft:can_breathe_under_water",
+      "minecraft:not_scary_for_pufferfish",
+      "minecraft:sensitive_to_impaling"
+    ]
+  }
+}

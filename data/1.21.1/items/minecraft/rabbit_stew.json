@@ -1,0 +1,24 @@
+{
+  "item_id": "minecraft:rabbit_stew",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.rabbit_stew",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "EAT",
+    "tags": [
+      "c:foods/soups",
+      "c:foods/soup",
+      "c:foods"
+    ],
+    "components": {
+      "food": {
+        "nutrition": 10,
+        "saturation": 12,
+        "can_always_eat": false
+      }
+    },
+    "is_weapon": false,
+    "is_food": true
+  }
+}

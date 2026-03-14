@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:magenta_wool",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.magenta_wool",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:dampens_vibrations",
+      "minecraft:wool",
+      "c:dyed/magenta",
+      "c:dyed"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

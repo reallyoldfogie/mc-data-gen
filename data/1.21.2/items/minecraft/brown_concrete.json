@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:brown_concrete",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.brown_concrete",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:dyed",
+      "c:dyed/brown",
+      "c:concretes",
+      "c:concrete"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:acacia_chest_boat",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.acacia_chest_boat",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:chest_boats",
+      "minecraft:boats"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "entity_id": "minecraft:zombie",
+  "data": {
+    "spawn_group": "MONSTER",
+    "fire_immune": false,
+    "default_dimensions": {
+      "width": 0.6,
+      "height": 1.95,
+      "eye_height": 1.74,
+      "fixed": false
+    },
+    "pose_dimensions": {
+      "SLEEPING": {
+        "width": 0.6,
+        "height": 0.3,
+        "eye_height": 0.15,
+        "fixed": false
+      },
+      "STANDING": {
+        "width": 0.6,
+        "height": 1.95,
+        "eye_height": 1.74,
+        "fixed": false
+      }
+    },
+    "size_variants": [],
+    "attributes": [
+      {
+        "name": "minecraft:attack_damage",
+        "base_value": 3.0
+      },
+      {
+        "name": "minecraft:attack_knockback",
+        "base_value": 0.0
+      },
+      {
+        "name": "minecraft:attack_speed",
+        "base_value": 4.0
+      },
+      {
+        "name": "minecraft:follow_range",
+        "base_value": 35.0
+      },
+      {
+        "name": "minecraft:knockback_resistance",
+        "base_value": 0.0
+      },
+      {
+        "name": "minecraft:max_health",
+        "base_value": 20.0
+      },
+      {
+        "name": "minecraft:movement_speed",
+        "base_value": 0.23
+      }
+    ],
+    "tags": [
+      "minecraft:undead",
+      "minecraft:can_turn_in_boats"
+    ]
+  }
+}

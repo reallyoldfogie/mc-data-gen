@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:pale_oak_leaves",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.pale_oak_leaves",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:completes_find_tree_tutorial",
+      "minecraft:leaves"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

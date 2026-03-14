@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:pink_glazed_terracotta",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.pink_glazed_terracotta",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:dyed",
+      "c:glazed_terracottas",
+      "c:dyed/pink",
+      "c:glazed_terracotta"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "item_id": "minecraft:purple_banner",
+  "data": {
+    "max_stack_size": 16,
+    "translation_key": "block.minecraft.purple_banner",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:dyed",
+      "minecraft:banners",
+      "c:dyed/purple"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

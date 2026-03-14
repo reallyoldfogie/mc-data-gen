@@ -1,0 +1,48 @@
+{
+  "entity_id": "minecraft:allay",
+  "data": {
+    "spawn_group": "CREATURE",
+    "fire_immune": false,
+    "default_dimensions": {
+      "width": 0.35,
+      "height": 0.6,
+      "eye_height": 0.36,
+      "fixed": false
+    },
+    "pose_dimensions": {},
+    "size_variants": [],
+    "attributes": [
+      {
+        "name": "minecraft:generic.max_health",
+        "base_value": 20
+      },
+      {
+        "name": "minecraft:generic.movement_speed",
+        "base_value": 0.10000000149011612
+      },
+      {
+        "name": "minecraft:generic.attack_damage",
+        "base_value": 2
+      },
+      {
+        "name": "minecraft:generic.attack_knockback",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:generic.armor",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:generic.follow_range",
+        "base_value": 48
+      },
+      {
+        "name": "minecraft:generic.knockback_resistance",
+        "base_value": 0
+      }
+    ],
+    "tags": [
+      "minecraft:fall_damage_immune"
+    ]
+  }
+}

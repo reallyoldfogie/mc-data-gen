@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:oak_planks",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.oak_planks",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:planks",
+      "minecraft:wooden_tool_materials"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

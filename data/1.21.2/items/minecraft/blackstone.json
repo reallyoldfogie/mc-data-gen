@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:blackstone",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.blackstone",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:stone_tool_materials",
+      "minecraft:stone_crafting_materials"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

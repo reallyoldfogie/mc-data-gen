@@ -1,0 +1,18 @@
+{
+  "item_id": "minecraft:spore_blossom",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.spore_blossom",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:bee_food",
+      "c:animal_foods",
+      "minecraft:flowers"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

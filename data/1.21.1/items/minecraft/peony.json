@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:peony",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.peony",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:bee_food",
+      "c:animal_foods",
+      "minecraft:tall_flowers",
+      "minecraft:flowers"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

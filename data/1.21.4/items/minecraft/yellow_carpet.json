@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:yellow_carpet",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.yellow_carpet",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:wool_carpets",
+      "minecraft:dampens_vibrations",
+      "c:dyed/yellow",
+      "c:dyed"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

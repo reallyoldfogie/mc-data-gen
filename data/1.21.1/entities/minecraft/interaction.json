@@ -1,0 +1,126 @@
+{
+  "entity_id": "minecraft:interaction",
+  "data": {
+    "spawn_group": "MISC",
+    "fire_immune": false,
+    "default_dimensions": {
+      "width": 0,
+      "height": 0,
+      "eye_height": 0,
+      "fixed": false
+    },
+    "pose_dimensions": {
+      "croaking": {
+        "width": 1,
+        "height": 1,
+        "eye_height": 0.85,
+        "fixed": false
+      },
+      "crouching": {
+        "width": 1,
+        "height": 1,
+        "eye_height": 0.85,
+        "fixed": false
+      },
+      "digging": {
+        "width": 1,
+        "height": 1,
+        "eye_height": 0.85,
+        "fixed": false
+      },
+      "dying": {
+        "width": 1,
+        "height": 1,
+        "eye_height": 0.85,
+        "fixed": false
+      },
+      "emerging": {
+        "width": 1,
+        "height": 1,
+        "eye_height": 0.85,
+        "fixed": false
+      },
+      "fall_flying": {
+        "width": 1,
+        "height": 1,
+        "eye_height": 0.85,
+        "fixed": false
+      },
+      "inhaling": {
+        "width": 1,
+        "height": 1,
+        "eye_height": 0.85,
+        "fixed": false
+      },
+      "long_jumping": {
+        "width": 1,
+        "height": 1,
+        "eye_height": 0.85,
+        "fixed": false
+      },
+      "roaring": {
+        "width": 1,
+        "height": 1,
+        "eye_height": 0.85,
+        "fixed": false
+      },
+      "shooting": {
+        "width": 1,
+        "height": 1,
+        "eye_height": 0.85,
+        "fixed": false
+      },
+      "sitting": {
+        "width": 1,
+        "height": 1,
+        "eye_height": 0.85,
+        "fixed": false
+      },
+      "sleeping": {
+        "width": 1,
+        "height": 1,
+        "eye_height": 0.85,
+        "fixed": false
+      },
+      "sliding": {
+        "width": 1,
+        "height": 1,
+        "eye_height": 0.85,
+        "fixed": false
+      },
+      "sniffing": {
+        "width": 1,
+        "height": 1,
+        "eye_height": 0.85,
+        "fixed": false
+      },
+      "spin_attack": {
+        "width": 1,
+        "height": 1,
+        "eye_height": 0.85,
+        "fixed": false
+      },
+      "standing": {
+        "width": 1,
+        "height": 1,
+        "eye_height": 0.85,
+        "fixed": false
+      },
+      "swimming": {
+        "width": 1,
+        "height": 1,
+        "eye_height": 0.85,
+        "fixed": false
+      },
+      "using_tongue": {
+        "width": 1,
+        "height": 1,
+        "eye_height": 0.85,
+        "fixed": false
+      }
+    },
+    "size_variants": [],
+    "attributes": [],
+    "tags": []
+  }
+}

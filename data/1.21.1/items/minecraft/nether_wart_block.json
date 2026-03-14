@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:nether_wart_block",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.nether_wart_block",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:wart_blocks",
+      "minecraft:completes_find_tree_tutorial"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

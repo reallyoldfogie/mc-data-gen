@@ -1,0 +1,18 @@
+{
+  "item_id": "minecraft:cake",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "block.minecraft.cake",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:foods/edible_when_placed",
+      "minecraft:panda_eats_from_ground",
+      "c:foods"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

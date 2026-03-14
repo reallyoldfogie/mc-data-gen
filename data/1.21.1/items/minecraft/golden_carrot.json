@@ -1,0 +1,30 @@
+{
+  "item_id": "minecraft:golden_carrot",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.golden_carrot",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "EAT",
+    "tags": [
+      "c:foods/vegetable",
+      "c:animal_foods",
+      "minecraft:horse_food",
+      "minecraft:horse_tempt_items",
+      "c:foods/vegetables",
+      "c:foods/golden",
+      "c:foods",
+      "minecraft:piglin_loved",
+      "minecraft:rabbit_food"
+    ],
+    "components": {
+      "food": {
+        "nutrition": 6,
+        "saturation": 14.400001,
+        "can_always_eat": false
+      }
+    },
+    "is_weapon": false,
+    "is_food": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "item_id": "minecraft:pitcher_pod",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.pitcher_pod",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:parrot_food",
+      "minecraft:villager_plantable_seeds",
+      "c:animal_foods",
+      "minecraft:villager_picks_up",
+      "minecraft:chicken_food"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

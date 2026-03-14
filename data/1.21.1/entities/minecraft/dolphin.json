@@ -1,0 +1,50 @@
+{
+  "entity_id": "minecraft:dolphin",
+  "data": {
+    "spawn_group": "WATER_CREATURE",
+    "fire_immune": false,
+    "default_dimensions": {
+      "width": 0.9,
+      "height": 0.6,
+      "eye_height": 0.3,
+      "fixed": false
+    },
+    "pose_dimensions": {},
+    "size_variants": [],
+    "attributes": [
+      {
+        "name": "minecraft:generic.max_health",
+        "base_value": 10
+      },
+      {
+        "name": "minecraft:generic.movement_speed",
+        "base_value": 1.2000000476837158
+      },
+      {
+        "name": "minecraft:generic.attack_damage",
+        "base_value": 3
+      },
+      {
+        "name": "minecraft:generic.attack_knockback",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:generic.armor",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:generic.follow_range",
+        "base_value": 16
+      },
+      {
+        "name": "minecraft:generic.knockback_resistance",
+        "base_value": 0
+      }
+    ],
+    "tags": [
+      "minecraft:aquatic",
+      "minecraft:not_scary_for_pufferfish",
+      "minecraft:sensitive_to_impaling"
+    ]
+  }
+}

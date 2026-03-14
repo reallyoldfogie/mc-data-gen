@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:warped_hyphae",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.warped_hyphae",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:completes_find_tree_tutorial",
+      "minecraft:warped_stems",
+      "minecraft:non_flammable_wood",
+      "minecraft:logs"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

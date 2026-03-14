@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:acacia_fence",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.acacia_fence",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:fences",
+      "minecraft:wooden_fences",
+      "c:fences",
+      "c:fences/wooden"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

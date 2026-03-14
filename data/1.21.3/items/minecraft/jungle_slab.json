@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:jungle_slab",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.jungle_slab",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:slabs",
+      "minecraft:wooden_slabs"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

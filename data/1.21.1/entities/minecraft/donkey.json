@@ -1,0 +1,50 @@
+{
+  "entity_id": "minecraft:donkey",
+  "data": {
+    "spawn_group": "CREATURE",
+    "fire_immune": false,
+    "default_dimensions": {
+      "width": 1.3964844,
+      "height": 1.5,
+      "eye_height": 1.425,
+      "fixed": false
+    },
+    "pose_dimensions": {},
+    "size_variants": [],
+    "baby_dimensions": {
+      "width": 0.6982422,
+      "height": 0.75,
+      "eye_height": 0.7125,
+      "fixed": false
+    },
+    "attributes": [
+      {
+        "name": "minecraft:generic.max_health",
+        "base_value": 53
+      },
+      {
+        "name": "minecraft:generic.movement_speed",
+        "base_value": 0.17499999701976776
+      },
+      {
+        "name": "minecraft:generic.attack_knockback",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:generic.armor",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:generic.follow_range",
+        "base_value": 16
+      },
+      {
+        "name": "minecraft:generic.knockback_resistance",
+        "base_value": 0
+      }
+    ],
+    "tags": [
+      "minecraft:dismounts_underwater"
+    ]
+  }
+}

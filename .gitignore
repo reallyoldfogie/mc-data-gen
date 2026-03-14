@@ -25,6 +25,7 @@ work/
 # Optional temp files
 *.tmp
 *.bak
+*.log
 
 # ========================================
 # Fabric template ignores

@@ -1,0 +1,18 @@
+{
+  "item_id": "minecraft:orange_banner",
+  "data": {
+    "max_stack_size": 16,
+    "translation_key": "block.minecraft.orange_banner",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:dyed/orange",
+      "c:dyed",
+      "minecraft:banners"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

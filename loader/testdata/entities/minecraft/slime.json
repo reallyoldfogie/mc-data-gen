@@ -1,0 +1,64 @@
+{
+  "entity_id": "minecraft:slime",
+  "data": {
+    "spawn_group": "MONSTER",
+    "fire_immune": false,
+    "default_dimensions": {
+      "width": 2.04,
+      "height": 2.04,
+      "eye_height": 1.62,
+      "fixed": false
+    },
+    "pose_dimensions": {
+      "STANDING": {
+        "width": 2.04,
+        "height": 2.04,
+        "eye_height": 1.62,
+        "fixed": false
+      }
+    },
+    "size_variants": [
+      {
+        "size": 1,
+        "dimensions": {
+          "width": 0.51,
+          "height": 0.51,
+          "eye_height": 0.405,
+          "fixed": false
+        }
+      },
+      {
+        "size": 2,
+        "dimensions": {
+          "width": 1.02,
+          "height": 1.02,
+          "eye_height": 0.81,
+          "fixed": false
+        }
+      }
+    ],
+    "attributes": [
+      {
+        "name": "minecraft:attack_damage",
+        "base_value": 0.0
+      },
+      {
+        "name": "minecraft:follow_range",
+        "base_value": 16.0
+      },
+      {
+        "name": "minecraft:knockback_resistance",
+        "base_value": 0.0
+      },
+      {
+        "name": "minecraft:max_health",
+        "base_value": 4.0
+      },
+      {
+        "name": "minecraft:movement_speed",
+        "base_value": 0.4
+      }
+    ],
+    "tags": []
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:prismarine_crystals",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.prismarine_crystals",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:gems",
+      "c:gems/prismarine"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

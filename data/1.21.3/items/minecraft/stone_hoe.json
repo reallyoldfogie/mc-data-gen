@@ -1,0 +1,28 @@
+{
+  "item_id": "minecraft:stone_hoe",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.stone_hoe",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:hoes",
+      "minecraft:enchantable/durability",
+      "minecraft:breaks_decorated_pots",
+      "minecraft:enchantable/mining",
+      "minecraft:enchantable/mining_loot",
+      "minecraft:enchantable/vanishing",
+      "c:enchantables",
+      "c:tools"
+    ],
+    "components": {
+      "max_damage": 131,
+      "max_damage_stack": 131,
+      "damage": 0,
+      "is_tool": true
+    },
+    "is_weapon": false,
+    "is_food": false
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:bamboo_chest_raft",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.bamboo_chest_raft",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:boats",
+      "minecraft:chest_boats"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

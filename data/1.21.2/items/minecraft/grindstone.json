@@ -1,0 +1,16 @@
+{
+  "item_id": "minecraft:grindstone",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.grindstone",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:villager_job_sites"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

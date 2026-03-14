@@ -1,0 +1,48 @@
+{
+  "entity_id": "minecraft:glow_squid",
+  "data": {
+    "spawn_group": "UNDERGROUND_WATER_CREATURE",
+    "fire_immune": false,
+    "default_dimensions": {
+      "width": 0.8,
+      "height": 0.8,
+      "eye_height": 0.4,
+      "fixed": false
+    },
+    "pose_dimensions": {},
+    "size_variants": [],
+    "attributes": [
+      {
+        "name": "minecraft:generic.max_health",
+        "base_value": 10
+      },
+      {
+        "name": "minecraft:generic.movement_speed",
+        "base_value": 0.7
+      },
+      {
+        "name": "minecraft:generic.attack_knockback",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:generic.armor",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:generic.follow_range",
+        "base_value": 16
+      },
+      {
+        "name": "minecraft:generic.knockback_resistance",
+        "base_value": 0
+      }
+    ],
+    "tags": [
+      "minecraft:aquatic",
+      "minecraft:axolotl_hunt_targets",
+      "minecraft:can_breathe_under_water",
+      "minecraft:not_scary_for_pufferfish",
+      "minecraft:sensitive_to_impaling"
+    ]
+  }
+}

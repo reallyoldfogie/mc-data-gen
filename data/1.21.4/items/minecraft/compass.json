@@ -1,0 +1,18 @@
+{
+  "item_id": "minecraft:compass",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.compass",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:enchantable/vanishing",
+      "c:enchantables",
+      "minecraft:compasses"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

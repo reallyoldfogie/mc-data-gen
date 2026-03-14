@@ -1,0 +1,18 @@
+{
+  "item_id": "minecraft:quartz",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.quartz",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:gems",
+      "c:gems/quartz",
+      "minecraft:trim_materials"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

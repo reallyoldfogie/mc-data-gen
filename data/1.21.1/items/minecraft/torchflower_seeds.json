@@ -1,0 +1,22 @@
+{
+  "item_id": "minecraft:torchflower_seeds",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.torchflower_seeds",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:villager_plantable_seeds",
+      "minecraft:chicken_food",
+      "c:animal_foods",
+      "c:seeds/torchflower",
+      "minecraft:sniffer_food",
+      "minecraft:parrot_food",
+      "c:seeds"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

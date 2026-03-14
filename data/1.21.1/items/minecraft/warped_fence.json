@@ -1,0 +1,20 @@
+{
+  "item_id": "minecraft:warped_fence",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.warped_fence",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:wooden_fences",
+      "minecraft:non_flammable_wood",
+      "c:fences/wooden",
+      "minecraft:fences",
+      "c:fences"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

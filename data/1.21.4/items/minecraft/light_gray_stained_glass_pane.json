@@ -1,0 +1,18 @@
+{
+  "item_id": "minecraft:light_gray_stained_glass_pane",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.light_gray_stained_glass_pane",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:dyed/light_gray",
+      "c:dyed",
+      "c:glass_panes"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

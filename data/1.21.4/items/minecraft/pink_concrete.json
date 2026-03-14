@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:pink_concrete",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.pink_concrete",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:concrete",
+      "c:dyed",
+      "c:dyed/pink",
+      "c:concretes"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

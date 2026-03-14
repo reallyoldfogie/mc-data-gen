@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:chest",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.chest",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:chests/wooden",
+      "c:chests"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:breeze_rod",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.breeze_rod",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:rods",
+      "c:rods/breeze"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

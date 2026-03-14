@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:ancient_debris",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.ancient_debris",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:ores/netherite_scrap",
+      "c:ores"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

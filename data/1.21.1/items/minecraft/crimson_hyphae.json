@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:crimson_hyphae",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.crimson_hyphae",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:non_flammable_wood",
+      "minecraft:crimson_stems",
+      "minecraft:completes_find_tree_tutorial",
+      "minecraft:logs"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

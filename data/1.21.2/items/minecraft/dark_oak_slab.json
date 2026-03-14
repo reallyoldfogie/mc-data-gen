@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:dark_oak_slab",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.dark_oak_slab",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:wooden_slabs",
+      "minecraft:slabs"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "item_id": "minecraft:cooked_cod",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.cooked_cod",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "EAT",
+    "tags": [
+      "c:animal_foods",
+      "c:foods/cooked_fish",
+      "minecraft:fishes",
+      "minecraft:wolf_food",
+      "c:foods",
+      "c:foods/cooked_fishes"
+    ],
+    "components": {
+      "food": {
+        "nutrition": 5,
+        "saturation": 6,
+        "can_always_eat": false
+      }
+    },
+    "is_weapon": false,
+    "is_food": true
+  }
+}

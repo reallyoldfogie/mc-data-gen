@@ -1,0 +1,28 @@
+{
+  "item_id": "minecraft:netherite_helmet",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.netherite_helmet",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:enchantable/head_armor",
+      "minecraft:enchantable/durability",
+      "c:armors",
+      "c:enchantables",
+      "minecraft:enchantable/equippable",
+      "minecraft:head_armor",
+      "minecraft:enchantable/armor",
+      "minecraft:trimmable_armor",
+      "minecraft:enchantable/vanishing"
+    ],
+    "components": {
+      "max_damage": 407,
+      "max_damage_stack": 407,
+      "damage": 0
+    },
+    "is_weapon": false,
+    "is_food": false
+  }
+}

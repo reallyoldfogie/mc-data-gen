@@ -1,0 +1,21 @@
+{
+  "item_id": "minecraft:hay_block",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.hay_block",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:llama_food",
+      "c:storage_blocks",
+      "c:animal_foods",
+      "minecraft:llama_tempt_items",
+      "minecraft:horse_food",
+      "c:storage_blocks/wheat"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

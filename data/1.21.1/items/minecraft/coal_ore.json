@@ -1,0 +1,20 @@
+{
+  "item_id": "minecraft:coal_ore",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.coal_ore",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:ores/coal",
+      "c:ores_in_ground/stone",
+      "minecraft:coal_ores",
+      "c:ore_rates/singular",
+      "c:ores"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

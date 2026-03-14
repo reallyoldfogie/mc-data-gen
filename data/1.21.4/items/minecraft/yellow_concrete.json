@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:yellow_concrete",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.yellow_concrete",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:concrete",
+      "c:dyed",
+      "c:dyed/yellow",
+      "c:concretes"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "minecraft:breeze",
+  "data": {
+    "spawn_group": "MONSTER",
+    "fire_immune": false,
+    "default_dimensions": {
+      "width": 0.6,
+      "height": 1.77,
+      "eye_height": 1.3452,
+      "fixed": false
+    },
+    "pose_dimensions": {},
+    "size_variants": [],
+    "attributes": [],
+    "tags": [
+      "minecraft:can_turn_in_boats",
+      "minecraft:deflects_projectiles",
+      "minecraft:fall_damage_immune",
+      "minecraft:no_anger_from_wind_charge"
+    ]
+  }
+}

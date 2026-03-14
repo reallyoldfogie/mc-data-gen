@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:mangrove_log",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.mangrove_log",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:logs_that_burn",
+      "minecraft:completes_find_tree_tutorial",
+      "minecraft:mangrove_logs",
+      "minecraft:logs"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

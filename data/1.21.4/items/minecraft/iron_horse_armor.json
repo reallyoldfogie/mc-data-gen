@@ -1,0 +1,14 @@
+{
+  "item_id": "minecraft:iron_horse_armor",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.iron_horse_armor",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

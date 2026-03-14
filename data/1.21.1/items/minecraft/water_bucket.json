@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:water_bucket",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.water_bucket",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:buckets/water",
+      "c:buckets"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

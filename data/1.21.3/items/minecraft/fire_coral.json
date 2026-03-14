@@ -1,0 +1,14 @@
+{
+  "item_id": "minecraft:fire_coral",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.fire_coral",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

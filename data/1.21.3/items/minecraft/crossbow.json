@@ -1,0 +1,28 @@
+{
+  "item_id": "minecraft:crossbow",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.crossbow",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "CROSSBOW",
+    "tags": [
+      "c:tools",
+      "minecraft:enchantable/crossbow",
+      "c:tools/ranged_weapon",
+      "minecraft:enchantable/vanishing",
+      "minecraft:enchantable/durability",
+      "c:tools/crossbow",
+      "c:tools/crossbows",
+      "c:enchantables",
+      "c:tools/ranged_weapons"
+    ],
+    "components": {
+      "max_damage": 465,
+      "max_damage_stack": 465,
+      "damage": 0
+    },
+    "is_weapon": false,
+    "is_food": false
+  }
+}

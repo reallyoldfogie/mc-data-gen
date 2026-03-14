@@ -1,0 +1,14 @@
+{
+  "item_id": "minecraft:eye_armor_trim_smithing_template",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.eye_armor_trim_smithing_template",
+    "rarity": "RARE",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}
