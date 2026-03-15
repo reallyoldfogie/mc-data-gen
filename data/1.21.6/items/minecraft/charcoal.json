@@ -1,0 +1,18 @@
+{
+  "item_id": "minecraft:charcoal",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.charcoal",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:furnace_minecart_fuel",
+      "c:coal",
+      "minecraft:coals"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

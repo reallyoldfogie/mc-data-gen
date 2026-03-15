@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:waxed_copper_chest",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.waxed_copper_chest",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:copper_chests",
+      "c:chests"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

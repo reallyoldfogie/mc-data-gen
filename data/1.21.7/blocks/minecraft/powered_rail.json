@@ -1,0 +1,869 @@
+{
+  "block_id": "minecraft:powered_rail",
+  "states": [
+    {
+      "properties": {
+        "powered": "true",
+        "shape": "north_south",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.125,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": true,
+      "lava": false,
+      "fluid": true
+    },
+    {
+      "properties": {
+        "powered": "true",
+        "shape": "north_south",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.125,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "powered": "true",
+        "shape": "east_west",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.125,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": true,
+      "lava": false,
+      "fluid": true
+    },
+    {
+      "properties": {
+        "powered": "true",
+        "shape": "east_west",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.125,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "powered": "true",
+        "shape": "ascending_east",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": true,
+      "lava": false,
+      "fluid": true
+    },
+    {
+      "properties": {
+        "powered": "true",
+        "shape": "ascending_east",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "powered": "true",
+        "shape": "ascending_west",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": true,
+      "lava": false,
+      "fluid": true
+    },
+    {
+      "properties": {
+        "powered": "true",
+        "shape": "ascending_west",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "powered": "true",
+        "shape": "ascending_north",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": true,
+      "lava": false,
+      "fluid": true
+    },
+    {
+      "properties": {
+        "powered": "true",
+        "shape": "ascending_north",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "powered": "true",
+        "shape": "ascending_south",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": true,
+      "lava": false,
+      "fluid": true
+    },
+    {
+      "properties": {
+        "powered": "true",
+        "shape": "ascending_south",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "powered": "false",
+        "shape": "north_south",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.125,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": true,
+      "lava": false,
+      "fluid": true
+    },
+    {
+      "properties": {
+        "powered": "false",
+        "shape": "north_south",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.125,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "powered": "false",
+        "shape": "east_west",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.125,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": true,
+      "lava": false,
+      "fluid": true
+    },
+    {
+      "properties": {
+        "powered": "false",
+        "shape": "east_west",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.125,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "powered": "false",
+        "shape": "ascending_east",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": true,
+      "lava": false,
+      "fluid": true
+    },
+    {
+      "properties": {
+        "powered": "false",
+        "shape": "ascending_east",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "powered": "false",
+        "shape": "ascending_west",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": true,
+      "lava": false,
+      "fluid": true
+    },
+    {
+      "properties": {
+        "powered": "false",
+        "shape": "ascending_west",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "powered": "false",
+        "shape": "ascending_north",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": true,
+      "lava": false,
+      "fluid": true
+    },
+    {
+      "properties": {
+        "powered": "false",
+        "shape": "ascending_north",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "powered": "false",
+        "shape": "ascending_south",
+        "waterlogged": "true"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": true,
+      "lava": false,
+      "fluid": true
+    },
+    {
+      "properties": {
+        "powered": "false",
+        "shape": "ascending_south",
+        "waterlogged": "false"
+      },
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            1,
+            0.5,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    }
+  ]
+}

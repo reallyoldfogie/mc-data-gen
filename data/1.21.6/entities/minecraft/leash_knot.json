@@ -1,0 +1,17 @@
+{
+  "entity_id": "minecraft:leash_knot",
+  "data": {
+    "spawn_group": "MISC",
+    "fire_immune": false,
+    "default_dimensions": {
+      "width": 0.375,
+      "height": 0.5,
+      "eye_height": 0.0625,
+      "fixed": false
+    },
+    "pose_dimensions": {},
+    "size_variants": [],
+    "attributes": [],
+    "tags": []
+  }
+}

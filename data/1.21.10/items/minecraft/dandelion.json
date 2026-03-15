@@ -1,0 +1,22 @@
+{
+  "item_id": "minecraft:dandelion",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.dandelion",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:flowers/small",
+      "c:flowers",
+      "minecraft:small_flowers",
+      "c:animal_foods",
+      "minecraft:rabbit_food",
+      "minecraft:bee_food",
+      "minecraft:flowers"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:yellow_harness",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.yellow_harness",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:happy_ghast_tempt_items",
+      "c:dyed",
+      "minecraft:harnesses",
+      "c:dyed/yellow"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

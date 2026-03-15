@@ -1,0 +1,23 @@
+{
+  "entity_id": "minecraft:elder_guardian",
+  "data": {
+    "spawn_group": "MONSTER",
+    "fire_immune": false,
+    "default_dimensions": {
+      "width": 1.9975,
+      "height": 1.9975,
+      "eye_height": 0.99875,
+      "fixed": false
+    },
+    "pose_dimensions": {},
+    "size_variants": [],
+    "attributes": [],
+    "tags": [
+      "minecraft:aquatic",
+      "minecraft:axolotl_always_hostiles",
+      "minecraft:can_breathe_under_water",
+      "minecraft:not_scary_for_pufferfish",
+      "minecraft:sensitive_to_impaling"
+    ]
+  }
+}

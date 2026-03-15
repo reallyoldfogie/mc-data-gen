@@ -1,0 +1,21 @@
+{
+  "entity_id": "minecraft:mule",
+  "data": {
+    "spawn_group": "CREATURE",
+    "fire_immune": false,
+    "default_dimensions": {
+      "width": 1.3964844,
+      "height": 1.6,
+      "eye_height": 1.52,
+      "fixed": false
+    },
+    "pose_dimensions": {},
+    "size_variants": [],
+    "attributes": [],
+    "tags": [
+      "minecraft:can_equip_saddle",
+      "minecraft:dismounts_underwater",
+      "minecraft:followable_friendly_mobs"
+    ]
+  }
+}

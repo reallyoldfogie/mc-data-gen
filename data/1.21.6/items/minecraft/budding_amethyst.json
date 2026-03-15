@@ -1,0 +1,16 @@
+{
+  "item_id": "minecraft:budding_amethyst",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.budding_amethyst",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:budding_blocks"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

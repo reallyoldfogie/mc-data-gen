@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:red_sand",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.red_sand",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:sands/red",
+      "c:sands",
+      "minecraft:smelts_to_glass",
+      "minecraft:sand"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

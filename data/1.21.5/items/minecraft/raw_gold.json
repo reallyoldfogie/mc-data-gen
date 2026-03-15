@@ -1,0 +1,18 @@
+{
+  "item_id": "minecraft:raw_gold",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.raw_gold",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:raw_materials/gold",
+      "minecraft:piglin_loved",
+      "c:raw_materials"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

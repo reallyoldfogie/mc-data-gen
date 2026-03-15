@@ -1,0 +1,20 @@
+{
+  "entity_id": "minecraft:ravager",
+  "data": {
+    "spawn_group": "MONSTER",
+    "fire_immune": false,
+    "default_dimensions": {
+      "width": 1.95,
+      "height": 2.2,
+      "eye_height": 1.8700001,
+      "fixed": false
+    },
+    "pose_dimensions": {},
+    "size_variants": [],
+    "attributes": [],
+    "tags": [
+      "minecraft:dismounts_underwater",
+      "minecraft:raiders"
+    ]
+  }
+}

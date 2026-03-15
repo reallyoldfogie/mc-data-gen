@@ -1,0 +1,581 @@
+{
+  "block_id": "minecraft:turtle_egg",
+  "states": [
+    {
+      "properties": {
+        "eggs": "1",
+        "hatch": "0"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.75,
+            0.4375,
+            0.75
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.75,
+            0.4375,
+            0.75
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "eggs": "1",
+        "hatch": "1"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.75,
+            0.4375,
+            0.75
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.75,
+            0.4375,
+            0.75
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "eggs": "1",
+        "hatch": "2"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.75,
+            0.4375,
+            0.75
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.1875,
+            0,
+            0.1875
+          ],
+          "max": [
+            0.75,
+            0.4375,
+            0.75
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "eggs": "2",
+        "hatch": "0"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.0625,
+            0,
+            0.0625
+          ],
+          "max": [
+            0.9375,
+            0.4375,
+            0.9375
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.0625,
+            0,
+            0.0625
+          ],
+          "max": [
+            0.9375,
+            0.4375,
+            0.9375
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "eggs": "2",
+        "hatch": "1"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.0625,
+            0,
+            0.0625
+          ],
+          "max": [
+            0.9375,
+            0.4375,
+            0.9375
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.0625,
+            0,
+            0.0625
+          ],
+          "max": [
+            0.9375,
+            0.4375,
+            0.9375
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "eggs": "2",
+        "hatch": "2"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.0625,
+            0,
+            0.0625
+          ],
+          "max": [
+            0.9375,
+            0.4375,
+            0.9375
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.0625,
+            0,
+            0.0625
+          ],
+          "max": [
+            0.9375,
+            0.4375,
+            0.9375
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "eggs": "3",
+        "hatch": "0"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.0625,
+            0,
+            0.0625
+          ],
+          "max": [
+            0.9375,
+            0.4375,
+            0.9375
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.0625,
+            0,
+            0.0625
+          ],
+          "max": [
+            0.9375,
+            0.4375,
+            0.9375
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "eggs": "3",
+        "hatch": "1"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.0625,
+            0,
+            0.0625
+          ],
+          "max": [
+            0.9375,
+            0.4375,
+            0.9375
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.0625,
+            0,
+            0.0625
+          ],
+          "max": [
+            0.9375,
+            0.4375,
+            0.9375
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "eggs": "3",
+        "hatch": "2"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.0625,
+            0,
+            0.0625
+          ],
+          "max": [
+            0.9375,
+            0.4375,
+            0.9375
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.0625,
+            0,
+            0.0625
+          ],
+          "max": [
+            0.9375,
+            0.4375,
+            0.9375
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "eggs": "4",
+        "hatch": "0"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.0625,
+            0,
+            0.0625
+          ],
+          "max": [
+            0.9375,
+            0.4375,
+            0.9375
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.0625,
+            0,
+            0.0625
+          ],
+          "max": [
+            0.9375,
+            0.4375,
+            0.9375
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "eggs": "4",
+        "hatch": "1"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.0625,
+            0,
+            0.0625
+          ],
+          "max": [
+            0.9375,
+            0.4375,
+            0.9375
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.0625,
+            0,
+            0.0625
+          ],
+          "max": [
+            0.9375,
+            0.4375,
+            0.9375
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "eggs": "4",
+        "hatch": "2"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.0625,
+            0,
+            0.0625
+          ],
+          "max": [
+            0.9375,
+            0.4375,
+            0.9375
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.0625,
+            0,
+            0.0625
+          ],
+          "max": [
+            0.9375,
+            0.4375,
+            0.9375
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    }
+  ]
+}

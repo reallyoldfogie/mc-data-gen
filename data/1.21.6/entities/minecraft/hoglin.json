@@ -1,0 +1,17 @@
+{
+  "entity_id": "minecraft:hoglin",
+  "data": {
+    "spawn_group": "MONSTER",
+    "fire_immune": false,
+    "default_dimensions": {
+      "width": 1.3964844,
+      "height": 1.4,
+      "eye_height": 1.19,
+      "fixed": false
+    },
+    "pose_dimensions": {},
+    "size_variants": [],
+    "attributes": [],
+    "tags": []
+  }
+}

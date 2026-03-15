@@ -1,0 +1,28 @@
+{
+  "item_id": "minecraft:chainmail_helmet",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.chainmail_helmet",
+    "rarity": "UNCOMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:enchantable/equippable",
+      "minecraft:enchantable/head_armor",
+      "minecraft:enchantable/durability",
+      "c:armors",
+      "c:enchantables",
+      "minecraft:head_armor",
+      "minecraft:enchantable/armor",
+      "minecraft:enchantable/vanishing",
+      "minecraft:trimmable_armor"
+    ],
+    "components": {
+      "max_damage": 165,
+      "max_damage_stack": 165,
+      "damage": 0
+    },
+    "is_weapon": false,
+    "is_food": false
+  }
+}

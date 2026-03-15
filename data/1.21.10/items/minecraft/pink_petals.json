@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:pink_petals",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.pink_petals",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:animal_foods",
+      "minecraft:flowers",
+      "c:flowers",
+      "minecraft:bee_food"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

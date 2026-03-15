@@ -1,0 +1,21 @@
+{
+  "item_id": "minecraft:flowering_azalea_leaves",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.flowering_azalea_leaves",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:flowers",
+      "minecraft:bee_food",
+      "minecraft:completes_find_tree_tutorial",
+      "minecraft:flowers",
+      "minecraft:leaves",
+      "c:animal_foods"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

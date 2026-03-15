@@ -1,0 +1,18 @@
+{
+  "item_id": "minecraft:warped_fungus",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.warped_fungus",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:strider_food",
+      "minecraft:strider_tempt_items",
+      "c:animal_foods"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

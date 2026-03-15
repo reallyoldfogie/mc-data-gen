@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "c:dusts",
       "minecraft:trim_materials",
-      "c:dusts/redstone",
-      "c:dusts"
+      "c:dusts/redstone"
     ],
     "components": {},
     "is_weapon": false,

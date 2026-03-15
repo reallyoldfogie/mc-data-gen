@@ -1,0 +1,16 @@
+{
+  "item_id": "minecraft:gilded_blackstone",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.gilded_blackstone",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:piglin_loved"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

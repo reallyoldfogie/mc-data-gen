@@ -1,0 +1,20 @@
+{
+  "item_id": "minecraft:milk_bucket",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.milk_bucket",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "DRINK",
+    "tags": [
+      "c:buckets",
+      "c:drinks/milk",
+      "c:buckets/milk",
+      "c:drink_containing/bucket",
+      "c:drinks"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

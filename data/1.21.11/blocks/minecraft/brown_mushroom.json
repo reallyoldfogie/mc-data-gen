@@ -1,0 +1,37 @@
+{
+  "block_id": "minecraft:brown_mushroom",
+  "states": [
+    {
+      "properties": {},
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.3125,
+            0,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.375,
+            0.6875
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": false,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    }
+  ]
+}

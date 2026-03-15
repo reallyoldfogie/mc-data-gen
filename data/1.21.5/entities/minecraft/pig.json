@@ -1,0 +1,20 @@
+{
+  "entity_id": "minecraft:pig",
+  "data": {
+    "spawn_group": "CREATURE",
+    "fire_immune": false,
+    "default_dimensions": {
+      "width": 0.9,
+      "height": 0.9,
+      "eye_height": 0.765,
+      "fixed": false
+    },
+    "pose_dimensions": {},
+    "size_variants": [],
+    "attributes": [],
+    "tags": [
+      "minecraft:can_equip_saddle",
+      "minecraft:dismounts_underwater"
+    ]
+  }
+}

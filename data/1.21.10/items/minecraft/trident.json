@@ -1,0 +1,32 @@
+{
+  "item_id": "minecraft:trident",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.trident",
+    "rarity": "RARE",
+    "fireproof": false,
+    "use_animation": "SPEAR",
+    "tags": [
+      "c:tools/ranged_weapon",
+      "c:tools/ranged_weapons",
+      "minecraft:enchantable/durability",
+      "c:tools/melee_weapon",
+      "c:tools/spears",
+      "minecraft:breaks_decorated_pots",
+      "minecraft:drowned_preferred_weapons",
+      "minecraft:enchantable/vanishing",
+      "c:tools/spear",
+      "c:tools",
+      "c:enchantables",
+      "minecraft:enchantable/trident"
+    ],
+    "components": {
+      "max_damage": 250,
+      "max_damage_stack": 250,
+      "damage": 0,
+      "is_tool": true
+    },
+    "is_weapon": false,
+    "is_food": false
+  }
+}

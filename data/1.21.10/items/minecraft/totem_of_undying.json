@@ -1,0 +1,14 @@
+{
+  "item_id": "minecraft:totem_of_undying",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.totem_of_undying",
+    "rarity": "UNCOMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

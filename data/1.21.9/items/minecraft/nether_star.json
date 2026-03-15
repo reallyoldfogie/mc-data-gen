@@ -1,0 +1,16 @@
+{
+  "item_id": "minecraft:nether_star",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.nether_star",
+    "rarity": "RARE",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:nether_stars"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

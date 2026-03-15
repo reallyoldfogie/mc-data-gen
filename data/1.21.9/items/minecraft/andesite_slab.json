@@ -1,0 +1,16 @@
+{
+  "item_id": "minecraft:andesite_slab",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.andesite_slab",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:slabs"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

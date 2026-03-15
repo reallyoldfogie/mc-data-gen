@@ -1,0 +1,21 @@
+{
+  "item_id": "minecraft:netherite_ingot",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.netherite_ingot",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:ingots",
+      "minecraft:repairs_netherite_armor",
+      "minecraft:beacon_payment_items",
+      "minecraft:netherite_tool_materials",
+      "c:ingots/netherite",
+      "minecraft:trim_materials"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

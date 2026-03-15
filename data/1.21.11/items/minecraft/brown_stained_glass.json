@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:brown_stained_glass",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.brown_stained_glass",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:glass_blocks",
+      "c:dyed/brown",
+      "c:dyed",
+      "c:glass_blocks/cheap"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "minecraft:gold_ores",
       "minecraft:piglin_loved",
-      "c:ores",
-      "minecraft:gold_ores"
+      "c:ores"
     ],
     "components": {},
     "is_weapon": false,

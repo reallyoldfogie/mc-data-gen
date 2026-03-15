@@ -1,0 +1,17 @@
+{
+  "entity_id": "minecraft:text_display",
+  "data": {
+    "spawn_group": "MISC",
+    "fire_immune": false,
+    "default_dimensions": {
+      "width": 0,
+      "height": 0,
+      "eye_height": 0,
+      "fixed": false
+    },
+    "pose_dimensions": {},
+    "size_variants": [],
+    "attributes": [],
+    "tags": []
+  }
+}

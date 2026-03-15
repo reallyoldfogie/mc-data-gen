@@ -1,0 +1,27 @@
+{
+  "item_id": "minecraft:beef",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.beef",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "EAT",
+    "tags": [
+      "c:foods",
+      "minecraft:wolf_food",
+      "c:animal_foods",
+      "c:foods/raw_meats",
+      "c:foods/raw_meat",
+      "minecraft:meat"
+    ],
+    "components": {
+      "food": {
+        "nutrition": 3,
+        "saturation": 1.8000001,
+        "can_always_eat": false
+      }
+    },
+    "is_weapon": false,
+    "is_food": true
+  }
+}

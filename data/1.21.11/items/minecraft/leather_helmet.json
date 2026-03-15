@@ -1,0 +1,31 @@
+{
+  "item_id": "minecraft:leather_helmet",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.leather_helmet",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:armors/humanoid",
+      "c:enchantables",
+      "minecraft:enchantable/armor",
+      "minecraft:trimmable_armor",
+      "c:armors",
+      "minecraft:head_armor",
+      "minecraft:dyeable",
+      "minecraft:enchantable/durability",
+      "minecraft:enchantable/equippable",
+      "minecraft:enchantable/vanishing",
+      "minecraft:enchantable/head_armor",
+      "minecraft:freeze_immune_wearables"
+    ],
+    "components": {
+      "max_damage": 55,
+      "max_damage_stack": 55,
+      "damage": 0
+    },
+    "is_weapon": false,
+    "is_food": false
+  }
+}

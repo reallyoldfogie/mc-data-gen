@@ -1,0 +1,14 @@
+{
+  "item_id": "minecraft:prismarine_bricks",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.prismarine_bricks",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

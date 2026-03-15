@@ -1,0 +1,18 @@
+{
+  "item_id": "minecraft:yellow_banner",
+  "data": {
+    "max_stack_size": 16,
+    "translation_key": "block.minecraft.yellow_banner",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:banners",
+      "c:dyed",
+      "c:dyed/yellow"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

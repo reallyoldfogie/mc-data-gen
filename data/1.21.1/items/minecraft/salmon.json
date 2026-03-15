@@ -7,13 +7,13 @@
     "fireproof": false,
     "use_animation": "EAT",
     "tags": [
-      "minecraft:cat_food",
+      "c:foods",
       "minecraft:ocelot_food",
       "c:foods/raw_fish",
-      "c:animal_foods",
       "minecraft:fishes",
-      "c:foods",
-      "c:foods/raw_fishes"
+      "minecraft:cat_food",
+      "c:foods/raw_fishes",
+      "c:animal_foods"
     ],
     "components": {
       "food": {

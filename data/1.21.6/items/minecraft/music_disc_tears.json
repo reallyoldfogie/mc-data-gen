@@ -1,0 +1,14 @@
+{
+  "item_id": "minecraft:music_disc_tears",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.music_disc_tears",
+    "rarity": "UNCOMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

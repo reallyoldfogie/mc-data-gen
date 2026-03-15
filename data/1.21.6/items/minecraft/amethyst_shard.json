@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:amethyst_shard",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.amethyst_shard",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:duplicates_allays",
+      "c:gems/amethyst",
+      "c:gems",
+      "minecraft:trim_materials"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

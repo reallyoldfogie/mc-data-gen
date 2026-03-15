@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:chicken_food",
-      "c:animal_foods",
       "minecraft:parrot_food",
+      "c:animal_foods",
+      "minecraft:chicken_food",
       "minecraft:villager_plantable_seeds"
     ],
     "components": {},

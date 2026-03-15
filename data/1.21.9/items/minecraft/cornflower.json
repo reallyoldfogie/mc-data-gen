@@ -1,0 +1,21 @@
+{
+  "item_id": "minecraft:cornflower",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.cornflower",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:flowers",
+      "c:animal_foods",
+      "minecraft:small_flowers",
+      "minecraft:bee_food",
+      "c:flowers",
+      "c:flowers/small"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

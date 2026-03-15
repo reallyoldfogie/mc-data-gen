@@ -1,0 +1,22 @@
+{
+  "item_id": "minecraft:carrot_on_a_stick",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.carrot_on_a_stick",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:enchantable/vanishing",
+      "minecraft:enchantable/durability",
+      "c:enchantables"
+    ],
+    "components": {
+      "max_damage": 25,
+      "max_damage_stack": 25,
+      "damage": 0
+    },
+    "is_weapon": false,
+    "is_food": false
+  }
+}

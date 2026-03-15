@@ -1,0 +1,20 @@
+{
+  "item_id": "minecraft:pumpkin_seeds",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.pumpkin_seeds",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:chicken_food",
+      "c:seeds/pumpkin",
+      "c:seeds",
+      "minecraft:parrot_food",
+      "c:animal_foods"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

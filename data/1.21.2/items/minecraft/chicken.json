@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "EAT",
     "tags": [
-      "c:foods/food_poisoning",
       "c:foods/raw_meats",
       "c:foods",
+      "c:foods/food_poisoning",
       "c:animal_foods",
       "minecraft:meat",
       "c:foods/raw_meat",

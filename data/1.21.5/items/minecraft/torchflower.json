@@ -1,0 +1,21 @@
+{
+  "item_id": "minecraft:torchflower",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.torchflower",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:flowers/small",
+      "c:flowers",
+      "minecraft:bee_food",
+      "minecraft:flowers",
+      "c:animal_foods",
+      "minecraft:small_flowers"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

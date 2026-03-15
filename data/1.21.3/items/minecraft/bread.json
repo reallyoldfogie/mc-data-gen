@@ -8,9 +8,9 @@
     "use_animation": "EAT",
     "tags": [
       "c:foods/bread",
-      "minecraft:villager_picks_up",
+      "c:foods",
       "c:foods/breads",
-      "c:foods"
+      "minecraft:villager_picks_up"
     ],
     "components": {
       "food": {

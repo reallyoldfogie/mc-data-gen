@@ -1,0 +1,16 @@
+{
+  "item_id": "minecraft:recovery_compass",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.recovery_compass",
+    "rarity": "UNCOMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:compasses"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

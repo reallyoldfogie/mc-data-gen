@@ -1,0 +1,18 @@
+{
+  "item_id": "minecraft:magenta_candle",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.magenta_candle",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:dyed",
+      "c:dyed/magenta",
+      "minecraft:candles"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

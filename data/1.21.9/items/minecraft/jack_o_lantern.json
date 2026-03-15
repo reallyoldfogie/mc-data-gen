@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:jack_o_lantern",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.jack_o_lantern",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:pumpkins",
+      "c:pumpkins/jack_o_lanterns"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

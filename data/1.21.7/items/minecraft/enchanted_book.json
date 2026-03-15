@@ -1,0 +1,16 @@
+{
+  "item_id": "minecraft:enchanted_book",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.enchanted_book",
+    "rarity": "UNCOMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:bookshelf_books"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

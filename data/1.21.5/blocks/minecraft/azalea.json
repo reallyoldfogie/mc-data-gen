@@ -1,0 +1,146 @@
+{
+  "block_id": "minecraft:azalea",
+  "states": [
+    {
+      "properties": {},
+      "collision_boxes": [
+        {
+          "min": [
+            0.375,
+            0,
+            0.375
+          ],
+          "max": [
+            0.625,
+            1,
+            0.625
+          ]
+        },
+        {
+          "min": [
+            0,
+            0.5,
+            0
+          ],
+          "max": [
+            0.375,
+            1,
+            1
+          ]
+        },
+        {
+          "min": [
+            0.375,
+            0.5,
+            0
+          ],
+          "max": [
+            1,
+            1,
+            0.375
+          ]
+        },
+        {
+          "min": [
+            0.375,
+            0.5,
+            0.625
+          ],
+          "max": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "min": [
+            0.625,
+            0.5,
+            0.375
+          ],
+          "max": [
+            1,
+            1,
+            0.625
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.375,
+            0,
+            0.375
+          ],
+          "max": [
+            0.625,
+            1,
+            0.625
+          ]
+        },
+        {
+          "min": [
+            0,
+            0.5,
+            0
+          ],
+          "max": [
+            0.375,
+            1,
+            1
+          ]
+        },
+        {
+          "min": [
+            0.375,
+            0.5,
+            0
+          ],
+          "max": [
+            1,
+            1,
+            0.375
+          ]
+        },
+        {
+          "min": [
+            0.375,
+            0.5,
+            0.625
+          ],
+          "max": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "min": [
+            0.625,
+            0.5,
+            0.375
+          ],
+          "max": [
+            1,
+            1,
+            0.625
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    }
+  ]
+}

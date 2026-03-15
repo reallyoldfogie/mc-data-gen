@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:barrels",
       "c:villager_job_sites",
+      "c:barrels",
       "c:barrels/wooden"
     ],
     "components": {},

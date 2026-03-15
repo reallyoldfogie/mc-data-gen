@@ -1,0 +1,20 @@
+{
+  "item_id": "minecraft:pitcher_plant",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.pitcher_plant",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:animal_foods",
+      "minecraft:flowers",
+      "minecraft:bee_food",
+      "c:flowers",
+      "c:flowers/tall"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

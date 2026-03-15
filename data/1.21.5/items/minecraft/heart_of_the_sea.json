@@ -1,0 +1,14 @@
+{
+  "item_id": "minecraft:heart_of_the_sea",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.heart_of_the_sea",
+    "rarity": "UNCOMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

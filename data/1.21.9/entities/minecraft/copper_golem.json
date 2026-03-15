@@ -1,0 +1,22 @@
+{
+  "entity_id": "minecraft:copper_golem",
+  "data": {
+    "spawn_group": "MISC",
+    "fire_immune": false,
+    "default_dimensions": {
+      "width": 0.49,
+      "height": 0.98,
+      "eye_height": 0.8125,
+      "fixed": false
+    },
+    "pose_dimensions": {},
+    "size_variants": [],
+    "attributes": [],
+    "tags": [
+      "minecraft:accepts_iron_golem_gift",
+      "minecraft:can_breathe_under_water",
+      "minecraft:candidate_for_iron_golem_gift",
+      "minecraft:fall_damage_immune"
+    ]
+  }
+}

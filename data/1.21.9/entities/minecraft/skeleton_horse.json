@@ -1,0 +1,27 @@
+{
+  "entity_id": "minecraft:skeleton_horse",
+  "data": {
+    "spawn_group": "CREATURE",
+    "fire_immune": false,
+    "default_dimensions": {
+      "width": 1.3964844,
+      "height": 1.6,
+      "eye_height": 1.52,
+      "fixed": false
+    },
+    "pose_dimensions": {},
+    "size_variants": [],
+    "attributes": [],
+    "tags": [
+      "minecraft:can_breathe_under_water",
+      "minecraft:can_equip_saddle",
+      "minecraft:followable_friendly_mobs",
+      "minecraft:ignores_poison_and_regen",
+      "minecraft:inverted_healing_and_harm",
+      "minecraft:sensitive_to_smite",
+      "minecraft:skeletons",
+      "minecraft:undead",
+      "minecraft:wither_friends"
+    ]
+  }
+}

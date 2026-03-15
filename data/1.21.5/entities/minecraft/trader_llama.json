@@ -1,0 +1,19 @@
+{
+  "entity_id": "minecraft:trader_llama",
+  "data": {
+    "spawn_group": "CREATURE",
+    "fire_immune": false,
+    "default_dimensions": {
+      "width": 0.9,
+      "height": 1.87,
+      "eye_height": 1.7765,
+      "fixed": false
+    },
+    "pose_dimensions": {},
+    "size_variants": [],
+    "attributes": [],
+    "tags": [
+      "minecraft:dismounts_underwater"
+    ]
+  }
+}

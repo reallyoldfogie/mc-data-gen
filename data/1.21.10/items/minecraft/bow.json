@@ -1,0 +1,30 @@
+{
+  "item_id": "minecraft:bow",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.bow",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "BOW",
+    "tags": [
+      "c:enchantables",
+      "c:tools/bow",
+      "c:tools/bows",
+      "minecraft:wither_skeleton_disliked_weapons",
+      "minecraft:enchantable/durability",
+      "c:tools",
+      "minecraft:skeleton_preferred_weapons",
+      "c:tools/ranged_weapon",
+      "minecraft:enchantable/vanishing",
+      "minecraft:enchantable/bow",
+      "c:tools/ranged_weapons"
+    ],
+    "components": {
+      "max_damage": 384,
+      "max_damage_stack": 384,
+      "damage": 0
+    },
+    "is_weapon": false,
+    "is_food": false
+  }
+}

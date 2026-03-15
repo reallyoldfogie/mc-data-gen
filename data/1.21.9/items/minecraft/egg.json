@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:egg",
+  "data": {
+    "max_stack_size": 16,
+    "translation_key": "item.minecraft.egg",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:eggs",
+      "c:eggs"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "item_id": "minecraft:fishing_rod",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.fishing_rod",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:tools",
+      "c:tools/fishing_rods",
+      "minecraft:enchantable/fishing",
+      "c:tools/fishing_rod",
+      "minecraft:enchantable/vanishing",
+      "minecraft:enchantable/durability",
+      "c:enchantables"
+    ],
+    "components": {
+      "max_damage": 64,
+      "max_damage_stack": 64,
+      "damage": 0
+    },
+    "is_weapon": false,
+    "is_food": false
+  }
+}

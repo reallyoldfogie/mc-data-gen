@@ -1,0 +1,25 @@
+{
+  "item_id": "minecraft:flint_and_steel",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.flint_and_steel",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:tools",
+      "c:tools/igniter",
+      "c:enchantables",
+      "minecraft:enchantable/durability",
+      "minecraft:creeper_igniters",
+      "minecraft:enchantable/vanishing"
+    ],
+    "components": {
+      "max_damage": 64,
+      "max_damage_stack": 64,
+      "damage": 0
+    },
+    "is_weapon": false,
+    "is_food": false
+  }
+}

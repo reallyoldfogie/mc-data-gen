@@ -1,0 +1,22 @@
+{
+  "item_id": "minecraft:carved_pumpkin",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.carved_pumpkin",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:gaze_disguise_equipment",
+      "c:enchantables",
+      "minecraft:enchantable/equippable",
+      "minecraft:map_invisibility_equipment",
+      "c:pumpkins/carved",
+      "minecraft:enchantable/vanishing",
+      "c:pumpkins"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

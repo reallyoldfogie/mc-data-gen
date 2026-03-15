@@ -10,8 +10,8 @@
       "minecraft:logs_that_burn",
       "c:stripped_woods",
       "minecraft:logs",
-      "minecraft:spruce_logs",
-      "minecraft:completes_find_tree_tutorial"
+      "minecraft:completes_find_tree_tutorial",
+      "minecraft:spruce_logs"
     ],
     "components": {},
     "is_weapon": false,

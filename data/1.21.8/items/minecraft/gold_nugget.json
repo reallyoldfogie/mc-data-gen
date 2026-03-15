@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:gold_nugget",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.gold_nugget",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:nuggets",
+      "c:nuggets/gold"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

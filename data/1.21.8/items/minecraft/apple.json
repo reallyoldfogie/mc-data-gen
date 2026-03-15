@@ -1,0 +1,26 @@
+{
+  "item_id": "minecraft:apple",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.apple",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "EAT",
+    "tags": [
+      "minecraft:horse_food",
+      "c:foods",
+      "c:foods/fruit",
+      "c:animal_foods",
+      "c:foods/fruits"
+    ],
+    "components": {
+      "food": {
+        "nutrition": 4,
+        "saturation": 2.4,
+        "can_always_eat": false
+      }
+    },
+    "is_weapon": false,
+    "is_food": true
+  }
+}

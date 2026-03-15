@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "c:dyed/gray",
       "c:dyed",
-      "c:shulker_boxes",
-      "c:dyed/gray"
+      "c:shulker_boxes"
     ],
     "components": {},
     "is_weapon": false,

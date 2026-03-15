@@ -7,10 +7,10 @@
     "fireproof": false,
     "use_animation": "EAT",
     "tags": [
-      "minecraft:wolf_food",
       "c:foods/soups",
-      "c:animal_foods",
+      "minecraft:wolf_food",
       "c:foods/soup",
+      "c:animal_foods",
       "c:foods"
     ],
     "components": {

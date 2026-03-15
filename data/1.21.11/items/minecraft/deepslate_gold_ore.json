@@ -1,0 +1,21 @@
+{
+  "item_id": "minecraft:deepslate_gold_ore",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.deepslate_gold_ore",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:ores_in_ground/deepslate",
+      "c:ore_rates/singular",
+      "c:ores",
+      "c:ores/gold",
+      "minecraft:gold_ores",
+      "minecraft:piglin_loved"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

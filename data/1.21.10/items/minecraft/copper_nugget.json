@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:copper_nugget",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.copper_nugget",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:nuggets/copper",
+      "c:nuggets"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyed",
       "minecraft:candles",
+      "c:dyed",
       "c:dyed/orange"
     ],
     "components": {},

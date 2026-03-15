@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:waxed_weathered_copper_chain",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.waxed_weathered_copper_chain",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:chains",
+      "c:chains"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

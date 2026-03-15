@@ -1,0 +1,21 @@
+{
+  "item_id": "minecraft:potion",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.potion",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "DRINK",
+    "tags": [
+      "c:potions/bottle",
+      "c:drink_containing/bottle",
+      "c:potions",
+      "c:drinks",
+      "c:drinks/watery",
+      "c:drinks/magic"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

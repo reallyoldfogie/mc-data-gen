@@ -1,0 +1,26 @@
+{
+  "entity_id": "minecraft:wither_skeleton",
+  "data": {
+    "spawn_group": "MONSTER",
+    "fire_immune": true,
+    "default_dimensions": {
+      "width": 0.7,
+      "height": 2.4,
+      "eye_height": 2.1,
+      "fixed": false
+    },
+    "pose_dimensions": {},
+    "size_variants": [],
+    "attributes": [],
+    "tags": [
+      "minecraft:burn_in_daylight",
+      "minecraft:can_breathe_under_water",
+      "minecraft:ignores_poison_and_regen",
+      "minecraft:inverted_healing_and_harm",
+      "minecraft:sensitive_to_smite",
+      "minecraft:skeletons",
+      "minecraft:undead",
+      "minecraft:wither_friends"
+    ]
+  }
+}

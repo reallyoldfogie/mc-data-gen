@@ -1,0 +1,21 @@
+{
+  "entity_id": "minecraft:strider",
+  "data": {
+    "spawn_group": "CREATURE",
+    "fire_immune": true,
+    "default_dimensions": {
+      "width": 0.9,
+      "height": 1.7,
+      "eye_height": 1.445,
+      "fixed": false
+    },
+    "pose_dimensions": {},
+    "size_variants": [],
+    "attributes": [],
+    "tags": [
+      "minecraft:can_equip_saddle",
+      "minecraft:dismounts_underwater",
+      "minecraft:freeze_hurts_extra_types"
+    ]
+  }
+}

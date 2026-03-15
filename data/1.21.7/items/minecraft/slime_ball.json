@@ -1,0 +1,18 @@
+{
+  "item_id": "minecraft:slime_ball",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.slime_ball",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:animal_foods",
+      "minecraft:frog_food",
+      "c:slime_balls"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

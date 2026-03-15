@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:stick",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.stick",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:rods/wooden",
+      "c:rods"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

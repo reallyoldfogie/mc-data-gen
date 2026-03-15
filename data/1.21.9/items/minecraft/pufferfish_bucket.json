@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:pufferfish_bucket",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.pufferfish_bucket",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:buckets/entity_water",
+      "c:buckets"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

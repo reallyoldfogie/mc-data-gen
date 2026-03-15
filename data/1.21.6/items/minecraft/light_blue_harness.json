@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:light_blue_harness",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.light_blue_harness",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:happy_ghast_tempt_items",
+      "minecraft:harnesses",
+      "c:dyed",
+      "c:dyed/light_blue"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

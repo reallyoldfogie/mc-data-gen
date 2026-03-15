@@ -1,0 +1,22 @@
+{
+  "item_id": "minecraft:beetroot_seeds",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.beetroot_seeds",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:villager_picks_up",
+      "minecraft:villager_plantable_seeds",
+      "c:seeds/beetroot",
+      "c:animal_foods",
+      "minecraft:chicken_food",
+      "minecraft:parrot_food",
+      "c:seeds"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

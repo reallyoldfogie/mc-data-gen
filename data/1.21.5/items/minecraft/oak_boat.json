@@ -1,0 +1,16 @@
+{
+  "item_id": "minecraft:oak_boat",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.oak_boat",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:boats"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

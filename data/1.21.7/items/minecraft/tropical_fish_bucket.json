@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:tropical_fish_bucket",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.tropical_fish_bucket",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:axolotl_food",
+      "c:buckets",
+      "c:buckets/entity_water",
+      "c:animal_foods"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

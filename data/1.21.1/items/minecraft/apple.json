@@ -7,10 +7,10 @@
     "fireproof": false,
     "use_animation": "EAT",
     "tags": [
-      "c:foods/fruits",
-      "c:animal_foods",
       "c:foods/fruit",
       "c:foods",
+      "c:animal_foods",
+      "c:foods/fruits",
       "minecraft:horse_food"
     ],
     "components": {

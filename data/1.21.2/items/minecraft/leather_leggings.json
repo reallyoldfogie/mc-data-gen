@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:enchantable/equippable",
       "minecraft:dyeable",
+      "minecraft:enchantable/equippable",
       "minecraft:enchantable/vanishing",
       "minecraft:enchantable/durability",
       "c:armors",

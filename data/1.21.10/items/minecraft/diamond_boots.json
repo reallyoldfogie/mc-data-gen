@@ -1,0 +1,28 @@
+{
+  "item_id": "minecraft:diamond_boots",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.diamond_boots",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:enchantable/foot_armor",
+      "c:armors",
+      "minecraft:enchantable/durability",
+      "minecraft:enchantable/vanishing",
+      "minecraft:enchantable/equippable",
+      "minecraft:enchantable/armor",
+      "minecraft:foot_armor",
+      "minecraft:trimmable_armor",
+      "c:enchantables"
+    ],
+    "components": {
+      "max_damage": 429,
+      "max_damage_stack": 429,
+      "damage": 0
+    },
+    "is_weapon": false,
+    "is_food": false
+  }
+}

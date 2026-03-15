@@ -1,0 +1,32 @@
+{
+  "item_id": "minecraft:netherite_axe",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.netherite_axe",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:tools/melee_weapons",
+      "minecraft:enchantable/mining_loot",
+      "c:enchantables",
+      "minecraft:axes",
+      "minecraft:enchantable/weapon",
+      "minecraft:enchantable/mining",
+      "c:tools",
+      "c:tools/melee_weapon",
+      "minecraft:enchantable/sharp_weapon",
+      "minecraft:enchantable/durability",
+      "minecraft:breaks_decorated_pots",
+      "minecraft:enchantable/vanishing"
+    ],
+    "components": {
+      "max_damage": 2031,
+      "max_damage_stack": 2031,
+      "damage": 0,
+      "is_tool": true
+    },
+    "is_weapon": true,
+    "is_food": false
+  }
+}

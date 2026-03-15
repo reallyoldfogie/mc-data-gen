@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:cactus_flower",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.cactus_flower",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:animal_foods",
+      "minecraft:bee_food",
+      "c:flowers",
+      "minecraft:flowers"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

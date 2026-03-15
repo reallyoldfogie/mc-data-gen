@@ -1,0 +1,2725 @@
+{
+  "block_id": "minecraft:bell",
+  "states": [
+    {
+      "properties": {
+        "attachment": "floor",
+        "facing": "north",
+        "powered": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0.25
+          ],
+          "max": [
+            1,
+            1,
+            0.75
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0.25
+          ],
+          "max": [
+            1,
+            1,
+            0.75
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "attachment": "floor",
+        "facing": "north",
+        "powered": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0.25
+          ],
+          "max": [
+            1,
+            1,
+            0.75
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0.25
+          ],
+          "max": [
+            1,
+            1,
+            0.75
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "attachment": "floor",
+        "facing": "south",
+        "powered": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0.25
+          ],
+          "max": [
+            1,
+            1,
+            0.75
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0.25
+          ],
+          "max": [
+            1,
+            1,
+            0.75
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "attachment": "floor",
+        "facing": "south",
+        "powered": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0.25
+          ],
+          "max": [
+            1,
+            1,
+            0.75
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0,
+            0,
+            0.25
+          ],
+          "max": [
+            1,
+            1,
+            0.75
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "attachment": "floor",
+        "facing": "west",
+        "powered": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.25,
+            0,
+            0
+          ],
+          "max": [
+            0.75,
+            1,
+            1
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.25,
+            0,
+            0
+          ],
+          "max": [
+            0.75,
+            1,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "attachment": "floor",
+        "facing": "west",
+        "powered": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.25,
+            0,
+            0
+          ],
+          "max": [
+            0.75,
+            1,
+            1
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.25,
+            0,
+            0
+          ],
+          "max": [
+            0.75,
+            1,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "attachment": "floor",
+        "facing": "east",
+        "powered": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.25,
+            0,
+            0
+          ],
+          "max": [
+            0.75,
+            1,
+            1
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.25,
+            0,
+            0
+          ],
+          "max": [
+            0.75,
+            1,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "attachment": "floor",
+        "facing": "east",
+        "powered": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.25,
+            0,
+            0
+          ],
+          "max": [
+            0.75,
+            1,
+            1
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.25,
+            0,
+            0
+          ],
+          "max": [
+            0.75,
+            1,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "attachment": "ceiling",
+        "facing": "north",
+        "powered": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "max": [
+            0.75,
+            0.375,
+            0.75
+          ]
+        },
+        {
+          "min": [
+            0.3125,
+            0.375,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.8125,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0.4375,
+            0.8125,
+            0.4375
+          ],
+          "max": [
+            0.5625,
+            1,
+            0.5625
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "max": [
+            0.75,
+            0.375,
+            0.75
+          ]
+        },
+        {
+          "min": [
+            0.3125,
+            0.375,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.8125,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0.4375,
+            0.8125,
+            0.4375
+          ],
+          "max": [
+            0.5625,
+            1,
+            0.5625
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "attachment": "ceiling",
+        "facing": "north",
+        "powered": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "max": [
+            0.75,
+            0.375,
+            0.75
+          ]
+        },
+        {
+          "min": [
+            0.3125,
+            0.375,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.8125,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0.4375,
+            0.8125,
+            0.4375
+          ],
+          "max": [
+            0.5625,
+            1,
+            0.5625
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "max": [
+            0.75,
+            0.375,
+            0.75
+          ]
+        },
+        {
+          "min": [
+            0.3125,
+            0.375,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.8125,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0.4375,
+            0.8125,
+            0.4375
+          ],
+          "max": [
+            0.5625,
+            1,
+            0.5625
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "attachment": "ceiling",
+        "facing": "south",
+        "powered": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "max": [
+            0.75,
+            0.375,
+            0.75
+          ]
+        },
+        {
+          "min": [
+            0.3125,
+            0.375,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.8125,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0.4375,
+            0.8125,
+            0.4375
+          ],
+          "max": [
+            0.5625,
+            1,
+            0.5625
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "max": [
+            0.75,
+            0.375,
+            0.75
+          ]
+        },
+        {
+          "min": [
+            0.3125,
+            0.375,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.8125,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0.4375,
+            0.8125,
+            0.4375
+          ],
+          "max": [
+            0.5625,
+            1,
+            0.5625
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "attachment": "ceiling",
+        "facing": "south",
+        "powered": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "max": [
+            0.75,
+            0.375,
+            0.75
+          ]
+        },
+        {
+          "min": [
+            0.3125,
+            0.375,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.8125,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0.4375,
+            0.8125,
+            0.4375
+          ],
+          "max": [
+            0.5625,
+            1,
+            0.5625
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "max": [
+            0.75,
+            0.375,
+            0.75
+          ]
+        },
+        {
+          "min": [
+            0.3125,
+            0.375,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.8125,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0.4375,
+            0.8125,
+            0.4375
+          ],
+          "max": [
+            0.5625,
+            1,
+            0.5625
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "attachment": "ceiling",
+        "facing": "west",
+        "powered": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "max": [
+            0.75,
+            0.375,
+            0.75
+          ]
+        },
+        {
+          "min": [
+            0.3125,
+            0.375,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.8125,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0.4375,
+            0.8125,
+            0.4375
+          ],
+          "max": [
+            0.5625,
+            1,
+            0.5625
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "max": [
+            0.75,
+            0.375,
+            0.75
+          ]
+        },
+        {
+          "min": [
+            0.3125,
+            0.375,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.8125,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0.4375,
+            0.8125,
+            0.4375
+          ],
+          "max": [
+            0.5625,
+            1,
+            0.5625
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "attachment": "ceiling",
+        "facing": "west",
+        "powered": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "max": [
+            0.75,
+            0.375,
+            0.75
+          ]
+        },
+        {
+          "min": [
+            0.3125,
+            0.375,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.8125,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0.4375,
+            0.8125,
+            0.4375
+          ],
+          "max": [
+            0.5625,
+            1,
+            0.5625
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "max": [
+            0.75,
+            0.375,
+            0.75
+          ]
+        },
+        {
+          "min": [
+            0.3125,
+            0.375,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.8125,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0.4375,
+            0.8125,
+            0.4375
+          ],
+          "max": [
+            0.5625,
+            1,
+            0.5625
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "attachment": "ceiling",
+        "facing": "east",
+        "powered": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "max": [
+            0.75,
+            0.375,
+            0.75
+          ]
+        },
+        {
+          "min": [
+            0.3125,
+            0.375,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.8125,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0.4375,
+            0.8125,
+            0.4375
+          ],
+          "max": [
+            0.5625,
+            1,
+            0.5625
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "max": [
+            0.75,
+            0.375,
+            0.75
+          ]
+        },
+        {
+          "min": [
+            0.3125,
+            0.375,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.8125,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0.4375,
+            0.8125,
+            0.4375
+          ],
+          "max": [
+            0.5625,
+            1,
+            0.5625
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "attachment": "ceiling",
+        "facing": "east",
+        "powered": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "max": [
+            0.75,
+            0.375,
+            0.75
+          ]
+        },
+        {
+          "min": [
+            0.3125,
+            0.375,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.8125,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0.4375,
+            0.8125,
+            0.4375
+          ],
+          "max": [
+            0.5625,
+            1,
+            0.5625
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "max": [
+            0.75,
+            0.375,
+            0.75
+          ]
+        },
+        {
+          "min": [
+            0.3125,
+            0.375,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.8125,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0.4375,
+            0.8125,
+            0.4375
+          ],
+          "max": [
+            0.5625,
+            1,
+            0.5625
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "attachment": "single_wall",
+        "facing": "north",
+        "powered": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "max": [
+            0.75,
+            0.375,
+            0.75
+          ]
+        },
+        {
+          "min": [
+            0.3125,
+            0.375,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.8125,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0.4375,
+            0.8125,
+            0
+          ],
+          "max": [
+            0.5625,
+            0.9375,
+            0.8125
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "max": [
+            0.75,
+            0.375,
+            0.75
+          ]
+        },
+        {
+          "min": [
+            0.3125,
+            0.375,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.8125,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0.4375,
+            0.8125,
+            0
+          ],
+          "max": [
+            0.5625,
+            0.9375,
+            0.8125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "attachment": "single_wall",
+        "facing": "north",
+        "powered": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "max": [
+            0.75,
+            0.375,
+            0.75
+          ]
+        },
+        {
+          "min": [
+            0.3125,
+            0.375,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.8125,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0.4375,
+            0.8125,
+            0
+          ],
+          "max": [
+            0.5625,
+            0.9375,
+            0.8125
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "max": [
+            0.75,
+            0.375,
+            0.75
+          ]
+        },
+        {
+          "min": [
+            0.3125,
+            0.375,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.8125,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0.4375,
+            0.8125,
+            0
+          ],
+          "max": [
+            0.5625,
+            0.9375,
+            0.8125
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "attachment": "single_wall",
+        "facing": "south",
+        "powered": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "max": [
+            0.75,
+            0.375,
+            0.75
+          ]
+        },
+        {
+          "min": [
+            0.3125,
+            0.375,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.8125,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0.4375,
+            0.8125,
+            0.1875
+          ],
+          "max": [
+            0.5625,
+            0.9375,
+            1
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "max": [
+            0.75,
+            0.375,
+            0.75
+          ]
+        },
+        {
+          "min": [
+            0.3125,
+            0.375,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.8125,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0.4375,
+            0.8125,
+            0.1875
+          ],
+          "max": [
+            0.5625,
+            0.9375,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "attachment": "single_wall",
+        "facing": "south",
+        "powered": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "max": [
+            0.75,
+            0.375,
+            0.75
+          ]
+        },
+        {
+          "min": [
+            0.3125,
+            0.375,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.8125,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0.4375,
+            0.8125,
+            0.1875
+          ],
+          "max": [
+            0.5625,
+            0.9375,
+            1
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "max": [
+            0.75,
+            0.375,
+            0.75
+          ]
+        },
+        {
+          "min": [
+            0.3125,
+            0.375,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.8125,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0.4375,
+            0.8125,
+            0.1875
+          ],
+          "max": [
+            0.5625,
+            0.9375,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "attachment": "single_wall",
+        "facing": "west",
+        "powered": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "max": [
+            0.75,
+            0.375,
+            0.75
+          ]
+        },
+        {
+          "min": [
+            0.3125,
+            0.375,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.8125,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0,
+            0.8125,
+            0.4375
+          ],
+          "max": [
+            0.8125,
+            0.9375,
+            0.5625
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "max": [
+            0.75,
+            0.375,
+            0.75
+          ]
+        },
+        {
+          "min": [
+            0.3125,
+            0.375,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.8125,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0,
+            0.8125,
+            0.4375
+          ],
+          "max": [
+            0.8125,
+            0.9375,
+            0.5625
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "attachment": "single_wall",
+        "facing": "west",
+        "powered": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "max": [
+            0.75,
+            0.375,
+            0.75
+          ]
+        },
+        {
+          "min": [
+            0.3125,
+            0.375,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.8125,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0,
+            0.8125,
+            0.4375
+          ],
+          "max": [
+            0.8125,
+            0.9375,
+            0.5625
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "max": [
+            0.75,
+            0.375,
+            0.75
+          ]
+        },
+        {
+          "min": [
+            0.3125,
+            0.375,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.8125,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0,
+            0.8125,
+            0.4375
+          ],
+          "max": [
+            0.8125,
+            0.9375,
+            0.5625
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "attachment": "single_wall",
+        "facing": "east",
+        "powered": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "max": [
+            0.75,
+            0.375,
+            0.75
+          ]
+        },
+        {
+          "min": [
+            0.3125,
+            0.375,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.8125,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0.1875,
+            0.8125,
+            0.4375
+          ],
+          "max": [
+            1,
+            0.9375,
+            0.5625
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "max": [
+            0.75,
+            0.375,
+            0.75
+          ]
+        },
+        {
+          "min": [
+            0.3125,
+            0.375,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.8125,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0.1875,
+            0.8125,
+            0.4375
+          ],
+          "max": [
+            1,
+            0.9375,
+            0.5625
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "attachment": "single_wall",
+        "facing": "east",
+        "powered": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "max": [
+            0.75,
+            0.375,
+            0.75
+          ]
+        },
+        {
+          "min": [
+            0.3125,
+            0.375,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.8125,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0.1875,
+            0.8125,
+            0.4375
+          ],
+          "max": [
+            1,
+            0.9375,
+            0.5625
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "max": [
+            0.75,
+            0.375,
+            0.75
+          ]
+        },
+        {
+          "min": [
+            0.3125,
+            0.375,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.8125,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0.1875,
+            0.8125,
+            0.4375
+          ],
+          "max": [
+            1,
+            0.9375,
+            0.5625
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "attachment": "double_wall",
+        "facing": "north",
+        "powered": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "max": [
+            0.75,
+            0.375,
+            0.75
+          ]
+        },
+        {
+          "min": [
+            0.3125,
+            0.375,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.8125,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0.4375,
+            0.8125,
+            0
+          ],
+          "max": [
+            0.5625,
+            0.9375,
+            1
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "max": [
+            0.75,
+            0.375,
+            0.75
+          ]
+        },
+        {
+          "min": [
+            0.3125,
+            0.375,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.8125,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0.4375,
+            0.8125,
+            0
+          ],
+          "max": [
+            0.5625,
+            0.9375,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "attachment": "double_wall",
+        "facing": "north",
+        "powered": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "max": [
+            0.75,
+            0.375,
+            0.75
+          ]
+        },
+        {
+          "min": [
+            0.3125,
+            0.375,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.8125,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0.4375,
+            0.8125,
+            0
+          ],
+          "max": [
+            0.5625,
+            0.9375,
+            1
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "max": [
+            0.75,
+            0.375,
+            0.75
+          ]
+        },
+        {
+          "min": [
+            0.3125,
+            0.375,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.8125,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0.4375,
+            0.8125,
+            0
+          ],
+          "max": [
+            0.5625,
+            0.9375,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "attachment": "double_wall",
+        "facing": "south",
+        "powered": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "max": [
+            0.75,
+            0.375,
+            0.75
+          ]
+        },
+        {
+          "min": [
+            0.3125,
+            0.375,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.8125,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0.4375,
+            0.8125,
+            0
+          ],
+          "max": [
+            0.5625,
+            0.9375,
+            1
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "max": [
+            0.75,
+            0.375,
+            0.75
+          ]
+        },
+        {
+          "min": [
+            0.3125,
+            0.375,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.8125,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0.4375,
+            0.8125,
+            0
+          ],
+          "max": [
+            0.5625,
+            0.9375,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "attachment": "double_wall",
+        "facing": "south",
+        "powered": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "max": [
+            0.75,
+            0.375,
+            0.75
+          ]
+        },
+        {
+          "min": [
+            0.3125,
+            0.375,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.8125,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0.4375,
+            0.8125,
+            0
+          ],
+          "max": [
+            0.5625,
+            0.9375,
+            1
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "max": [
+            0.75,
+            0.375,
+            0.75
+          ]
+        },
+        {
+          "min": [
+            0.3125,
+            0.375,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.8125,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0.4375,
+            0.8125,
+            0
+          ],
+          "max": [
+            0.5625,
+            0.9375,
+            1
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "attachment": "double_wall",
+        "facing": "west",
+        "powered": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "max": [
+            0.75,
+            0.375,
+            0.75
+          ]
+        },
+        {
+          "min": [
+            0.3125,
+            0.375,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.8125,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0,
+            0.8125,
+            0.4375
+          ],
+          "max": [
+            1,
+            0.9375,
+            0.5625
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "max": [
+            0.75,
+            0.375,
+            0.75
+          ]
+        },
+        {
+          "min": [
+            0.3125,
+            0.375,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.8125,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0,
+            0.8125,
+            0.4375
+          ],
+          "max": [
+            1,
+            0.9375,
+            0.5625
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "attachment": "double_wall",
+        "facing": "west",
+        "powered": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "max": [
+            0.75,
+            0.375,
+            0.75
+          ]
+        },
+        {
+          "min": [
+            0.3125,
+            0.375,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.8125,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0,
+            0.8125,
+            0.4375
+          ],
+          "max": [
+            1,
+            0.9375,
+            0.5625
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "max": [
+            0.75,
+            0.375,
+            0.75
+          ]
+        },
+        {
+          "min": [
+            0.3125,
+            0.375,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.8125,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0,
+            0.8125,
+            0.4375
+          ],
+          "max": [
+            1,
+            0.9375,
+            0.5625
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "attachment": "double_wall",
+        "facing": "east",
+        "powered": "true"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "max": [
+            0.75,
+            0.375,
+            0.75
+          ]
+        },
+        {
+          "min": [
+            0.3125,
+            0.375,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.8125,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0,
+            0.8125,
+            0.4375
+          ],
+          "max": [
+            1,
+            0.9375,
+            0.5625
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "max": [
+            0.75,
+            0.375,
+            0.75
+          ]
+        },
+        {
+          "min": [
+            0.3125,
+            0.375,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.8125,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0,
+            0.8125,
+            0.4375
+          ],
+          "max": [
+            1,
+            0.9375,
+            0.5625
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    },
+    {
+      "properties": {
+        "attachment": "double_wall",
+        "facing": "east",
+        "powered": "false"
+      },
+      "collision_boxes": [
+        {
+          "min": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "max": [
+            0.75,
+            0.375,
+            0.75
+          ]
+        },
+        {
+          "min": [
+            0.3125,
+            0.375,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.8125,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0,
+            0.8125,
+            0.4375
+          ],
+          "max": [
+            1,
+            0.9375,
+            0.5625
+          ]
+        }
+      ],
+      "outline_boxes": [
+        {
+          "min": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "max": [
+            0.75,
+            0.375,
+            0.75
+          ]
+        },
+        {
+          "min": [
+            0.3125,
+            0.375,
+            0.3125
+          ],
+          "max": [
+            0.6875,
+            0.8125,
+            0.6875
+          ]
+        },
+        {
+          "min": [
+            0,
+            0.8125,
+            0.4375
+          ],
+          "max": [
+            1,
+            0.9375,
+            0.5625
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": true,
+      "solid_block": false,
+      "replaceable": false,
+      "blocks_movement": true,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": false,
+      "lava": false,
+      "fluid": false
+    }
+  ]
+}

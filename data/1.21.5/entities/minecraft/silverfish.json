@@ -1,0 +1,22 @@
+{
+  "entity_id": "minecraft:silverfish",
+  "data": {
+    "spawn_group": "MONSTER",
+    "fire_immune": false,
+    "default_dimensions": {
+      "width": 0.4,
+      "height": 0.3,
+      "eye_height": 0.13,
+      "fixed": false
+    },
+    "pose_dimensions": {},
+    "size_variants": [],
+    "attributes": [],
+    "tags": [
+      "minecraft:arthropod",
+      "minecraft:immune_to_infested",
+      "minecraft:powder_snow_walkable_mobs",
+      "minecraft:sensitive_to_bane_of_arthropods"
+    ]
+  }
+}

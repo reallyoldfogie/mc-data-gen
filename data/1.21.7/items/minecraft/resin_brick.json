@@ -1,0 +1,18 @@
+{
+  "item_id": "minecraft:resin_brick",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.resin_brick",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:trim_materials",
+      "c:bricks",
+      "c:bricks/resin"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

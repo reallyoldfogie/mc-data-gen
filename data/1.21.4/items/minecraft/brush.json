@@ -7,12 +7,12 @@
     "fireproof": false,
     "use_animation": "BRUSH",
     "tags": [
-      "c:enchantables",
-      "minecraft:enchantable/durability",
+      "c:tools",
       "c:tools/brush",
       "c:tools/brushes",
-      "c:tools",
-      "minecraft:enchantable/vanishing"
+      "minecraft:enchantable/vanishing",
+      "c:enchantables",
+      "minecraft:enchantable/durability"
     ],
     "components": {
       "max_damage": 64,

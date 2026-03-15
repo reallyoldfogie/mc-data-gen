@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyes/lime",
-      "c:dyes"
+      "c:dyes",
+      "c:dyes/lime"
     ],
     "components": {},
     "is_weapon": false,

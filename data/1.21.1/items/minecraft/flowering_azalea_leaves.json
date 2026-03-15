@@ -7,11 +7,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "minecraft:leaves",
       "c:animal_foods",
       "minecraft:flowers",
-      "minecraft:bee_food",
       "minecraft:completes_find_tree_tutorial",
-      "minecraft:leaves"
+      "minecraft:bee_food"
     ],
     "components": {},
     "is_weapon": false,

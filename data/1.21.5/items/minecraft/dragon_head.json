@@ -1,0 +1,20 @@
+{
+  "item_id": "minecraft:dragon_head",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.dragon_head",
+    "rarity": "EPIC",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:skulls",
+      "c:enchantables",
+      "minecraft:enchantable/equippable",
+      "minecraft:enchantable/vanishing",
+      "minecraft:noteblock_top_instruments"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

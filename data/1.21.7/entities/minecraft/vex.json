@@ -1,0 +1,17 @@
+{
+  "entity_id": "minecraft:vex",
+  "data": {
+    "spawn_group": "MONSTER",
+    "fire_immune": true,
+    "default_dimensions": {
+      "width": 0.4,
+      "height": 0.8,
+      "eye_height": 0.51875,
+      "fixed": false
+    },
+    "pose_dimensions": {},
+    "size_variants": [],
+    "attributes": [],
+    "tags": []
+  }
+}

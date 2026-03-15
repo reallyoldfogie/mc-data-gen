@@ -8,8 +8,8 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:slabs",
-      "c:sandstone/red_slabs",
-      "c:sandstone/slabs"
+      "c:sandstone/slabs",
+      "c:sandstone/red_slabs"
     ],
     "components": {},
     "is_weapon": false,

@@ -1,0 +1,20 @@
+{
+  "item_id": "minecraft:stripped_warped_stem",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.stripped_warped_stem",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:logs",
+      "minecraft:completes_find_tree_tutorial",
+      "minecraft:non_flammable_wood",
+      "c:stripped_logs",
+      "minecraft:warped_stems"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

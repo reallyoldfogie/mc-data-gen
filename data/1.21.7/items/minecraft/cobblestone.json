@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:cobblestone",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.cobblestone",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:cobblestones",
+      "c:cobblestones/normal",
+      "minecraft:stone_tool_materials",
+      "minecraft:stone_crafting_materials"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

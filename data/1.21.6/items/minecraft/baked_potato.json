@@ -1,0 +1,22 @@
+{
+  "item_id": "minecraft:baked_potato",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.baked_potato",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "EAT",
+    "tags": [
+      "c:foods"
+    ],
+    "components": {
+      "food": {
+        "nutrition": 5,
+        "saturation": 6,
+        "can_always_eat": false
+      }
+    },
+    "is_weapon": false,
+    "is_food": true
+  }
+}

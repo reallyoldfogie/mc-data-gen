@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:banners",
+      "c:dyed/green",
       "c:dyed",
-      "c:dyed/green"
+      "minecraft:banners"
     ],
     "components": {},
     "is_weapon": false,

@@ -9,9 +9,9 @@
     "tags": [
       "c:foods/berries",
       "c:animal_foods",
-      "c:foods/berry",
       "c:foods",
-      "minecraft:fox_food"
+      "minecraft:fox_food",
+      "c:foods/berry"
     ],
     "components": {
       "food": {

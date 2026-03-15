@@ -1,0 +1,21 @@
+{
+  "item_id": "minecraft:nether_gold_ore",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.nether_gold_ore",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:ores_in_ground/netherrack",
+      "c:ores/gold",
+      "c:ore_rates/sparse",
+      "minecraft:gold_ores",
+      "minecraft:piglin_loved",
+      "c:ores"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

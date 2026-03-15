@@ -8,8 +8,8 @@
     "use_animation": "NONE",
     "tags": [
       "c:gems",
-      "minecraft:trim_materials",
-      "c:gems/lapis"
+      "c:gems/lapis",
+      "minecraft:trim_materials"
     ],
     "components": {},
     "is_weapon": false,

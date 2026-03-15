@@ -1,0 +1,24 @@
+{
+  "entity_id": "minecraft:pufferfish",
+  "data": {
+    "spawn_group": "WATER_AMBIENT",
+    "fire_immune": false,
+    "default_dimensions": {
+      "width": 0.7,
+      "height": 0.7,
+      "eye_height": 0.455,
+      "fixed": false
+    },
+    "pose_dimensions": {},
+    "size_variants": [],
+    "attributes": [],
+    "tags": [
+      "minecraft:aquatic",
+      "minecraft:axolotl_hunt_targets",
+      "minecraft:can_breathe_under_water",
+      "minecraft:cannot_be_pushed_onto_boats",
+      "minecraft:not_scary_for_pufferfish",
+      "minecraft:sensitive_to_impaling"
+    ]
+  }
+}

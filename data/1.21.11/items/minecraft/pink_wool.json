@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:pink_wool",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.pink_wool",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:wool",
+      "c:dyed",
+      "minecraft:dampens_vibrations",
+      "c:dyed/pink"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

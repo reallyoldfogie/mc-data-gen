@@ -1,0 +1,20 @@
+{
+  "entity_id": "minecraft:villager",
+  "data": {
+    "spawn_group": "MISC",
+    "fire_immune": false,
+    "default_dimensions": {
+      "width": 0.6,
+      "height": 1.95,
+      "eye_height": 1.62,
+      "fixed": false
+    },
+    "pose_dimensions": {},
+    "size_variants": [],
+    "attributes": [],
+    "tags": [
+      "minecraft:candidate_for_iron_golem_gift",
+      "minecraft:followable_friendly_mobs"
+    ]
+  }
+}

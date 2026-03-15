@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:spruce_log",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.spruce_log",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:spruce_logs",
+      "minecraft:completes_find_tree_tutorial",
+      "minecraft:logs",
+      "minecraft:logs_that_burn"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

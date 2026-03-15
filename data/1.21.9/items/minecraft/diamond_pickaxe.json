@@ -1,0 +1,31 @@
+{
+  "item_id": "minecraft:diamond_pickaxe",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.diamond_pickaxe",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:enchantable/mining_loot",
+      "minecraft:breaks_decorated_pots",
+      "c:tools/mining_tools",
+      "c:enchantables",
+      "minecraft:enchantable/mining",
+      "minecraft:enchantable/durability",
+      "c:tools",
+      "c:tools/mining_tool",
+      "minecraft:enchantable/vanishing",
+      "minecraft:pickaxes",
+      "minecraft:cluster_max_harvestables"
+    ],
+    "components": {
+      "max_damage": 1561,
+      "max_damage_stack": 1561,
+      "damage": 0,
+      "is_tool": true
+    },
+    "is_weapon": false,
+    "is_food": false
+  }
+}

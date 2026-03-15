@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:cyan_carpet",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.cyan_carpet",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:wool_carpets",
+      "c:dyed/cyan",
+      "c:dyed",
+      "minecraft:dampens_vibrations"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

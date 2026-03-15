@@ -1,0 +1,18 @@
+{
+  "item_id": "minecraft:red_candle",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.red_candle",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:dyed",
+      "minecraft:candles",
+      "c:dyed/red"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

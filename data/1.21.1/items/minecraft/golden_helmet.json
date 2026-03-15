@@ -7,16 +7,16 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:piglin_loved",
-      "minecraft:enchantable/vanishing",
-      "minecraft:head_armor",
-      "c:armors",
-      "minecraft:trimmable_armor",
       "minecraft:enchantable/durability",
-      "minecraft:enchantable/armor",
+      "minecraft:trimmable_armor",
+      "minecraft:enchantable/vanishing",
+      "c:armors",
+      "minecraft:head_armor",
+      "minecraft:piglin_loved",
+      "c:enchantables",
       "minecraft:enchantable/head_armor",
-      "minecraft:enchantable/equippable",
-      "c:enchantables"
+      "minecraft:enchantable/armor",
+      "minecraft:enchantable/equippable"
     ],
     "components": {
       "max_damage": 77,

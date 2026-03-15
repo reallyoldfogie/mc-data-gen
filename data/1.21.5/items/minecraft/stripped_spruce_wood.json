@@ -1,0 +1,20 @@
+{
+  "item_id": "minecraft:stripped_spruce_wood",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.stripped_spruce_wood",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:spruce_logs",
+      "c:stripped_woods",
+      "minecraft:completes_find_tree_tutorial",
+      "minecraft:logs_that_burn",
+      "minecraft:logs"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

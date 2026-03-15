@@ -1,0 +1,17 @@
+{
+  "entity_id": "minecraft:end_crystal",
+  "data": {
+    "spawn_group": "MISC",
+    "fire_immune": true,
+    "default_dimensions": {
+      "width": 2,
+      "height": 2,
+      "eye_height": 1.7,
+      "fixed": false
+    },
+    "pose_dimensions": {},
+    "size_variants": [],
+    "attributes": [],
+    "tags": []
+  }
+}

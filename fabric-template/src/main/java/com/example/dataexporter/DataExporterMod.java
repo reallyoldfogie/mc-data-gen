@@ -244,7 +244,7 @@ public class DataExporterMod implements ModInitializer {
 
             String entityId = id.toString();
             Entity entity = null;
-            
+
             // Special case: player entity
             if (entityId.equals("minecraft:player")) {
                 try {
@@ -271,12 +271,13 @@ public class DataExporterMod implements ModInitializer {
                     try {
                         var dims = entity.getDimensions(pose);
                         String poseName = pose.name().toLowerCase();
-                        
-                        // Skip the hardcoded fallback (0.2 x 0.2 x 0.2, fixed=true) that Minecraft returns for unsupported poses
+
+                        // Skip the hardcoded fallback (0.2 x 0.2 x 0.2, fixed=true) that Minecraft
+                        // returns for unsupported poses
                         if (dims.width() == 0.2f && dims.height() == 0.2f && dims.eyeHeight() == 0.2f && dims.fixed()) {
                             continue;
                         }
-                        
+
                         // Only include if different from default
                         if (dims.width() != defaultDims.width() || dims.height() != defaultDims.height()
                                 || dims.eyeHeight() != defaultDims.eyeHeight()) {
@@ -326,7 +327,7 @@ public class DataExporterMod implements ModInitializer {
                         var babyDimentions = animal.getDimensions(EntityPose.STANDING);
                         if (babyDimentions != defaultDims) {
                             info.put("baby_dimensions",
-                                serializeEntityDimensions(babyDimentions));
+                                    serializeEntityDimensions(babyDimentions));
                         }
                     }
                 } else {
@@ -337,28 +338,25 @@ public class DataExporterMod implements ModInitializer {
                 LOGGER.info("[DataExporter] Could not instantiate {}: {}", id, e.getMessage());
                 info.put("attributes", Collections.emptyList());
                 info.put("size_variants", Collections.emptyList());
-            }
-            
-            // Player attribute fallback
-            if (entityId.equals("minecraft:player") && info.get("attributes").equals(Collections.emptyList())) {
-                List<Map<String, Object>> playerAttributes = new ArrayList<>();
-                playerAttributes.add(buildAttribute("minecraft:generic.max_health", 20.0));
-                playerAttributes.add(buildAttribute("minecraft:generic.movement_speed", 0.1));
-                playerAttributes.add(buildAttribute("minecraft:generic.attack_damage", 1.0));
-                playerAttributes.add(buildAttribute("minecraft:generic.attack_speed", 4.0));
-                playerAttributes.add(buildAttribute("minecraft:generic.armor", 0.0));
-                playerAttributes.add(buildAttribute("minecraft:generic.attack_knockback", 0.0));
-                playerAttributes.add(buildAttribute("minecraft:generic.knockback_resistance", 0.0));
-                playerAttributes.add(buildAttribute("minecraft:generic.follow_range", 32.0));
-                info.put("attributes", playerAttributes);
-            }
-            
-            finally {
+            } finally {
+                // Player attribute fallback
+                if (entityId.equals("minecraft:player") && info.get("attributes").equals(Collections.emptyList())) {
+                    List<Map<String, Object>> playerAttributes = new ArrayList<>();
+                    playerAttributes.add(buildAttribute("minecraft:generic.max_health", 20.0));
+                    playerAttributes.add(buildAttribute("minecraft:generic.movement_speed", 0.1));
+                    playerAttributes.add(buildAttribute("minecraft:generic.attack_damage", 1.0));
+                    playerAttributes.add(buildAttribute("minecraft:generic.attack_speed", 4.0));
+                    playerAttributes.add(buildAttribute("minecraft:generic.armor", 0.0));
+                    playerAttributes.add(buildAttribute("minecraft:generic.attack_knockback", 0.0));
+                    playerAttributes.add(buildAttribute("minecraft:generic.knockback_resistance", 0.0));
+                    playerAttributes.add(buildAttribute("minecraft:generic.follow_range", 32.0));
+                    info.put("attributes", playerAttributes);
+                }
+
                 if (entity != null) {
                     entity.discard();
                 }
             }
-
 
             List<String> tags = new ArrayList<>();
             RegistryEntry<EntityType<?>> entry = Registries.ENTITY_TYPE.getEntry(entityType);

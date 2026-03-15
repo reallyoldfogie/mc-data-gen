@@ -1,0 +1,18 @@
+{
+  "item_id": "minecraft:black_banner",
+  "data": {
+    "max_stack_size": 16,
+    "translation_key": "block.minecraft.black_banner",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:dyed/black",
+      "c:dyed",
+      "minecraft:banners"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

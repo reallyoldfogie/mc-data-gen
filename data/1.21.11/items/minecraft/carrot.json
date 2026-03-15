@@ -1,0 +1,32 @@
+{
+  "item_id": "minecraft:carrot",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.carrot",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "EAT",
+    "tags": [
+      "c:foods/vegetables",
+      "minecraft:horse_food",
+      "c:foods/vegetable",
+      "c:animal_foods",
+      "c:crops",
+      "minecraft:rabbit_food",
+      "minecraft:villager_picks_up",
+      "minecraft:villager_plantable_seeds",
+      "c:foods",
+      "minecraft:pig_food",
+      "c:crops/carrot"
+    ],
+    "components": {
+      "food": {
+        "nutrition": 3,
+        "saturation": 3.6000001,
+        "can_always_eat": false
+      }
+    },
+    "is_weapon": false,
+    "is_food": true
+  }
+}

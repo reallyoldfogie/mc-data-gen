@@ -1,0 +1,16 @@
+{
+  "item_id": "minecraft:chain",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.chain",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:chains"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:cactus",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.cactus",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:animal_foods",
+      "c:crops",
+      "minecraft:camel_food",
+      "c:crops/cactus"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

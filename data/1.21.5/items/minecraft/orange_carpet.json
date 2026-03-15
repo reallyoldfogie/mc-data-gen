@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:orange_carpet",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.orange_carpet",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:dyed",
+      "minecraft:wool_carpets",
+      "c:dyed/orange",
+      "minecraft:dampens_vibrations"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

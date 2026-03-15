@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:completes_find_tree_tutorial",
       "minecraft:dark_oak_logs",
       "minecraft:logs_that_burn",
+      "minecraft:completes_find_tree_tutorial",
       "minecraft:logs"
     ],
     "components": {},

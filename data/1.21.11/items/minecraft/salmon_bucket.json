@@ -1,0 +1,25 @@
+{
+  "item_id": "minecraft:salmon_bucket",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.salmon_bucket",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:buckets",
+      "minecraft:nautilus_bucket_food",
+      "minecraft:nautilus_food",
+      "c:buckets/entity_water"
+    ],
+    "components": {
+      "food": {
+        "nutrition": 2,
+        "saturation": 0.4,
+        "can_always_eat": false
+      }
+    },
+    "is_weapon": false,
+    "is_food": true
+  }
+}

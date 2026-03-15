@@ -1,0 +1,21 @@
+{
+  "item_id": "minecraft:acacia_log",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.acacia_log",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:logs_that_burn",
+      "c:natural_logs",
+      "c:natural_logs/overworld",
+      "minecraft:logs",
+      "minecraft:completes_find_tree_tutorial",
+      "minecraft:acacia_logs"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

@@ -7,17 +7,17 @@
     "fireproof": false,
     "use_animation": "SPEAR",
     "tags": [
-      "c:enchantables",
-      "c:tools/melee_weapon",
-      "c:tools/spear",
-      "c:tools/ranged_weapon",
-      "minecraft:enchantable/trident",
-      "c:tools",
+      "c:tools/spears",
       "minecraft:enchantable/durability",
       "minecraft:enchantable/vanishing",
-      "c:tools/spears",
-      "c:tools/ranged_weapons",
-      "minecraft:breaks_decorated_pots"
+      "c:tools/ranged_weapon",
+      "c:tools/spear",
+      "c:tools",
+      "minecraft:enchantable/trident",
+      "c:tools/melee_weapon",
+      "c:enchantables",
+      "minecraft:breaks_decorated_pots",
+      "c:tools/ranged_weapons"
     ],
     "components": {
       "max_damage": 250,

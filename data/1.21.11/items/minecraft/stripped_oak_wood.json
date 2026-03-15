@@ -1,0 +1,20 @@
+{
+  "item_id": "minecraft:stripped_oak_wood",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.stripped_oak_wood",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:logs",
+      "c:stripped_woods",
+      "minecraft:logs_that_burn",
+      "minecraft:completes_find_tree_tutorial",
+      "minecraft:oak_logs"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

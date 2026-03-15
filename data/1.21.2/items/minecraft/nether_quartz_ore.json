@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:ores",
-      "c:ores/quartz"
+      "c:ores/quartz",
+      "c:ores"
     ],
     "components": {},
     "is_weapon": false,

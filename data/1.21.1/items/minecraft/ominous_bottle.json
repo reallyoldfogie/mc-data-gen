@@ -8,10 +8,10 @@
     "use_animation": "DRINK",
     "tags": [
       "c:drink_containing/bottle",
-      "c:drinks",
-      "c:drinks/magic",
       "c:foods",
-      "c:drinks/ominous"
+      "c:drinks/ominous",
+      "c:drinks/magic",
+      "c:drinks"
     ],
     "components": {
       "food": {

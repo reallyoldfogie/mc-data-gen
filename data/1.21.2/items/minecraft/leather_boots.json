@@ -7,11 +7,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:enchantable/equippable",
       "minecraft:dyeable",
+      "minecraft:enchantable/equippable",
       "minecraft:enchantable/vanishing",
-      "minecraft:enchantable/durability",
       "minecraft:foot_armor",
+      "minecraft:enchantable/durability",
       "c:armors",
       "minecraft:freeze_immune_wearables",
       "c:enchantables",

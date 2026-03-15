@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:lime_wool",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.lime_wool",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:dyed/lime",
+      "c:dyed",
+      "minecraft:dampens_vibrations",
+      "minecraft:wool"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

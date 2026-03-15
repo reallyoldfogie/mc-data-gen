@@ -1,0 +1,20 @@
+{
+  "item_id": "minecraft:jungle_wood",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.jungle_wood",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:logs",
+      "minecraft:completes_find_tree_tutorial",
+      "minecraft:logs_that_burn",
+      "c:natural_woods",
+      "minecraft:jungle_logs"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

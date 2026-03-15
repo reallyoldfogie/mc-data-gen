@@ -1,0 +1,28 @@
+{
+  "item_id": "minecraft:copper_boots",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.copper_boots",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:enchantables",
+      "minecraft:enchantable/foot_armor",
+      "c:armors",
+      "minecraft:enchantable/durability",
+      "minecraft:enchantable/equippable",
+      "minecraft:foot_armor",
+      "minecraft:enchantable/vanishing",
+      "minecraft:trimmable_armor",
+      "minecraft:enchantable/armor"
+    ],
+    "components": {
+      "max_damage": 143,
+      "max_damage_stack": 143,
+      "damage": 0
+    },
+    "is_weapon": false,
+    "is_food": false
+  }
+}

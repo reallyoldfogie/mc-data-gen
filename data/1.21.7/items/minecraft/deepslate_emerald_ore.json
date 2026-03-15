@@ -1,0 +1,20 @@
+{
+  "item_id": "minecraft:deepslate_emerald_ore",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.deepslate_emerald_ore",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:ores/emerald",
+      "c:ores",
+      "c:ore_rates/singular",
+      "c:ores_in_ground/deepslate",
+      "minecraft:emerald_ores"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

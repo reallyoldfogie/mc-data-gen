@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:gray_concrete",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.gray_concrete",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:dyed",
+      "c:concrete",
+      "c:dyed/gray",
+      "c:concretes"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

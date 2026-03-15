@@ -1,0 +1,16 @@
+{
+  "item_id": "minecraft:book",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.book",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:bookshelf_books"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

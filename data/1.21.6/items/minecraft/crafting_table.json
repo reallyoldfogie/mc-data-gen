@@ -1,0 +1,16 @@
+{
+  "item_id": "minecraft:crafting_table",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.crafting_table",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:player_workstations/crafting_tables"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "item_id": "minecraft:wooden_sword",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.wooden_sword",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:tools",
+      "minecraft:breaks_decorated_pots",
+      "c:enchantables",
+      "minecraft:enchantable/fire_aspect",
+      "c:tools/melee_weapons",
+      "minecraft:enchantable/sharp_weapon",
+      "minecraft:enchantable/durability",
+      "minecraft:swords",
+      "minecraft:enchantable/weapon",
+      "c:tools/melee_weapon",
+      "minecraft:enchantable/sword",
+      "minecraft:enchantable/vanishing"
+    ],
+    "components": {
+      "max_damage": 59,
+      "max_damage_stack": 59,
+      "damage": 0,
+      "is_tool": true
+    },
+    "is_weapon": true,
+    "is_food": false
+  }
+}

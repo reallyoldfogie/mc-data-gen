@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:crimson_shelf",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.crimson_shelf",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:wooden_shelves",
+      "minecraft:non_flammable_wood"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "item_id": "minecraft:wheat_seeds",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.wheat_seeds",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:seeds",
+      "minecraft:parrot_food",
+      "c:seeds/wheat",
+      "minecraft:villager_picks_up",
+      "minecraft:villager_plantable_seeds",
+      "minecraft:chicken_food",
+      "c:animal_foods"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

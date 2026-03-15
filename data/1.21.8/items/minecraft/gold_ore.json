@@ -1,0 +1,21 @@
+{
+  "item_id": "minecraft:gold_ore",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.gold_ore",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:gold_ores",
+      "minecraft:piglin_loved",
+      "c:ores/gold",
+      "c:ores_in_ground/stone",
+      "c:ores",
+      "c:ore_rates/singular"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

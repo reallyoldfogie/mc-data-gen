@@ -7,14 +7,14 @@
     "fireproof": false,
     "use_animation": "BOW",
     "tags": [
+      "c:tools/bows",
       "minecraft:enchantable/durability",
       "c:tools/bow",
       "minecraft:enchantable/bow",
-      "c:tools/ranged_weapons",
-      "c:enchantables",
       "c:tools",
+      "c:enchantables",
+      "c:tools/ranged_weapons",
       "c:tools/ranged_weapon",
-      "c:tools/bows",
       "minecraft:enchantable/vanishing"
     ],
     "components": {

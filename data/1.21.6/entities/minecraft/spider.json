@@ -1,0 +1,22 @@
+{
+  "entity_id": "minecraft:spider",
+  "data": {
+    "spawn_group": "MONSTER",
+    "fire_immune": false,
+    "default_dimensions": {
+      "width": 1.4,
+      "height": 0.9,
+      "eye_height": 0.65,
+      "fixed": false
+    },
+    "pose_dimensions": {},
+    "size_variants": [],
+    "attributes": [],
+    "tags": [
+      "minecraft:arthropod",
+      "minecraft:dismounts_underwater",
+      "minecraft:no_anger_from_wind_charge",
+      "minecraft:sensitive_to_bane_of_arthropods"
+    ]
+  }
+}

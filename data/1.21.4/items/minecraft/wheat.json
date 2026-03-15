@@ -7,15 +7,15 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "minecraft:villager_picks_up",
       "minecraft:horse_food",
+      "minecraft:sheep_food",
+      "minecraft:cow_food",
       "minecraft:goat_food",
-      "c:animal_foods",
       "c:crops/wheat",
       "minecraft:llama_food",
       "c:crops",
-      "minecraft:cow_food",
-      "minecraft:villager_picks_up",
-      "minecraft:sheep_food"
+      "c:animal_foods"
     ],
     "components": {},
     "is_weapon": false,

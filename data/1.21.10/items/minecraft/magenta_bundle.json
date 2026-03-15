@@ -1,0 +1,18 @@
+{
+  "item_id": "minecraft:magenta_bundle",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.magenta_bundle",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "BUNDLE",
+    "tags": [
+      "c:dyed/magenta",
+      "c:dyed",
+      "minecraft:bundles"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

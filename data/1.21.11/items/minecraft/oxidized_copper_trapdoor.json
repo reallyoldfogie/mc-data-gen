@@ -1,0 +1,16 @@
+{
+  "item_id": "minecraft:oxidized_copper_trapdoor",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.oxidized_copper_trapdoor",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:trapdoors"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "item_id": "minecraft:turtle_helmet",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.turtle_helmet",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:head_armor",
+      "c:armors",
+      "minecraft:enchantable/vanishing",
+      "minecraft:trimmable_armor",
+      "minecraft:enchantable/durability",
+      "minecraft:enchantable/equippable",
+      "minecraft:enchantable/armor",
+      "minecraft:enchantable/head_armor",
+      "c:armors/humanoid",
+      "c:enchantables"
+    ],
+    "components": {
+      "max_damage": 275,
+      "max_damage_stack": 275,
+      "damage": 0
+    },
+    "is_weapon": false,
+    "is_food": false
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "minecraft:dolphin",
+  "data": {
+    "spawn_group": "WATER_CREATURE",
+    "fire_immune": false,
+    "default_dimensions": {
+      "width": 0.9,
+      "height": 0.6,
+      "eye_height": 0.3,
+      "fixed": false
+    },
+    "pose_dimensions": {},
+    "size_variants": [],
+    "attributes": [],
+    "tags": [
+      "minecraft:aquatic",
+      "minecraft:cannot_be_pushed_onto_boats",
+      "minecraft:not_scary_for_pufferfish",
+      "minecraft:sensitive_to_impaling"
+    ]
+  }
+}

@@ -7,12 +7,12 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "c:ingots/netherite",
+      "minecraft:repairs_netherite_armor",
       "minecraft:beacon_payment_items",
       "minecraft:trim_materials",
       "c:ingots",
-      "minecraft:netherite_tool_materials",
-      "c:ingots/netherite",
-      "minecraft:repairs_netherite_armor"
+      "minecraft:netherite_tool_materials"
     ],
     "components": {},
     "is_weapon": false,

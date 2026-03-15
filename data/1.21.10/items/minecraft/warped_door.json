@@ -1,0 +1,18 @@
+{
+  "item_id": "minecraft:warped_door",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.warped_door",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:wooden_doors",
+      "minecraft:doors",
+      "minecraft:non_flammable_wood"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

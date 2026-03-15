@@ -1,0 +1,19 @@
+{
+  "entity_id": "minecraft:ender_dragon",
+  "data": {
+    "spawn_group": "MONSTER",
+    "fire_immune": true,
+    "default_dimensions": {
+      "width": 16,
+      "height": 8,
+      "eye_height": 6.8,
+      "fixed": false
+    },
+    "pose_dimensions": {},
+    "size_variants": [],
+    "attributes": [],
+    "tags": [
+      "c:bosses"
+    ]
+  }
+}

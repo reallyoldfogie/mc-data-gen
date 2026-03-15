@@ -9,8 +9,8 @@
     "tags": [
       "c:concrete",
       "c:dyed",
-      "c:concretes",
-      "c:dyed/white"
+      "c:dyed/white",
+      "c:concretes"
     ],
     "components": {},
     "is_weapon": false,

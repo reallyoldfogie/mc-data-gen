@@ -1,0 +1,14 @@
+{
+  "item_id": "minecraft:hopper_minecart",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.hopper_minecart",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

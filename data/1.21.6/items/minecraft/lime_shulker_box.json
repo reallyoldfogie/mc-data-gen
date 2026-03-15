@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:lime_shulker_box",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "block.minecraft.lime_shulker_box",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:dyed/lime",
+      "minecraft:shulker_boxes",
+      "c:dyed",
+      "c:shulker_boxes"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

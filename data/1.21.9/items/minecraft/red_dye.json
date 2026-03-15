@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:red_dye",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.red_dye",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:dyes",
+      "c:dyes/red"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

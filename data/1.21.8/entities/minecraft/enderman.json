@@ -1,0 +1,17 @@
+{
+  "entity_id": "minecraft:enderman",
+  "data": {
+    "spawn_group": "MONSTER",
+    "fire_immune": false,
+    "default_dimensions": {
+      "width": 0.6,
+      "height": 2.9,
+      "eye_height": 2.55,
+      "fixed": false
+    },
+    "pose_dimensions": {},
+    "size_variants": [],
+    "attributes": [],
+    "tags": []
+  }
+}

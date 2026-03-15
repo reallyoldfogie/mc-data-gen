@@ -1,0 +1,18 @@
+{
+  "item_id": "minecraft:bamboo_fence_gate",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.bamboo_fence_gate",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:fence_gates/wooden",
+      "c:fence_gates",
+      "minecraft:fence_gates"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "item_id": "minecraft:golden_boots",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.golden_boots",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:foot_armor",
+      "minecraft:piglin_loved",
+      "minecraft:enchantable/durability",
+      "minecraft:enchantable/equippable",
+      "c:armors",
+      "minecraft:enchantable/vanishing",
+      "minecraft:enchantable/armor",
+      "minecraft:trimmable_armor",
+      "minecraft:enchantable/foot_armor",
+      "c:enchantables",
+      "minecraft:piglin_safe_armor"
+    ],
+    "components": {
+      "max_damage": 91,
+      "max_damage_stack": 91,
+      "damage": 0
+    },
+    "is_weapon": false,
+    "is_food": false
+  }
+}

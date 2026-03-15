@@ -1,0 +1,22 @@
+{
+  "item_id": "minecraft:gold_ingot",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.gold_ingot",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:ingots",
+      "minecraft:gold_tool_materials",
+      "c:ingots/gold",
+      "minecraft:repairs_gold_armor",
+      "minecraft:trim_materials",
+      "minecraft:piglin_loved",
+      "minecraft:beacon_payment_items"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

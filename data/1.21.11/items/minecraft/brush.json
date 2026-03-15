@@ -1,0 +1,25 @@
+{
+  "item_id": "minecraft:brush",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.brush",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "BRUSH",
+    "tags": [
+      "minecraft:enchantable/durability",
+      "minecraft:enchantable/vanishing",
+      "c:tools/brushes",
+      "c:tools/brush",
+      "c:tools",
+      "c:enchantables"
+    ],
+    "components": {
+      "max_damage": 64,
+      "max_damage_stack": 64,
+      "damage": 0
+    },
+    "is_weapon": false,
+    "is_food": false
+  }
+}

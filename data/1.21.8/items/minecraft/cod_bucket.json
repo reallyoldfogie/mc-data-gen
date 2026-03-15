@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:cod_bucket",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.cod_bucket",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:buckets",
+      "c:buckets/entity_water"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

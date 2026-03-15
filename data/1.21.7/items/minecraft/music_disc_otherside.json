@@ -1,0 +1,16 @@
+{
+  "item_id": "minecraft:music_disc_otherside",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.music_disc_otherside",
+    "rarity": "RARE",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:music_discs"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

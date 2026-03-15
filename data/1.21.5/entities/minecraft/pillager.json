@@ -1,0 +1,21 @@
+{
+  "entity_id": "minecraft:pillager",
+  "data": {
+    "spawn_group": "MONSTER",
+    "fire_immune": false,
+    "default_dimensions": {
+      "width": 0.6,
+      "height": 1.95,
+      "eye_height": 1.6575,
+      "fixed": false
+    },
+    "pose_dimensions": {},
+    "size_variants": [],
+    "attributes": [],
+    "tags": [
+      "minecraft:illager",
+      "minecraft:illager_friends",
+      "minecraft:raiders"
+    ]
+  }
+}

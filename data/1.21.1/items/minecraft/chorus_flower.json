@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:bee_food",
+      "minecraft:flowers",
       "c:animal_foods",
-      "minecraft:flowers"
+      "minecraft:bee_food"
     ],
     "components": {},
     "is_weapon": false,

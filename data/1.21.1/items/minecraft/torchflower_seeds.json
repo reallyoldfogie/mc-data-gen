@@ -7,13 +7,13 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:villager_plantable_seeds",
       "minecraft:chicken_food",
-      "c:animal_foods",
+      "minecraft:villager_plantable_seeds",
+      "c:seeds",
+      "minecraft:parrot_food",
       "c:seeds/torchflower",
       "minecraft:sniffer_food",
-      "minecraft:parrot_food",
-      "c:seeds"
+      "c:animal_foods"
     ],
     "components": {},
     "is_weapon": false,

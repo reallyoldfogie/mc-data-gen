@@ -1,0 +1,16 @@
+{
+  "item_id": "minecraft:detector_rail",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.detector_rail",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:rails"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "item_id": "minecraft:gravel",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.gravel",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:gravels"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

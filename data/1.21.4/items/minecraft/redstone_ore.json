@@ -7,11 +7,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:ore_rates/dense",
       "c:ores/redstone",
-      "c:ores_in_ground/stone",
       "c:ores",
-      "minecraft:redstone_ores"
+      "minecraft:redstone_ores",
+      "c:ore_rates/dense",
+      "c:ores_in_ground/stone"
     ],
     "components": {},
     "is_weapon": false,

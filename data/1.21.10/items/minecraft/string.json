@@ -1,0 +1,16 @@
+{
+  "item_id": "minecraft:string",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.string",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:strings"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

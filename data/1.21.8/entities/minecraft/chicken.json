@@ -1,0 +1,21 @@
+{
+  "entity_id": "minecraft:chicken",
+  "data": {
+    "spawn_group": "CREATURE",
+    "fire_immune": false,
+    "default_dimensions": {
+      "width": 0.4,
+      "height": 0.7,
+      "eye_height": 0.644,
+      "fixed": false
+    },
+    "pose_dimensions": {},
+    "size_variants": [],
+    "attributes": [],
+    "tags": [
+      "minecraft:dismounts_underwater",
+      "minecraft:fall_damage_immune",
+      "minecraft:followable_friendly_mobs"
+    ]
+  }
+}

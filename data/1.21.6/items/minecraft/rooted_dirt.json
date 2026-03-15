@@ -1,0 +1,16 @@
+{
+  "item_id": "minecraft:rooted_dirt",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.rooted_dirt",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:dirt"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

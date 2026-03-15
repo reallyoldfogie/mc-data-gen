@@ -1,0 +1,37 @@
+{
+  "block_id": "minecraft:seagrass",
+  "states": [
+    {
+      "properties": {},
+      "collision_boxes": [],
+      "outline_boxes": [
+        {
+          "min": [
+            0.125,
+            0,
+            0.125
+          ],
+          "max": [
+            0.875,
+            0.75,
+            0.875
+          ]
+        }
+      ],
+      "air": false,
+      "opaque": false,
+      "solid_block": false,
+      "replaceable": true,
+      "blocks_movement": false,
+      "climbable": false,
+      "door_like": false,
+      "fence_like": false,
+      "slab": false,
+      "stair": false,
+      "log_or_leaf": false,
+      "water": true,
+      "lava": false,
+      "fluid": true
+    }
+  ]
+}

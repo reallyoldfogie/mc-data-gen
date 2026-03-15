@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:pumpkin",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.pumpkin",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:crops/pumpkin",
+      "c:pumpkins/normal",
+      "c:crops",
+      "c:pumpkins"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

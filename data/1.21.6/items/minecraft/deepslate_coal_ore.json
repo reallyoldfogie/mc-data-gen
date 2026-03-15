@@ -1,0 +1,20 @@
+{
+  "item_id": "minecraft:deepslate_coal_ore",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.deepslate_coal_ore",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:ores",
+      "minecraft:coal_ores",
+      "c:ores_in_ground/deepslate",
+      "c:ore_rates/singular",
+      "c:ores/coal"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

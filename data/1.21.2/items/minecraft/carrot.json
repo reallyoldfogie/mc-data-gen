@@ -12,8 +12,8 @@
       "c:animal_foods",
       "minecraft:villager_plantable_seeds",
       "c:crops",
-      "c:foods",
       "minecraft:rabbit_food",
+      "c:foods",
       "c:crops/carrot",
       "c:foods/vegetables",
       "minecraft:villager_picks_up"

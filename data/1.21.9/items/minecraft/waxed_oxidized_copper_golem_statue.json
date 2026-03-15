@@ -1,0 +1,16 @@
+{
+  "item_id": "minecraft:waxed_oxidized_copper_golem_statue",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.waxed_oxidized_copper_golem_statue",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:copper_golem_statues"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

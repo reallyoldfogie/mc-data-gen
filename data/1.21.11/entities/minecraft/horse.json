@@ -1,0 +1,23 @@
+{
+  "entity_id": "minecraft:horse",
+  "data": {
+    "spawn_group": "CREATURE",
+    "fire_immune": false,
+    "default_dimensions": {
+      "width": 1.3964844,
+      "height": 1.6,
+      "eye_height": 1.52,
+      "fixed": false
+    },
+    "pose_dimensions": {},
+    "size_variants": [],
+    "attributes": [],
+    "tags": [
+      "minecraft:can_equip_saddle",
+      "minecraft:can_float_while_ridden",
+      "minecraft:can_wear_horse_armor",
+      "minecraft:dismounts_underwater",
+      "minecraft:followable_friendly_mobs"
+    ]
+  }
+}

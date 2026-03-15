@@ -1,0 +1,27 @@
+{
+  "item_id": "minecraft:cooked_rabbit",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.cooked_rabbit",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "EAT",
+    "tags": [
+      "c:foods",
+      "c:foods/cooked_meat",
+      "minecraft:wolf_food",
+      "c:foods/cooked_meats",
+      "c:animal_foods",
+      "minecraft:meat"
+    ],
+    "components": {
+      "food": {
+        "nutrition": 5,
+        "saturation": 6,
+        "can_always_eat": false
+      }
+    },
+    "is_weapon": false,
+    "is_food": true
+  }
+}

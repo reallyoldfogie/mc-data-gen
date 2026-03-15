@@ -1,0 +1,14 @@
+{
+  "item_id": "minecraft:goat_horn",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.goat_horn",
+    "rarity": "UNCOMMON",
+    "fireproof": false,
+    "use_animation": "TOOT_HORN",
+    "tags": [],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

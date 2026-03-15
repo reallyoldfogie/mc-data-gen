@@ -1,0 +1,20 @@
+{
+  "item_id": "minecraft:deepslate_diamond_ore",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.deepslate_diamond_ore",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:ores/diamond",
+      "c:ores",
+      "c:ore_rates/singular",
+      "c:ores_in_ground/deepslate",
+      "minecraft:diamond_ores"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

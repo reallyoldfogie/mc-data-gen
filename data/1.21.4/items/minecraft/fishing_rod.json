@@ -7,13 +7,13 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "c:tools/fishing_rods",
+      "c:tools",
+      "c:enchantables",
+      "minecraft:enchantable/durability",
       "minecraft:enchantable/vanishing",
       "c:tools/fishing_rod",
-      "minecraft:enchantable/fishing",
-      "c:tools",
-      "c:tools/fishing_rods",
-      "c:enchantables",
-      "minecraft:enchantable/durability"
+      "minecraft:enchantable/fishing"
     ],
     "components": {
       "max_damage": 64,

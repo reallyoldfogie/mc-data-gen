@@ -1,0 +1,20 @@
+{
+  "item_id": "minecraft:wither_skeleton_skull",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.wither_skeleton_skull",
+    "rarity": "RARE",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:enchantable/vanishing",
+      "c:enchantables",
+      "minecraft:enchantable/equippable",
+      "minecraft:skulls",
+      "minecraft:noteblock_top_instruments"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

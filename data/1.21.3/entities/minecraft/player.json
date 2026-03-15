@@ -10,10 +10,22 @@
       "fixed": false
     },
     "pose_dimensions": {
+      "crouching": {
+        "width": 0.6,
+        "height": 1.5,
+        "eye_height": 1.27,
+        "fixed": false
+      },
       "standing": {
         "width": 0.6,
         "height": 1.8,
         "eye_height": 1.62,
+        "fixed": false
+      },
+      "swimming": {
+        "width": 0.6,
+        "height": 0.6,
+        "eye_height": 0.6,
         "fixed": false
       }
     },

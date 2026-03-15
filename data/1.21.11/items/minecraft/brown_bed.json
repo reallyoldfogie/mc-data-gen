@@ -1,0 +1,18 @@
+{
+  "item_id": "minecraft:brown_bed",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "block.minecraft.brown_bed",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:dyed",
+      "c:dyed/brown",
+      "minecraft:beds"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "item_id": "minecraft:red_terracotta",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.red_terracotta",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:terracotta",
+      "c:dyed",
+      "c:dyed/red"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

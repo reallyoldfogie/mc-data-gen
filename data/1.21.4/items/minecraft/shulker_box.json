@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:shulker_boxes",
-      "minecraft:shulker_boxes"
+      "minecraft:shulker_boxes",
+      "c:shulker_boxes"
     ],
     "components": {},
     "is_weapon": false,

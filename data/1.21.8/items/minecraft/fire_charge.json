@@ -1,0 +1,16 @@
+{
+  "item_id": "minecraft:fire_charge",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.fire_charge",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:creeper_igniters"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

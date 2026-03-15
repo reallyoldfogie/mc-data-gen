@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:cyan_harness",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.cyan_harness",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:happy_ghast_tempt_items",
+      "minecraft:harnesses",
+      "c:dyed",
+      "c:dyed/cyan"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

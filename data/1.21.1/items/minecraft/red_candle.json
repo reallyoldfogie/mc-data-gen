@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:candles",
+      "c:dyed/red",
       "c:dyed",
-      "c:dyed/red"
+      "minecraft:candles"
     ],
     "components": {},
     "is_weapon": false,

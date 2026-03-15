@@ -8,8 +8,8 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:wooden_fences",
-      "minecraft:fences",
-      "minecraft:non_flammable_wood"
+      "minecraft:non_flammable_wood",
+      "minecraft:fences"
     ],
     "components": {},
     "is_weapon": false,

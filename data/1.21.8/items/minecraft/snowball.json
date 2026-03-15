@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:snowball",
+  "data": {
+    "max_stack_size": 16,
+    "translation_key": "item.minecraft.snowball",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:happy_ghast_tempt_items",
+      "minecraft:happy_ghast_food"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

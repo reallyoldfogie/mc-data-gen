@@ -10,8 +10,8 @@
       "minecraft:wolf_food",
       "c:foods/soups",
       "c:animal_foods",
-      "c:foods",
-      "c:foods/soup"
+      "c:foods/soup",
+      "c:foods"
     ],
     "components": {
       "food": {
