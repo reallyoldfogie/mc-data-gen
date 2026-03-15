@@ -21,6 +21,7 @@ WARP.md
 
 # Generated build workspace (should never be committed)
 work/
+extractedSrc/
 
 # Optional temp files
 *.tmp
