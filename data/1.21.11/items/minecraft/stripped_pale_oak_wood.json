@@ -8,10 +8,10 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:logs",
-      "c:stripped_woods",
-      "minecraft:logs_that_burn",
       "minecraft:completes_find_tree_tutorial",
-      "minecraft:pale_oak_logs"
+      "minecraft:pale_oak_logs",
+      "minecraft:logs_that_burn",
+      "c:stripped_woods"
     ],
     "components": {},
     "is_weapon": false,

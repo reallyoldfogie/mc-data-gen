@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:armors",
       "c:armors/wolf",
-      "minecraft:dyeable"
+      "minecraft:dyeable",
+      "c:armors"
     ],
     "components": {
       "max_damage": 64,

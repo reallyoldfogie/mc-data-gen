@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:coals",
       "c:coal",
+      "minecraft:coals",
       "minecraft:furnace_minecart_fuel"
     ],
     "components": {},

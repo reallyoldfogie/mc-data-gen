@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:piglin_loved",
+      "c:storage_blocks/gold",
       "c:storage_blocks",
-      "c:storage_blocks/gold"
+      "minecraft:piglin_loved"
     ],
     "components": {},
     "is_weapon": false,

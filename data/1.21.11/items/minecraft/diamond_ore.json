@@ -8,10 +8,10 @@
     "use_animation": "NONE",
     "tags": [
       "c:ores_in_ground/stone",
-      "minecraft:diamond_ores",
-      "c:ore_rates/singular",
       "c:ores/diamond",
-      "c:ores"
+      "c:ores",
+      "minecraft:diamond_ores",
+      "c:ore_rates/singular"
     ],
     "components": {},
     "is_weapon": false,

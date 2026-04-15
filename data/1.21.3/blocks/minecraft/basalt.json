@@ -1,5 +1,12 @@
 {
   "block_id": "minecraft:basalt",
+  "hardness": 1.25,
+  "resistance": 4.2,
+  "stack_size": 64,
+  "diggable": true,
+  "material": [
+    "mineable/pickaxe"
+  ],
   "states": [
     {
       "properties": {

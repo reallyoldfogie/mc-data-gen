@@ -9,17 +9,17 @@
     "tags": [
       "c:tools/melee_weapon",
       "minecraft:enchantable/weapon",
-      "minecraft:enchantable/vanishing",
-      "minecraft:enchantable/sharp_weapon",
-      "c:tools",
+      "minecraft:enchantable/sword",
+      "c:tools/melee_weapons",
+      "minecraft:enchantable/fire_aspect",
       "minecraft:swords",
+      "c:tools",
+      "minecraft:piglin_loved",
+      "minecraft:enchantable/sharp_weapon",
+      "minecraft:breaks_decorated_pots",
       "minecraft:enchantable/durability",
       "c:enchantables",
-      "minecraft:breaks_decorated_pots",
-      "minecraft:piglin_loved",
-      "minecraft:enchantable/fire_aspect",
-      "minecraft:enchantable/sword",
-      "c:tools/melee_weapons"
+      "minecraft:enchantable/vanishing"
     ],
     "components": {
       "max_damage": 32,

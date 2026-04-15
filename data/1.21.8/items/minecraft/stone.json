@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:stones",
-      "c:ore_bearing_ground/stone"
+      "c:ore_bearing_ground/stone",
+      "c:stones"
     ],
     "components": {},
     "is_weapon": false,

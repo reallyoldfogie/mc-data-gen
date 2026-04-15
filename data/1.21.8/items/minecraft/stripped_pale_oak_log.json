@@ -7,10 +7,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:completes_find_tree_tutorial",
-      "minecraft:logs_that_burn",
-      "c:stripped_logs",
       "minecraft:logs",
+      "c:stripped_logs",
+      "minecraft:logs_that_burn",
+      "minecraft:completes_find_tree_tutorial",
       "minecraft:pale_oak_logs"
     ],
     "components": {},

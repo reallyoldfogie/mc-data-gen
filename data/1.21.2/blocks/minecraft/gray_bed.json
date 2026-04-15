@@ -1,5 +1,10 @@
 {
   "block_id": "minecraft:gray_bed",
+  "hardness": 0.2,
+  "resistance": 0.2,
+  "stack_size": 1,
+  "diggable": true,
+  "material": [],
   "states": [
     {
       "properties": {

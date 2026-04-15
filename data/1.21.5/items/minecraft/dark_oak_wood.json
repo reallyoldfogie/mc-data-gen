@@ -9,8 +9,8 @@
     "tags": [
       "minecraft:logs_that_burn",
       "minecraft:completes_find_tree_tutorial",
-      "minecraft:logs",
-      "minecraft:dark_oak_logs"
+      "minecraft:dark_oak_logs",
+      "minecraft:logs"
     ],
     "components": {},
     "is_weapon": false,

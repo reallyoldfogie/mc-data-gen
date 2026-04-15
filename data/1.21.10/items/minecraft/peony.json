@@ -9,8 +9,8 @@
     "tags": [
       "minecraft:bee_food",
       "c:animal_foods",
-      "c:flowers/tall",
       "minecraft:flowers",
+      "c:flowers/tall",
       "c:flowers"
     ],
     "components": {},

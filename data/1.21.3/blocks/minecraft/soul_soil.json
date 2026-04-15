@@ -1,5 +1,12 @@
 {
   "block_id": "minecraft:soul_soil",
+  "hardness": 0.5,
+  "resistance": 0.5,
+  "stack_size": 64,
+  "diggable": true,
+  "material": [
+    "mineable/shovel"
+  ],
   "states": [
     {
       "properties": {},

@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:wooden_buttons",
       "minecraft:buttons",
-      "minecraft:non_flammable_wood"
+      "minecraft:non_flammable_wood",
+      "minecraft:wooden_buttons"
     ],
     "components": {},
     "is_weapon": false,

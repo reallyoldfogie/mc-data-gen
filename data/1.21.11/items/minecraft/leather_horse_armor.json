@@ -8,9 +8,9 @@
     "use_animation": "NONE",
     "tags": [
       "c:armors/horse",
-      "c:armors",
+      "minecraft:dyeable",
       "minecraft:freeze_immune_wearables",
-      "minecraft:dyeable"
+      "c:armors"
     ],
     "components": {},
     "is_weapon": false,

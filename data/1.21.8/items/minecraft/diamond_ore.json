@@ -7,10 +7,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:ores/diamond",
-      "c:ores",
-      "c:ore_rates/singular",
       "c:ores_in_ground/stone",
+      "c:ores/diamond",
+      "c:ore_rates/singular",
+      "c:ores",
       "minecraft:diamond_ores"
     ],
     "components": {},

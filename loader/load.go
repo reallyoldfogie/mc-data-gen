@@ -16,10 +16,7 @@ func LoadBlocksFile(path string) (map[StateKey]ShapeInfo, error) {
 		return out, fmt.Errorf("read %s: %w", path, err)
 	}
 
-	var file struct {
-		BlockID string                 `json:"block_id"`
-		States  []BlockStateRecordSlim `json:"states"`
-	}
+	var file BlockStatesFile
 	if err := json.Unmarshal(data, &file); err != nil {
 		return out, fmt.Errorf("unmarshal %s: %w", path, err)
 	}
@@ -46,6 +43,11 @@ func LoadBlocksFile(path string) (map[StateKey]ShapeInfo, error) {
 			Water:          s.Water,
 			Lava:           s.Lava,
 			Fluid:          s.Fluid,
+			Hardness:       file.Hardness,
+			Resistance:     file.Resistance,
+			StackSize:      file.StackSize,
+			Diggable:       file.Diggable,
+			Material:       file.Material,
 		}
 	}
 

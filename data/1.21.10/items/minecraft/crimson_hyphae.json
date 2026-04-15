@@ -7,11 +7,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "c:natural_woods",
       "minecraft:crimson_stems",
       "minecraft:logs",
-      "minecraft:completes_find_tree_tutorial",
       "minecraft:non_flammable_wood",
-      "c:natural_woods"
+      "minecraft:completes_find_tree_tutorial"
     ],
     "components": {},
     "is_weapon": false,

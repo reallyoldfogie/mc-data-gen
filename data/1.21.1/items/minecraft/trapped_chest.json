@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:chests",
+      "c:chests/trapped",
       "c:chests/wooden",
-      "c:chests/trapped"
+      "c:chests"
     ],
     "components": {},
     "is_weapon": false,

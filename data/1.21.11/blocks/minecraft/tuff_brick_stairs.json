@@ -1,5 +1,12 @@
 {
   "block_id": "minecraft:tuff_brick_stairs",
+  "hardness": 1.5,
+  "resistance": 6,
+  "stack_size": 64,
+  "diggable": true,
+  "material": [
+    "mineable/pickaxe"
+  ],
   "states": [
     {
       "properties": {

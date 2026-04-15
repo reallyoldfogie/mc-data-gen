@@ -9,8 +9,8 @@
     "tags": [
       "c:ores",
       "minecraft:lapis_ores",
-      "c:ore_rates/dense",
       "c:ores/lapis",
+      "c:ore_rates/dense",
       "c:ores_in_ground/stone"
     ],
     "components": {},

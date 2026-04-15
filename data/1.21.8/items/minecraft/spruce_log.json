@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "minecraft:completes_find_tree_tutorial",
       "minecraft:logs",
       "minecraft:logs_that_burn",
-      "minecraft:completes_find_tree_tutorial",
       "minecraft:spruce_logs"
     ],
     "components": {},

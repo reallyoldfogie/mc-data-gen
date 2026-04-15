@@ -10,8 +10,8 @@
       "minecraft:piglin_food",
       "minecraft:meat",
       "c:animal_foods",
-      "c:foods",
       "c:foods/cooked_meat",
+      "c:foods",
       "minecraft:wolf_food",
       "c:foods/cooked_meats"
     ],

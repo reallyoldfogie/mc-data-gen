@@ -7,11 +7,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:ores",
-      "c:ore_rates/singular",
-      "minecraft:iron_ores",
+      "c:ores_in_ground/deepslate",
       "c:ores/iron",
-      "c:ores_in_ground/deepslate"
+      "c:ore_rates/singular",
+      "c:ores",
+      "minecraft:iron_ores"
     ],
     "components": {},
     "is_weapon": false,

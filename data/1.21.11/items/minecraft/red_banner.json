@@ -8,8 +8,8 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:banners",
-      "c:dyed",
-      "c:dyed/red"
+      "c:dyed/red",
+      "c:dyed"
     ],
     "components": {},
     "is_weapon": false,

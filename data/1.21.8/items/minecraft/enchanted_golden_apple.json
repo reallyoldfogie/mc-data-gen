@@ -7,14 +7,14 @@
     "fireproof": false,
     "use_animation": "EAT",
     "tags": [
+      "c:animal_foods",
+      "c:foods/golden",
       "c:foods",
       "minecraft:horse_tempt_items",
-      "c:foods/golden",
-      "c:animal_foods",
-      "minecraft:piglin_loved",
-      "c:foods/fruit",
+      "minecraft:horse_food",
       "c:foods/fruits",
-      "minecraft:horse_food"
+      "c:foods/fruit",
+      "minecraft:piglin_loved"
     ],
     "components": {
       "food": {

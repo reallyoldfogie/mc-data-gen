@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:ores_in_ground/netherrack",
-      "c:ores/quartz",
       "c:ores",
+      "c:ores/quartz",
+      "c:ores_in_ground/netherrack",
       "c:ore_rates/singular"
     ],
     "components": {},

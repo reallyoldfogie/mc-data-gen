@@ -8,10 +8,10 @@
     "use_animation": "BLOCK",
     "tags": [
       "minecraft:enchantable/durability",
+      "c:tools",
+      "c:tools/shields",
       "minecraft:enchantable/vanishing",
       "c:tools/shield",
-      "c:tools/shields",
-      "c:tools",
       "c:enchantables"
     ],
     "components": {

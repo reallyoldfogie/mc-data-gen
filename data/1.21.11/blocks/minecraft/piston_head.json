@@ -1,5 +1,12 @@
 {
   "block_id": "minecraft:piston_head",
+  "hardness": 1.5,
+  "resistance": 1.5,
+  "stack_size": 0,
+  "diggable": true,
+  "material": [
+    "mineable/pickaxe"
+  ],
   "states": [
     {
       "properties": {

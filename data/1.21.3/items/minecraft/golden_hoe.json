@@ -7,15 +7,15 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:hoes",
-      "minecraft:enchantable/mining_loot",
-      "c:enchantables",
-      "minecraft:piglin_loved",
-      "minecraft:enchantable/durability",
-      "minecraft:enchantable/mining",
-      "minecraft:enchantable/vanishing",
+      "c:tools",
       "minecraft:breaks_decorated_pots",
-      "c:tools"
+      "minecraft:enchantable/vanishing",
+      "minecraft:enchantable/mining",
+      "minecraft:enchantable/durability",
+      "minecraft:piglin_loved",
+      "c:enchantables",
+      "minecraft:enchantable/mining_loot",
+      "minecraft:hoes"
     ],
     "components": {
       "max_damage": 32,

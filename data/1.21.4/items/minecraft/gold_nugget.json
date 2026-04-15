@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:nuggets/gold",
-      "c:nuggets"
+      "c:nuggets",
+      "c:nuggets/gold"
     ],
     "components": {},
     "is_weapon": false,

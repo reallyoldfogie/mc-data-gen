@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:gems",
+      "c:gems/lapis",
       "minecraft:trim_materials",
-      "c:gems/lapis"
+      "c:gems"
     ],
     "components": {},
     "is_weapon": false,

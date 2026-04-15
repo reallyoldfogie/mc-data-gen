@@ -9,11 +9,11 @@
     "tags": [
       "minecraft:horse_food",
       "c:foods/vegetable",
+      "c:animal_foods",
       "minecraft:rabbit_food",
       "c:crops",
-      "c:animal_foods",
-      "minecraft:villager_picks_up",
       "minecraft:villager_plantable_seeds",
+      "minecraft:villager_picks_up",
       "c:foods",
       "minecraft:pig_food",
       "c:crops/carrot",

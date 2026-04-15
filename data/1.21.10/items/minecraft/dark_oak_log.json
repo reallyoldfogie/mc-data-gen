@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "c:natural_logs/overworld",
       "minecraft:logs_that_burn",
       "c:natural_logs",
-      "c:natural_logs/overworld",
       "minecraft:logs",
       "minecraft:completes_find_tree_tutorial",
       "minecraft:dark_oak_logs"

@@ -10,8 +10,8 @@
       "c:ores",
       "minecraft:lapis_ores",
       "c:ores_in_ground/deepslate",
-      "c:ore_rates/dense",
-      "c:ores/lapis"
+      "c:ores/lapis",
+      "c:ore_rates/dense"
     ],
     "components": {},
     "is_weapon": false,

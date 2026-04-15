@@ -12,12 +12,12 @@
       "minecraft:foot_armor",
       "minecraft:enchantable/vanishing",
       "minecraft:enchantable/equippable",
-      "minecraft:enchantable/armor",
       "minecraft:dyeable",
-      "minecraft:enchantable/foot_armor",
+      "minecraft:enchantable/armor",
       "minecraft:trimmable_armor",
-      "minecraft:freeze_immune_wearables",
-      "c:enchantables"
+      "minecraft:enchantable/foot_armor",
+      "c:enchantables",
+      "minecraft:freeze_immune_wearables"
     ],
     "components": {
       "max_damage": 65,

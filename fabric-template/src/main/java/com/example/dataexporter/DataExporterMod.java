@@ -177,6 +177,26 @@ public class DataExporterMod implements ModInitializer {
 
                 // --- END TAG SEMANTICS ---
 
+                // --- BLOCK-LEVEL PROPERTIES (same for all states of a block) ---
+                float hardness = state.getHardness(world, pos);
+                entry.addProperty("hardness", hardness);
+                entry.addProperty("resistance", block.getBlastResistance());
+
+                Item blockItem = block.asItem();
+                int stackSize = (blockItem != null && blockItem != net.minecraft.item.Items.AIR)
+                        ? blockItem.getMaxCount() : 0;
+                entry.addProperty("stack_size", stackSize);
+
+                entry.addProperty("diggable", hardness >= 0);
+
+                JsonArray materialArray = new JsonArray();
+                if (state.isIn(BlockTags.PICKAXE_MINEABLE)) materialArray.add("mineable/pickaxe");
+                if (state.isIn(BlockTags.AXE_MINEABLE)) materialArray.add("mineable/axe");
+                if (state.isIn(BlockTags.SHOVEL_MINEABLE)) materialArray.add("mineable/shovel");
+                if (state.isIn(BlockTags.HOE_MINEABLE)) materialArray.add("mineable/hoe");
+                entry.add("material", materialArray);
+                // --- END BLOCK-LEVEL PROPERTIES ---
+
                 allEntries.add(entry);
             }
         }

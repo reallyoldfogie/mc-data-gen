@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:bookshelf_books",
-      "minecraft:lectern_books"
+      "minecraft:lectern_books",
+      "minecraft:bookshelf_books"
     ],
     "components": {},
     "is_weapon": false,

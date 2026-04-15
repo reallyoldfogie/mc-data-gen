@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:crops/melon",
-      "c:crops"
+      "c:crops",
+      "c:crops/melon"
     ],
     "components": {},
     "is_weapon": false,

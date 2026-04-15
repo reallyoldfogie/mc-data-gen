@@ -7,13 +7,13 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:flowers",
-      "c:flowers/small",
-      "c:flowers",
       "minecraft:small_flowers",
+      "minecraft:flowers",
+      "c:flowers",
       "minecraft:shearable_from_copper_golem",
-      "c:animal_foods",
-      "minecraft:bee_food"
+      "c:flowers/small",
+      "minecraft:bee_food",
+      "c:animal_foods"
     ],
     "components": {},
     "is_weapon": false,

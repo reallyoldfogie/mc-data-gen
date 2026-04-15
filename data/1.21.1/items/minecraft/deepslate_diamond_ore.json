@@ -7,11 +7,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "c:ores_in_ground/deepslate",
       "c:ore_rates/singular",
       "c:ores",
-      "minecraft:diamond_ores",
       "c:ores/diamond",
-      "c:ores_in_ground/deepslate"
+      "minecraft:diamond_ores"
     ],
     "components": {},
     "is_weapon": false,

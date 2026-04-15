@@ -1,5 +1,10 @@
 {
   "block_id": "minecraft:pale_hanging_moss",
+  "hardness": 0.1,
+  "resistance": 0.1,
+  "stack_size": 64,
+  "diggable": true,
+  "material": [],
   "states": [
     {
       "properties": {

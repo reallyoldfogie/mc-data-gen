@@ -7,10 +7,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "minecraft:stone_crafting_materials",
       "c:cobblestones",
       "c:cobblestones/normal",
-      "minecraft:stone_tool_materials",
-      "minecraft:stone_crafting_materials"
+      "minecraft:stone_tool_materials"
     ],
     "components": {},
     "is_weapon": false,

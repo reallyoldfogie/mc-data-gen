@@ -1,5 +1,10 @@
 {
   "block_id": "minecraft:pale_oak_sign",
+  "hardness": 1,
+  "resistance": 1,
+  "stack_size": 16,
+  "diggable": true,
+  "material": [],
   "states": [
     {
       "properties": {

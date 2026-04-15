@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:ores",
-      "c:ores/netherite_scrap"
+      "c:ores/netherite_scrap",
+      "c:ores"
     ],
     "components": {},
     "is_weapon": false,

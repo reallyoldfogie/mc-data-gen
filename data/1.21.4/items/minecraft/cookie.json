@@ -8,8 +8,8 @@
     "use_animation": "EAT",
     "tags": [
       "c:foods",
-      "minecraft:parrot_poisonous_food",
       "c:foods/cookies",
+      "minecraft:parrot_poisonous_food",
       "c:foods/cookie"
     ],
     "components": {

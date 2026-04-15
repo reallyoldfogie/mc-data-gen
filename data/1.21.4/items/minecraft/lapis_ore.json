@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:lapis_ores",
       "c:ores",
+      "minecraft:lapis_ores",
       "c:ores_in_ground/stone",
       "c:ore_rates/dense",
       "c:ores/lapis"

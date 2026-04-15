@@ -8,11 +8,11 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:netherite_tool_materials",
-      "c:ingots",
-      "minecraft:trim_materials",
-      "minecraft:beacon_payment_items",
+      "c:ingots/netherite",
       "minecraft:repairs_netherite_armor",
-      "c:ingots/netherite"
+      "minecraft:beacon_payment_items",
+      "minecraft:trim_materials",
+      "c:ingots"
     ],
     "components": {},
     "is_weapon": false,

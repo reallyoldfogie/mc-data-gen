@@ -6,6 +6,9 @@ output_dir: "./data"
 # Path to the Fabric template project (relative to this config file or absolute).
 fabric_template_dir: "./fabric-template"
 
+# Path to the unobfuscated Fabric template for 26.1+ (non-remapping Loom).
+fabric_template_unobf_dir: "./fabric-template-unobf"
+
 # Gradle task to run in each generated project. Defaults to "runServer".
 gradle_task: "runServer"
 
@@ -26,6 +29,7 @@ versions:
   - "1.21.9"
   - "1.21.10"
   - "1.21.11"
+  - "26.1"
 
 # Where the Fabric mod writes its JSON (relative to project root).
 generator_output_rel: "run/data"

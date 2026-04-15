@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:rods",
-      "c:rods/breeze"
+      "c:rods/breeze",
+      "c:rods"
     ],
     "components": {},
     "is_weapon": false,

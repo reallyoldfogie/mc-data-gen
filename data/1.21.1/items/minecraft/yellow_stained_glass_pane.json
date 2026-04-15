@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:glass_panes",
+      "c:dyed/yellow",
       "c:dyed",
-      "c:dyed/yellow"
+      "c:glass_panes"
     ],
     "components": {},
     "is_weapon": false,

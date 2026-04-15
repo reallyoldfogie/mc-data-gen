@@ -7,11 +7,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:storage_blocks",
-      "c:animal_foods",
-      "minecraft:horse_food",
       "c:storage_blocks/wheat",
+      "minecraft:horse_food",
       "minecraft:llama_tempt_items",
+      "c:animal_foods",
+      "c:storage_blocks",
       "minecraft:llama_food"
     ],
     "components": {},

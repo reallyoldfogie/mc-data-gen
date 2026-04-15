@@ -8,9 +8,9 @@
     "use_animation": "EAT",
     "tags": [
       "c:foods",
-      "c:foods/food_poisoning",
-      "c:foods/raw_fish",
       "c:foods/raw_fishes",
+      "c:foods/raw_fish",
+      "c:foods/food_poisoning",
       "minecraft:fishes"
     ],
     "components": {

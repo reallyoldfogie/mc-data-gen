@@ -8,9 +8,9 @@
     "use_animation": "NONE",
     "tags": [
       "c:gems/amethyst",
-      "c:gems",
+      "minecraft:duplicates_allays",
       "minecraft:trim_materials",
-      "minecraft:duplicates_allays"
+      "c:gems"
     ],
     "components": {},
     "is_weapon": false,

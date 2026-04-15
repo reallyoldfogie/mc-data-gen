@@ -7,10 +7,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:raw_blocks",
-      "c:storage_blocks/raw_iron",
       "c:storage_blocks",
-      "c:raw_blocks/iron"
+      "c:raw_blocks/iron",
+      "c:storage_blocks/raw_iron",
+      "c:raw_blocks"
     ],
     "components": {},
     "is_weapon": false,

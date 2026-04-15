@@ -7,13 +7,13 @@
     "fireproof": false,
     "use_animation": "EAT",
     "tags": [
+      "c:foods/raw_meat",
+      "minecraft:meat",
+      "c:foods/food_poisoning",
       "c:foods",
       "c:animal_foods",
-      "minecraft:meat",
-      "c:foods/raw_meat",
-      "minecraft:wolf_food",
-      "c:foods/food_poisoning",
-      "c:foods/raw_meats"
+      "c:foods/raw_meats",
+      "minecraft:wolf_food"
     ],
     "components": {
       "food": {

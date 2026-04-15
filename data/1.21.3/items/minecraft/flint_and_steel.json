@@ -8,11 +8,11 @@
     "use_animation": "NONE",
     "tags": [
       "c:tools/igniter",
-      "minecraft:enchantable/durability",
-      "c:enchantables",
-      "minecraft:enchantable/vanishing",
+      "c:tools",
       "minecraft:creeper_igniters",
-      "c:tools"
+      "minecraft:enchantable/vanishing",
+      "c:enchantables",
+      "minecraft:enchantable/durability"
     ],
     "components": {
       "max_damage": 64,

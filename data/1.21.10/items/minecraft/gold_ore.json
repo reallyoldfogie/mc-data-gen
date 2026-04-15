@@ -10,9 +10,9 @@
       "minecraft:gold_ores",
       "minecraft:piglin_loved",
       "c:ore_rates/singular",
-      "c:ores_in_ground/stone",
+      "c:ores",
       "c:ores/gold",
-      "c:ores"
+      "c:ores_in_ground/stone"
     ],
     "components": {},
     "is_weapon": false,

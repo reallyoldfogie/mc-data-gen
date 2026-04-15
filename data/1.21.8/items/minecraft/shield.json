@@ -7,12 +7,12 @@
     "fireproof": false,
     "use_animation": "BLOCK",
     "tags": [
-      "c:tools",
-      "c:enchantables",
+      "c:tools/shield",
       "minecraft:enchantable/durability",
-      "c:tools/shields",
+      "c:enchantables",
+      "c:tools",
       "minecraft:enchantable/vanishing",
-      "c:tools/shield"
+      "c:tools/shields"
     ],
     "components": {
       "max_damage": 336,

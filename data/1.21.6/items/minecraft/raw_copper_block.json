@@ -9,8 +9,8 @@
     "tags": [
       "c:storage_blocks",
       "c:raw_blocks/copper",
-      "c:storage_blocks/raw_copper",
-      "c:raw_blocks"
+      "c:raw_blocks",
+      "c:storage_blocks/raw_copper"
     ],
     "components": {},
     "is_weapon": false,

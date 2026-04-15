@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "c:fences",
       "minecraft:fences",
-      "c:fences/nether_brick",
-      "c:fences"
+      "c:fences/nether_brick"
     ],
     "components": {},
     "is_weapon": false,

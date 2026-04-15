@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "EAT",
     "tags": [
-      "minecraft:fishes",
       "c:foods/cooked_fishes",
       "c:foods",
+      "minecraft:fishes",
       "c:foods/cooked_fish"
     ],
     "components": {

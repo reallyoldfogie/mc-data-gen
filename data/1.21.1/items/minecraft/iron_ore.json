@@ -7,11 +7,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:ores_in_ground/stone",
-      "c:ores",
+      "c:ores/iron",
       "c:ore_rates/singular",
+      "c:ores",
       "minecraft:iron_ores",
-      "c:ores/iron"
+      "c:ores_in_ground/stone"
     ],
     "components": {},
     "is_weapon": false,

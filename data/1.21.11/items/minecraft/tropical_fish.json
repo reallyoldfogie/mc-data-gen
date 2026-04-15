@@ -7,13 +7,13 @@
     "fireproof": false,
     "use_animation": "EAT",
     "tags": [
-      "c:foods/raw_fishes",
-      "minecraft:nautilus_food",
       "c:foods/raw_fish",
+      "minecraft:nautilus_food",
+      "c:foods/raw_fishes",
+      "minecraft:wolf_food",
       "minecraft:fishes",
       "c:foods",
-      "c:animal_foods",
-      "minecraft:wolf_food"
+      "c:animal_foods"
     ],
     "components": {
       "food": {

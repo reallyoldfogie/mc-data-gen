@@ -8,10 +8,10 @@
     "use_animation": "DRINK",
     "tags": [
       "c:buckets/milk",
-      "c:drinks",
-      "c:drinks/milk",
       "c:buckets",
-      "c:drink_containing/bucket"
+      "c:drink_containing/bucket",
+      "c:drinks/milk",
+      "c:drinks"
     ],
     "components": {},
     "is_weapon": false,

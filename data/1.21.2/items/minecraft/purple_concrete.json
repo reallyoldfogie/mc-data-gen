@@ -8,9 +8,9 @@
     "use_animation": "NONE",
     "tags": [
       "c:concretes",
-      "c:concrete",
+      "c:dyed/purple",
       "c:dyed",
-      "c:dyed/purple"
+      "c:concrete"
     ],
     "components": {},
     "is_weapon": false,

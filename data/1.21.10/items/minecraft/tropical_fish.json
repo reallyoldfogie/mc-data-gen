@@ -11,8 +11,8 @@
       "c:foods",
       "minecraft:fishes",
       "c:foods/raw_fish",
-      "minecraft:wolf_food",
-      "c:animal_foods"
+      "c:animal_foods",
+      "minecraft:wolf_food"
     ],
     "components": {
       "food": {

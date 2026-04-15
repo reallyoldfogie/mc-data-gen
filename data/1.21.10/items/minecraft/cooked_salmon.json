@@ -7,10 +7,10 @@
     "fireproof": false,
     "use_animation": "EAT",
     "tags": [
-      "c:foods/cooked_fish",
       "c:foods",
       "minecraft:fishes",
       "minecraft:wolf_food",
+      "c:foods/cooked_fish",
       "c:animal_foods",
       "c:foods/cooked_fishes"
     ],

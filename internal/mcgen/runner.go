@@ -14,6 +14,15 @@ import (
 	loader "github.com/reallyoldfogie/mc-data-gen/loader"
 )
 
+// TemplateDir returns the appropriate template directory for the given Minecraft version.
+// Versions >= 26.1 use the unobfuscated template; older versions use the standard template.
+func TemplateDir(meta *FabricMeta, obfDir, unobfDir string) string {
+	if !needsYarnMappings(meta.MinecraftVersion) {
+		return unobfDir
+	}
+	return obfDir
+}
+
 // PrepareProject copies the Fabric template into a per-version dir and
 // injects minecraft_version, yarn_mappings, loader_version, and
 // fabric_api_version into gradle.properties.
@@ -36,6 +45,8 @@ func PrepareProject(templateDir, projectDir string, meta *FabricMeta) error {
 		return fmt.Errorf("read gradle.properties: %w", err)
 	}
 
+	isUnobf := !needsYarnMappings(meta.MinecraftVersion)
+
 	lines := strings.Split(string(props), "\n")
 	foundMC := false
 	foundYarn := false
@@ -50,12 +61,10 @@ func PrepareProject(templateDir, projectDir string, meta *FabricMeta) error {
 			lines[i] = "minecraft_version=" + meta.MinecraftVersion
 			foundMC = true
 		case strings.HasPrefix(trimmed, "yarn_mappings="):
-			// Only set if we have a Yarn version (< 26.1)
 			if meta.YarnVersion != "" {
 				lines[i] = "yarn_mappings=" + meta.YarnVersion
 				foundYarn = true
 			} else {
-				// Remove the line for versions that don't need Yarn
 				lines[i] = ""
 			}
 		case strings.HasPrefix(trimmed, "loader_version="):
@@ -73,7 +82,6 @@ func PrepareProject(templateDir, projectDir string, meta *FabricMeta) error {
 	if !foundMC {
 		lines = append(lines, "minecraft_version="+meta.MinecraftVersion)
 	}
-	// Only add yarn_mappings if version needs it (< 26.1)
 	if meta.YarnVersion != "" && !foundYarn {
 		lines = append(lines, "yarn_mappings="+meta.YarnVersion)
 	}
@@ -92,9 +100,12 @@ func PrepareProject(templateDir, projectDir string, meta *FabricMeta) error {
 		return fmt.Errorf("write gradle.properties: %w", err)
 	}
 
-	// Update Loom version in build.gradle
-	if err := updateLoomVersion(projectDir, meta.LoomVersion); err != nil {
-		return fmt.Errorf("update loom version: %w", err)
+	// Only update Loom version in build.gradle for obfuscated builds
+	// The unobf template already has the correct plugin ID and doesn't need rewriting
+	if !isUnobf {
+		if err := updateLoomVersion(projectDir, meta.LoomVersion); err != nil {
+			return fmt.Errorf("update loom version: %w", err)
+		}
 	}
 
 	return nil
@@ -383,6 +394,14 @@ func shardFile(inputPath, outRoot string) error {
 	}
 	sort.Strings(blockIDs)
 
+	// Build a lookup of block-level properties from the first record of each block
+	blockProps := make(map[string]loader.BlockStateRecord)
+	for _, record := range records {
+		if _, exists := blockProps[record.BlockID]; !exists {
+			blockProps[record.BlockID] = record
+		}
+	}
+
 	for _, blockID := range blockIDs {
 		states := byBlock[blockID]
 		ns, path := splitBlockID(blockID) // e.g. "minecraft", "oak_fence"
@@ -392,10 +411,16 @@ func shardFile(inputPath, outRoot string) error {
 			return fmt.Errorf("mkdir %s: %w", dir, err)
 		}
 
+		props := blockProps[blockID]
 		outFile := filepath.Join(dir, path+".json")
 		file := loader.BlockStatesFile{
-			BlockID: blockID,
-			States:  states,
+			BlockID:    blockID,
+			Hardness:   props.Hardness,
+			Resistance: props.Resistance,
+			StackSize:  props.StackSize,
+			Diggable:   props.Diggable,
+			Material:   props.Material,
+			States:     states,
 		}
 		buf, err := json.MarshalIndent(file, "", "  ")
 		if err != nil {

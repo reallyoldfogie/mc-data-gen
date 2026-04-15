@@ -11,8 +11,8 @@
       "c:drinks/watery",
       "c:drinks",
       "c:potions",
-      "c:drink_containing/bottle",
-      "c:potions/bottle"
+      "c:potions/bottle",
+      "c:drink_containing/bottle"
     ],
     "components": {},
     "is_weapon": false,

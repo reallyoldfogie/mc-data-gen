@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:netherracks",
-      "c:ore_bearing_ground/netherrack"
+      "c:ore_bearing_ground/netherrack",
+      "c:netherracks"
     ],
     "components": {},
     "is_weapon": false,

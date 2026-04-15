@@ -8,9 +8,9 @@
     "use_animation": "NONE",
     "tags": [
       "c:ores",
-      "c:ore_rates/dense",
       "minecraft:lapis_ores",
       "c:ores_in_ground/stone",
+      "c:ore_rates/dense",
       "c:ores/lapis"
     ],
     "components": {},

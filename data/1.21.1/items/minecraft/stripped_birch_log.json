@@ -8,10 +8,10 @@
     "use_animation": "NONE",
     "tags": [
       "c:stripped_logs",
+      "minecraft:logs_that_burn",
       "minecraft:completes_find_tree_tutorial",
-      "minecraft:logs",
       "minecraft:birch_logs",
-      "minecraft:logs_that_burn"
+      "minecraft:logs"
     ],
     "components": {},
     "is_weapon": false,

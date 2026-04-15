@@ -1,5 +1,12 @@
 {
   "block_id": "minecraft:birch_leaves",
+  "hardness": 0.2,
+  "resistance": 0.2,
+  "stack_size": 64,
+  "diggable": true,
+  "material": [
+    "mineable/hoe"
+  ],
   "states": [
     {
       "properties": {

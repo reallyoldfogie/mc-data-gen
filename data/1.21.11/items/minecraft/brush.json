@@ -8,10 +8,10 @@
     "use_animation": "BRUSH",
     "tags": [
       "minecraft:enchantable/durability",
-      "minecraft:enchantable/vanishing",
-      "c:tools/brushes",
-      "c:tools/brush",
       "c:tools",
+      "c:tools/brush",
+      "c:tools/brushes",
+      "minecraft:enchantable/vanishing",
       "c:enchantables"
     ],
     "components": {

@@ -7,11 +7,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "minecraft:piglin_loved",
+      "c:storage_blocks/raw_gold",
       "c:raw_blocks/gold",
       "c:storage_blocks",
-      "c:storage_blocks/raw_gold",
-      "c:raw_blocks",
-      "minecraft:piglin_loved"
+      "c:raw_blocks"
     ],
     "components": {},
     "is_weapon": false,

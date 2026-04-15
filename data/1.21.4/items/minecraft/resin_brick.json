@@ -8,8 +8,8 @@
     "use_animation": "NONE",
     "tags": [
       "c:bricks",
-      "c:bricks/resin",
-      "minecraft:trim_materials"
+      "minecraft:trim_materials",
+      "c:bricks/resin"
     ],
     "components": {},
     "is_weapon": false,

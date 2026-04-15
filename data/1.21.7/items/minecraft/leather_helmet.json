@@ -7,17 +7,17 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:enchantable/head_armor",
-      "minecraft:enchantable/durability",
       "c:armors",
+      "minecraft:enchantable/durability",
+      "minecraft:enchantable/head_armor",
       "minecraft:enchantable/vanishing",
       "minecraft:enchantable/equippable",
-      "minecraft:enchantable/armor",
       "minecraft:dyeable",
       "minecraft:head_armor",
+      "minecraft:enchantable/armor",
       "minecraft:trimmable_armor",
-      "minecraft:freeze_immune_wearables",
-      "c:enchantables"
+      "c:enchantables",
+      "minecraft:freeze_immune_wearables"
     ],
     "components": {
       "max_damage": 55,

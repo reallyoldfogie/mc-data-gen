@@ -7,10 +7,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "c:concrete_powders",
       "c:concrete_powder",
-      "c:dyed/brown",
       "c:dyed",
-      "c:concrete_powders"
+      "c:dyed/brown"
     ],
     "components": {},
     "is_weapon": false,

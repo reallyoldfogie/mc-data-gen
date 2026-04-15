@@ -1,5 +1,12 @@
 {
   "block_id": "minecraft:pale_oak_pressure_plate",
+  "hardness": 0.5,
+  "resistance": 0.5,
+  "stack_size": 64,
+  "diggable": true,
+  "material": [
+    "mineable/axe"
+  ],
   "states": [
     {
       "properties": {

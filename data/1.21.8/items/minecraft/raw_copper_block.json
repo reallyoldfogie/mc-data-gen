@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "c:raw_blocks/copper",
       "c:raw_blocks",
       "c:storage_blocks/raw_copper",
-      "c:raw_blocks/copper",
       "c:storage_blocks"
     ],
     "components": {},

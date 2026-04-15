@@ -9,10 +9,10 @@
     "tags": [
       "minecraft:enchantable/durability",
       "c:tools",
-      "c:tools/shields",
-      "minecraft:enchantable/vanishing",
+      "c:enchantables",
       "c:tools/shield",
-      "c:enchantables"
+      "c:tools/shields",
+      "minecraft:enchantable/vanishing"
     ],
     "components": {
       "max_damage": 336,

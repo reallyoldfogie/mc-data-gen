@@ -1,5 +1,10 @@
 {
   "block_id": "minecraft:reinforced_deepslate",
+  "hardness": 55,
+  "resistance": 1200,
+  "stack_size": 64,
+  "diggable": true,
+  "material": [],
   "states": [
     {
       "properties": {},

@@ -7,10 +7,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:enchantable/durability",
-      "c:tools/igniter",
-      "c:enchantables",
       "c:tools",
+      "c:tools/igniter",
+      "minecraft:enchantable/durability",
+      "c:enchantables",
       "minecraft:enchantable/vanishing",
       "minecraft:creeper_igniters"
     ],

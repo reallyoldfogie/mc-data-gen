@@ -8,9 +8,9 @@
     "use_animation": "NONE",
     "tags": [
       "c:glazed_terracotta",
-      "c:dyed",
+      "c:dyed/purple",
       "c:glazed_terracottas",
-      "c:dyed/purple"
+      "c:dyed"
     ],
     "components": {},
     "is_weapon": false,

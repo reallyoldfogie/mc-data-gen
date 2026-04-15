@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyes/yellow",
-      "c:dyes"
+      "c:dyes",
+      "c:dyes/yellow"
     ],
     "components": {},
     "is_weapon": false,

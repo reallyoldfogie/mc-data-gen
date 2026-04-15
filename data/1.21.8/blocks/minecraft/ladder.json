@@ -1,5 +1,12 @@
 {
   "block_id": "minecraft:ladder",
+  "hardness": 0.4,
+  "resistance": 0.4,
+  "stack_size": 64,
+  "diggable": true,
+  "material": [
+    "mineable/axe"
+  ],
   "states": [
     {
       "properties": {

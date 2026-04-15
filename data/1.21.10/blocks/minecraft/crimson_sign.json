@@ -1,5 +1,12 @@
 {
   "block_id": "minecraft:crimson_sign",
+  "hardness": 1,
+  "resistance": 1,
+  "stack_size": 16,
+  "diggable": true,
+  "material": [
+    "mineable/axe"
+  ],
   "states": [
     {
       "properties": {

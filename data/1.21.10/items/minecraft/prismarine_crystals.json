@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:gems",
-      "c:gems/prismarine"
+      "c:gems/prismarine",
+      "c:gems"
     ],
     "components": {},
     "is_weapon": false,

@@ -1,5 +1,12 @@
 {
   "block_id": "minecraft:dirt_path",
+  "hardness": 0.65,
+  "resistance": 0.65,
+  "stack_size": 64,
+  "diggable": true,
+  "material": [
+    "mineable/shovel"
+  ],
   "states": [
     {
       "properties": {},

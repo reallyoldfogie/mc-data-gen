@@ -8,8 +8,8 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:decorated_pot_ingredients",
-      "c:bricks/normal",
-      "c:bricks"
+      "c:bricks",
+      "c:bricks/normal"
     ],
     "components": {},
     "is_weapon": false,

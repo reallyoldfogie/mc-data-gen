@@ -8,10 +8,10 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:gaze_disguise_equipment",
-      "minecraft:enchantable/vanishing",
-      "minecraft:map_invisibility_equipment",
+      "c:enchantables",
       "minecraft:enchantable/equippable",
-      "c:enchantables"
+      "minecraft:map_invisibility_equipment",
+      "minecraft:enchantable/vanishing"
     ],
     "components": {},
     "is_weapon": false,

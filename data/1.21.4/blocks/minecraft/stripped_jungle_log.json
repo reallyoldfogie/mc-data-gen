@@ -1,5 +1,12 @@
 {
   "block_id": "minecraft:stripped_jungle_log",
+  "hardness": 2,
+  "resistance": 2,
+  "stack_size": 64,
+  "diggable": true,
+  "material": [
+    "mineable/axe"
+  ],
   "states": [
     {
       "properties": {

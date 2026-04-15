@@ -1,5 +1,12 @@
 {
   "block_id": "minecraft:purple_glazed_terracotta",
+  "hardness": 1.4,
+  "resistance": 1.4,
+  "stack_size": 64,
+  "diggable": true,
+  "material": [
+    "mineable/pickaxe"
+  ],
   "states": [
     {
       "properties": {

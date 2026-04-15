@@ -1,5 +1,12 @@
 {
   "block_id": "minecraft:infested_stone_bricks",
+  "hardness": 0.75,
+  "resistance": 0.75,
+  "stack_size": 64,
+  "diggable": true,
+  "material": [
+    "mineable/pickaxe"
+  ],
   "states": [
     {
       "properties": {},

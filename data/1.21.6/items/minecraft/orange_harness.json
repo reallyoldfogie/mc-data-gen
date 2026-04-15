@@ -9,8 +9,8 @@
     "tags": [
       "c:dyed/orange",
       "minecraft:happy_ghast_tempt_items",
-      "minecraft:harnesses",
-      "c:dyed"
+      "c:dyed",
+      "minecraft:harnesses"
     ],
     "components": {},
     "is_weapon": false,

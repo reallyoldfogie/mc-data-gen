@@ -7,17 +7,17 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:enchantable/armor",
-      "minecraft:trimmable_armor",
       "minecraft:enchantable/chest_armor",
-      "minecraft:chest_armor",
-      "c:enchantables",
-      "minecraft:piglin_safe_armor",
-      "minecraft:piglin_loved",
-      "minecraft:enchantable/durability",
+      "minecraft:enchantable/vanishing",
       "minecraft:enchantable/equippable",
       "c:armors",
-      "minecraft:enchantable/vanishing"
+      "minecraft:enchantable/durability",
+      "minecraft:piglin_loved",
+      "minecraft:piglin_safe_armor",
+      "c:enchantables",
+      "minecraft:chest_armor",
+      "minecraft:enchantable/armor",
+      "minecraft:trimmable_armor"
     ],
     "components": {
       "max_damage": 112,

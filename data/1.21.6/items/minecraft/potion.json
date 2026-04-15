@@ -7,12 +7,12 @@
     "fireproof": false,
     "use_animation": "DRINK",
     "tags": [
-      "c:drinks",
       "c:drinks/magic",
-      "c:potions/bottle",
+      "c:drinks/watery",
+      "c:drinks",
       "c:drink_containing/bottle",
-      "c:potions",
-      "c:drinks/watery"
+      "c:potions/bottle",
+      "c:potions"
     ],
     "components": {},
     "is_weapon": false,

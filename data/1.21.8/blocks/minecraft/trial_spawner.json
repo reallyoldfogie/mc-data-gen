@@ -1,5 +1,10 @@
 {
   "block_id": "minecraft:trial_spawner",
+  "hardness": 50,
+  "resistance": 50,
+  "stack_size": 64,
+  "diggable": true,
+  "material": [],
   "states": [
     {
       "properties": {

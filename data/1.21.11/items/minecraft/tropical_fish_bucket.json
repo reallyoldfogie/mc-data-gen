@@ -7,12 +7,12 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:nautilus_bucket_food",
-      "minecraft:nautilus_food",
-      "c:buckets/entity_water",
-      "c:animal_foods",
+      "minecraft:axolotl_food",
       "c:buckets",
-      "minecraft:axolotl_food"
+      "c:animal_foods",
+      "c:buckets/entity_water",
+      "minecraft:nautilus_food",
+      "minecraft:nautilus_bucket_food"
     ],
     "components": {
       "food": {

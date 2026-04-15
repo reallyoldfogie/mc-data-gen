@@ -7,15 +7,15 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:armors",
-      "minecraft:enchantable/vanishing",
-      "minecraft:trimmable_armor",
-      "minecraft:chest_armor",
+      "c:armors/humanoid",
+      "minecraft:enchantable/durability",
+      "minecraft:enchantable/armor",
       "minecraft:enchantable/chest_armor",
       "minecraft:enchantable/equippable",
-      "minecraft:enchantable/armor",
-      "minecraft:enchantable/durability",
-      "c:armors/humanoid",
+      "minecraft:trimmable_armor",
+      "minecraft:chest_armor",
+      "minecraft:enchantable/vanishing",
+      "c:armors",
       "c:enchantables"
     ],
     "components": {

@@ -1,5 +1,10 @@
 {
   "block_id": "minecraft:water",
+  "hardness": 100,
+  "resistance": 100,
+  "stack_size": 0,
+  "diggable": true,
+  "material": [],
   "states": [
     {
       "properties": {

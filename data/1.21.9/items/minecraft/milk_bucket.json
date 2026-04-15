@@ -7,11 +7,11 @@
     "fireproof": false,
     "use_animation": "DRINK",
     "tags": [
-      "c:buckets",
-      "c:drink_containing/bucket",
       "c:drinks",
       "c:buckets/milk",
-      "c:drinks/milk"
+      "c:drinks/milk",
+      "c:drink_containing/bucket",
+      "c:buckets"
     ],
     "components": {},
     "is_weapon": false,

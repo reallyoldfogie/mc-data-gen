@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:stones",
-      "c:ore_bearing_ground/deepslate"
+      "c:ore_bearing_ground/deepslate",
+      "c:stones"
     ],
     "components": {},
     "is_weapon": false,

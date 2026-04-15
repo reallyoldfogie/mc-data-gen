@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyed",
       "minecraft:beds",
-      "c:dyed/purple"
+      "c:dyed/purple",
+      "c:dyed"
     ],
     "components": {},
     "is_weapon": false,

@@ -8,14 +8,14 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:shovels",
+      "minecraft:enchantable/vanishing",
       "minecraft:breaks_decorated_pots",
       "c:tools",
-      "minecraft:enchantable/mining_loot",
       "c:enchantables",
-      "minecraft:piglin_loved",
+      "minecraft:enchantable/mining_loot",
       "minecraft:enchantable/durability",
       "minecraft:enchantable/mining",
-      "minecraft:enchantable/vanishing"
+      "minecraft:piglin_loved"
     ],
     "components": {
       "max_damage": 32,

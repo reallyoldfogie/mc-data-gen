@@ -1,5 +1,10 @@
 {
   "block_id": "minecraft:end_portal_frame",
+  "hardness": -1,
+  "resistance": 3600000,
+  "stack_size": 64,
+  "diggable": false,
+  "material": [],
   "states": [
     {
       "properties": {

@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:non_flammable_wood",
+      "minecraft:doors",
       "minecraft:wooden_doors",
-      "minecraft:doors"
+      "minecraft:non_flammable_wood"
     ],
     "components": {},
     "is_weapon": false,

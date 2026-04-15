@@ -7,10 +7,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "c:glass_blocks",
       "c:glass_blocks/cheap",
       "c:dyed",
-      "c:dyed/blue",
-      "c:glass_blocks"
+      "c:dyed/blue"
     ],
     "components": {},
     "is_weapon": false,

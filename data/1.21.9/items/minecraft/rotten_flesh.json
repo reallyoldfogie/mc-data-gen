@@ -8,10 +8,10 @@
     "use_animation": "EAT",
     "tags": [
       "c:animal_foods",
-      "minecraft:wolf_food",
+      "minecraft:meat",
       "c:foods",
       "c:foods/food_poisoning",
-      "minecraft:meat"
+      "minecraft:wolf_food"
     ],
     "components": {
       "food": {

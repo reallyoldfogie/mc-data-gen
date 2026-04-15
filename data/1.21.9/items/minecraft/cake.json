@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:foods",
+      "minecraft:panda_eats_from_ground",
       "c:foods/edible_when_placed",
-      "minecraft:panda_eats_from_ground"
+      "c:foods"
     ],
     "components": {},
     "is_weapon": false,

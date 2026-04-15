@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:copper_ores",
-      "c:ores"
+      "c:ores",
+      "minecraft:copper_ores"
     ],
     "components": {},
     "is_weapon": false,

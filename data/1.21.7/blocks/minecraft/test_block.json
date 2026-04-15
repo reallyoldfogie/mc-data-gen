@@ -1,5 +1,10 @@
 {
   "block_id": "minecraft:test_block",
+  "hardness": -1,
+  "resistance": 3600000,
+  "stack_size": 64,
+  "diggable": false,
+  "material": [],
   "states": [
     {
       "properties": {

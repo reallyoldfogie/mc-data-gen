@@ -7,12 +7,12 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "minecraft:acacia_logs",
       "minecraft:logs_that_burn",
       "c:natural_logs",
-      "c:natural_logs/overworld",
       "minecraft:logs",
       "minecraft:completes_find_tree_tutorial",
-      "minecraft:acacia_logs"
+      "c:natural_logs/overworld"
     ],
     "components": {},
     "is_weapon": false,

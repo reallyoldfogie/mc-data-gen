@@ -14,8 +14,8 @@
       "minecraft:enchantable/vanishing",
       "minecraft:enchantable/equippable",
       "minecraft:enchantable/armor",
-      "minecraft:enchantable/foot_armor",
       "minecraft:trimmable_armor",
+      "minecraft:enchantable/foot_armor",
       "c:enchantables",
       "minecraft:piglin_safe_armor"
     ],

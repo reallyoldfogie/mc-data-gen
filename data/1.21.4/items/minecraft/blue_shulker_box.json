@@ -9,8 +9,8 @@
     "tags": [
       "minecraft:shulker_boxes",
       "c:dyed",
-      "c:dyed/blue",
-      "c:shulker_boxes"
+      "c:shulker_boxes",
+      "c:dyed/blue"
     ],
     "components": {},
     "is_weapon": false,

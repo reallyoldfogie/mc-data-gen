@@ -1,5 +1,10 @@
 {
   "block_id": "minecraft:cake",
+  "hardness": 0.5,
+  "resistance": 0.5,
+  "stack_size": 1,
+  "diggable": true,
+  "material": [],
   "states": [
     {
       "properties": {

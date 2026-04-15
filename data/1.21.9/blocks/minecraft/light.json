@@ -1,5 +1,10 @@
 {
   "block_id": "minecraft:light",
+  "hardness": -1,
+  "resistance": 3600000.8,
+  "stack_size": 64,
+  "diggable": false,
+  "material": [],
   "states": [
     {
       "properties": {

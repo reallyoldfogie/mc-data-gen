@@ -7,11 +7,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:completes_find_tree_tutorial",
-      "c:stripped_logs",
       "minecraft:logs_that_burn",
+      "c:stripped_logs",
       "minecraft:logs",
-      "minecraft:pale_oak_logs"
+      "minecraft:pale_oak_logs",
+      "minecraft:completes_find_tree_tutorial"
     ],
     "components": {},
     "is_weapon": false,

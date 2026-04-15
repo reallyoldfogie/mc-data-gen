@@ -1,5 +1,12 @@
 {
   "block_id": "minecraft:blue_ice",
+  "hardness": 2.8,
+  "resistance": 2.8,
+  "stack_size": 64,
+  "diggable": true,
+  "material": [
+    "mineable/pickaxe"
+  ],
   "states": [
     {
       "properties": {},

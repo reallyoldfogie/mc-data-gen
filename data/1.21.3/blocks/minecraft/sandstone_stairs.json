@@ -1,5 +1,12 @@
 {
   "block_id": "minecraft:sandstone_stairs",
+  "hardness": 0.8,
+  "resistance": 0.8,
+  "stack_size": 64,
+  "diggable": true,
+  "material": [
+    "mineable/pickaxe"
+  ],
   "states": [
     {
       "properties": {

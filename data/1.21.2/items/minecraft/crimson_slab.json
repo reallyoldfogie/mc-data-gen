@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:non_flammable_wood",
+      "minecraft:slabs",
       "minecraft:wooden_slabs",
-      "minecraft:slabs"
+      "minecraft:non_flammable_wood"
     ],
     "components": {},
     "is_weapon": false,

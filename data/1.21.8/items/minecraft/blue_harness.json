@@ -8,8 +8,8 @@
     "use_animation": "NONE",
     "tags": [
       "c:dyed",
-      "c:dyed/blue",
       "minecraft:harnesses",
+      "c:dyed/blue",
       "minecraft:happy_ghast_tempt_items"
     ],
     "components": {},

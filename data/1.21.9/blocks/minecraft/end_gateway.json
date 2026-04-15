@@ -1,5 +1,10 @@
 {
   "block_id": "minecraft:end_gateway",
+  "hardness": -1,
+  "resistance": 3600000,
+  "stack_size": 0,
+  "diggable": false,
+  "material": [],
   "states": [
     {
       "properties": {},

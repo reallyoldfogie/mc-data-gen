@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "EAT",
     "tags": [
-      "c:foods",
-      "c:foods/food_poisoning",
       "c:animal_foods",
+      "c:foods/food_poisoning",
+      "c:foods",
       "minecraft:armadillo_food"
     ],
     "components": {

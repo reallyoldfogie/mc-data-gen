@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:glass_panes",
       "c:dyed/yellow",
+      "c:glass_panes",
       "c:dyed"
     ],
     "components": {},

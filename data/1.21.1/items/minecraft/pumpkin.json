@@ -8,8 +8,8 @@
     "use_animation": "NONE",
     "tags": [
       "c:pumpkins",
-      "c:crops",
       "c:pumpkins/normal",
+      "c:crops",
       "c:crops/pumpkin"
     ],
     "components": {},

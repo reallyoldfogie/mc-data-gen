@@ -7,10 +7,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:completes_find_tree_tutorial",
       "minecraft:birch_logs",
       "minecraft:logs_that_burn",
-      "minecraft:logs"
+      "minecraft:logs",
+      "minecraft:completes_find_tree_tutorial"
     ],
     "components": {},
     "is_weapon": false,

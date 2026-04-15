@@ -8,9 +8,9 @@
     "use_animation": "NONE",
     "tags": [
       "c:shulker_boxes",
+      "c:dyed/light_gray",
       "minecraft:shulker_boxes",
-      "c:dyed",
-      "c:dyed/light_gray"
+      "c:dyed"
     ],
     "components": {},
     "is_weapon": false,

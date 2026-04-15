@@ -8,9 +8,9 @@
     "use_animation": "NONE",
     "tags": [
       "c:glass_blocks",
-      "c:glass_blocks/cheap",
+      "c:dyed/purple",
       "c:dyed",
-      "c:dyed/purple"
+      "c:glass_blocks/cheap"
     ],
     "components": {},
     "is_weapon": false,

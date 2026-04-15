@@ -1,5 +1,10 @@
 {
   "block_id": "minecraft:cactus",
+  "hardness": 0.4,
+  "resistance": 0.4,
+  "stack_size": 64,
+  "diggable": true,
+  "material": [],
   "states": [
     {
       "properties": {

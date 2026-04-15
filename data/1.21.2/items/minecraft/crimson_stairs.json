@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:non_flammable_wood",
+      "minecraft:stairs",
       "minecraft:wooden_stairs",
-      "minecraft:stairs"
+      "minecraft:non_flammable_wood"
     ],
     "components": {},
     "is_weapon": false,

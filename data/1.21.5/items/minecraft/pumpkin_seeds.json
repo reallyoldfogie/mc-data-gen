@@ -7,11 +7,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:parrot_food",
       "minecraft:chicken_food",
-      "c:seeds/pumpkin",
       "c:animal_foods",
-      "c:seeds"
+      "minecraft:parrot_food",
+      "c:seeds",
+      "c:seeds/pumpkin"
     ],
     "components": {},
     "is_weapon": false,

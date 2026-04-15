@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:shulker_boxes",
       "c:dyed",
+      "minecraft:shulker_boxes",
       "c:dyed/brown",
       "c:shulker_boxes"
     ],

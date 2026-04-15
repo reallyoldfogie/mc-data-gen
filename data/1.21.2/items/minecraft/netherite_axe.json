@@ -7,18 +7,18 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:enchantables",
-      "minecraft:breaks_decorated_pots",
-      "minecraft:enchantable/mining",
-      "minecraft:enchantable/vanishing",
-      "c:tools",
-      "minecraft:enchantable/weapon",
-      "minecraft:enchantable/durability",
       "c:tools/melee_weapon",
       "minecraft:enchantable/sharp_weapon",
-      "c:tools/melee_weapons",
+      "minecraft:enchantable/durability",
+      "minecraft:enchantable/weapon",
+      "c:tools",
+      "minecraft:enchantable/vanishing",
+      "minecraft:enchantable/mining",
+      "minecraft:breaks_decorated_pots",
+      "c:enchantables",
+      "minecraft:enchantable/mining_loot",
       "minecraft:axes",
-      "minecraft:enchantable/mining_loot"
+      "c:tools/melee_weapons"
     ],
     "components": {
       "max_damage": 2031,

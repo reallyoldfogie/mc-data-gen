@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:cobblestones/mossy",
-      "c:cobblestones"
+      "c:cobblestones",
+      "c:cobblestones/mossy"
     ],
     "components": {},
     "is_weapon": false,

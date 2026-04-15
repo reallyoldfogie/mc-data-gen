@@ -8,9 +8,9 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:dampens_vibrations",
+      "minecraft:wool_carpets",
       "c:dyed",
-      "c:dyed/gray",
-      "minecraft:wool_carpets"
+      "c:dyed/gray"
     ],
     "components": {},
     "is_weapon": false,

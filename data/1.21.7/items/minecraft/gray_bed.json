@@ -8,8 +8,8 @@
     "use_animation": "NONE",
     "tags": [
       "c:dyed/gray",
-      "c:dyed",
-      "minecraft:beds"
+      "minecraft:beds",
+      "c:dyed"
     ],
     "components": {},
     "is_weapon": false,

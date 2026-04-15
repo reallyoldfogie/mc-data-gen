@@ -8,8 +8,8 @@
     "use_animation": "NONE",
     "tags": [
       "c:fences/nether_brick",
-      "c:fences",
-      "minecraft:fences"
+      "minecraft:fences",
+      "c:fences"
     ],
     "components": {},
     "is_weapon": false,

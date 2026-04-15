@@ -7,12 +7,12 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:ores_in_ground/deepslate",
-      "c:ore_rates/singular",
-      "c:ores",
-      "c:ores/gold",
+      "minecraft:piglin_loved",
       "minecraft:gold_ores",
-      "minecraft:piglin_loved"
+      "c:ores/gold",
+      "c:ores",
+      "c:ore_rates/singular",
+      "c:ores_in_ground/deepslate"
     ],
     "components": {},
     "is_weapon": false,

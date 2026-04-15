@@ -7,10 +7,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:jungle_logs",
       "minecraft:completes_find_tree_tutorial",
       "minecraft:logs_that_burn",
-      "minecraft:logs"
+      "minecraft:logs",
+      "minecraft:jungle_logs"
     ],
     "components": {},
     "is_weapon": false,

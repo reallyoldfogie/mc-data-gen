@@ -8,9 +8,9 @@
     "use_animation": "EAT",
     "tags": [
       "c:foods/cookies",
-      "c:foods",
+      "minecraft:parrot_poisonous_food",
       "c:foods/cookie",
-      "minecraft:parrot_poisonous_food"
+      "c:foods"
     ],
     "components": {
       "food": {

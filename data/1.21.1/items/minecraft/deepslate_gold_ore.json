@@ -8,11 +8,11 @@
     "use_animation": "NONE",
     "tags": [
       "c:ores_in_ground/deepslate",
-      "minecraft:piglin_loved",
       "minecraft:gold_ores",
       "c:ores/gold",
+      "c:ore_rates/singular",
       "c:ores",
-      "c:ore_rates/singular"
+      "minecraft:piglin_loved"
     ],
     "components": {},
     "is_weapon": false,

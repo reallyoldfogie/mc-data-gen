@@ -7,11 +7,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:ores/coal",
+      "c:ores_in_ground/deepslate",
+      "minecraft:coal_ores",
       "c:ores",
       "c:ore_rates/singular",
-      "minecraft:coal_ores",
-      "c:ores_in_ground/deepslate"
+      "c:ores/coal"
     ],
     "components": {},
     "is_weapon": false,

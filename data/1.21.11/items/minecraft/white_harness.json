@@ -8,9 +8,9 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:happy_ghast_tempt_items",
-      "c:dyed",
+      "c:dyed/white",
       "minecraft:harnesses",
-      "c:dyed/white"
+      "c:dyed"
     ],
     "components": {},
     "is_weapon": false,

@@ -1,5 +1,10 @@
 {
   "block_id": "minecraft:gray_wool",
+  "hardness": 0.8,
+  "resistance": 0.8,
+  "stack_size": 64,
+  "diggable": true,
+  "material": [],
   "states": [
     {
       "properties": {},

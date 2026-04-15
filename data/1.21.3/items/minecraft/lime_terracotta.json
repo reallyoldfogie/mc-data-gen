@@ -8,8 +8,8 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:terracotta",
-      "c:dyed/lime",
-      "c:dyed"
+      "c:dyed",
+      "c:dyed/lime"
     ],
     "components": {},
     "is_weapon": false,

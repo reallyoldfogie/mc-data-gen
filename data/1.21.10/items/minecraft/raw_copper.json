@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:raw_materials",
-      "c:raw_materials/copper"
+      "c:raw_materials/copper",
+      "c:raw_materials"
     ],
     "components": {},
     "is_weapon": false,

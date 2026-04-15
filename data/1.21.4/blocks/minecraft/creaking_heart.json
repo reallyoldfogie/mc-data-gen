@@ -1,5 +1,12 @@
 {
   "block_id": "minecraft:creaking_heart",
+  "hardness": 10,
+  "resistance": 10,
+  "stack_size": 64,
+  "diggable": true,
+  "material": [
+    "mineable/axe"
+  ],
   "states": [
     {
       "properties": {

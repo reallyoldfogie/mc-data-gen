@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:obsidians/normal",
-      "c:obsidians"
+      "c:obsidians",
+      "c:obsidians/normal"
     ],
     "components": {},
     "is_weapon": false,

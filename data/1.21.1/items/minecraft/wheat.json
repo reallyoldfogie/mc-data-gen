@@ -7,14 +7,14 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:sheep_food",
-      "minecraft:cow_food",
       "minecraft:goat_food",
-      "minecraft:horse_food",
-      "c:crops",
-      "c:animal_foods",
+      "minecraft:sheep_food",
+      "c:crops/wheat",
       "minecraft:llama_food",
-      "c:crops/wheat"
+      "c:animal_foods",
+      "c:crops",
+      "minecraft:horse_food",
+      "minecraft:cow_food"
     ],
     "components": {},
     "is_weapon": false,

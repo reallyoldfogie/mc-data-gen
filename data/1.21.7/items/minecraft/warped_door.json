@@ -8,8 +8,8 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:wooden_doors",
-      "minecraft:non_flammable_wood",
-      "minecraft:doors"
+      "minecraft:doors",
+      "minecraft:non_flammable_wood"
     ],
     "components": {},
     "is_weapon": false,

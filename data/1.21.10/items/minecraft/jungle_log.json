@@ -9,10 +9,10 @@
     "tags": [
       "minecraft:logs_that_burn",
       "c:natural_logs",
-      "c:natural_logs/overworld",
       "minecraft:logs",
       "minecraft:jungle_logs",
-      "minecraft:completes_find_tree_tutorial"
+      "minecraft:completes_find_tree_tutorial",
+      "c:natural_logs/overworld"
     ],
     "components": {},
     "is_weapon": false,

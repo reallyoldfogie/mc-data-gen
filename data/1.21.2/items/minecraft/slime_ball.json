@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:frog_food",
       "c:animal_foods",
+      "minecraft:frog_food",
       "c:slime_balls"
     ],
     "components": {},

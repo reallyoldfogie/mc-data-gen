@@ -7,11 +7,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:ore_rates/singular",
       "c:ores",
-      "c:ores/emerald",
+      "c:ores_in_ground/stone",
       "minecraft:emerald_ores",
-      "c:ores_in_ground/stone"
+      "c:ore_rates/singular",
+      "c:ores/emerald"
     ],
     "components": {},
     "is_weapon": false,

@@ -7,15 +7,15 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:enchantable/chest_armor",
+      "minecraft:trimmable_armor",
+      "minecraft:enchantable/armor",
+      "minecraft:enchantable/equippable",
+      "minecraft:enchantable/vanishing",
+      "minecraft:enchantable/durability",
       "c:enchantables",
       "minecraft:chest_armor",
       "c:armors",
-      "minecraft:enchantable/durability",
-      "minecraft:enchantable/vanishing",
-      "minecraft:enchantable/equippable",
-      "minecraft:enchantable/armor",
-      "minecraft:trimmable_armor"
+      "minecraft:enchantable/chest_armor"
     ],
     "components": {
       "max_damage": 528,

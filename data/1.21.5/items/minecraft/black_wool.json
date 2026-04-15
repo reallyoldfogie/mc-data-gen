@@ -7,10 +7,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "minecraft:dampens_vibrations",
       "c:dyed/black",
-      "c:dyed",
       "minecraft:wool",
-      "minecraft:dampens_vibrations"
+      "c:dyed"
     ],
     "components": {},
     "is_weapon": false,

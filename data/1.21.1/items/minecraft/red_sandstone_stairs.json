@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:sandstone/stairs",
       "c:sandstone/red_stairs",
-      "minecraft:stairs"
+      "minecraft:stairs",
+      "c:sandstone/stairs"
     ],
     "components": {},
     "is_weapon": false,

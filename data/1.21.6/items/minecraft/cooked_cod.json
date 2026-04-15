@@ -7,12 +7,12 @@
     "fireproof": false,
     "use_animation": "EAT",
     "tags": [
-      "c:foods/cooked_fish",
-      "c:foods/cooked_fishes",
-      "c:foods",
-      "minecraft:wolf_food",
       "minecraft:fishes",
-      "c:animal_foods"
+      "minecraft:wolf_food",
+      "c:foods/cooked_fish",
+      "c:animal_foods",
+      "c:foods/cooked_fishes",
+      "c:foods"
     ],
     "components": {
       "food": {

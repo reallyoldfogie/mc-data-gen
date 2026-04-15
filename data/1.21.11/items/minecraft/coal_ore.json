@@ -8,10 +8,10 @@
     "use_animation": "NONE",
     "tags": [
       "c:ores_in_ground/stone",
-      "c:ores/coal",
-      "c:ore_rates/singular",
+      "minecraft:coal_ores",
       "c:ores",
-      "minecraft:coal_ores"
+      "c:ore_rates/singular",
+      "c:ores/coal"
     ],
     "components": {},
     "is_weapon": false,

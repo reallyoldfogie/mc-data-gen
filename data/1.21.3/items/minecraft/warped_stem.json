@@ -8,9 +8,9 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:warped_stems",
-      "minecraft:completes_find_tree_tutorial",
+      "minecraft:non_flammable_wood",
       "minecraft:logs",
-      "minecraft:non_flammable_wood"
+      "minecraft:completes_find_tree_tutorial"
     ],
     "components": {},
     "is_weapon": false,

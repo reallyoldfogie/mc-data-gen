@@ -1,5 +1,12 @@
 {
   "block_id": "minecraft:spawner",
+  "hardness": 5,
+  "resistance": 5,
+  "stack_size": 64,
+  "diggable": true,
+  "material": [
+    "mineable/pickaxe"
+  ],
   "states": [
     {
       "properties": {},

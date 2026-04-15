@@ -8,10 +8,10 @@
     "use_animation": "NONE",
     "tags": [
       "c:ores_in_ground/stone",
-      "c:ore_rates/dense",
-      "c:ores/lapis",
       "minecraft:lapis_ores",
-      "c:ores"
+      "c:ores",
+      "c:ore_rates/dense",
+      "c:ores/lapis"
     ],
     "components": {},
     "is_weapon": false,

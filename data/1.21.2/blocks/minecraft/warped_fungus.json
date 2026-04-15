@@ -1,5 +1,12 @@
 {
   "block_id": "minecraft:warped_fungus",
+  "hardness": 0,
+  "resistance": 0,
+  "stack_size": 64,
+  "diggable": true,
+  "material": [
+    "mineable/axe"
+  ],
   "states": [
     {
       "properties": {},

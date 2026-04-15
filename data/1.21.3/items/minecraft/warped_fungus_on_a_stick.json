@@ -7,10 +7,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:enchantables",
       "minecraft:enchantable/vanishing",
-      "minecraft:strider_tempt_items",
-      "minecraft:enchantable/durability"
+      "c:enchantables",
+      "minecraft:enchantable/durability",
+      "minecraft:strider_tempt_items"
     ],
     "components": {
       "max_damage": 100,

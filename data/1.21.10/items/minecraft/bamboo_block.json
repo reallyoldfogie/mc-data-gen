@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:natural_logs/overworld",
       "minecraft:bamboo_blocks",
+      "c:natural_logs/overworld",
       "c:natural_logs"
     ],
     "components": {},

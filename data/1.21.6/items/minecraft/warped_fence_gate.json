@@ -7,10 +7,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:non_flammable_wood",
-      "minecraft:fence_gates",
       "c:fence_gates",
-      "c:fence_gates/wooden"
+      "c:fence_gates/wooden",
+      "minecraft:non_flammable_wood",
+      "minecraft:fence_gates"
     ],
     "components": {},
     "is_weapon": false,

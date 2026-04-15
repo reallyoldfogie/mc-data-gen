@@ -8,10 +8,10 @@
     "use_animation": "NONE",
     "tags": [
       "c:ore_rates/dense",
-      "c:ores",
       "minecraft:redstone_ores",
-      "c:ores/redstone",
-      "c:ores_in_ground/stone"
+      "c:ores",
+      "c:ores_in_ground/stone",
+      "c:ores/redstone"
     ],
     "components": {},
     "is_weapon": false,

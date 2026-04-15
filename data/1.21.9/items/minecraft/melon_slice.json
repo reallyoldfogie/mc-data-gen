@@ -8,8 +8,8 @@
     "use_animation": "EAT",
     "tags": [
       "c:foods",
-      "c:foods/fruit",
-      "c:foods/fruits"
+      "c:foods/fruits",
+      "c:foods/fruit"
     ],
     "components": {
       "food": {

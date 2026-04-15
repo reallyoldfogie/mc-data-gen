@@ -1,5 +1,10 @@
 {
   "block_id": "minecraft:moving_piston",
+  "hardness": -1,
+  "resistance": 0,
+  "stack_size": 0,
+  "diggable": false,
+  "material": [],
   "states": [
     {
       "properties": {

@@ -1,5 +1,10 @@
 {
   "block_id": "minecraft:black_stained_glass",
+  "hardness": 0.3,
+  "resistance": 0.3,
+  "stack_size": 64,
+  "diggable": true,
+  "material": [],
   "states": [
     {
       "properties": {},

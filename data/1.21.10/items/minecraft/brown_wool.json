@@ -8,9 +8,9 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:wool",
-      "c:dyed/brown",
+      "c:dyed",
       "minecraft:dampens_vibrations",
-      "c:dyed"
+      "c:dyed/brown"
     ],
     "components": {},
     "is_weapon": false,

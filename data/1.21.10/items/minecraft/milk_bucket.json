@@ -9,8 +9,8 @@
     "tags": [
       "c:drinks",
       "c:buckets/milk",
-      "c:drinks/milk",
       "c:buckets",
+      "c:drinks/milk",
       "c:drink_containing/bucket"
     ],
     "components": {},

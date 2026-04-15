@@ -8,8 +8,8 @@
     "use_animation": "NONE",
     "tags": [
       "c:chests/wooden",
-      "c:chests",
-      "c:chests/trapped"
+      "c:chests/trapped",
+      "c:chests"
     ],
     "components": {},
     "is_weapon": false,

@@ -9,9 +9,9 @@
     "tags": [
       "minecraft:logs",
       "minecraft:completes_find_tree_tutorial",
+      "minecraft:cherry_logs",
       "minecraft:logs_that_burn",
-      "c:stripped_logs",
-      "minecraft:cherry_logs"
+      "c:stripped_logs"
     ],
     "components": {},
     "is_weapon": false,

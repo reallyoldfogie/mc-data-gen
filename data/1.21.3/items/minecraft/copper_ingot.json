@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "c:ingots/copper",
       "minecraft:trim_materials",
-      "c:ingots",
-      "c:ingots/copper"
+      "c:ingots"
     ],
     "components": {},
     "is_weapon": false,

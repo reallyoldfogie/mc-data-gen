@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:enchantable/durability",
       "c:tools",
+      "minecraft:enchantable/durability",
       "c:enchantables",
       "minecraft:enchantable/vanishing",
       "minecraft:enchantable/mining",

@@ -7,10 +7,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:shulker_boxes",
-      "c:dyed",
+      "c:dyed/brown",
       "minecraft:shulker_boxes",
-      "c:dyed/brown"
+      "c:dyed",
+      "c:shulker_boxes"
     ],
     "components": {},
     "is_weapon": false,

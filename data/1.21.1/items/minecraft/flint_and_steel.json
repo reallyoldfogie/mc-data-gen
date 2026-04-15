@@ -10,9 +10,9 @@
       "minecraft:enchantable/durability",
       "c:tools/igniter",
       "c:tools",
-      "minecraft:creeper_igniters",
+      "c:enchantables",
       "minecraft:enchantable/vanishing",
-      "c:enchantables"
+      "minecraft:creeper_igniters"
     ],
     "components": {
       "max_damage": 64,

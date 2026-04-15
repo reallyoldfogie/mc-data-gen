@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:ores",
-      "minecraft:redstone_ores"
+      "minecraft:redstone_ores",
+      "c:ores"
     ],
     "components": {},
     "is_weapon": false,

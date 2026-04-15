@@ -112,7 +112,7 @@ func ResolveFabricMeta(mcVersion string) (*FabricMeta, error) {
     v, err := parseMinecraftVersion(mcVersion)
     if err == nil {
         if v.major >= 26 {
-            loomVersion = "1.14-SNAPSHOT"
+            loomVersion = "1.15-SNAPSHOT"
         } else if v.major == 1 && v.minor == 21 && v.patch >= 11 {
             loomVersion = "1.13.3"
         }

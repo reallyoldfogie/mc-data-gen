@@ -1,5 +1,12 @@
 {
   "block_id": "minecraft:bee_nest",
+  "hardness": 0.3,
+  "resistance": 0.3,
+  "stack_size": 64,
+  "diggable": true,
+  "material": [
+    "mineable/axe"
+  ],
   "states": [
     {
       "properties": {

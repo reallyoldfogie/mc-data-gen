@@ -1,5 +1,10 @@
 {
   "block_id": "minecraft:structure_void",
+  "hardness": 0,
+  "resistance": 0,
+  "stack_size": 64,
+  "diggable": true,
+  "material": [],
   "states": [
     {
       "properties": {},

@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:eggs",
-      "c:eggs"
+      "c:eggs",
+      "minecraft:eggs"
     ],
     "components": {},
     "is_weapon": false,

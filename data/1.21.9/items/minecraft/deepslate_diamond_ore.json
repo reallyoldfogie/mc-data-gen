@@ -9,9 +9,9 @@
     "tags": [
       "minecraft:diamond_ores",
       "c:ores/diamond",
-      "c:ores_in_ground/deepslate",
+      "c:ores",
       "c:ore_rates/singular",
-      "c:ores"
+      "c:ores_in_ground/deepslate"
     ],
     "components": {},
     "is_weapon": false,

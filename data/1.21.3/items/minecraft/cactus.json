@@ -8,9 +8,9 @@
     "use_animation": "NONE",
     "tags": [
       "c:crops/cactus",
-      "c:animal_foods",
+      "minecraft:camel_food",
       "c:crops",
-      "minecraft:camel_food"
+      "c:animal_foods"
     ],
     "components": {},
     "is_weapon": false,

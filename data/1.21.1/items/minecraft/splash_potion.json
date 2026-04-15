@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "DRINK",
     "tags": [
-      "c:potions/bottle",
-      "c:potions"
+      "c:potions",
+      "c:potions/bottle"
     ],
     "components": {},
     "is_weapon": false,

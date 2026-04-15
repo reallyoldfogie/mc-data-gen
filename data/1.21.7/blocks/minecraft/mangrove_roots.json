@@ -1,5 +1,12 @@
 {
   "block_id": "minecraft:mangrove_roots",
+  "hardness": 0.7,
+  "resistance": 0.7,
+  "stack_size": 64,
+  "diggable": true,
+  "material": [
+    "mineable/axe"
+  ],
   "states": [
     {
       "properties": {

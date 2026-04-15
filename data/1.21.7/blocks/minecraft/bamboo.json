@@ -1,5 +1,12 @@
 {
   "block_id": "minecraft:bamboo",
+  "hardness": 1,
+  "resistance": 1,
+  "stack_size": 64,
+  "diggable": true,
+  "material": [
+    "mineable/axe"
+  ],
   "states": [
     {
       "properties": {

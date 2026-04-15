@@ -1,5 +1,12 @@
 {
   "block_id": "minecraft:mud_bricks",
+  "hardness": 1.5,
+  "resistance": 3,
+  "stack_size": 64,
+  "diggable": true,
+  "material": [
+    "mineable/pickaxe"
+  ],
   "states": [
     {
       "properties": {},

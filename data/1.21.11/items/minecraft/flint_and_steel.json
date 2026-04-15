@@ -7,12 +7,12 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:enchantables",
-      "minecraft:enchantable/durability",
-      "minecraft:enchantable/vanishing",
-      "minecraft:creeper_igniters",
+      "c:tools/igniter",
       "c:tools",
-      "c:tools/igniter"
+      "minecraft:creeper_igniters",
+      "minecraft:enchantable/vanishing",
+      "c:enchantables",
+      "minecraft:enchantable/durability"
     ],
     "components": {
       "max_damage": 64,

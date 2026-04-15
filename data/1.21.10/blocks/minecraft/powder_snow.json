@@ -1,5 +1,10 @@
 {
   "block_id": "minecraft:powder_snow",
+  "hardness": 0.25,
+  "resistance": 0.25,
+  "stack_size": 1,
+  "diggable": true,
+  "material": [],
   "states": [
     {
       "properties": {},

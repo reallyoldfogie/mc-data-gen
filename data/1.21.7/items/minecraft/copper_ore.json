@@ -9,9 +9,9 @@
     "tags": [
       "c:ores/copper",
       "c:ores",
-      "c:ore_rates/dense",
+      "minecraft:copper_ores",
       "c:ores_in_ground/stone",
-      "minecraft:copper_ores"
+      "c:ore_rates/dense"
     ],
     "components": {},
     "is_weapon": false,

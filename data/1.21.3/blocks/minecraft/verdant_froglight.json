@@ -1,5 +1,10 @@
 {
   "block_id": "minecraft:verdant_froglight",
+  "hardness": 0.3,
+  "resistance": 0.3,
+  "stack_size": 64,
+  "diggable": true,
+  "material": [],
   "states": [
     {
       "properties": {

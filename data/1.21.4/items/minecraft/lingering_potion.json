@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:potions",
-      "c:potions/bottle"
+      "c:potions/bottle",
+      "c:potions"
     ],
     "components": {},
     "is_weapon": false,

@@ -11,13 +11,13 @@
       "minecraft:enchantable/durability",
       "minecraft:enchantable/vanishing",
       "minecraft:enchantable/equippable",
-      "minecraft:enchantable/armor",
       "minecraft:dyeable",
+      "minecraft:enchantable/armor",
       "minecraft:trimmable_armor",
-      "minecraft:enchantable/chest_armor",
-      "minecraft:freeze_immune_wearables",
       "minecraft:chest_armor",
-      "c:enchantables"
+      "c:enchantables",
+      "minecraft:enchantable/chest_armor",
+      "minecraft:freeze_immune_wearables"
     ],
     "components": {
       "max_damage": 80,

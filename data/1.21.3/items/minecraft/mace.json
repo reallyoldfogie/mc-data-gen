@@ -7,16 +7,16 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "c:enchantables",
       "minecraft:enchantable/mace",
-      "c:tools/mace",
+      "c:tools",
+      "minecraft:enchantable/fire_aspect",
+      "minecraft:enchantable/durability",
+      "minecraft:enchantable/weapon",
+      "minecraft:enchantable/vanishing",
       "c:tools/melee_weapon",
       "minecraft:breaks_decorated_pots",
-      "minecraft:enchantable/vanishing",
-      "minecraft:enchantable/weapon",
-      "minecraft:enchantable/durability",
-      "minecraft:enchantable/fire_aspect",
-      "c:tools",
-      "c:enchantables"
+      "c:tools/mace"
     ],
     "components": {
       "max_damage": 500,

@@ -8,11 +8,11 @@
     "use_animation": "BRUSH",
     "tags": [
       "c:tools/brushes",
-      "c:tools/brush",
-      "minecraft:enchantable/durability",
+      "minecraft:enchantable/vanishing",
       "c:enchantables",
+      "minecraft:enchantable/durability",
       "c:tools",
-      "minecraft:enchantable/vanishing"
+      "c:tools/brush"
     ],
     "components": {
       "max_damage": 64,

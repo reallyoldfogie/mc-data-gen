@@ -7,17 +7,17 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:armors",
-      "minecraft:enchantable/leg_armor",
-      "minecraft:piglin_safe_armor",
-      "c:enchantables",
-      "minecraft:leg_armor",
       "minecraft:enchantable/armor",
       "minecraft:trimmable_armor",
-      "minecraft:enchantable/equippable",
-      "minecraft:enchantable/vanishing",
+      "minecraft:leg_armor",
+      "c:enchantables",
+      "minecraft:piglin_safe_armor",
+      "minecraft:enchantable/leg_armor",
       "minecraft:piglin_loved",
-      "minecraft:enchantable/durability"
+      "minecraft:enchantable/durability",
+      "c:armors",
+      "minecraft:enchantable/equippable",
+      "minecraft:enchantable/vanishing"
     ],
     "components": {
       "max_damage": 105,

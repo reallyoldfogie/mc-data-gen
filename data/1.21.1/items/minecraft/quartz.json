@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:trim_materials",
       "c:gems",
-      "c:gems/quartz"
+      "c:gems/quartz",
+      "minecraft:trim_materials"
     ],
     "components": {},
     "is_weapon": false,

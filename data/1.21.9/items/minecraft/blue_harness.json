@@ -7,10 +7,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:happy_ghast_tempt_items",
-      "minecraft:harnesses",
       "c:dyed/blue",
-      "c:dyed"
+      "c:dyed",
+      "minecraft:happy_ghast_tempt_items",
+      "minecraft:harnesses"
     ],
     "components": {},
     "is_weapon": false,

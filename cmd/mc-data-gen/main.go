@@ -88,7 +88,8 @@ func processVersion(version, workDir string, cfg *mcgen.Config) error {
 
 	projectDir := filepath.Join(workDir, version)
 
-	if err := mcgen.PrepareProject(cfg.FabricTemplateDir, projectDir, meta); err != nil {
+	templateDir := mcgen.TemplateDir(meta, cfg.FabricTemplateDir, cfg.FabricTemplateUnobfDir)
+	if err := mcgen.PrepareProject(templateDir, projectDir, meta); err != nil {
 		return fmt.Errorf("prepare project: %w", err)
 	}
 

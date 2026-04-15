@@ -9,9 +9,9 @@
     "tags": [
       "c:ore_rates/singular",
       "c:ores",
+      "minecraft:iron_ores",
       "c:ores/iron",
-      "c:ores_in_ground/stone",
-      "minecraft:iron_ores"
+      "c:ores_in_ground/stone"
     ],
     "components": {},
     "is_weapon": false,

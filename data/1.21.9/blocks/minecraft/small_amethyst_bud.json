@@ -1,5 +1,12 @@
 {
   "block_id": "minecraft:small_amethyst_bud",
+  "hardness": 1.5,
+  "resistance": 1.5,
+  "stack_size": 64,
+  "diggable": true,
+  "material": [
+    "mineable/pickaxe"
+  ],
   "states": [
     {
       "properties": {

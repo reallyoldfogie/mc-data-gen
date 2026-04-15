@@ -1,5 +1,12 @@
 {
   "block_id": "minecraft:lime_concrete",
+  "hardness": 1.8,
+  "resistance": 1.8,
+  "stack_size": 64,
+  "diggable": true,
+  "material": [
+    "mineable/pickaxe"
+  ],
   "states": [
     {
       "properties": {},

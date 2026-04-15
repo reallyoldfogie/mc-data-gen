@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:chicken_food",
       "minecraft:parrot_food",
+      "minecraft:chicken_food",
       "minecraft:villager_plantable_seeds",
       "c:animal_foods",
       "minecraft:villager_picks_up"

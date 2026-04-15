@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyed/gray",
       "c:dyed",
       "minecraft:harnesses",
+      "c:dyed/gray",
       "minecraft:happy_ghast_tempt_items"
     ],
     "components": {},

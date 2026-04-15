@@ -8,11 +8,11 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:llama_food",
-      "minecraft:llama_tempt_items",
+      "c:animal_foods",
+      "c:storage_blocks",
       "minecraft:horse_food",
       "c:storage_blocks/wheat",
-      "c:animal_foods",
-      "c:storage_blocks"
+      "minecraft:llama_tempt_items"
     ],
     "components": {},
     "is_weapon": false,

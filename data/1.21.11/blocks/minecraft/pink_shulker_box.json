@@ -1,5 +1,12 @@
 {
   "block_id": "minecraft:pink_shulker_box",
+  "hardness": 2,
+  "resistance": 2,
+  "stack_size": 1,
+  "diggable": true,
+  "material": [
+    "mineable/pickaxe"
+  ],
   "states": [
     {
       "properties": {

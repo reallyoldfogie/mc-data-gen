@@ -7,13 +7,13 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "c:animal_foods",
       "c:seeds/pitcher_plant",
-      "c:seeds",
-      "minecraft:parrot_food",
-      "minecraft:villager_picks_up",
-      "minecraft:villager_plantable_seeds",
       "minecraft:chicken_food",
-      "c:animal_foods"
+      "minecraft:parrot_food",
+      "c:seeds",
+      "minecraft:villager_picks_up",
+      "minecraft:villager_plantable_seeds"
     ],
     "components": {},
     "is_weapon": false,

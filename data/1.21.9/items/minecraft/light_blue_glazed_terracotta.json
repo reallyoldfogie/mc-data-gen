@@ -7,10 +7,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:glazed_terracottas",
       "c:dyed",
-      "c:dyed/light_blue",
-      "c:glazed_terracotta"
+      "c:glazed_terracottas",
+      "c:glazed_terracotta",
+      "c:dyed/light_blue"
     ],
     "components": {},
     "is_weapon": false,

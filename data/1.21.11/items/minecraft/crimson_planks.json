@@ -8,8 +8,8 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:non_flammable_wood",
-      "minecraft:planks",
-      "minecraft:wooden_tool_materials"
+      "minecraft:wooden_tool_materials",
+      "minecraft:planks"
     ],
     "components": {},
     "is_weapon": false,

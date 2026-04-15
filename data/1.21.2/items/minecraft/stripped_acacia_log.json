@@ -7,11 +7,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "minecraft:acacia_logs",
       "c:stripped_logs",
       "minecraft:logs_that_burn",
-      "minecraft:acacia_logs",
-      "minecraft:logs",
-      "minecraft:completes_find_tree_tutorial"
+      "minecraft:completes_find_tree_tutorial",
+      "minecraft:logs"
     ],
     "components": {},
     "is_weapon": false,

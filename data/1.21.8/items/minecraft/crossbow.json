@@ -7,18 +7,18 @@
     "fireproof": false,
     "use_animation": "CROSSBOW",
     "tags": [
-      "minecraft:enchantable/crossbow",
-      "minecraft:piglin_preferred_weapons",
-      "c:enchantables",
-      "c:tools/crossbow",
-      "c:tools/crossbows",
       "minecraft:enchantable/vanishing",
-      "c:tools/ranged_weapon",
-      "minecraft:pillager_preferred_weapons",
-      "c:tools",
-      "minecraft:enchantable/durability",
+      "c:tools/crossbows",
+      "c:tools/crossbow",
+      "c:enchantables",
+      "minecraft:piglin_preferred_weapons",
+      "minecraft:enchantable/crossbow",
       "minecraft:wither_skeleton_disliked_weapons",
-      "c:tools/ranged_weapons"
+      "minecraft:pillager_preferred_weapons",
+      "minecraft:enchantable/durability",
+      "c:tools/ranged_weapons",
+      "c:tools",
+      "c:tools/ranged_weapon"
     ],
     "components": {
       "max_damage": 465,

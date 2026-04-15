@@ -8,9 +8,9 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:logs_that_burn",
-      "minecraft:logs",
-      "minecraft:spruce_logs",
       "minecraft:completes_find_tree_tutorial",
+      "minecraft:spruce_logs",
+      "minecraft:logs",
       "c:stripped_logs"
     ],
     "components": {},

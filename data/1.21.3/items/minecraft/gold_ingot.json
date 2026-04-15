@@ -7,13 +7,13 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:trim_materials",
-      "minecraft:beacon_payment_items",
-      "minecraft:piglin_loved",
-      "c:ingots",
-      "minecraft:gold_tool_materials",
+      "minecraft:repairs_gold_armor",
       "c:ingots/gold",
-      "minecraft:repairs_gold_armor"
+      "minecraft:gold_tool_materials",
+      "c:ingots",
+      "minecraft:piglin_loved",
+      "minecraft:beacon_payment_items",
+      "minecraft:trim_materials"
     ],
     "components": {},
     "is_weapon": false,

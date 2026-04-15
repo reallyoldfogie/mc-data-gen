@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dyed/light_blue",
       "minecraft:beds",
+      "c:dyed/light_blue",
       "c:dyed"
     ],
     "components": {},

@@ -1,5 +1,10 @@
 {
   "block_id": "minecraft:cobweb",
+  "hardness": 4,
+  "resistance": 4,
+  "stack_size": 64,
+  "diggable": true,
+  "material": [],
   "states": [
     {
       "properties": {},

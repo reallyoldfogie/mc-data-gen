@@ -1,5 +1,12 @@
 {
   "block_id": "minecraft:jungle_fence",
+  "hardness": 2,
+  "resistance": 3,
+  "stack_size": 64,
+  "diggable": true,
+  "material": [
+    "mineable/axe"
+  ],
   "states": [
     {
       "properties": {

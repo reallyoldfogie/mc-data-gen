@@ -8,14 +8,14 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:sheep_food",
-      "minecraft:villager_picks_up",
-      "minecraft:llama_food",
-      "c:crops/wheat",
       "minecraft:goat_food",
-      "c:crops",
+      "minecraft:cow_food",
       "minecraft:horse_food",
+      "minecraft:llama_food",
+      "c:crops",
       "c:animal_foods",
-      "minecraft:cow_food"
+      "c:crops/wheat",
+      "minecraft:villager_picks_up"
     ],
     "components": {},
     "is_weapon": false,

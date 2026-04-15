@@ -1,5 +1,12 @@
 {
   "block_id": "minecraft:diamond_ore",
+  "hardness": 3,
+  "resistance": 3,
+  "stack_size": 64,
+  "diggable": true,
+  "material": [
+    "mineable/pickaxe"
+  ],
   "states": [
     {
       "properties": {},

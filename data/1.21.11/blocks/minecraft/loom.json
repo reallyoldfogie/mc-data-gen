@@ -1,5 +1,12 @@
 {
   "block_id": "minecraft:loom",
+  "hardness": 2.5,
+  "resistance": 2.5,
+  "stack_size": 64,
+  "diggable": true,
+  "material": [
+    "mineable/axe"
+  ],
   "states": [
     {
       "properties": {

@@ -8,8 +8,8 @@
     "use_animation": "NONE",
     "tags": [
       "c:storage_blocks",
-      "c:storage_blocks/copper",
-      "minecraft:copper"
+      "minecraft:copper",
+      "c:storage_blocks/copper"
     ],
     "components": {},
     "is_weapon": false,

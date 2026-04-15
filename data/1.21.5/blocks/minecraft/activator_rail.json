@@ -1,5 +1,12 @@
 {
   "block_id": "minecraft:activator_rail",
+  "hardness": 0.7,
+  "resistance": 0.7,
+  "stack_size": 64,
+  "diggable": true,
+  "material": [
+    "mineable/pickaxe"
+  ],
   "states": [
     {
       "properties": {

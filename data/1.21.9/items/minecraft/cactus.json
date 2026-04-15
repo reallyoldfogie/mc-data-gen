@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:animal_foods",
-      "c:crops",
       "minecraft:camel_food",
+      "c:crops",
+      "c:animal_foods",
       "c:crops/cactus"
     ],
     "components": {},

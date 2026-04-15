@@ -7,15 +7,15 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:enchantables",
-      "minecraft:enchantable/mining_loot",
-      "minecraft:piglin_loved",
-      "minecraft:enchantable/durability",
       "minecraft:enchantable/mining",
-      "minecraft:shovels",
+      "minecraft:enchantable/durability",
+      "minecraft:piglin_loved",
+      "minecraft:enchantable/mining_loot",
+      "c:enchantables",
+      "c:tools",
       "minecraft:breaks_decorated_pots",
       "minecraft:enchantable/vanishing",
-      "c:tools"
+      "minecraft:shovels"
     ],
     "components": {
       "max_damage": 32,

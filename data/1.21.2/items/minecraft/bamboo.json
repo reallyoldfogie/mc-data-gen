@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:panda_eats_from_ground",
       "c:animal_foods",
+      "minecraft:panda_eats_from_ground",
       "minecraft:panda_food"
     ],
     "components": {},

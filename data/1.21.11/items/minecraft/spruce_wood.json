@@ -8,10 +8,10 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:logs",
-      "minecraft:completes_find_tree_tutorial",
-      "minecraft:logs_that_burn",
+      "c:natural_woods",
       "minecraft:spruce_logs",
-      "c:natural_woods"
+      "minecraft:completes_find_tree_tutorial",
+      "minecraft:logs_that_burn"
     ],
     "components": {},
     "is_weapon": false,

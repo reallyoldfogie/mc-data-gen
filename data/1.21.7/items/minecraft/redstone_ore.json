@@ -10,8 +10,8 @@
       "minecraft:redstone_ores",
       "c:ores",
       "c:ores/redstone",
-      "c:ore_rates/dense",
-      "c:ores_in_ground/stone"
+      "c:ores_in_ground/stone",
+      "c:ore_rates/dense"
     ],
     "components": {},
     "is_weapon": false,

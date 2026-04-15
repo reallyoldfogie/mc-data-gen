@@ -13,8 +13,13 @@ type Box struct {
 
 // BlockStatesFile is the per-block file format.
 type BlockStatesFile struct {
-	BlockID string                 `json:"block_id"`
-	States  []BlockStateRecordSlim `json:"states"`
+	BlockID    string                 `json:"block_id"`
+	Hardness   float64                `json:"hardness"`
+	Resistance float64                `json:"resistance"`
+	StackSize  int                    `json:"stack_size"`
+	Diggable   bool                   `json:"diggable"`
+	Material   []string               `json:"material"`
+	States     []BlockStateRecordSlim `json:"states"`
 }
 
 // BlockStateRecord mirrors a single entry from blocks.json
@@ -39,6 +44,12 @@ type BlockStateRecord struct {
 	Water     bool `json:"water"`
 	Lava      bool `json:"lava"`
 	Fluid     bool `json:"fluid"`
+
+	Hardness   float64  `json:"hardness"`
+	Resistance float64  `json:"resistance"`
+	StackSize  int      `json:"stack_size"`
+	Diggable   bool     `json:"diggable"`
+	Material   []string `json:"material"`
 }
 
 // BlockStateRecordSlim is used in per-block files (no BlockID).
@@ -88,6 +99,12 @@ type ShapeInfo struct {
 	Water     bool
 	Lava      bool
 	Fluid     bool
+
+	Hardness   float64
+	Resistance float64
+	StackSize  int
+	Diggable   bool
+	Material   []string
 }
 
 // MakePropsKey deterministically encodes properties as "k1=v1,k2=v2".

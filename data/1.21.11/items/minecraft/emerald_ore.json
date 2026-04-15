@@ -8,10 +8,10 @@
     "use_animation": "NONE",
     "tags": [
       "c:ores_in_ground/stone",
-      "minecraft:emerald_ores",
-      "c:ore_rates/singular",
+      "c:ores/emerald",
       "c:ores",
-      "c:ores/emerald"
+      "c:ore_rates/singular",
+      "minecraft:emerald_ores"
     ],
     "components": {},
     "is_weapon": false,

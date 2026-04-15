@@ -7,11 +7,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:enchantable/equippable",
-      "c:pumpkins/carved",
-      "c:enchantables",
       "c:pumpkins",
-      "minecraft:enchantable/vanishing"
+      "c:enchantables",
+      "c:pumpkins/carved",
+      "minecraft:enchantable/vanishing",
+      "minecraft:enchantable/equippable"
     ],
     "components": {},
     "is_weapon": false,

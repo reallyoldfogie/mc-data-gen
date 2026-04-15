@@ -7,15 +7,15 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:leg_armor",
       "c:enchantables",
-      "minecraft:enchantable/armor",
-      "minecraft:trimmable_armor",
-      "minecraft:enchantable/vanishing",
-      "minecraft:enchantable/leg_armor",
-      "minecraft:enchantable/equippable",
+      "minecraft:leg_armor",
+      "c:armors",
       "minecraft:enchantable/durability",
-      "c:armors"
+      "minecraft:enchantable/equippable",
+      "minecraft:enchantable/leg_armor",
+      "minecraft:enchantable/vanishing",
+      "minecraft:trimmable_armor",
+      "minecraft:enchantable/armor"
     ],
     "components": {
       "max_damage": 225,

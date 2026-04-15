@@ -7,18 +7,18 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:enchantable/fire_aspect",
-      "c:enchantables",
       "minecraft:breaks_decorated_pots",
-      "minecraft:enchantable/sharp_weapon",
+      "c:tools",
       "minecraft:enchantable/vanishing",
       "minecraft:enchantable/durability",
       "minecraft:enchantable/sword",
       "minecraft:enchantable/weapon",
       "c:tools/melee_weapon",
       "minecraft:swords",
-      "c:tools",
-      "c:tools/melee_weapons"
+      "minecraft:enchantable/sharp_weapon",
+      "c:tools/melee_weapons",
+      "minecraft:enchantable/fire_aspect",
+      "c:enchantables"
     ],
     "components": {
       "max_damage": 1561,

@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:trim_materials",
-      "c:gems",
       "minecraft:beacon_payment_items",
+      "c:gems",
+      "minecraft:trim_materials",
       "c:gems/emerald"
     ],
     "components": {},

@@ -9,10 +9,10 @@
     "tags": [
       "c:potions/bottle",
       "c:potions",
-      "c:drink_containing/bottle",
-      "c:drinks",
+      "c:drinks/magic",
       "c:drinks/watery",
-      "c:drinks/magic"
+      "c:drinks",
+      "c:drink_containing/bottle"
     ],
     "components": {},
     "is_weapon": false,

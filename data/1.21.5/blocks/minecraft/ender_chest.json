@@ -1,5 +1,12 @@
 {
   "block_id": "minecraft:ender_chest",
+  "hardness": 22.5,
+  "resistance": 600,
+  "stack_size": 64,
+  "diggable": true,
+  "material": [
+    "mineable/pickaxe"
+  ],
   "states": [
     {
       "properties": {

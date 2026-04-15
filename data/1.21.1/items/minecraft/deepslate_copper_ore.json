@@ -7,10 +7,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "c:ores_in_ground/deepslate",
       "c:ores",
       "c:ores/copper",
       "minecraft:copper_ores",
-      "c:ores_in_ground/deepslate",
       "c:ore_rates/dense"
     ],
     "components": {},

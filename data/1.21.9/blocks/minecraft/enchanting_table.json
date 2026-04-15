@@ -1,5 +1,12 @@
 {
   "block_id": "minecraft:enchanting_table",
+  "hardness": 5,
+  "resistance": 1200,
+  "stack_size": 64,
+  "diggable": true,
+  "material": [
+    "mineable/pickaxe"
+  ],
   "states": [
     {
       "properties": {},

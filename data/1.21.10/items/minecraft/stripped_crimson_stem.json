@@ -9,9 +9,9 @@
     "tags": [
       "minecraft:crimson_stems",
       "minecraft:logs",
-      "minecraft:completes_find_tree_tutorial",
       "minecraft:non_flammable_wood",
-      "c:stripped_logs"
+      "c:stripped_logs",
+      "minecraft:completes_find_tree_tutorial"
     ],
     "components": {},
     "is_weapon": false,

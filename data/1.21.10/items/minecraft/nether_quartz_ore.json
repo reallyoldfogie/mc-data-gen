@@ -7,10 +7,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:ores/quartz",
-      "c:ores_in_ground/netherrack",
       "c:ore_rates/singular",
-      "c:ores"
+      "c:ores",
+      "c:ores/quartz",
+      "c:ores_in_ground/netherrack"
     ],
     "components": {},
     "is_weapon": false,

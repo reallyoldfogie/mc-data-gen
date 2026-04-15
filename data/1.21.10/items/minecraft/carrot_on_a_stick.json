@@ -8,8 +8,8 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:enchantable/durability",
-      "minecraft:enchantable/vanishing",
-      "c:enchantables"
+      "c:enchantables",
+      "minecraft:enchantable/vanishing"
     ],
     "components": {
       "max_damage": 25,

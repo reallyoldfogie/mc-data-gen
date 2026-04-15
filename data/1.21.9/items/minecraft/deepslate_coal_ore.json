@@ -9,9 +9,9 @@
     "tags": [
       "c:ores/coal",
       "minecraft:coal_ores",
-      "c:ores_in_ground/deepslate",
+      "c:ores",
       "c:ore_rates/singular",
-      "c:ores"
+      "c:ores_in_ground/deepslate"
     ],
     "components": {},
     "is_weapon": false,

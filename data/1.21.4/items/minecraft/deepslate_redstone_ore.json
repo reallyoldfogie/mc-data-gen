@@ -7,11 +7,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:ores_in_ground/deepslate",
-      "c:ores/redstone",
       "c:ores",
-      "minecraft:redstone_ores",
-      "c:ore_rates/dense"
+      "c:ores/redstone",
+      "c:ores_in_ground/deepslate",
+      "c:ore_rates/dense",
+      "minecraft:redstone_ores"
     ],
     "components": {},
     "is_weapon": false,

@@ -7,10 +7,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:crops",
+      "c:pumpkins",
       "c:crops/pumpkin",
-      "c:pumpkins/normal",
-      "c:pumpkins"
+      "c:crops",
+      "c:pumpkins/normal"
     ],
     "components": {},
     "is_weapon": false,

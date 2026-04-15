@@ -8,8 +8,8 @@
     "use_animation": "NONE",
     "tags": [
       "c:coal",
-      "minecraft:coals",
-      "minecraft:furnace_minecart_fuel"
+      "minecraft:furnace_minecart_fuel",
+      "minecraft:coals"
     ],
     "components": {},
     "is_weapon": false,

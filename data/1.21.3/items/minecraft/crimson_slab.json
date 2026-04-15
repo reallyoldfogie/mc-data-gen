@@ -8,8 +8,8 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:wooden_slabs",
-      "minecraft:slabs",
-      "minecraft:non_flammable_wood"
+      "minecraft:non_flammable_wood",
+      "minecraft:slabs"
     ],
     "components": {},
     "is_weapon": false,

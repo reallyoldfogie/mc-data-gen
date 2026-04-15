@@ -8,10 +8,10 @@
     "use_animation": "NONE",
     "tags": [
       "c:storage_blocks/raw_gold",
-      "c:storage_blocks",
+      "c:raw_blocks",
       "c:raw_blocks/gold",
-      "minecraft:piglin_loved",
-      "c:raw_blocks"
+      "c:storage_blocks",
+      "minecraft:piglin_loved"
     ],
     "components": {},
     "is_weapon": false,

@@ -1,5 +1,12 @@
 {
   "block_id": "minecraft:bookshelf",
+  "hardness": 1.5,
+  "resistance": 1.5,
+  "stack_size": 64,
+  "diggable": true,
+  "material": [
+    "mineable/axe"
+  ],
   "states": [
     {
       "properties": {},

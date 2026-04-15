@@ -10,8 +10,8 @@
       "minecraft:logs",
       "minecraft:logs_that_burn",
       "c:stripped_woods",
-      "minecraft:mangrove_logs",
-      "minecraft:completes_find_tree_tutorial"
+      "minecraft:completes_find_tree_tutorial",
+      "minecraft:mangrove_logs"
     ],
     "components": {},
     "is_weapon": false,

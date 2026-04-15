@@ -7,11 +7,11 @@
     "fireproof": false,
     "use_animation": "EAT",
     "tags": [
-      "c:foods/berries",
-      "c:animal_foods",
-      "c:foods",
       "minecraft:fox_food",
-      "c:foods/berry"
+      "c:foods",
+      "c:foods/berry",
+      "c:foods/berries",
+      "c:animal_foods"
     ],
     "components": {
       "food": {

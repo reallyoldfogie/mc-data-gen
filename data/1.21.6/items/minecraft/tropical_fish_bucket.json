@@ -7,10 +7,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:axolotl_food",
       "c:buckets",
       "c:animal_foods",
-      "c:buckets/entity_water"
+      "c:buckets/entity_water",
+      "minecraft:axolotl_food"
     ],
     "components": {},
     "is_weapon": false,

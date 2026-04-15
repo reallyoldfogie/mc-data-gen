@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:bricks/normal",
       "minecraft:decorated_pot_ingredients",
+      "c:bricks/normal",
       "c:bricks"
     ],
     "components": {},

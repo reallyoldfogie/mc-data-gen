@@ -7,13 +7,13 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:seeds",
-      "c:seeds/beetroot",
-      "minecraft:villager_picks_up",
-      "minecraft:villager_plantable_seeds",
+      "minecraft:parrot_food",
       "minecraft:chicken_food",
       "c:animal_foods",
-      "minecraft:parrot_food"
+      "c:seeds/beetroot",
+      "minecraft:villager_plantable_seeds",
+      "minecraft:villager_picks_up",
+      "c:seeds"
     ],
     "components": {},
     "is_weapon": false,

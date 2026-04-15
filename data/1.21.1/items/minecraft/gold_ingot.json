@@ -9,9 +9,9 @@
     "tags": [
       "minecraft:piglin_loved",
       "c:ingots/gold",
-      "minecraft:beacon_payment_items",
+      "minecraft:trim_materials",
       "c:ingots",
-      "minecraft:trim_materials"
+      "minecraft:beacon_payment_items"
     ],
     "components": {},
     "is_weapon": false,

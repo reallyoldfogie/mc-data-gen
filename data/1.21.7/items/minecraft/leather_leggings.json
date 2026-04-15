@@ -11,12 +11,12 @@
       "minecraft:enchantable/durability",
       "minecraft:enchantable/vanishing",
       "minecraft:enchantable/equippable",
-      "minecraft:enchantable/armor",
       "minecraft:dyeable",
+      "minecraft:enchantable/armor",
       "minecraft:trimmable_armor",
-      "minecraft:freeze_immune_wearables",
       "minecraft:leg_armor",
       "c:enchantables",
+      "minecraft:freeze_immune_wearables",
       "minecraft:enchantable/leg_armor"
     ],
     "components": {

@@ -7,15 +7,15 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:enchantables",
-      "c:armors",
-      "minecraft:enchantable/durability",
       "minecraft:enchantable/head_armor",
-      "minecraft:enchantable/equippable",
-      "minecraft:enchantable/vanishing",
-      "minecraft:trimmable_armor",
+      "minecraft:enchantable/durability",
+      "c:armors",
+      "c:enchantables",
+      "minecraft:head_armor",
       "minecraft:enchantable/armor",
-      "minecraft:head_armor"
+      "minecraft:trimmable_armor",
+      "minecraft:enchantable/vanishing",
+      "minecraft:enchantable/equippable"
     ],
     "components": {
       "max_damage": 407,

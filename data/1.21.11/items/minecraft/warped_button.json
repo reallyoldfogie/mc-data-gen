@@ -8,8 +8,8 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:non_flammable_wood",
-      "minecraft:wooden_buttons",
-      "minecraft:buttons"
+      "minecraft:buttons",
+      "minecraft:wooden_buttons"
     ],
     "components": {},
     "is_weapon": false,

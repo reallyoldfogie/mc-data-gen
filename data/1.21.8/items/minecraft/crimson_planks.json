@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:planks",
       "minecraft:non_flammable_wood",
-      "minecraft:wooden_tool_materials"
+      "minecraft:wooden_tool_materials",
+      "minecraft:planks"
     ],
     "components": {},
     "is_weapon": false,

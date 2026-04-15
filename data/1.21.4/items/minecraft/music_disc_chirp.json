@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:music_discs",
-      "minecraft:creeper_drop_music_discs"
+      "minecraft:creeper_drop_music_discs",
+      "c:music_discs"
     ],
     "components": {},
     "is_weapon": false,

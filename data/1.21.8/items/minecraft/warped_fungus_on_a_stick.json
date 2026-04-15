@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:enchantable/vanishing",
-      "c:enchantables",
       "minecraft:enchantable/durability",
+      "c:enchantables",
+      "minecraft:enchantable/vanishing",
       "minecraft:strider_tempt_items"
     ],
     "components": {

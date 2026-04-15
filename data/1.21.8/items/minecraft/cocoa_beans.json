@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:crops",
-      "c:crops/cocoa_bean"
+      "c:crops/cocoa_bean",
+      "c:crops"
     ],
     "components": {},
     "is_weapon": false,

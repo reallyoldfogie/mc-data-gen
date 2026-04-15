@@ -12,9 +12,9 @@
       "minecraft:piglin_loved",
       "c:animal_foods",
       "c:foods/golden",
-      "minecraft:horse_tempt_items",
       "c:foods",
-      "minecraft:horse_food"
+      "minecraft:horse_food",
+      "minecraft:horse_tempt_items"
     ],
     "components": {
       "food": {

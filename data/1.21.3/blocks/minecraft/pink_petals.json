@@ -1,5 +1,12 @@
 {
   "block_id": "minecraft:pink_petals",
+  "hardness": 0,
+  "resistance": 0,
+  "stack_size": 64,
+  "diggable": true,
+  "material": [
+    "mineable/hoe"
+  ],
   "states": [
     {
       "properties": {

@@ -7,10 +7,10 @@
     "fireproof": false,
     "use_animation": "EAT",
     "tags": [
+      "c:foods/breads",
       "c:foods",
-      "c:foods/bread",
       "minecraft:villager_picks_up",
-      "c:foods/breads"
+      "c:foods/bread"
     ],
     "components": {
       "food": {

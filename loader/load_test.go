@@ -3,25 +3,30 @@ package loader
 import (
     "path/filepath"
     "testing"
+
+    "github.com/stretchr/testify/assert"
+    "github.com/stretchr/testify/require"
 )
 
 func TestLoadBlocksFile(t *testing.T) {
     path := filepath.Join("testdata", "blocks", "minecraft", "stone.json")
     m, err := LoadBlocksFile(path)
-    if err != nil {
-        t.Fatalf("LoadBlocksFile error: %v", err)
-    }
-    if len(m) != 1 {
-        t.Fatalf("expected 1 state, got %d", len(m))
-    }
+    require.NoError(t, err)
+    require.Len(t, m, 1)
+
     key := StateKey{BlockID: "minecraft:stone", PropsKey: ""}
     info, ok := m[key]
-    if !ok {
-        t.Fatalf("missing expected key: %+v", key)
-    }
-    if info.Air || !info.Opaque || !info.SolidBlock {
-        t.Fatalf("unexpected info: %+v", info)
-    }
+    require.True(t, ok, "missing expected key: %+v", key)
+
+    assert.False(t, info.Air)
+    assert.True(t, info.Opaque)
+    assert.True(t, info.SolidBlock)
+
+    assert.Equal(t, 1.5, info.Hardness)
+    assert.Equal(t, 6.0, info.Resistance)
+    assert.Equal(t, 64, info.StackSize)
+    assert.True(t, info.Diggable)
+    assert.Equal(t, []string{"mineable/pickaxe"}, info.Material)
 }
 
 func TestLoadBlocksDir(t *testing.T) {

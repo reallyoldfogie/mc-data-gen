@@ -7,11 +7,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:ores/coal",
       "c:ores_in_ground/stone",
+      "c:ores/coal",
       "minecraft:coal_ores",
-      "c:ore_rates/singular",
-      "c:ores"
+      "c:ores",
+      "c:ore_rates/singular"
     ],
     "components": {},
     "is_weapon": false,

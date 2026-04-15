@@ -7,10 +7,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:gems",
       "minecraft:trim_materials",
-      "minecraft:duplicates_allays",
-      "c:gems/amethyst"
+      "c:gems",
+      "c:gems/amethyst",
+      "minecraft:duplicates_allays"
     ],
     "components": {},
     "is_weapon": false,

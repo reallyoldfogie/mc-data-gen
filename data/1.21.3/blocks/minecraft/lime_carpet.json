@@ -1,5 +1,10 @@
 {
   "block_id": "minecraft:lime_carpet",
+  "hardness": 0.1,
+  "resistance": 0.1,
+  "stack_size": 64,
+  "diggable": true,
+  "material": [],
   "states": [
     {
       "properties": {},

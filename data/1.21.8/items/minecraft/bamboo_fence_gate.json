@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:fence_gates",
       "c:fence_gates",
+      "minecraft:fence_gates",
       "c:fence_gates/wooden"
     ],
     "components": {},

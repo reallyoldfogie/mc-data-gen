@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:cobblestones/infested",
-      "c:cobblestones"
+      "c:cobblestones",
+      "c:cobblestones/infested"
     ],
     "components": {},
     "is_weapon": false,

@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:glass_panes",
-      "c:glass_panes/colorless"
+      "c:glass_panes/colorless",
+      "c:glass_panes"
     ],
     "components": {},
     "is_weapon": false,

@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:sandstone/red_slabs",
+      "minecraft:slabs",
       "c:sandstone/slabs",
-      "minecraft:slabs"
+      "c:sandstone/red_slabs"
     ],
     "components": {},
     "is_weapon": false,

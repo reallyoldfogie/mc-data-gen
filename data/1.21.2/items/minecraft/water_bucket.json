@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:buckets",
-      "c:buckets/water"
+      "c:buckets/water",
+      "c:buckets"
     ],
     "components": {},
     "is_weapon": false,

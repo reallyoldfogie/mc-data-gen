@@ -7,10 +7,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:nautilus_bucket_food",
-      "minecraft:nautilus_food",
-      "c:buckets/entity_water",
       "c:buckets",
+      "minecraft:nautilus_bucket_food",
+      "c:buckets/entity_water",
+      "minecraft:nautilus_food",
       "minecraft:nautilus_taming_items"
     ],
     "components": {

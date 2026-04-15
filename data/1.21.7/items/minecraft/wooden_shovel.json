@@ -10,9 +10,9 @@
       "minecraft:enchantable/durability",
       "c:tools",
       "c:enchantables",
-      "minecraft:enchantable/mining_loot",
-      "minecraft:enchantable/mining",
       "minecraft:enchantable/vanishing",
+      "minecraft:enchantable/mining",
+      "minecraft:enchantable/mining_loot",
       "minecraft:shovels",
       "minecraft:breaks_decorated_pots"
     ],

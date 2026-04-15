@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:mushrooms",
-      "minecraft:zombie_horse_food"
+      "minecraft:zombie_horse_food",
+      "c:mushrooms"
     ],
     "components": {},
     "is_weapon": false,

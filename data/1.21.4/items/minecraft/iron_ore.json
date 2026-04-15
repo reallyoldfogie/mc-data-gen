@@ -7,10 +7,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:ores/iron",
       "c:ores",
-      "c:ore_rates/singular",
       "c:ores_in_ground/stone",
+      "c:ores/iron",
+      "c:ore_rates/singular",
       "minecraft:iron_ores"
     ],
     "components": {},

@@ -10,8 +10,8 @@
       "c:ore_rates/singular",
       "c:ores",
       "c:ores_in_ground/deepslate",
-      "c:ores/iron",
-      "minecraft:iron_ores"
+      "minecraft:iron_ores",
+      "c:ores/iron"
     ],
     "components": {},
     "is_weapon": false,

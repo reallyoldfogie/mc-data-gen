@@ -7,10 +7,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:fences/wooden",
       "c:fences",
-      "minecraft:wooden_fences",
-      "minecraft:fences"
+      "c:fences/wooden",
+      "minecraft:fences",
+      "minecraft:wooden_fences"
     ],
     "components": {},
     "is_weapon": false,

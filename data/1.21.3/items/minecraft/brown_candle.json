@@ -8,8 +8,8 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:candles",
-      "c:dyed",
-      "c:dyed/brown"
+      "c:dyed/brown",
+      "c:dyed"
     ],
     "components": {},
     "is_weapon": false,

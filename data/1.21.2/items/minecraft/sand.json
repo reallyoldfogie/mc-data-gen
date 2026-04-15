@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:smelts_to_glass",
-      "minecraft:sand"
+      "minecraft:sand",
+      "minecraft:smelts_to_glass"
     ],
     "components": {},
     "is_weapon": false,

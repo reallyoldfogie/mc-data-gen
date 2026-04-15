@@ -7,12 +7,12 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:tools/shear",
-      "c:enchantables",
-      "minecraft:enchantable/durability",
-      "c:tools",
-      "c:tools/shears",
       "minecraft:enchantable/vanishing",
+      "minecraft:enchantable/durability",
+      "c:enchantables",
+      "c:tools/shears",
+      "c:tools",
+      "c:tools/shear",
       "minecraft:enchantable/mining"
     ],
     "components": {

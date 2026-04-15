@@ -7,10 +7,10 @@
     "fireproof": false,
     "use_animation": "DRINK",
     "tags": [
-      "c:drinks/honey",
-      "c:drink_containing/bottle",
       "c:drinks",
-      "c:foods"
+      "c:foods",
+      "c:drinks/honey",
+      "c:drink_containing/bottle"
     ],
     "components": {
       "food": {

@@ -8,8 +8,8 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:non_flammable_wood",
-      "minecraft:wooden_trapdoors",
-      "minecraft:trapdoors"
+      "minecraft:trapdoors",
+      "minecraft:wooden_trapdoors"
     ],
     "components": {},
     "is_weapon": false,

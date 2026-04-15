@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "BUNDLE",
     "tags": [
-      "c:dyed/black",
       "minecraft:bundles",
-      "c:dyed"
+      "c:dyed",
+      "c:dyed/black"
     ],
     "components": {},
     "is_weapon": false,

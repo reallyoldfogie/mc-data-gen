@@ -8,12 +8,13 @@ import (
 )
 
 type Config struct {
-    OutputDir          string   `yaml:"output_dir"`
-    FabricTemplateDir  string   `yaml:"fabric_template_dir"`
-    GradleTask         string   `yaml:"gradle_task"`
-    Versions           []string `yaml:"versions"`
-    GeneratorOutputRel string   `yaml:"generator_output_rel"`
-    DecompileSources   bool     `yaml:"decompile_sources"`
+    OutputDir               string   `yaml:"output_dir"`
+    FabricTemplateDir       string   `yaml:"fabric_template_dir"`
+    FabricTemplateUnobfDir  string   `yaml:"fabric_template_unobf_dir"`
+    GradleTask              string   `yaml:"gradle_task"`
+    Versions                []string `yaml:"versions"`
+    GeneratorOutputRel      string   `yaml:"generator_output_rel"`
+    DecompileSources        bool     `yaml:"decompile_sources"`
 }
 
 func LoadConfig(path string) (*Config, error) {
@@ -30,6 +31,9 @@ func LoadConfig(path string) (*Config, error) {
     }
     if cfg.FabricTemplateDir == "" {
         return nil, fmt.Errorf("fabric_template_dir is required")
+    }
+    if cfg.FabricTemplateUnobfDir == "" {
+        cfg.FabricTemplateUnobfDir = "./fabric-template-unobf"
     }
     if cfg.GradleTask == "" {
         cfg.GradleTask = "runServer"
