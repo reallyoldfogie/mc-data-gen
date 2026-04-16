@@ -1,0 +1,14 @@
+{
+  "item_id": "minecraft:polished_deepslate",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.polished_deepslate",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

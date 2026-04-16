@@ -1,0 +1,20 @@
+{
+  "item_id": "minecraft:stripped_crimson_stem",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.stripped_crimson_stem",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:crimson_stems",
+      "minecraft:logs",
+      "minecraft:completes_find_tree_tutorial",
+      "c:stripped_logs",
+      "minecraft:non_flammable_wood"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

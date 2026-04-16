@@ -1,0 +1,30 @@
+{
+  "item_id": "minecraft:copper_spear",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.copper_spear",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "SPEAR",
+    "tags": [
+      "c:enchantables",
+      "c:tools/melee_weapon",
+      "minecraft:enchantable/sharp_weapon",
+      "c:tools",
+      "minecraft:enchantable/fire_aspect",
+      "minecraft:enchantable/melee_weapon",
+      "minecraft:enchantable/durability",
+      "minecraft:enchantable/vanishing",
+      "minecraft:enchantable/lunge",
+      "minecraft:enchantable/weapon",
+      "minecraft:spears"
+    ],
+    "components": {
+      "max_damage": 190,
+      "max_damage_stack": 190,
+      "damage": 0
+    },
+    "is_weapon": false,
+    "is_food": false
+  }
+}

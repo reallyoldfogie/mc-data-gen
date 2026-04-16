@@ -1,0 +1,32 @@
+{
+  "item_id": "minecraft:golden_spear",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.golden_spear",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "SPEAR",
+    "tags": [
+      "c:enchantables",
+      "minecraft:enchantable/sharp_weapon",
+      "minecraft:enchantable/durability",
+      "minecraft:enchantable/vanishing",
+      "minecraft:enchantable/weapon",
+      "minecraft:enchantable/melee_weapon",
+      "c:tools/melee_weapon",
+      "minecraft:piglin_preferred_weapons",
+      "minecraft:enchantable/lunge",
+      "minecraft:enchantable/fire_aspect",
+      "minecraft:piglin_loved",
+      "minecraft:spears",
+      "c:tools"
+    ],
+    "components": {
+      "max_damage": 32,
+      "max_damage_stack": 32,
+      "damage": 0
+    },
+    "is_weapon": false,
+    "is_food": false
+  }
+}

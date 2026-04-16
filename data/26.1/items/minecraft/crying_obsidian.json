@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:crying_obsidian",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.crying_obsidian",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:obsidians/crying",
+      "c:obsidians"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

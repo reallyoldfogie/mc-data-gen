@@ -1,0 +1,26 @@
+{
+  "item_id": "minecraft:pufferfish_bucket",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.pufferfish_bucket",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:nautilus_bucket_food",
+      "minecraft:nautilus_food",
+      "c:buckets/entity_water",
+      "minecraft:nautilus_taming_items",
+      "c:buckets"
+    ],
+    "components": {
+      "food": {
+        "nutrition": 1,
+        "saturation": 0.2,
+        "can_always_eat": false
+      }
+    },
+    "is_weapon": false,
+    "is_food": true
+  }
+}

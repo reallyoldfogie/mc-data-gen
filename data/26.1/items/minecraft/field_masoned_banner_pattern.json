@@ -1,0 +1,16 @@
+{
+  "item_id": "minecraft:field_masoned_banner_pattern",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.field_masoned_banner_pattern",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:loom_patterns"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:spruce_leaves",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.spruce_leaves",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:leaves",
+      "minecraft:completes_find_tree_tutorial"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

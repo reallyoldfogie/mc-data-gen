@@ -1,0 +1,44 @@
+plugins {
+    id "net.fabricmc.fabric-loom" version "${loom_version}"
+    id "java"
+}
+
+version = "1.0.0"
+group = "com.example.dataexporter"
+
+repositories {
+    mavenCentral()
+    maven {
+        name = "Fabric"
+        url = "https://maven.fabricmc.net/"
+    }
+}
+
+def minecraftVersion = project.properties["minecraft_version"]
+def loaderVersion    = project.properties["loader_version"]
+def fabricApiVersion = project.properties["fabric_api_version"]
+
+dependencies {
+    minecraft "com.mojang:minecraft:${minecraftVersion}"
+
+    // 26.1+ is non-obfuscated: no mappings needed, use standard implementation
+    implementation "net.fabricmc:fabric-loader:${loaderVersion}"
+    implementation("net.fabricmc.fabric-api:fabric-api:${fabricApiVersion}") {
+        exclude group: "net.fabricmc.fabric-api", module: "fabric-content-registries-v0"
+    }
+}
+
+loom {
+    runs {
+        server {
+            server()
+            name "Data Exporter Server"
+        }
+    }
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(25)
+    }
+}

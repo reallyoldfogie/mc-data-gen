@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:orange_harness",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.orange_harness",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:dyed/orange",
+      "minecraft:happy_ghast_tempt_items",
+      "c:dyed",
+      "minecraft:harnesses"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

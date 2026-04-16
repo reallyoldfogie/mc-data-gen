@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:warped_pressure_plate",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.warped_pressure_plate",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:non_flammable_wood",
+      "minecraft:wooden_pressure_plates"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

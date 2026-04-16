@@ -1,0 +1,71 @@
+{
+  "entity_id": "minecraft:player",
+  "data": {
+    "spawn_group": "MISC",
+    "fire_immune": false,
+    "default_dimensions": {
+      "width": 0.6,
+      "height": 1.8,
+      "eye_height": 1.62,
+      "fixed": false
+    },
+    "pose_dimensions": {
+      "crouching": {
+        "width": 0.6,
+        "height": 1.5,
+        "eye_height": 1.27,
+        "fixed": false
+      },
+      "standing": {
+        "width": 0.6,
+        "height": 1.8,
+        "eye_height": 1.62,
+        "fixed": false
+      },
+      "swimming": {
+        "width": 0.6,
+        "height": 0.6,
+        "eye_height": 0.6,
+        "fixed": false
+      }
+    },
+    "size_variants": [],
+    "attributes": [
+      {
+        "name": "minecraft:generic.max_health",
+        "base_value": 20
+      },
+      {
+        "name": "minecraft:generic.movement_speed",
+        "base_value": 0.1
+      },
+      {
+        "name": "minecraft:generic.attack_damage",
+        "base_value": 1
+      },
+      {
+        "name": "minecraft:generic.attack_speed",
+        "base_value": 4
+      },
+      {
+        "name": "minecraft:generic.armor",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:generic.attack_knockback",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:generic.knockback_resistance",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:generic.follow_range",
+        "base_value": 32
+      }
+    ],
+    "tags": [
+      "minecraft:cannot_be_pushed_onto_boats"
+    ]
+  }
+}

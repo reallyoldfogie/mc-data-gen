@@ -1,0 +1,18 @@
+{
+  "item_id": "minecraft:gray_bundle",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.gray_bundle",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "BUNDLE",
+    "tags": [
+      "minecraft:bundles",
+      "c:dyed",
+      "c:dyed/gray"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

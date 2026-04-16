@@ -1,0 +1,18 @@
+{
+  "item_id": "minecraft:orange_concrete_powder",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.orange_concrete_powder",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:concrete_powders",
+      "c:dyed",
+      "c:dyed/orange"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

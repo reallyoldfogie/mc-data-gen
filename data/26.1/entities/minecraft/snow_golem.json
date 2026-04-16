@@ -1,0 +1,20 @@
+{
+  "entity_id": "minecraft:snow_golem",
+  "data": {
+    "spawn_group": "MISC",
+    "fire_immune": false,
+    "default_dimensions": {
+      "width": 0.7,
+      "height": 1.9,
+      "eye_height": 1.7,
+      "fixed": false
+    },
+    "pose_dimensions": {},
+    "size_variants": [],
+    "attributes": [],
+    "tags": [
+      "minecraft:fall_damage_immune",
+      "minecraft:freeze_immune_entity_types"
+    ]
+  }
+}

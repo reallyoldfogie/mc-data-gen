@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:birch_door",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.birch_door",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:wooden_doors",
+      "minecraft:doors"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

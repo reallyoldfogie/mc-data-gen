@@ -1,0 +1,18 @@
+{
+  "item_id": "minecraft:pink_banner",
+  "data": {
+    "max_stack_size": 16,
+    "translation_key": "block.minecraft.pink_banner",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:dyed/pink",
+      "c:dyed",
+      "minecraft:banners"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

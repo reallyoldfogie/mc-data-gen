@@ -1,0 +1,18 @@
+{
+  "item_id": "minecraft:red_banner",
+  "data": {
+    "max_stack_size": 16,
+    "translation_key": "block.minecraft.red_banner",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:dyed/red",
+      "minecraft:banners",
+      "c:dyed"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

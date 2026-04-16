@@ -1,0 +1,31 @@
+{
+  "item_id": "minecraft:leather_leggings",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.leather_leggings",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:trimmable_armor",
+      "minecraft:leg_armor",
+      "minecraft:enchantable/durability",
+      "minecraft:enchantable/leg_armor",
+      "minecraft:enchantable/equippable",
+      "minecraft:freeze_immune_wearables",
+      "minecraft:cauldron_can_remove_dye",
+      "c:enchantables",
+      "minecraft:enchantable/armor",
+      "minecraft:enchantable/vanishing",
+      "c:armors",
+      "c:armors/humanoid"
+    ],
+    "components": {
+      "max_damage": 75,
+      "max_damage_stack": 75,
+      "damage": 0
+    },
+    "is_weapon": false,
+    "is_food": false
+  }
+}

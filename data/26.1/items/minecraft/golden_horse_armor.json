@@ -1,0 +1,18 @@
+{
+  "item_id": "minecraft:golden_horse_armor",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.golden_horse_armor",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:piglin_loved",
+      "c:armors",
+      "c:armors/horse"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

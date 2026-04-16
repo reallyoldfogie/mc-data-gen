@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:stripped_bamboo_block",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.stripped_bamboo_block",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:stripped_logs",
+      "minecraft:bamboo_blocks"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "item_id": "minecraft:green_glazed_terracotta",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.green_glazed_terracotta",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:dyed/green",
+      "c:glazed_terracottas",
+      "c:dyed"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

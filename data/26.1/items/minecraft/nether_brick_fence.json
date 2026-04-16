@@ -1,0 +1,18 @@
+{
+  "item_id": "minecraft:nether_brick_fence",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.nether_brick_fence",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:fences",
+      "c:fences",
+      "c:fences/nether_brick"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

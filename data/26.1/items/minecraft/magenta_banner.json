@@ -1,0 +1,18 @@
+{
+  "item_id": "minecraft:magenta_banner",
+  "data": {
+    "max_stack_size": 16,
+    "translation_key": "block.minecraft.magenta_banner",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:banners",
+      "c:dyed",
+      "c:dyed/magenta"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

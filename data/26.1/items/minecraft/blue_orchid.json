@@ -1,0 +1,21 @@
+{
+  "item_id": "minecraft:blue_orchid",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.blue_orchid",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:bee_food",
+      "minecraft:small_flowers",
+      "minecraft:flowers",
+      "c:flowers/small",
+      "c:animal_foods",
+      "c:flowers"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

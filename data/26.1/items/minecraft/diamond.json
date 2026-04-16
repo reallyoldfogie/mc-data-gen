@@ -1,0 +1,21 @@
+{
+  "item_id": "minecraft:diamond",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.diamond",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:gems/diamond",
+      "c:gems",
+      "minecraft:trim_materials",
+      "minecraft:beacon_payment_items",
+      "minecraft:repairs_diamond_armor",
+      "minecraft:diamond_tool_materials"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

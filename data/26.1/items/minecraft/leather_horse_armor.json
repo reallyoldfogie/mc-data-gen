@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:leather_horse_armor",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.leather_horse_armor",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:armors/horse",
+      "c:armors",
+      "minecraft:freeze_immune_wearables",
+      "minecraft:cauldron_can_remove_dye"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

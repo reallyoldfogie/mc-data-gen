@@ -1,0 +1,18 @@
+{
+  "item_id": "minecraft:magenta_bed",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "block.minecraft.magenta_bed",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:beds",
+      "c:dyed",
+      "c:dyed/magenta"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

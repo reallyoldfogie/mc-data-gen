@@ -1,0 +1,21 @@
+{
+  "item_id": "minecraft:lime_dye",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.lime_dye",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:dyes/lime",
+      "minecraft:dyes",
+      "minecraft:cat_collar_dyes",
+      "c:dyes",
+      "minecraft:wolf_collar_dyes",
+      "minecraft:loom_dyes"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

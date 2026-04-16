@@ -1,0 +1,19 @@
+{
+  "item_id": "minecraft:blue_wool",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.blue_wool",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:wool",
+      "c:dyed",
+      "c:dyed/blue",
+      "minecraft:dampens_vibrations"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

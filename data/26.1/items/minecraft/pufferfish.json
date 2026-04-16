@@ -1,0 +1,29 @@
+{
+  "item_id": "minecraft:pufferfish",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.pufferfish",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "EAT",
+    "tags": [
+      "c:foods/raw_fish",
+      "minecraft:fishes",
+      "minecraft:nautilus_food",
+      "minecraft:wolf_food",
+      "c:animal_foods",
+      "c:foods/food_poisoning",
+      "c:foods",
+      "minecraft:nautilus_taming_items"
+    ],
+    "components": {
+      "food": {
+        "nutrition": 1,
+        "saturation": 0.2,
+        "can_always_eat": false
+      }
+    },
+    "is_weapon": false,
+    "is_food": true
+  }
+}

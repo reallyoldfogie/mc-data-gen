@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:lava_bucket",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.lava_bucket",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:buckets",
+      "c:buckets/lava"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

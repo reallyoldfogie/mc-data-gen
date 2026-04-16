@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:deepslate",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.deepslate",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:stones",
+      "c:ore_bearing_ground/deepslate"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

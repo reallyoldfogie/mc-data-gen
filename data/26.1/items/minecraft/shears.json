@@ -1,0 +1,26 @@
+{
+  "item_id": "minecraft:shears",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.shears",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:enchantable/durability",
+      "c:enchantables",
+      "minecraft:enchantable/vanishing",
+      "c:tools/shear",
+      "minecraft:enchantable/mining",
+      "c:tools"
+    ],
+    "components": {
+      "max_damage": 238,
+      "max_damage_stack": 238,
+      "damage": 0,
+      "is_tool": true
+    },
+    "is_weapon": false,
+    "is_food": false
+  }
+}

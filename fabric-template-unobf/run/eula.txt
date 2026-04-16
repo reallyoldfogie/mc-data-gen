@@ -1,0 +1,3 @@
+# By setting this to true you are indicating your agreement to the Minecraft EULA.
+# https://aka.ms/MinecraftEULA
+eula=true

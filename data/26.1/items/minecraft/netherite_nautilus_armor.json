@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:netherite_nautilus_armor",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.netherite_nautilus_armor",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:armors/nautilus",
+      "c:armors"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

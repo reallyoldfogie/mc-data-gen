@@ -1,0 +1,17 @@
+{
+  "item_id": "minecraft:dried_kelp_block",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.dried_kelp_block",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:storage_blocks",
+      "c:storage_blocks/dried_kelp"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

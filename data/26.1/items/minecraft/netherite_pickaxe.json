@@ -1,0 +1,30 @@
+{
+  "item_id": "minecraft:netherite_pickaxe",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.netherite_pickaxe",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:enchantables",
+      "minecraft:enchantable/mining",
+      "minecraft:breaks_decorated_pots",
+      "minecraft:pickaxes",
+      "minecraft:enchantable/mining_loot",
+      "minecraft:cluster_max_harvestables",
+      "c:tools/mining_tool",
+      "minecraft:enchantable/durability",
+      "minecraft:enchantable/vanishing",
+      "c:tools"
+    ],
+    "components": {
+      "max_damage": 2031,
+      "max_damage_stack": 2031,
+      "damage": 0,
+      "is_tool": true
+    },
+    "is_weapon": false,
+    "is_food": false
+  }
+}

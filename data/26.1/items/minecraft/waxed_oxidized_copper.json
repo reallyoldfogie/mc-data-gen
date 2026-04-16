@@ -1,0 +1,16 @@
+{
+  "item_id": "minecraft:waxed_oxidized_copper",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.waxed_oxidized_copper",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:copper"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

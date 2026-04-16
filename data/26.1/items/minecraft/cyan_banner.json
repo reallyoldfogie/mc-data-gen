@@ -1,0 +1,18 @@
+{
+  "item_id": "minecraft:cyan_banner",
+  "data": {
+    "max_stack_size": 16,
+    "translation_key": "block.minecraft.cyan_banner",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:dyed/cyan",
+      "minecraft:banners",
+      "c:dyed"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

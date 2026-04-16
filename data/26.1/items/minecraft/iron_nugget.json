@@ -1,0 +1,18 @@
+{
+  "item_id": "minecraft:iron_nugget",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "item.minecraft.iron_nugget",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:metal_nuggets",
+      "c:nuggets",
+      "c:nuggets/iron"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

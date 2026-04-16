@@ -1,0 +1,16 @@
+{
+  "item_id": "minecraft:moss_block",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.moss_block",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:moss_blocks"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

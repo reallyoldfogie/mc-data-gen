@@ -1,0 +1,23 @@
+{
+  "item_id": "minecraft:suspicious_stew",
+  "data": {
+    "max_stack_size": 1,
+    "translation_key": "item.minecraft.suspicious_stew",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "EAT",
+    "tags": [
+      "c:foods/soup",
+      "c:foods"
+    ],
+    "components": {
+      "food": {
+        "nutrition": 6,
+        "saturation": 7.2000003,
+        "can_always_eat": true
+      }
+    },
+    "is_weapon": false,
+    "is_food": true
+  }
+}

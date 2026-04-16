@@ -1,0 +1,18 @@
+{
+  "item_id": "minecraft:barrel",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.barrel",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "c:barrels/wooden",
+      "c:villager_job_sites",
+      "c:barrels"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}

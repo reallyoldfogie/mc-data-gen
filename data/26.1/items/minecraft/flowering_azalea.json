@@ -1,0 +1,20 @@
+{
+  "item_id": "minecraft:flowering_azalea",
+  "data": {
+    "max_stack_size": 64,
+    "translation_key": "block.minecraft.flowering_azalea",
+    "rarity": "COMMON",
+    "fireproof": false,
+    "use_animation": "NONE",
+    "tags": [
+      "minecraft:bee_food",
+      "minecraft:flowers",
+      "c:flowers",
+      "c:animal_foods",
+      "minecraft:saplings"
+    ],
+    "components": {},
+    "is_weapon": false,
+    "is_food": false
+  }
+}
