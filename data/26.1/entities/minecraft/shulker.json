@@ -17,15 +17,51 @@
         "base_value": 0
       },
       {
+        "name": "minecraft:armor_toughness",
+        "base_value": 0
+      },
+      {
         "name": "minecraft:attack_knockback",
         "base_value": 0
+      },
+      {
+        "name": "minecraft:burning_time",
+        "base_value": 1
+      },
+      {
+        "name": "minecraft:camera_distance",
+        "base_value": 4
+      },
+      {
+        "name": "minecraft:entity_interaction_range",
+        "base_value": 3
+      },
+      {
+        "name": "minecraft:explosion_knockback_resistance",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:fall_damage_multiplier",
+        "base_value": 1
       },
       {
         "name": "minecraft:follow_range",
         "base_value": 16
       },
       {
+        "name": "minecraft:gravity",
+        "base_value": 0.08
+      },
+      {
+        "name": "minecraft:jump_strength",
+        "base_value": 0.41999998688697815
+      },
+      {
         "name": "minecraft:knockback_resistance",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:max_absorption",
         "base_value": 0
       },
       {
@@ -33,8 +69,36 @@
         "base_value": 30
       },
       {
+        "name": "minecraft:movement_efficiency",
+        "base_value": 0
+      },
+      {
         "name": "minecraft:movement_speed",
         "base_value": 0.7
+      },
+      {
+        "name": "minecraft:oxygen_bonus",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:safe_fall_distance",
+        "base_value": 3
+      },
+      {
+        "name": "minecraft:scale",
+        "base_value": 1
+      },
+      {
+        "name": "minecraft:step_height",
+        "base_value": 0.6
+      },
+      {
+        "name": "minecraft:water_movement_efficiency",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:waypoint_transmit_range",
+        "base_value": 0
       }
     ],
     "tags": [

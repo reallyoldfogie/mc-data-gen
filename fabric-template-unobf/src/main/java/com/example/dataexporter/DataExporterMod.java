@@ -26,7 +26,9 @@ import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.Pose;
 import net.minecraft.world.entity.ai.attributes.Attribute;
 import net.minecraft.world.entity.ai.attributes.AttributeInstance;
+import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.entity.ai.attributes.DefaultAttributes;
 import net.minecraft.world.entity.monster.Phantom;
 import net.minecraft.world.entity.monster.Slime;
 import net.minecraft.world.item.Item;
@@ -317,14 +319,14 @@ public class DataExporterMod implements ModInitializer {
             }
             info.put("pose_dimensions", poseDims);
 
+            // Attributes come from the entity type's registered default
+            // attribute supplier (see extractAttributes(EntityType)) and don't
+            // depend on successful instantiation, so they're computed
+            // unconditionally rather than inside the entity-dependent block below.
+            info.put("attributes", extractAttributes(entityType));
+
             try {
                 if (entity != null) {
-                    List<Map<String, Object>> attributes = Collections.emptyList();
-                    if (entity instanceof LivingEntity livingEntity) {
-                        attributes = extractAttributes(livingEntity);
-                    }
-                    info.put("attributes", attributes);
-
                     List<Map<String, Object>> sizeVariants = extractSizeVariants(entity);
                     info.put("size_variants", sizeVariants);
 
@@ -337,12 +339,10 @@ public class DataExporterMod implements ModInitializer {
                         }
                     }
                 } else {
-                    info.put("attributes", Collections.emptyList());
                     info.put("size_variants", Collections.emptyList());
                 }
             } catch (Exception e) {
                 LOGGER.info("[DataExporter] Could not instantiate {}: {}", id, e.getMessage());
-                info.put("attributes", Collections.emptyList());
                 info.put("size_variants", Collections.emptyList());
             } finally {
                 if (entity != null) {
@@ -366,62 +366,47 @@ public class DataExporterMod implements ModInitializer {
         LOGGER.info("[DataExporter] Finished writing {} entities", allEntities.size());
     }
 
-    // Attribute registry ids dropped the "generic." namespace prefix in Minecraft
-    // 1.21.2 (e.g. "minecraft:generic.max_health" -> "minecraft:max_health"). Each
-    // attribute is looked up by its modern id first, falling back to the legacy id
-    // if the modern one isn't registered. The output "name" is always the
-    // canonical modern id so consumers don't need to special-case old data.
-    private static final String[] MODERN_ATTRIBUTE_IDS = {
-            "minecraft:max_health",
-            "minecraft:movement_speed",
-            "minecraft:attack_damage",
-            "minecraft:attack_knockback",
-            "minecraft:attack_speed",
-            "minecraft:armor",
-            "minecraft:follow_range",
-            "minecraft:knockback_resistance"
-    };
-
-    private static final String[] LEGACY_ATTRIBUTE_IDS = {
-            "minecraft:generic.max_health",
-            "minecraft:generic.movement_speed",
-            "minecraft:generic.attack_damage",
-            "minecraft:generic.attack_knockback",
-            "minecraft:generic.attack_speed",
-            "minecraft:generic.armor",
-            "minecraft:generic.follow_range",
-            "minecraft:generic.knockback_resistance"
-    };
-
-    private List<Map<String, Object>> extractAttributes(LivingEntity entity) {
+    // Every LivingEntity subtype's full default attribute set is registered
+    // statically in DefaultAttributes, keyed purely by EntityType — this has
+    // nothing to do with whether the entity itself could be instantiated.
+    // AttributeSupplier doesn't expose a public way to enumerate all of its
+    // entries (only single-attribute lookups), so its private "instances" map
+    // is read via reflection. This replaces a fixed, hand-maintained list of
+    // eight attribute names with a discovery mechanism that picks up every
+    // attribute the entity type actually has by default (including ones like
+    // flying_speed/jump_strength that the old fixed list never tried), and
+    // needs no "generic." legacy-prefix fallback since it reads whatever id
+    // this specific version's registry actually uses.
+    private List<Map<String, Object>> extractAttributes(EntityType<?> entityType) {
         List<Map<String, Object>> attributes = new ArrayList<>();
+        if (!DefaultAttributes.hasSupplier(entityType)) {
+            return attributes;
+        }
         try {
-            for (int index = 0; index < MODERN_ATTRIBUTE_IDS.length; index++) {
-                String canonicalName = MODERN_ATTRIBUTE_IDS[index];
-                String legacyName = LEGACY_ATTRIBUTE_IDS[index];
-                try {
-                    Holder<Attribute> attrEntry = BuiltInRegistries.ATTRIBUTE
-                            .get(Identifier.parse(canonicalName)).orElse(null);
-                    if (attrEntry == null) {
-                        attrEntry = BuiltInRegistries.ATTRIBUTE
-                                .get(Identifier.parse(legacyName)).orElse(null);
-                    }
-                    if (attrEntry != null) {
-                        double value = entity.getAttributeValue(attrEntry);
-                        Map<String, Object> attrInfo = new LinkedHashMap<>();
-                        attrInfo.put("name", canonicalName);
-                        attrInfo.put("base_value", value);
-                        attributes.add(attrInfo);
-                    }
-                } catch (Exception e) {
-                    // Skip if attribute doesn't exist for this entity
-                }
+            // Safe: hasSupplier() only returns true for entries actually present
+            // in DefaultAttributes' map, which is keyed by
+            // EntityType<? extends LivingEntity>.
+            @SuppressWarnings("unchecked")
+            EntityType<? extends LivingEntity> livingType = (EntityType<? extends LivingEntity>) entityType;
+            AttributeSupplier supplier = DefaultAttributes.getSupplier(livingType);
+
+            Field instancesField = AttributeSupplier.class.getDeclaredField("instances");
+            instancesField.setAccessible(true);
+            @SuppressWarnings("unchecked")
+            Map<Holder<Attribute>, AttributeInstance> instances =
+                    (Map<Holder<Attribute>, AttributeInstance>) instancesField.get(supplier);
+
+            for (Map.Entry<Holder<Attribute>, AttributeInstance> entry : instances.entrySet()) {
+                Map<String, Object> attrInfo = new LinkedHashMap<>();
+                attrInfo.put("name", entry.getKey().getRegisteredName());
+                attrInfo.put("base_value", entry.getValue().getBaseValue());
+                attributes.add(attrInfo);
             }
         } catch (Exception e) {
-            LOGGER.info("Could not extract attributes", e);
+            LOGGER.info("[DataExporter] Could not extract attributes for {}: {}", entityType, e.toString());
         }
         // Sort by name so unchanged data regenerates byte-identical rather than
-        // depending on MODERN_ATTRIBUTE_IDS's declaration order.
+        // depending on the backing map's iteration order.
         attributes.sort(Comparator.comparing(attr -> (String) attr.get("name")));
         return attributes;
     }

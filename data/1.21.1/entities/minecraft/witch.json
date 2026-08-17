@@ -13,32 +13,84 @@
     "size_variants": [],
     "attributes": [
       {
-        "name": "minecraft:armor",
+        "name": "minecraft:generic.armor",
         "base_value": 0
       },
       {
-        "name": "minecraft:attack_damage",
+        "name": "minecraft:generic.armor_toughness",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:generic.attack_damage",
         "base_value": 2
       },
       {
-        "name": "minecraft:attack_knockback",
+        "name": "minecraft:generic.attack_knockback",
         "base_value": 0
       },
       {
-        "name": "minecraft:follow_range",
+        "name": "minecraft:generic.burning_time",
+        "base_value": 1
+      },
+      {
+        "name": "minecraft:generic.explosion_knockback_resistance",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:generic.fall_damage_multiplier",
+        "base_value": 1
+      },
+      {
+        "name": "minecraft:generic.follow_range",
         "base_value": 16
       },
       {
-        "name": "minecraft:knockback_resistance",
+        "name": "minecraft:generic.gravity",
+        "base_value": 0.08
+      },
+      {
+        "name": "minecraft:generic.jump_strength",
+        "base_value": 0.41999998688697815
+      },
+      {
+        "name": "minecraft:generic.knockback_resistance",
         "base_value": 0
       },
       {
-        "name": "minecraft:max_health",
+        "name": "minecraft:generic.max_absorption",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:generic.max_health",
         "base_value": 26
       },
       {
-        "name": "minecraft:movement_speed",
+        "name": "minecraft:generic.movement_efficiency",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:generic.movement_speed",
         "base_value": 0.25
+      },
+      {
+        "name": "minecraft:generic.oxygen_bonus",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:generic.safe_fall_distance",
+        "base_value": 3
+      },
+      {
+        "name": "minecraft:generic.scale",
+        "base_value": 1
+      },
+      {
+        "name": "minecraft:generic.step_height",
+        "base_value": 0.6
+      },
+      {
+        "name": "minecraft:generic.water_movement_efficiency",
+        "base_value": 0
       }
     ],
     "tags": [
