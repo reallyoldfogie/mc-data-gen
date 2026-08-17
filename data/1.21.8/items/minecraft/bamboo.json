@@ -8,8 +8,8 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:panda_eats_from_ground",
-      "minecraft:panda_food",
-      "c:animal_foods"
+      "c:animal_foods",
+      "minecraft:panda_food"
     ],
     "components": {},
     "is_weapon": false,

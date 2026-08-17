@@ -8,8 +8,8 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:parrot_food",
-      "c:seeds",
       "c:seeds/wheat",
+      "c:seeds",
       "minecraft:villager_picks_up",
       "minecraft:villager_plantable_seeds",
       "c:animal_foods",

@@ -9,13 +9,13 @@
     "tags": [
       "c:animal_foods",
       "c:foods/raw_fish",
-      "minecraft:wolf_food",
-      "minecraft:fishes",
       "c:foods/food_poisoning",
-      "c:foods/raw_fishes",
-      "minecraft:nautilus_taming_items",
       "minecraft:nautilus_food",
-      "c:foods"
+      "minecraft:nautilus_taming_items",
+      "minecraft:fishes",
+      "c:foods/raw_fishes",
+      "c:foods",
+      "minecraft:wolf_food"
     ],
     "components": {
       "food": {

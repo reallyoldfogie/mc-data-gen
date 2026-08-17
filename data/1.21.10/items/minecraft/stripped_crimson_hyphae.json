@@ -8,10 +8,10 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:crimson_stems",
-      "minecraft:logs",
       "minecraft:non_flammable_wood",
-      "minecraft:completes_find_tree_tutorial",
-      "c:stripped_woods"
+      "minecraft:logs",
+      "c:stripped_woods",
+      "minecraft:completes_find_tree_tutorial"
     ],
     "components": {},
     "is_weapon": false,

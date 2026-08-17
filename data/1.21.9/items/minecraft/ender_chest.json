@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:chests",
-      "c:chests/ender"
+      "c:chests/ender",
+      "c:chests"
     ],
     "components": {},
     "is_weapon": false,

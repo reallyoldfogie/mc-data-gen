@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "c:storage_blocks/copper",
       "c:storage_blocks",
-      "minecraft:copper",
-      "c:storage_blocks/copper"
+      "minecraft:copper"
     ],
     "components": {},
     "is_weapon": false,

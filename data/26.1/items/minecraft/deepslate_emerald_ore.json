@@ -7,10 +7,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:ores_in_ground/deepslate",
-      "c:ore_rates/singular",
-      "minecraft:emerald_ores",
       "c:ores/emerald",
+      "minecraft:emerald_ores",
+      "c:ore_rates/singular",
+      "c:ores_in_ground/deepslate",
       "c:ores"
     ],
     "components": {},

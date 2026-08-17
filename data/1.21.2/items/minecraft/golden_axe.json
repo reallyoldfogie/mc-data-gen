@@ -8,17 +8,17 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:enchantable/vanishing",
-      "c:tools/melee_weapon",
       "minecraft:enchantable/weapon",
+      "c:tools/melee_weapon",
       "minecraft:enchantable/mining_loot",
       "c:tools/melee_weapons",
       "minecraft:axes",
-      "minecraft:piglin_loved",
       "minecraft:enchantable/mining",
-      "c:tools",
-      "minecraft:enchantable/sharp_weapon",
+      "minecraft:piglin_loved",
       "minecraft:breaks_decorated_pots",
       "c:enchantables",
+      "c:tools",
+      "minecraft:enchantable/sharp_weapon",
       "minecraft:enchantable/durability"
     ],
     "components": {

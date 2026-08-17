@@ -7,12 +7,12 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:dyes",
       "c:dyes/light_blue",
-      "minecraft:cat_collar_dyes",
+      "minecraft:dyes",
+      "minecraft:loom_dyes",
       "c:dyes",
-      "minecraft:wolf_collar_dyes",
-      "minecraft:loom_dyes"
+      "minecraft:cat_collar_dyes",
+      "minecraft:wolf_collar_dyes"
     ],
     "components": {},
     "is_weapon": false,

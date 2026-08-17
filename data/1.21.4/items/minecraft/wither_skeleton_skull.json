@@ -7,11 +7,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:skulls",
-      "minecraft:enchantable/equippable",
-      "minecraft:noteblock_top_instruments",
+      "c:enchantables",
       "minecraft:enchantable/vanishing",
-      "c:enchantables"
+      "minecraft:noteblock_top_instruments",
+      "minecraft:skulls",
+      "minecraft:enchantable/equippable"
     ],
     "components": {},
     "is_weapon": false,

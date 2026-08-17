@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:enchantables",
+      "minecraft:compasses",
       "minecraft:enchantable/vanishing",
-      "minecraft:compasses"
+      "c:enchantables"
     ],
     "components": {},
     "is_weapon": false,

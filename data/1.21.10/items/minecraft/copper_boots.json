@@ -8,14 +8,14 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:enchantable/armor",
-      "minecraft:foot_armor",
-      "minecraft:enchantable/vanishing",
       "c:enchantables",
       "minecraft:enchantable/foot_armor",
       "c:armors",
       "minecraft:enchantable/durability",
-      "minecraft:trimmable_armor",
-      "minecraft:enchantable/equippable"
+      "minecraft:enchantable/equippable",
+      "minecraft:foot_armor",
+      "minecraft:enchantable/vanishing",
+      "minecraft:trimmable_armor"
     ],
     "components": {
       "max_damage": 143,

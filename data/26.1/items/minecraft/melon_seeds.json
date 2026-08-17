@@ -7,10 +7,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:seeds/melon",
-      "minecraft:chicken_food",
-      "minecraft:parrot_food",
       "c:animal_foods",
+      "minecraft:parrot_food",
+      "minecraft:chicken_food",
+      "c:seeds/melon",
       "c:seeds"
     ],
     "components": {},

@@ -8,9 +8,9 @@
     "use_animation": "NONE",
     "tags": [
       "c:ores_in_ground/netherrack",
-      "c:ores/quartz",
+      "c:ore_rates/singular",
       "c:ores",
-      "c:ore_rates/singular"
+      "c:ores/quartz"
     ],
     "components": {},
     "is_weapon": false,

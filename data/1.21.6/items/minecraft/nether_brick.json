@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:bricks/nether",
-      "c:bricks"
+      "c:bricks",
+      "c:bricks/nether"
     ],
     "components": {},
     "is_weapon": false,

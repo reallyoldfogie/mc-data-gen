@@ -10,9 +10,9 @@
       "minecraft:iron_tool_materials",
       "c:ingots/iron",
       "c:ingots",
+      "minecraft:trim_materials",
       "minecraft:beacon_payment_items",
       "minecraft:repairs_chain_armor",
-      "minecraft:trim_materials",
       "minecraft:repairs_iron_armor"
     ],
     "components": {},

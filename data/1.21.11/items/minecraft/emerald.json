@@ -7,10 +7,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:beacon_payment_items",
-      "c:gems/emerald",
       "minecraft:trim_materials",
-      "c:gems"
+      "c:gems",
+      "minecraft:beacon_payment_items",
+      "c:gems/emerald"
     ],
     "components": {},
     "is_weapon": false,

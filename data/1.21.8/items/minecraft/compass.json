@@ -8,8 +8,8 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:compasses",
-      "minecraft:enchantable/vanishing",
-      "c:enchantables"
+      "c:enchantables",
+      "minecraft:enchantable/vanishing"
     ],
     "components": {},
     "is_weapon": false,

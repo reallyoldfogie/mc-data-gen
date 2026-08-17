@@ -7,10 +7,10 @@
     "fireproof": false,
     "use_animation": "DRINK",
     "tags": [
-      "c:drink_containing/bucket",
-      "c:buckets",
-      "c:buckets/milk",
       "c:drinks",
+      "c:buckets/milk",
+      "c:buckets",
+      "c:drink_containing/bucket",
       "c:drinks/milk"
     ],
     "components": {},

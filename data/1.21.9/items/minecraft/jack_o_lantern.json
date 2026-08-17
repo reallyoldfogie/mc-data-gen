@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:pumpkins",
-      "c:pumpkins/jack_o_lanterns"
+      "c:pumpkins/jack_o_lanterns",
+      "c:pumpkins"
     ],
     "components": {},
     "is_weapon": false,

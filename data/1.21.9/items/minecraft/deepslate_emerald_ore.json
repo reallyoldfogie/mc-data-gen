@@ -9,9 +9,9 @@
     "tags": [
       "c:ores/emerald",
       "c:ores",
-      "minecraft:emerald_ores",
       "c:ore_rates/singular",
-      "c:ores_in_ground/deepslate"
+      "c:ores_in_ground/deepslate",
+      "minecraft:emerald_ores"
     ],
     "components": {},
     "is_weapon": false,

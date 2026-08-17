@@ -7,14 +7,14 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:foot_armor",
-      "minecraft:enchantable/vanishing",
       "c:enchantables",
       "minecraft:enchantable/foot_armor",
       "c:armors",
       "minecraft:enchantable/durability",
-      "minecraft:trimmable_armor",
       "minecraft:enchantable/equippable",
+      "minecraft:foot_armor",
+      "minecraft:trimmable_armor",
+      "minecraft:enchantable/vanishing",
       "minecraft:enchantable/armor"
     ],
     "components": {

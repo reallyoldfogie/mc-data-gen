@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:buckets/lava",
-      "c:buckets"
+      "c:buckets",
+      "c:buckets/lava"
     ],
     "components": {},
     "is_weapon": false,

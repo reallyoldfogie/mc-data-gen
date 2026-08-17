@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:enchantable/durability",
-      "minecraft:enchantable/equippable",
       "c:enchantables",
+      "minecraft:enchantable/equippable",
+      "minecraft:enchantable/durability",
       "minecraft:enchantable/vanishing"
     ],
     "components": {

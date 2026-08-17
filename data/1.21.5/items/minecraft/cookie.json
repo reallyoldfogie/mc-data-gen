@@ -9,8 +9,8 @@
     "tags": [
       "c:foods/cookies",
       "c:foods/cookie",
-      "minecraft:parrot_poisonous_food",
-      "c:foods"
+      "c:foods",
+      "minecraft:parrot_poisonous_food"
     ],
     "components": {
       "food": {

@@ -10,9 +10,9 @@
       "c:natural_logs/overworld",
       "minecraft:logs_that_burn",
       "minecraft:logs",
-      "minecraft:completes_find_tree_tutorial",
+      "minecraft:acacia_logs",
       "c:natural_logs",
-      "minecraft:acacia_logs"
+      "minecraft:completes_find_tree_tutorial"
     ],
     "components": {},
     "is_weapon": false,

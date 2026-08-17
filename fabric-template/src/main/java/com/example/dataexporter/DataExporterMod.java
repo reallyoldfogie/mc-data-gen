@@ -83,6 +83,7 @@ public class DataExporterMod implements ModInitializer {
                 dumpAllBlockStates(server);
                 dumpItems(server);
                 dumpEntities(server);
+                dumpPoses(server);
             } catch (IOException e) {
                 LOGGER.error("[DataExporter] Failed to dump data", e);
             } catch (IllegalAccessException e) {
@@ -240,6 +241,30 @@ public class DataExporterMod implements ModInitializer {
             GSON.toJson(allItems, writer);
         }
         LOGGER.info("[DataExporter] Finished writing {} items", allItems.size());
+    }
+
+    private void dumpPoses(MinecraftServer server) throws IOException {
+        Path runDir = server.getRunDirectory();
+        Path outDir = runDir.resolve("data");
+        Files.createDirectories(outDir);
+        Path outFile = outDir.resolve("poses.json");
+
+        // EntityPose.ordinal() is the wire varint sent in the Pose metadata
+        // field (handler type id 21). We dump an explicit ordinal->name map
+        // rather than a positional array so the on-disk format survives any
+        // future reordering of these keys (the loader trusts the key, not the
+        // file position).
+        LinkedHashMap<String, String> poseMap = new LinkedHashMap<>();
+        for (EntityPose pose : EntityPose.values()) {
+            poseMap.put(Integer.toString(pose.ordinal()), pose.name().toLowerCase());
+        }
+
+        LOGGER.info("[DataExporter] Writing {} entity poses to {}", poseMap.size(), outFile.toAbsolutePath());
+        try (var writer = new OutputStreamWriter(
+                Files.newOutputStream(outFile),
+                StandardCharsets.UTF_8)) {
+            GSON.toJson(poseMap, writer);
+        }
     }
 
     private void dumpEntities(MinecraftServer server) throws IOException {

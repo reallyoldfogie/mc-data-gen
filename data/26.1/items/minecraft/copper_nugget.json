@@ -8,8 +8,8 @@
     "use_animation": "NONE",
     "tags": [
       "c:nuggets/copper",
-      "minecraft:metal_nuggets",
-      "c:nuggets"
+      "c:nuggets",
+      "minecraft:metal_nuggets"
     ],
     "components": {},
     "is_weapon": false,

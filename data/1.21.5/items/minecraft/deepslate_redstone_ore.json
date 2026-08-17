@@ -10,8 +10,8 @@
       "c:ores/redstone",
       "c:ores_in_ground/deepslate",
       "c:ore_rates/dense",
-      "c:ores",
-      "minecraft:redstone_ores"
+      "minecraft:redstone_ores",
+      "c:ores"
     ],
     "components": {},
     "is_weapon": false,

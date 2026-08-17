@@ -7,12 +7,12 @@
     "fireproof": false,
     "use_animation": "CROSSBOW",
     "tags": [
-      "c:tools/ranged_weapons",
+      "c:tools/crossbow",
+      "c:tools/crossbows",
+      "minecraft:enchantable/durability",
       "c:tools",
       "c:enchantables",
-      "c:tools/crossbows",
-      "c:tools/crossbow",
-      "minecraft:enchantable/durability",
+      "c:tools/ranged_weapons",
       "c:tools/ranged_weapon",
       "minecraft:enchantable/crossbow",
       "minecraft:enchantable/vanishing"

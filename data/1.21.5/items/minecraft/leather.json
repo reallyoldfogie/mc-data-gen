@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:repairs_leather_armor",
+      "minecraft:ignored_by_piglin_babies",
       "c:leathers",
-      "minecraft:ignored_by_piglin_babies"
+      "minecraft:repairs_leather_armor"
     ],
     "components": {},
     "is_weapon": false,

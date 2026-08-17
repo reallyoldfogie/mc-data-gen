@@ -8,10 +8,10 @@
     "use_animation": "NONE",
     "tags": [
       "c:ores",
-      "c:ores/copper",
       "minecraft:copper_ores",
+      "c:ore_rates/dense",
       "c:ores_in_ground/deepslate",
-      "c:ore_rates/dense"
+      "c:ores/copper"
     ],
     "components": {},
     "is_weapon": false,

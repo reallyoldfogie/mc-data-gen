@@ -10,9 +10,9 @@
       "c:foods/raw_meat",
       "minecraft:meat",
       "c:animal_foods",
+      "c:foods",
       "c:foods/food_poisoning",
       "c:foods/raw_meats",
-      "c:foods",
       "minecraft:wolf_food"
     ],
     "components": {

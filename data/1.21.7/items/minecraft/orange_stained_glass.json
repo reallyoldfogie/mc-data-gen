@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:glass_blocks",
       "c:dyed/orange",
       "c:glass_blocks/cheap",
+      "c:glass_blocks",
       "c:dyed"
     ],
     "components": {},

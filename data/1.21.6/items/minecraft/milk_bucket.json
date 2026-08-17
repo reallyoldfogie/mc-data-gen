@@ -9,9 +9,9 @@
     "tags": [
       "c:drink_containing/bucket",
       "c:drinks/milk",
+      "c:buckets",
       "c:drinks",
-      "c:buckets/milk",
-      "c:buckets"
+      "c:buckets/milk"
     ],
     "components": {},
     "is_weapon": false,

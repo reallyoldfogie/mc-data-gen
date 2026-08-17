@@ -8,12 +8,12 @@
     "use_animation": "EAT",
     "tags": [
       "minecraft:fishes",
-      "minecraft:nautilus_food",
+      "c:foods",
       "minecraft:wolf_food",
       "c:foods/cooked_fish",
       "c:foods/cooked_fishes",
-      "c:foods",
-      "c:animal_foods"
+      "c:animal_foods",
+      "minecraft:nautilus_food"
     ],
     "components": {
       "food": {

@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:bricks",
       "c:bricks/resin",
+      "c:bricks",
       "minecraft:trim_materials"
     ],
     "components": {},

@@ -8,8 +8,8 @@
     "use_animation": "NONE",
     "tags": [
       "c:concrete_powder",
-      "c:dyed/brown",
       "c:dyed",
+      "c:dyed/brown",
       "c:concrete_powders"
     ],
     "components": {},

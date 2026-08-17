@@ -8,9 +8,9 @@
     "use_animation": "NONE",
     "tags": [
       "c:gems/emerald",
-      "minecraft:beacon_payment_items",
+      "minecraft:trim_materials",
       "c:gems",
-      "minecraft:trim_materials"
+      "minecraft:beacon_payment_items"
     ],
     "components": {},
     "is_weapon": false,

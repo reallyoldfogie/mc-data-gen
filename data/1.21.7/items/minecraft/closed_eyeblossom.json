@@ -8,9 +8,9 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:flowers",
+      "minecraft:small_flowers",
       "c:flowers/small",
-      "c:flowers",
-      "minecraft:small_flowers"
+      "c:flowers"
     ],
     "components": {},
     "is_weapon": false,

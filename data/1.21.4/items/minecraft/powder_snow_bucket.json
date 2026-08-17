@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:buckets",
-      "c:buckets/powder_snow"
+      "c:buckets/powder_snow",
+      "c:buckets"
     ],
     "components": {},
     "is_weapon": false,

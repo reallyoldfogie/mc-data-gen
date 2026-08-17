@@ -7,19 +7,19 @@
     "fireproof": false,
     "use_animation": "SPEAR",
     "tags": [
-      "c:enchantables",
-      "minecraft:enchantable/sharp_weapon",
-      "minecraft:enchantable/durability",
-      "minecraft:enchantable/vanishing",
-      "minecraft:enchantable/weapon",
-      "minecraft:enchantable/melee_weapon",
-      "c:tools/melee_weapon",
       "minecraft:piglin_preferred_weapons",
       "minecraft:enchantable/lunge",
-      "minecraft:enchantable/fire_aspect",
+      "c:tools/melee_weapon",
+      "minecraft:enchantable/melee_weapon",
+      "minecraft:enchantable/weapon",
+      "minecraft:enchantable/vanishing",
+      "minecraft:enchantable/durability",
+      "c:tools",
+      "c:enchantables",
+      "minecraft:enchantable/sharp_weapon",
       "minecraft:piglin_loved",
       "minecraft:spears",
-      "c:tools"
+      "minecraft:enchantable/fire_aspect"
     ],
     "components": {
       "max_damage": 32,

@@ -9,9 +9,9 @@
     "tags": [
       "minecraft:wolf_food",
       "c:foods",
-      "c:foods/food_poisoning",
+      "c:animal_foods",
       "minecraft:meat",
-      "c:animal_foods"
+      "c:foods/food_poisoning"
     ],
     "components": {
       "food": {

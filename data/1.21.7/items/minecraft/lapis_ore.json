@@ -7,11 +7,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:ores",
-      "minecraft:lapis_ores",
+      "c:ores_in_ground/stone",
       "c:ores/lapis",
       "c:ore_rates/dense",
-      "c:ores_in_ground/stone"
+      "c:ores",
+      "minecraft:lapis_ores"
     ],
     "components": {},
     "is_weapon": false,

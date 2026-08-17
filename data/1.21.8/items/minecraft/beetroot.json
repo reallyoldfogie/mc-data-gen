@@ -7,14 +7,14 @@
     "fireproof": false,
     "use_animation": "EAT",
     "tags": [
-      "c:animal_foods",
-      "c:crops",
-      "c:foods",
-      "minecraft:pig_food",
       "minecraft:villager_picks_up",
       "c:foods/vegetable",
-      "c:foods/vegetables",
-      "c:crops/beetroot"
+      "c:foods",
+      "minecraft:pig_food",
+      "c:crops",
+      "c:animal_foods",
+      "c:crops/beetroot",
+      "c:foods/vegetables"
     ],
     "components": {
       "food": {

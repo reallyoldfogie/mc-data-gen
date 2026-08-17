@@ -8,8 +8,8 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:piglin_loved",
-      "c:armors",
-      "c:armors/nautilus"
+      "c:armors/nautilus",
+      "c:armors"
     ],
     "components": {},
     "is_weapon": false,

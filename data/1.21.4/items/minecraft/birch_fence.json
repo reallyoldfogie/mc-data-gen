@@ -8,9 +8,9 @@
     "use_animation": "NONE",
     "tags": [
       "c:fences",
-      "c:fences/wooden",
+      "minecraft:wooden_fences",
       "minecraft:fences",
-      "minecraft:wooden_fences"
+      "c:fences/wooden"
     ],
     "components": {},
     "is_weapon": false,

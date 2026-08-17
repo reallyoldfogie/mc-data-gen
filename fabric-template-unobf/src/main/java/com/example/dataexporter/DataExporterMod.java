@@ -80,6 +80,7 @@ public class DataExporterMod implements ModInitializer {
                 dumpAllBlockStates(server);
                 dumpItems(server);
                 dumpEntities(server);
+                dumpPoses(server);
             } catch (IOException e) {
                 LOGGER.error("[DataExporter] Failed to dump data", e);
             } catch (IllegalAccessException e) {
@@ -221,6 +222,25 @@ public class DataExporterMod implements ModInitializer {
             GSON.toJson(allItems, writer);
         }
         LOGGER.info("[DataExporter] Finished writing {} items", allItems.size());
+    }
+
+    private void dumpPoses(MinecraftServer server) throws IOException {
+        Path runDir = server.getServerDirectory();
+        Path outDir = runDir.resolve("data");
+        Files.createDirectories(outDir);
+        Path outFile = outDir.resolve("poses.json");
+
+        LinkedHashMap<String, String> poseMap = new LinkedHashMap<>();
+        for (Pose pose : Pose.values()) {
+            poseMap.put(Integer.toString(pose.ordinal()), pose.name().toLowerCase());
+        }
+
+        LOGGER.info("[DataExporter] Writing {} entity poses to {}", poseMap.size(), outFile.toAbsolutePath());
+        try (var writer = new OutputStreamWriter(
+                Files.newOutputStream(outFile),
+                StandardCharsets.UTF_8)) {
+            GSON.toJson(poseMap, writer);
+        }
     }
 
     private void dumpEntities(MinecraftServer server) throws IOException {

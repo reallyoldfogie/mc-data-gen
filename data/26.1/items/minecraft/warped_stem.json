@@ -8,11 +8,11 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:logs",
-      "minecraft:completes_find_tree_tutorial",
-      "minecraft:warped_stems",
-      "c:natural_logs/nether",
+      "c:natural_logs",
       "minecraft:non_flammable_wood",
-      "c:natural_logs"
+      "c:natural_logs/nether",
+      "minecraft:warped_stems",
+      "minecraft:completes_find_tree_tutorial"
     ],
     "components": {},
     "is_weapon": false,

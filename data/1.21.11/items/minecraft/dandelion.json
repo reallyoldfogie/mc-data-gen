@@ -11,9 +11,9 @@
       "c:flowers",
       "minecraft:flowers",
       "c:flowers/small",
-      "minecraft:bee_food",
       "minecraft:rabbit_food",
-      "c:animal_foods"
+      "c:animal_foods",
+      "minecraft:bee_food"
     ],
     "components": {},
     "is_weapon": false,

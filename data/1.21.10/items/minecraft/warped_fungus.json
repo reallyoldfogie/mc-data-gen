@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:animal_foods",
       "minecraft:strider_tempt_items",
+      "c:animal_foods",
       "minecraft:strider_food"
     ],
     "components": {},

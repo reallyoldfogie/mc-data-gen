@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:lanterns",
-      "minecraft:piglin_repellents"
+      "minecraft:piglin_repellents",
+      "minecraft:lanterns"
     ],
     "components": {},
     "is_weapon": false,

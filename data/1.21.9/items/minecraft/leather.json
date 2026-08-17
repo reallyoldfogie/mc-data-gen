@@ -8,8 +8,8 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:repairs_leather_armor",
-      "c:leathers",
-      "minecraft:ignored_by_piglin_babies"
+      "minecraft:ignored_by_piglin_babies",
+      "c:leathers"
     ],
     "components": {},
     "is_weapon": false,

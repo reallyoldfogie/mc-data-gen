@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "EAT",
     "tags": [
-      "c:foods/cooked_meat",
       "c:foods",
+      "c:foods/cooked_meat",
       "c:animal_foods",
       "minecraft:meat",
       "c:foods/cooked_meats",

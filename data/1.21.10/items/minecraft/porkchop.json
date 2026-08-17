@@ -9,11 +9,11 @@
     "tags": [
       "c:foods/raw_meat",
       "minecraft:meat",
-      "minecraft:piglin_food",
-      "c:foods/raw_meats",
-      "c:foods",
       "c:animal_foods",
-      "minecraft:wolf_food"
+      "c:foods",
+      "c:foods/raw_meats",
+      "minecraft:wolf_food",
+      "minecraft:piglin_food"
     ],
     "components": {
       "food": {

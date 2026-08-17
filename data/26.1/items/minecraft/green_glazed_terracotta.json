@@ -8,8 +8,8 @@
     "use_animation": "NONE",
     "tags": [
       "c:dyed/green",
-      "c:glazed_terracottas",
-      "c:dyed"
+      "c:dyed",
+      "c:glazed_terracottas"
     ],
     "components": {},
     "is_weapon": false,

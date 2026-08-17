@@ -7,10 +7,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:cobblestones",
-      "minecraft:stone_tool_materials",
+      "c:cobblestones/deepslate",
       "minecraft:stone_crafting_materials",
-      "c:cobblestones/deepslate"
+      "minecraft:stone_tool_materials",
+      "c:cobblestones"
     ],
     "components": {},
     "is_weapon": false,

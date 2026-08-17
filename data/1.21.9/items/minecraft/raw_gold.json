@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:piglin_loved",
       "c:raw_materials/gold",
+      "minecraft:piglin_loved",
       "c:raw_materials"
     ],
     "components": {},

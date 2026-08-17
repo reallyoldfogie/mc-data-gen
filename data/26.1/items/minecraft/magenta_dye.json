@@ -8,11 +8,11 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:dyes",
-      "c:dyes/magenta",
-      "minecraft:cat_collar_dyes",
+      "minecraft:loom_dyes",
       "c:dyes",
+      "minecraft:cat_collar_dyes",
       "minecraft:wolf_collar_dyes",
-      "minecraft:loom_dyes"
+      "c:dyes/magenta"
     ],
     "components": {},
     "is_weapon": false,

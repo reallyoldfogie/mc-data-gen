@@ -8,14 +8,14 @@
     "use_animation": "EAT",
     "tags": [
       "c:animal_foods",
-      "c:foods/vegetable",
-      "c:foods/golden",
-      "minecraft:horse_food",
-      "c:foods",
+      "minecraft:piglin_loved",
+      "minecraft:rabbit_food",
       "c:foods/vegetables",
       "minecraft:horse_tempt_items",
-      "minecraft:rabbit_food",
-      "minecraft:piglin_loved"
+      "c:foods",
+      "minecraft:horse_food",
+      "c:foods/golden",
+      "c:foods/vegetable"
     ],
     "components": {
       "food": {

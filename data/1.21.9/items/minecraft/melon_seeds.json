@@ -8,8 +8,8 @@
     "use_animation": "NONE",
     "tags": [
       "c:animal_foods",
-      "minecraft:parrot_food",
       "c:seeds",
+      "minecraft:parrot_food",
       "c:seeds/melon",
       "minecraft:chicken_food"
     ],

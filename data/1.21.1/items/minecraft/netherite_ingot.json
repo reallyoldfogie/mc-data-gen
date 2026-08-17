@@ -7,10 +7,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:beacon_payment_items",
-      "c:ingots",
+      "c:ingots/netherite",
       "minecraft:trim_materials",
-      "c:ingots/netherite"
+      "c:ingots",
+      "minecraft:beacon_payment_items"
     ],
     "components": {},
     "is_weapon": false,

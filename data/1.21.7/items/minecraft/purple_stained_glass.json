@@ -8,8 +8,8 @@
     "use_animation": "NONE",
     "tags": [
       "c:dyed/purple",
-      "c:glass_blocks",
       "c:glass_blocks/cheap",
+      "c:glass_blocks",
       "c:dyed"
     ],
     "components": {},

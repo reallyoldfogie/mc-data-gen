@@ -8,8 +8,8 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:shulker_boxes",
-      "c:dyed",
       "c:shulker_boxes",
+      "c:dyed",
       "c:dyed/black"
     ],
     "components": {},

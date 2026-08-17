@@ -7,7 +7,6 @@
     "fireproof": false,
     "use_animation": "SPEAR",
     "tags": [
-      "minecraft:enchantable/lunge",
       "minecraft:enchantable/sharp_weapon",
       "minecraft:enchantable/vanishing",
       "minecraft:enchantable/melee_weapon",
@@ -15,7 +14,8 @@
       "minecraft:enchantable/durability",
       "minecraft:spears",
       "minecraft:enchantable/fire_aspect",
-      "c:enchantables"
+      "c:enchantables",
+      "minecraft:enchantable/lunge"
     ],
     "components": {
       "max_damage": 2031,

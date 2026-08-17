@@ -178,6 +178,10 @@ func CollectOutput(projectDir, generatorOutputRel, outputRoot, version string) e
 			return fmt.Errorf("collectEntities: %w", err)
 		}
 
+		if err := collectPoses(src, outputRoot, version); err != nil {
+			return fmt.Errorf("collectPoses: %w", err)
+		}
+
 	return nil
 }
 
@@ -348,6 +352,27 @@ func collectEntities(src, outputRoot, version string) error {
 		return fmt.Errorf("shard entities: %w", err)
 	}
 
+	return nil
+}
+
+// collectPoses copies the EntityPose enum dump (a single map[ordinal->name]
+// file emitted by the Fabric exporter) into data/<version>/poses.json. No
+// sharding — the whole enum is small enough to read in one go.
+func collectPoses(src, outputRoot, version string) error {
+	posesSrc := filepath.Join(src, "poses.json")
+	if _, err := os.Stat(posesSrc); err != nil {
+		return fmt.Errorf("generator output (poses.json) not found at %s: %w", src, err)
+	}
+
+	versionDir := filepath.Join(outputRoot, version)
+	if err := os.MkdirAll(versionDir, 0o755); err != nil {
+		return fmt.Errorf("create version dir: %w", err)
+	}
+
+	posesDst := filepath.Join(versionDir, "poses.json")
+	if err := copyFile(posesSrc, posesDst); err != nil {
+		return fmt.Errorf("copy poses.json: %w", err)
+	}
 	return nil
 }
 

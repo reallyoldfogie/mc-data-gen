@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:wool",
       "c:dyed",
       "minecraft:dampens_vibrations",
+      "minecraft:wool",
       "c:dyed/orange"
     ],
     "components": {},

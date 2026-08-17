@@ -8,8 +8,8 @@
     "use_animation": "NONE",
     "tags": [
       "c:enchantables",
-      "minecraft:strider_tempt_items",
       "minecraft:enchantable/vanishing",
+      "minecraft:strider_tempt_items",
       "minecraft:enchantable/durability"
     ],
     "components": {

@@ -8,14 +8,14 @@
     "use_animation": "EAT",
     "tags": [
       "minecraft:pig_food",
+      "minecraft:villager_picks_up",
       "c:crops/potato",
-      "c:foods",
-      "c:foods/vegetables",
-      "c:crops",
-      "c:animal_foods",
       "minecraft:villager_plantable_seeds",
       "c:foods/vegetable",
-      "minecraft:villager_picks_up"
+      "c:crops",
+      "c:animal_foods",
+      "c:foods",
+      "c:foods/vegetables"
     ],
     "components": {
       "food": {

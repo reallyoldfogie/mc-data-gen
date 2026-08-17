@@ -7,11 +7,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "minecraft:enchantable/vanishing",
       "minecraft:map_invisibility_equipment",
       "minecraft:enchantable/equippable",
-      "minecraft:gaze_disguise_equipment",
       "c:enchantables",
-      "minecraft:enchantable/vanishing"
+      "minecraft:gaze_disguise_equipment"
     ],
     "components": {},
     "is_weapon": false,

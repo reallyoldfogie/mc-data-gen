@@ -7,10 +7,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:sand",
-      "c:sands/colorless",
+      "c:sands",
       "minecraft:smelts_to_glass",
-      "c:sands"
+      "c:sands/colorless",
+      "minecraft:sand"
     ],
     "components": {},
     "is_weapon": false,

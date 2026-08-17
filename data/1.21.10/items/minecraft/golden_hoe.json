@@ -10,9 +10,9 @@
       "c:tools",
       "c:enchantables",
       "minecraft:enchantable/mining_loot",
+      "minecraft:piglin_loved",
       "minecraft:hoes",
       "minecraft:enchantable/durability",
-      "minecraft:piglin_loved",
       "minecraft:enchantable/mining",
       "minecraft:enchantable/vanishing",
       "minecraft:breaks_decorated_pots"

@@ -8,8 +8,8 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:dampens_vibrations",
-      "c:dyed/red",
       "c:dyed",
+      "c:dyed/red",
       "minecraft:wool_carpets"
     ],
     "components": {},

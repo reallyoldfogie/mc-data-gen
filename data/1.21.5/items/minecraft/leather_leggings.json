@@ -7,17 +7,17 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:leg_armor",
-      "minecraft:trimmable_armor",
       "minecraft:enchantable/armor",
-      "minecraft:dyeable",
-      "minecraft:enchantable/vanishing",
-      "minecraft:enchantable/equippable",
-      "minecraft:enchantable/durability",
-      "c:armors",
+      "minecraft:trimmable_armor",
+      "minecraft:leg_armor",
+      "c:enchantables",
       "minecraft:freeze_immune_wearables",
       "minecraft:enchantable/leg_armor",
-      "c:enchantables"
+      "c:armors",
+      "minecraft:enchantable/durability",
+      "minecraft:enchantable/vanishing",
+      "minecraft:enchantable/equippable",
+      "minecraft:dyeable"
     ],
     "components": {
       "max_damage": 75,

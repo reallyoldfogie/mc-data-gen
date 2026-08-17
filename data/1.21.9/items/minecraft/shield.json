@@ -8,11 +8,11 @@
     "use_animation": "BLOCK",
     "tags": [
       "c:tools/shield",
-      "c:tools/shields",
       "minecraft:enchantable/vanishing",
-      "c:enchantables",
+      "c:tools/shields",
       "minecraft:enchantable/durability",
-      "c:tools"
+      "c:tools",
+      "c:enchantables"
     ],
     "components": {
       "max_damage": 336,

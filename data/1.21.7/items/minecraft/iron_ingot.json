@@ -8,12 +8,12 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:trim_materials",
-      "minecraft:repairs_chain_armor",
       "minecraft:beacon_payment_items",
       "c:ingots",
       "c:ingots/iron",
       "minecraft:iron_tool_materials",
-      "minecraft:repairs_iron_armor"
+      "minecraft:repairs_iron_armor",
+      "minecraft:repairs_chain_armor"
     ],
     "components": {},
     "is_weapon": false,

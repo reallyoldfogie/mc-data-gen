@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:coals",
-      "c:coal"
+      "c:coal",
+      "minecraft:coals"
     ],
     "components": {},
     "is_weapon": false,

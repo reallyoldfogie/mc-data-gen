@@ -7,11 +7,11 @@
     "fireproof": false,
     "use_animation": "BRUSH",
     "tags": [
-      "minecraft:enchantable/durability",
-      "c:enchantables",
-      "minecraft:enchantable/vanishing",
       "c:tools",
       "c:tools/brushes",
+      "minecraft:enchantable/vanishing",
+      "c:enchantables",
+      "minecraft:enchantable/durability",
       "c:tools/brush"
     ],
     "components": {

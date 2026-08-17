@@ -7,11 +7,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:saplings",
-      "c:animal_foods",
-      "minecraft:bee_food",
       "c:flowers",
-      "minecraft:flowers"
+      "minecraft:bee_food",
+      "minecraft:flowers",
+      "minecraft:saplings",
+      "c:animal_foods"
     ],
     "components": {},
     "is_weapon": false,

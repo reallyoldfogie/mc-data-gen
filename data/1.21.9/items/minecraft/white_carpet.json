@@ -9,8 +9,8 @@
     "tags": [
       "minecraft:wool_carpets",
       "c:dyed",
-      "minecraft:dampens_vibrations",
-      "c:dyed/white"
+      "c:dyed/white",
+      "minecraft:dampens_vibrations"
     ],
     "components": {},
     "is_weapon": false,

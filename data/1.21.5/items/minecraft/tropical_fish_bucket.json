@@ -8,9 +8,9 @@
     "use_animation": "NONE",
     "tags": [
       "c:buckets/entity_water",
-      "c:animal_foods",
+      "minecraft:axolotl_food",
       "c:buckets",
-      "minecraft:axolotl_food"
+      "c:animal_foods"
     ],
     "components": {},
     "is_weapon": false,

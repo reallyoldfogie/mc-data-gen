@@ -7,12 +7,12 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:completes_find_tree_tutorial",
-      "minecraft:logs_that_burn",
-      "minecraft:spruce_logs",
-      "c:natural_logs",
       "c:natural_logs/overworld",
-      "minecraft:logs"
+      "c:natural_logs",
+      "minecraft:completes_find_tree_tutorial",
+      "minecraft:logs",
+      "minecraft:spruce_logs",
+      "minecraft:logs_that_burn"
     ],
     "components": {},
     "is_weapon": false,

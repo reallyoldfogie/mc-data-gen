@@ -8,8 +8,8 @@
     "use_animation": "NONE",
     "tags": [
       "c:gems",
-      "c:gems/quartz",
-      "minecraft:trim_materials"
+      "minecraft:trim_materials",
+      "c:gems/quartz"
     ],
     "components": {},
     "is_weapon": false,

@@ -8,11 +8,11 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:axolotl_food",
-      "c:buckets",
       "c:animal_foods",
       "c:buckets/entity_water",
       "minecraft:nautilus_food",
-      "minecraft:nautilus_bucket_food"
+      "minecraft:nautilus_bucket_food",
+      "c:buckets"
     ],
     "components": {
       "food": {

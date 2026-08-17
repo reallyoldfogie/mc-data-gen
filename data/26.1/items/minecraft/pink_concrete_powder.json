@@ -8,8 +8,8 @@
     "use_animation": "NONE",
     "tags": [
       "c:concrete_powders",
-      "c:dyed/pink",
-      "c:dyed"
+      "c:dyed",
+      "c:dyed/pink"
     ],
     "components": {},
     "is_weapon": false,

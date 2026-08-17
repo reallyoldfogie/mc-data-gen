@@ -7,11 +7,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:ingots",
-      "minecraft:trim_materials",
       "minecraft:copper_tool_materials",
+      "minecraft:repairs_copper_armor",
       "c:ingots/copper",
-      "minecraft:repairs_copper_armor"
+      "c:ingots",
+      "minecraft:trim_materials"
     ],
     "components": {},
     "is_weapon": false,

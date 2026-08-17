@@ -7,18 +7,18 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:breaks_decorated_pots",
-      "minecraft:piglin_loved",
-      "minecraft:enchantable/mining",
-      "minecraft:enchantable/vanishing",
       "c:tools",
-      "minecraft:enchantable/durability",
       "c:tools/mining_tool",
-      "minecraft:cluster_max_harvestables",
-      "minecraft:pickaxes",
+      "minecraft:enchantable/vanishing",
+      "minecraft:enchantable/mining",
+      "minecraft:breaks_decorated_pots",
+      "c:enchantables",
       "c:tools/mining_tools",
       "minecraft:enchantable/mining_loot",
-      "c:enchantables"
+      "minecraft:pickaxes",
+      "minecraft:cluster_max_harvestables",
+      "minecraft:enchantable/durability",
+      "minecraft:piglin_loved"
     ],
     "components": {
       "max_damage": 32,

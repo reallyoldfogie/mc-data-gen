@@ -8,8 +8,8 @@
     "use_animation": "BUNDLE",
     "tags": [
       "minecraft:bundles",
-      "c:dyed/blue",
-      "c:dyed"
+      "c:dyed",
+      "c:dyed/blue"
     ],
     "components": {},
     "is_weapon": false,

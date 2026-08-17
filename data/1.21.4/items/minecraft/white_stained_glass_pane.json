@@ -8,8 +8,8 @@
     "use_animation": "NONE",
     "tags": [
       "c:dyed",
-      "c:dyed/white",
-      "c:glass_panes"
+      "c:glass_panes",
+      "c:dyed/white"
     ],
     "components": {},
     "is_weapon": false,

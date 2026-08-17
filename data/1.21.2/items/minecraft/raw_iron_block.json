@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:storage_blocks",
       "c:raw_blocks/iron",
+      "c:storage_blocks",
       "c:storage_blocks/raw_iron",
       "c:raw_blocks"
     ],

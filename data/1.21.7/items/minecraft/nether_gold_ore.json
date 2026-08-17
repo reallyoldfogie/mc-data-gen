@@ -7,11 +7,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:piglin_loved",
       "c:ore_rates/sparse",
       "c:ores_in_ground/netherrack",
       "c:ores",
       "c:ores/gold",
+      "minecraft:piglin_loved",
       "minecraft:gold_ores"
     ],
     "components": {},

@@ -1,0 +1,20 @@
+{
+  "0": "standing",
+  "1": "fall_flying",
+  "2": "sleeping",
+  "3": "swimming",
+  "4": "spin_attack",
+  "5": "crouching",
+  "6": "long_jumping",
+  "7": "dying",
+  "8": "croaking",
+  "9": "using_tongue",
+  "10": "sitting",
+  "11": "roaring",
+  "12": "sniffing",
+  "13": "emerging",
+  "14": "digging",
+  "15": "sliding",
+  "16": "shooting",
+  "17": "inhaling"
+}

@@ -9,10 +9,10 @@
     "tags": [
       "c:dyes/lime",
       "minecraft:dyes",
-      "minecraft:cat_collar_dyes",
+      "minecraft:loom_dyes",
       "c:dyes",
-      "minecraft:wolf_collar_dyes",
-      "minecraft:loom_dyes"
+      "minecraft:cat_collar_dyes",
+      "minecraft:wolf_collar_dyes"
     ],
     "components": {},
     "is_weapon": false,

@@ -8,8 +8,8 @@
     "use_animation": "NONE",
     "tags": [
       "c:concrete_powders",
-      "c:dyed",
-      "c:dyed/light_gray"
+      "c:dyed/light_gray",
+      "c:dyed"
     ],
     "components": {},
     "is_weapon": false,

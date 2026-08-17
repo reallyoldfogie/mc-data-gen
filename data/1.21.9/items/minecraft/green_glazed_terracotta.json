@@ -9,8 +9,8 @@
     "tags": [
       "c:dyed",
       "c:glazed_terracottas",
-      "c:dyed/green",
-      "c:glazed_terracotta"
+      "c:glazed_terracotta",
+      "c:dyed/green"
     ],
     "components": {},
     "is_weapon": false,

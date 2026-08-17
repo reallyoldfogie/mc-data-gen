@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:dusts",
-      "c:dusts/glowstone"
+      "c:dusts/glowstone",
+      "c:dusts"
     ],
     "components": {},
     "is_weapon": false,

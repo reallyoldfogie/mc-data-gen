@@ -8,8 +8,8 @@
     "use_animation": "NONE",
     "tags": [
       "c:dusts",
-      "minecraft:trim_materials",
-      "c:dusts/redstone"
+      "c:dusts/redstone",
+      "minecraft:trim_materials"
     ],
     "components": {},
     "is_weapon": false,

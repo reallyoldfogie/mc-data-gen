@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:concrete_powder",
-      "c:dyed",
       "c:dyed/light_gray",
+      "c:dyed",
+      "c:concrete_powder",
       "c:concrete_powders"
     ],
     "components": {},

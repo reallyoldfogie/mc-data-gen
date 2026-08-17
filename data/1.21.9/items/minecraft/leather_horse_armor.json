@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:dyeable",
-      "minecraft:freeze_immune_wearables"
+      "minecraft:freeze_immune_wearables",
+      "minecraft:dyeable"
     ],
     "components": {},
     "is_weapon": false,

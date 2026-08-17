@@ -9,8 +9,8 @@
     "tags": [
       "c:enchantables",
       "minecraft:enchantable/mace",
-      "c:tools",
       "minecraft:enchantable/fire_aspect",
+      "c:tools",
       "minecraft:enchantable/durability",
       "minecraft:enchantable/weapon",
       "minecraft:enchantable/vanishing",

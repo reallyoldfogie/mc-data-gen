@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:stripped_logs",
-      "minecraft:bamboo_blocks"
+      "minecraft:bamboo_blocks",
+      "c:stripped_logs"
     ],
     "components": {},
     "is_weapon": false,

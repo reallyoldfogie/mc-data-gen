@@ -8,8 +8,8 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:frog_food",
-      "c:slime_balls",
-      "c:animal_foods"
+      "c:animal_foods",
+      "c:slime_balls"
     ],
     "components": {},
     "is_weapon": false,

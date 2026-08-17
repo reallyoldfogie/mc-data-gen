@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "BUNDLE",
     "tags": [
-      "c:dyed/red",
       "minecraft:bundles",
+      "c:dyed/red",
       "c:dyed"
     ],
     "components": {},

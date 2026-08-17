@@ -8,10 +8,10 @@
     "use_animation": "NONE",
     "tags": [
       "c:ores_in_ground/deepslate",
-      "minecraft:emerald_ores",
+      "c:ores/emerald",
       "c:ores",
-      "c:ore_rates/singular",
-      "c:ores/emerald"
+      "minecraft:emerald_ores",
+      "c:ore_rates/singular"
     ],
     "components": {},
     "is_weapon": false,

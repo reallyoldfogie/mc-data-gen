@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:wooden_slabs",
-      "minecraft:slabs"
+      "minecraft:slabs",
+      "minecraft:wooden_slabs"
     ],
     "components": {},
     "is_weapon": false,

@@ -7,10 +7,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:lapis_ores",
-      "c:ore_rates/dense",
-      "c:ores_in_ground/deepslate",
       "c:ores/lapis",
+      "c:ores_in_ground/deepslate",
+      "c:ore_rates/dense",
+      "minecraft:lapis_ores",
       "c:ores"
     ],
     "components": {},

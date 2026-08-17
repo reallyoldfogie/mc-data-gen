@@ -8,9 +8,9 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:sand",
-      "c:sands/colorless",
+      "c:sands",
       "minecraft:smelts_to_glass",
-      "c:sands"
+      "c:sands/colorless"
     ],
     "components": {},
     "is_weapon": false,

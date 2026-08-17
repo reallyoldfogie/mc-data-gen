@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:enchantable/vanishing",
       "c:enchantables",
-      "minecraft:enchantable/durability"
+      "minecraft:enchantable/durability",
+      "minecraft:enchantable/vanishing"
     ],
     "components": {
       "max_damage": 25,

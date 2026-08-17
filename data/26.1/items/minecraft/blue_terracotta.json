@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:terracotta",
+      "c:dyed/blue",
       "c:dyed",
-      "c:dyed/blue"
+      "minecraft:terracotta"
     ],
     "components": {},
     "is_weapon": false,

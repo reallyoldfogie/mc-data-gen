@@ -7,14 +7,14 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:breaks_decorated_pots",
-      "minecraft:hoes",
-      "minecraft:enchantable/durability",
-      "c:tools",
       "c:enchantables",
       "minecraft:enchantable/vanishing",
       "minecraft:enchantable/mining",
-      "minecraft:enchantable/mining_loot"
+      "minecraft:enchantable/mining_loot",
+      "minecraft:breaks_decorated_pots",
+      "minecraft:enchantable/durability",
+      "minecraft:hoes",
+      "c:tools"
     ],
     "components": {
       "max_damage": 1561,

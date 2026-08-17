@@ -8,10 +8,10 @@
     "use_animation": "EAT",
     "tags": [
       "c:foods/berry",
-      "c:foods",
-      "c:foods/berries",
       "minecraft:fox_food",
-      "c:animal_foods"
+      "c:animal_foods",
+      "c:foods/berries",
+      "c:foods"
     ],
     "components": {
       "food": {

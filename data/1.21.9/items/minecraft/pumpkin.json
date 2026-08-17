@@ -9,8 +9,8 @@
     "tags": [
       "c:pumpkins",
       "c:crops/pumpkin",
-      "c:crops",
-      "c:pumpkins/normal"
+      "c:pumpkins/normal",
+      "c:crops"
     ],
     "components": {},
     "is_weapon": false,

@@ -9,8 +9,8 @@
     "tags": [
       "c:tools/igniter",
       "c:tools",
-      "minecraft:creeper_igniters",
       "minecraft:enchantable/vanishing",
+      "minecraft:creeper_igniters",
       "c:enchantables",
       "minecraft:enchantable/durability"
     ],

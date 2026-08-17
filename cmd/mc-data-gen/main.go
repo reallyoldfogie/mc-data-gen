@@ -7,6 +7,7 @@ import (
 	"os"
 	"path/filepath"
 	"runtime"
+	"strings"
 
 	"github.com/reallyoldfogie/mc-data-gen/internal/mcgen"
 )
@@ -20,6 +21,8 @@ type versionResult struct {
 func main() {
 	configPath := flag.String("config", "mc-data-gen.yaml", "path to config file (YAML)")
 	workDir := flag.String("work-dir", "./work", "directory for generated per-version Fabric projects")
+	versionsStr := flag.String("versions", "", "comma-separated list of versions to generate (if empty, use all from config)")
+	generateSrc := flag.Bool("generate-src", false, "enable source decompilation and copy to extractedSrc")
 	flag.Parse()
 
 	cfg, err := mcgen.LoadConfig(*configPath)
@@ -31,14 +34,31 @@ func main() {
 		log.Fatalf("create work dir: %v", err)
 	}
 
+	// Filter versions if specified
+	versionsToProcess := cfg.Versions
+	if *versionsStr != "" {
+		versionsToProcess = strings.Split(strings.TrimSpace(*versionsStr), ",")
+		for i := range versionsToProcess {
+			versionsToProcess[i] = strings.TrimSpace(versionsToProcess[i])
+		}
+	}
+
+	// Override decompile sources if flag is set
+	if *generateSrc {
+		cfg.DecompileSources = true
+	}
+
 	fmt.Printf("Using config: %s\n", *configPath)
 	fmt.Printf("Work dir:     %s\n", *workDir)
 	fmt.Printf("Output dir:   %s\n", cfg.OutputDir)
+	if *generateSrc {
+		fmt.Printf("Decompiling sources: enabled\n")
+	}
 
 	// Track results for all versions
 	var results []versionResult
 
-	for _, v := range cfg.Versions {
+	for _, v := range versionsToProcess {
 		fmt.Printf("\n=== Generating data for %s ===\n", v)
 
 		if err := processVersion(v, *workDir, cfg); err != nil {
@@ -108,6 +128,15 @@ func processVersion(version, workDir string, cfg *mcgen.Config) error {
 			return fmt.Errorf("decompile sources: %w", err)
 		}
 		fmt.Printf("  ✅ Sources extracted to %s/extracted_src\n", projectDir)
+
+		// Copy extracted sources to extractedSrc directory
+		srcDir := filepath.Join(projectDir, "extracted_src")
+		dstDir := filepath.Join("extractedSrc", version)
+		fmt.Printf("  Copying sources to %s...\n", dstDir)
+		if err := mcgen.CopyDir(srcDir, dstDir); err != nil {
+			return fmt.Errorf("copy extracted sources: %w", err)
+		}
+		fmt.Printf("  ✅ Sources copied to %s\n", dstDir)
 	}
 
 	return nil

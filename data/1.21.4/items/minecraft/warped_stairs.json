@@ -8,8 +8,8 @@
     "use_animation": "NONE",
     "tags": [
       "minecraft:wooden_stairs",
-      "minecraft:stairs",
-      "minecraft:non_flammable_wood"
+      "minecraft:non_flammable_wood",
+      "minecraft:stairs"
     ],
     "components": {},
     "is_weapon": false,
