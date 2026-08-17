@@ -7,11 +7,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "c:dyes",
       "c:dyes/brown",
+      "minecraft:cat_collar_dyes",
       "minecraft:dyes",
       "minecraft:loom_dyes",
-      "c:dyes",
-      "minecraft:cat_collar_dyes",
       "minecraft:wolf_collar_dyes"
     ],
     "components": {},

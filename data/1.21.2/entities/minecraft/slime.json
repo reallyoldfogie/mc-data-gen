@@ -10,8 +10,74 @@
       "fixed": false
     },
     "pose_dimensions": {},
-    "size_variants": [],
-    "attributes": [],
+    "size_variants": [
+      {
+        "size": 1,
+        "dimensions": {
+          "width": 0.52,
+          "height": 0.52,
+          "eye_height": 0.325,
+          "fixed": false
+        }
+      },
+      {
+        "size": 2,
+        "dimensions": {
+          "width": 1.04,
+          "height": 1.04,
+          "eye_height": 0.65,
+          "fixed": false
+        }
+      },
+      {
+        "size": 3,
+        "dimensions": {
+          "width": 1.56,
+          "height": 1.56,
+          "eye_height": 0.97499996,
+          "fixed": false
+        }
+      },
+      {
+        "size": 4,
+        "dimensions": {
+          "width": 2.08,
+          "height": 2.08,
+          "eye_height": 1.3,
+          "fixed": false
+        }
+      }
+    ],
+    "attributes": [
+      {
+        "name": "minecraft:armor",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:attack_damage",
+        "base_value": 2
+      },
+      {
+        "name": "minecraft:attack_knockback",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:follow_range",
+        "base_value": 16
+      },
+      {
+        "name": "minecraft:knockback_resistance",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:max_health",
+        "base_value": 20
+      },
+      {
+        "name": "minecraft:movement_speed",
+        "base_value": 0.7
+      }
+    ],
     "tags": [
       "minecraft:frog_food",
       "minecraft:immune_to_oozing",

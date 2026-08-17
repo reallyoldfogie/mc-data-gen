@@ -8,11 +8,11 @@
     "use_animation": "NONE",
     "tags": [
       "c:gems",
-      "minecraft:trim_materials",
+      "c:gems/diamond",
       "minecraft:beacon_payment_items",
-      "minecraft:repairs_diamond_armor",
       "minecraft:diamond_tool_materials",
-      "c:gems/diamond"
+      "minecraft:repairs_diamond_armor",
+      "minecraft:trim_materials"
     ],
     "components": {},
     "is_weapon": false,

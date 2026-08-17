@@ -8,8 +8,8 @@
     "use_animation": "NONE",
     "tags": [
       "c:sandstone/red_stairs",
-      "minecraft:stairs",
-      "c:sandstone/stairs"
+      "c:sandstone/stairs",
+      "minecraft:stairs"
     ],
     "components": {},
     "is_weapon": false,

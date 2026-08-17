@@ -7,10 +7,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:gems/diamond",
-      "minecraft:trim_materials",
       "c:gems",
-      "minecraft:beacon_payment_items"
+      "c:gems/diamond",
+      "minecraft:beacon_payment_items",
+      "minecraft:trim_materials"
     ],
     "components": {},
     "is_weapon": false,

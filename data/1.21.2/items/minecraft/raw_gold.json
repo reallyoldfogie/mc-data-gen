@@ -8,8 +8,8 @@
     "use_animation": "NONE",
     "tags": [
       "c:raw_materials",
-      "minecraft:piglin_loved",
-      "c:raw_materials/gold"
+      "c:raw_materials/gold",
+      "minecraft:piglin_loved"
     ],
     "components": {},
     "is_weapon": false,

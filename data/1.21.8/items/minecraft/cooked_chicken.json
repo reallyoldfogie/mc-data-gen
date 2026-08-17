@@ -8,11 +8,11 @@
     "use_animation": "EAT",
     "tags": [
       "c:animal_foods",
-      "minecraft:wolf_food",
-      "c:foods/cooked_meats",
       "c:foods",
       "c:foods/cooked_meat",
-      "minecraft:meat"
+      "c:foods/cooked_meats",
+      "minecraft:meat",
+      "minecraft:wolf_food"
     ],
     "components": {
       "food": {

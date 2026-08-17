@@ -8,9 +8,9 @@
     "use_animation": "NONE",
     "tags": [
       "c:armors",
-      "minecraft:freeze_immune_wearables",
       "c:armors/horse",
-      "minecraft:cauldron_can_remove_dye"
+      "minecraft:cauldron_can_remove_dye",
+      "minecraft:freeze_immune_wearables"
     ],
     "components": {},
     "is_weapon": false,

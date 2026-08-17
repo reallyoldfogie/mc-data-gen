@@ -8,12 +8,12 @@
     "use_animation": "NONE",
     "tags": [
       "c:animal_foods",
-      "c:flowers/small",
-      "minecraft:flowers",
       "c:flowers",
-      "minecraft:small_flowers",
+      "c:flowers/small",
+      "minecraft:bee_food",
+      "minecraft:flowers",
       "minecraft:rabbit_food",
-      "minecraft:bee_food"
+      "minecraft:small_flowers"
     ],
     "components": {},
     "is_weapon": false,

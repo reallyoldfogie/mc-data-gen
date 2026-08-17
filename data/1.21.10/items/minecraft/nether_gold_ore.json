@@ -8,11 +8,11 @@
     "use_animation": "NONE",
     "tags": [
       "c:ore_rates/sparse",
+      "c:ores",
       "c:ores/gold",
       "c:ores_in_ground/netherrack",
-      "c:ores",
-      "minecraft:piglin_loved",
-      "minecraft:gold_ores"
+      "minecraft:gold_ores",
+      "minecraft:piglin_loved"
     ],
     "components": {},
     "is_weapon": false,

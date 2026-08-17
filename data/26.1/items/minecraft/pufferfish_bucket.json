@@ -8,10 +8,10 @@
     "use_animation": "NONE",
     "tags": [
       "c:buckets",
-      "minecraft:nautilus_taming_items",
       "c:buckets/entity_water",
+      "minecraft:nautilus_bucket_food",
       "minecraft:nautilus_food",
-      "minecraft:nautilus_bucket_food"
+      "minecraft:nautilus_taming_items"
     ],
     "components": {
       "food": {

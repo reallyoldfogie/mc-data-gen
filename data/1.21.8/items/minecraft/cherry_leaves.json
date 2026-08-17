@@ -8,11 +8,11 @@
     "use_animation": "NONE",
     "tags": [
       "c:animal_foods",
-      "minecraft:leaves",
       "c:flowers",
-      "minecraft:completes_find_tree_tutorial",
       "minecraft:bee_food",
-      "minecraft:flowers"
+      "minecraft:completes_find_tree_tutorial",
+      "minecraft:flowers",
+      "minecraft:leaves"
     ],
     "components": {},
     "is_weapon": false,

@@ -7,10 +7,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:crops/cactus",
-      "minecraft:camel_food",
+      "c:animal_foods",
       "c:crops",
-      "c:animal_foods"
+      "c:crops/cactus",
+      "minecraft:camel_food"
     ],
     "components": {},
     "is_weapon": false,

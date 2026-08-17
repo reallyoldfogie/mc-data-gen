@@ -9,11 +9,11 @@
     "tags": [
       "c:animal_foods",
       "c:crops",
-      "minecraft:pig_food",
+      "c:crops/beetroot",
       "c:foods",
       "c:foods/vegetable",
       "c:foods/vegetables",
-      "c:crops/beetroot"
+      "minecraft:pig_food"
     ],
     "components": {
       "food": {

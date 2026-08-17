@@ -8,8 +8,8 @@
     "use_animation": "NONE",
     "tags": [
       "c:concretes",
-      "c:dyed/blue",
-      "c:dyed"
+      "c:dyed",
+      "c:dyed/blue"
     ],
     "components": {},
     "is_weapon": false,

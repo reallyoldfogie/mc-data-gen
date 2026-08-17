@@ -8,10 +8,10 @@
     "use_animation": "NONE",
     "tags": [
       "c:animal_foods",
+      "c:flowers",
       "c:flowers/tall",
       "minecraft:bee_food",
-      "minecraft:flowers",
-      "c:flowers"
+      "minecraft:flowers"
     ],
     "components": {},
     "is_weapon": false,

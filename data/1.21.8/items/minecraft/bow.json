@@ -7,17 +7,17 @@
     "fireproof": false,
     "use_animation": "BOW",
     "tags": [
-      "minecraft:skeleton_preferred_weapons",
-      "c:tools/ranged_weapon",
-      "minecraft:wither_skeleton_disliked_weapons",
-      "c:tools/bows",
-      "c:tools/bow",
       "c:enchantables",
+      "c:tools",
+      "c:tools/bow",
+      "c:tools/bows",
+      "c:tools/ranged_weapon",
       "c:tools/ranged_weapons",
       "minecraft:enchantable/bow",
-      "minecraft:enchantable/vanishing",
       "minecraft:enchantable/durability",
-      "c:tools"
+      "minecraft:enchantable/vanishing",
+      "minecraft:skeleton_preferred_weapons",
+      "minecraft:wither_skeleton_disliked_weapons"
     ],
     "components": {
       "max_damage": 384,

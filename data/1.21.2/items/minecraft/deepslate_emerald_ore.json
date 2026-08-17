@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:emerald_ores",
-      "c:ores"
+      "c:ores",
+      "minecraft:emerald_ores"
     ],
     "components": {},
     "is_weapon": false,

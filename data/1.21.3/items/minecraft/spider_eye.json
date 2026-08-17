@@ -8,9 +8,9 @@
     "use_animation": "EAT",
     "tags": [
       "c:animal_foods",
-      "minecraft:armadillo_food",
       "c:foods",
-      "c:foods/food_poisoning"
+      "c:foods/food_poisoning",
+      "minecraft:armadillo_food"
     ],
     "components": {
       "food": {

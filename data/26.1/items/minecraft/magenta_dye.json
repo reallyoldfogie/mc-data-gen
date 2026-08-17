@@ -7,12 +7,12 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "c:dyes",
+      "c:dyes/magenta",
+      "minecraft:cat_collar_dyes",
       "minecraft:dyes",
       "minecraft:loom_dyes",
-      "c:dyes",
-      "minecraft:cat_collar_dyes",
-      "minecraft:wolf_collar_dyes",
-      "c:dyes/magenta"
+      "minecraft:wolf_collar_dyes"
     ],
     "components": {},
     "is_weapon": false,

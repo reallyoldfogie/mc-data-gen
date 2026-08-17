@@ -9,9 +9,47 @@
       "eye_height": 2.275,
       "fixed": false
     },
-    "pose_dimensions": {},
+    "pose_dimensions": {
+      "sitting": {
+        "width": 1.7,
+        "height": 0.94500005,
+        "eye_height": 0.845,
+        "fixed": false
+      }
+    },
     "size_variants": [],
-    "attributes": [],
+    "baby_dimensions": {
+      "width": 0.765,
+      "height": 1.06875,
+      "eye_height": 1.0237501,
+      "fixed": false
+    },
+    "attributes": [
+      {
+        "name": "minecraft:armor",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:attack_knockback",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:follow_range",
+        "base_value": 16
+      },
+      {
+        "name": "minecraft:knockback_resistance",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:max_health",
+        "base_value": 32
+      },
+      {
+        "name": "minecraft:movement_speed",
+        "base_value": 0.09000000357627869
+      }
+    ],
     "tags": [
       "minecraft:can_breathe_under_water",
       "minecraft:can_equip_saddle",

@@ -7,13 +7,13 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:pumpkins/carved",
-      "minecraft:enchantable/vanishing",
-      "c:pumpkins",
       "c:enchantables",
+      "c:pumpkins",
+      "c:pumpkins/carved",
       "minecraft:enchantable/equippable",
-      "minecraft:map_invisibility_equipment",
-      "minecraft:gaze_disguise_equipment"
+      "minecraft:enchantable/vanishing",
+      "minecraft:gaze_disguise_equipment",
+      "minecraft:map_invisibility_equipment"
     ],
     "components": {},
     "is_weapon": false,

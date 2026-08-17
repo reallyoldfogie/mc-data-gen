@@ -8,13 +8,13 @@
     "use_animation": "NONE",
     "tags": [
       "c:enchantables",
-      "minecraft:enchantable/vanishing",
-      "minecraft:enchantable/mining",
-      "minecraft:enchantable/mining_loot",
-      "minecraft:shovels",
+      "c:tools",
       "minecraft:breaks_decorated_pots",
       "minecraft:enchantable/durability",
-      "c:tools"
+      "minecraft:enchantable/mining",
+      "minecraft:enchantable/mining_loot",
+      "minecraft:enchantable/vanishing",
+      "minecraft:shovels"
     ],
     "components": {
       "max_damage": 250,

@@ -7,16 +7,16 @@
     "fireproof": false,
     "use_animation": "TRIDENT",
     "tags": [
+      "c:enchantables",
       "c:tools",
-      "minecraft:enchantable/durability",
+      "c:tools/melee_weapon",
       "c:tools/ranged_weapon",
       "c:tools/trident",
-      "minecraft:enchantable/trident",
-      "minecraft:enchantable/vanishing",
       "minecraft:breaks_decorated_pots",
-      "c:tools/melee_weapon",
       "minecraft:drowned_preferred_weapons",
-      "c:enchantables"
+      "minecraft:enchantable/durability",
+      "minecraft:enchantable/trident",
+      "minecraft:enchantable/vanishing"
     ],
     "components": {
       "max_damage": 250,

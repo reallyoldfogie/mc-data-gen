@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:diamond_ores",
-      "c:ores"
+      "c:ores",
+      "minecraft:diamond_ores"
     ],
     "components": {},
     "is_weapon": false,

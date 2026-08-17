@@ -9,9 +9,9 @@
     "tags": [
       "c:animal_foods",
       "minecraft:bee_food",
-      "minecraft:leaves",
+      "minecraft:completes_find_tree_tutorial",
       "minecraft:flowers",
-      "minecraft:completes_find_tree_tutorial"
+      "minecraft:leaves"
     ],
     "components": {},
     "is_weapon": false,

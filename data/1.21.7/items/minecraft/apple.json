@@ -9,9 +9,9 @@
     "tags": [
       "c:animal_foods",
       "c:foods",
-      "minecraft:horse_food",
       "c:foods/fruit",
-      "c:foods/fruits"
+      "c:foods/fruits",
+      "minecraft:horse_food"
     ],
     "components": {
       "food": {

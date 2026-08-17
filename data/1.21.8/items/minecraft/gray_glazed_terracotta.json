@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:glazed_terracotta",
-      "c:dyed/gray",
       "c:dyed",
+      "c:dyed/gray",
+      "c:glazed_terracotta",
       "c:glazed_terracottas"
     ],
     "components": {},

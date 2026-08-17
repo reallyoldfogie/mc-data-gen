@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:wooden_stairs",
-      "minecraft:stairs"
+      "minecraft:stairs",
+      "minecraft:wooden_stairs"
     ],
     "components": {},
     "is_weapon": false,

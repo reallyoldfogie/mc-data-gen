@@ -13,24 +13,24 @@
     "size_variants": [],
     "attributes": [
       {
-        "name": "minecraft:generic.max_health",
+        "name": "minecraft:armor",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:attack_knockback",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:knockback_resistance",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:max_health",
         "base_value": 20
       },
       {
-        "name": "minecraft:generic.movement_speed",
+        "name": "minecraft:movement_speed",
         "base_value": 0.7
-      },
-      {
-        "name": "minecraft:generic.attack_knockback",
-        "base_value": 0
-      },
-      {
-        "name": "minecraft:generic.armor",
-        "base_value": 0
-      },
-      {
-        "name": "minecraft:generic.knockback_resistance",
-        "base_value": 0
       }
     ],
     "tags": [

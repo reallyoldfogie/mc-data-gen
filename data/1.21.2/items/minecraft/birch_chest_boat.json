@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:chest_boats",
-      "minecraft:boats"
+      "minecraft:boats",
+      "minecraft:chest_boats"
     ],
     "components": {},
     "is_weapon": false,

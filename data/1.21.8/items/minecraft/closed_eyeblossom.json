@@ -7,10 +7,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "c:flowers",
       "c:flowers/small",
       "minecraft:flowers",
-      "minecraft:small_flowers",
-      "c:flowers"
+      "minecraft:small_flowers"
     ],
     "components": {},
     "is_weapon": false,

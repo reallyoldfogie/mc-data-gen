@@ -1,6 +1,5 @@
 package com.example.dataexporter;
 
-import net.minecraft.core.BlockPos;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.server.level.ServerLevel;
@@ -13,16 +12,21 @@ public class EntityLookupFactory {
 
     public static Entity createEntity(EntityType<?> type, ServerLevel level) {
         try {
-            // Try the multi-parameter create method used in 26.1+
-            // Signature: create(ServerLevel, CompoundTag, Component, Player, BlockPos, EntitySpawnReason, boolean, boolean)
+            // Current signature: create(Level, EntitySpawnReason) — a 2-param
+            // overload, not the 8-param create(ServerLevel, CompoundTag, Component,
+            // Player, BlockPos, EntitySpawnReason, boolean, boolean) this used to
+            // look for, which doesn't exist on 26.1 (confirmed against decompiled
+            // EntityType.java). The spawn-reason enum's class/name has moved across
+            // versions (EntitySpawnReason / MobSpawnType / SpawnReason), so it's
+            // resolved by name via findSpawnReason() rather than a compile-time
+            // import, and matched here purely on parameter count since it's the
+            // only 2-param create(...) overload.
+            Object spawnReason = findSpawnReason("TRIGGERED");
             for (Method method : EntityType.class.getMethods()) {
-                if (method.getName().equals("create") && method.getParameterCount() == 8) {
-                    // Find the spawn reason enum value via reflection to handle name variations
-                    Object spawnReason = findSpawnReason("TRIGGERED");
-                    Entity entity = (Entity) method.invoke(type, level, null, null, null, BlockPos.ZERO, spawnReason,
-                            false, false);
+                if (method.getName().equals("create") && method.getParameterCount() == 2) {
+                    Entity entity = (Entity) method.invoke(type, level, spawnReason);
                     if (entity == null) {
-                        LOGGER.debug("[EntityLookupFactory] create(8 params) returned null for {}", type);
+                        LOGGER.debug("[EntityLookupFactory] create(Level, SpawnReason) returned null for {}", type);
                     }
                     return entity;
                 }

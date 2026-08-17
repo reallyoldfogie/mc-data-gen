@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:metal_nuggets",
+      "c:nuggets",
       "c:nuggets/iron",
-      "c:nuggets"
+      "minecraft:metal_nuggets"
     ],
     "components": {},
     "is_weapon": false,

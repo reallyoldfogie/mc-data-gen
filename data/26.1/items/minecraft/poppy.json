@@ -8,12 +8,12 @@
     "use_animation": "NONE",
     "tags": [
       "c:animal_foods",
-      "minecraft:bee_food",
-      "minecraft:small_flowers",
       "c:flowers",
-      "minecraft:shearable_from_copper_golem",
+      "c:flowers/small",
+      "minecraft:bee_food",
       "minecraft:flowers",
-      "c:flowers/small"
+      "minecraft:shearable_from_copper_golem",
+      "minecraft:small_flowers"
     ],
     "components": {},
     "is_weapon": false,

@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "EAT",
     "tags": [
-      "c:foods/pie",
-      "c:foods"
+      "c:foods",
+      "c:foods/pie"
     ],
     "components": {
       "food": {

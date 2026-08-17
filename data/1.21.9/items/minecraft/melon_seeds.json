@@ -9,9 +9,9 @@
     "tags": [
       "c:animal_foods",
       "c:seeds",
-      "minecraft:parrot_food",
       "c:seeds/melon",
-      "minecraft:chicken_food"
+      "minecraft:chicken_food",
+      "minecraft:parrot_food"
     ],
     "components": {},
     "is_weapon": false,

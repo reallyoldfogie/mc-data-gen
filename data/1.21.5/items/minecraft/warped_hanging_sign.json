@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:non_flammable_wood",
-      "minecraft:hanging_signs"
+      "minecraft:hanging_signs",
+      "minecraft:non_flammable_wood"
     ],
     "components": {},
     "is_weapon": false,

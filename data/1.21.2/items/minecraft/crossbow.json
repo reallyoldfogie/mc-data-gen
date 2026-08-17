@@ -7,15 +7,15 @@
     "fireproof": false,
     "use_animation": "CROSSBOW",
     "tags": [
-      "minecraft:enchantable/crossbow",
-      "c:tools",
-      "c:tools/ranged_weapons",
       "c:enchantables",
-      "c:tools/crossbows",
+      "c:tools",
       "c:tools/crossbow",
+      "c:tools/crossbows",
+      "c:tools/ranged_weapon",
+      "c:tools/ranged_weapons",
+      "minecraft:enchantable/crossbow",
       "minecraft:enchantable/durability",
-      "minecraft:enchantable/vanishing",
-      "c:tools/ranged_weapon"
+      "minecraft:enchantable/vanishing"
     ],
     "components": {
       "max_damage": 465,

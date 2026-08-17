@@ -7,10 +7,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:concretes",
-      "c:dyed/magenta",
       "c:concrete",
-      "c:dyed"
+      "c:concretes",
+      "c:dyed",
+      "c:dyed/magenta"
     ],
     "components": {},
     "is_weapon": false,

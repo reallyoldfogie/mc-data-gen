@@ -8,15 +8,15 @@
     "use_animation": "NONE",
     "tags": [
       "c:enchantables",
-      "minecraft:enchantable/mace",
+      "c:tools",
       "c:tools/mace",
-      "minecraft:breaks_decorated_pots",
       "c:tools/melee_weapon",
-      "minecraft:enchantable/vanishing",
-      "minecraft:enchantable/weapon",
+      "minecraft:breaks_decorated_pots",
       "minecraft:enchantable/durability",
       "minecraft:enchantable/fire_aspect",
-      "c:tools"
+      "minecraft:enchantable/mace",
+      "minecraft:enchantable/vanishing",
+      "minecraft:enchantable/weapon"
     ],
     "components": {
       "max_damage": 500,

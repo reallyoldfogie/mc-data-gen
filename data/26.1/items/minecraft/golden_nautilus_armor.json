@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:piglin_loved",
+      "c:armors",
       "c:armors/nautilus",
-      "c:armors"
+      "minecraft:piglin_loved"
     ],
     "components": {},
     "is_weapon": false,

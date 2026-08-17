@@ -92,13 +92,6 @@ public class DataExporterMod implements ModInitializer {
         });
     }
 
-    private Map<String, Object> buildAttribute(String name, double baseValue) {
-        Map<String, Object> attrInfo = new LinkedHashMap<>();
-        attrInfo.put("name", name);
-        attrInfo.put("base_value", baseValue);
-        return attrInfo;
-    }
-
     private void dumpAllBlockStates(MinecraftServer server) throws IOException {
         Path runDir = server.getServerDirectory();
         Path outDir = runDir.resolve("data");
@@ -269,7 +262,11 @@ public class DataExporterMod implements ModInitializer {
             if (entityId.equals("minecraft:player")) {
                 try {
                     GameProfile dummyProfile = new GameProfile(UUID.randomUUID(), "DataGenPlayer");
-                    entity = new ServerPlayer(level.getServer(), level, dummyProfile, null);
+                    // ServerPlayer's constructor eagerly reads clientInformation.language()
+                    // during construction, so passing null (as this used to) always throws a
+                    // NullPointerException here — use the client-facing default instead.
+                    entity = new ServerPlayer(level.getServer(), level, dummyProfile,
+                            net.minecraft.server.level.ClientInformation.createDefault());
                     LOGGER.info("[DataExporter] Entity instantiation OK: {}", id);
                 } catch (Exception e) {
                     LOGGER.info("[DataExporter] Entity instantiation FAILED: {} - {}", id, e.getMessage());
@@ -348,19 +345,6 @@ public class DataExporterMod implements ModInitializer {
                 info.put("attributes", Collections.emptyList());
                 info.put("size_variants", Collections.emptyList());
             } finally {
-                if (entityId.equals("minecraft:player") && info.get("attributes").equals(Collections.emptyList())) {
-                    List<Map<String, Object>> playerAttributes = new ArrayList<>();
-                    playerAttributes.add(buildAttribute("minecraft:generic.max_health", 20.0));
-                    playerAttributes.add(buildAttribute("minecraft:generic.movement_speed", 0.1));
-                    playerAttributes.add(buildAttribute("minecraft:generic.attack_damage", 1.0));
-                    playerAttributes.add(buildAttribute("minecraft:generic.attack_speed", 4.0));
-                    playerAttributes.add(buildAttribute("minecraft:generic.armor", 0.0));
-                    playerAttributes.add(buildAttribute("minecraft:generic.attack_knockback", 0.0));
-                    playerAttributes.add(buildAttribute("minecraft:generic.knockback_resistance", 0.0));
-                    playerAttributes.add(buildAttribute("minecraft:generic.follow_range", 32.0));
-                    info.put("attributes", playerAttributes);
-                }
-
                 if (entity != null) {
                     entity.discard();
                 }
@@ -382,28 +366,50 @@ public class DataExporterMod implements ModInitializer {
         LOGGER.info("[DataExporter] Finished writing {} entities", allEntities.size());
     }
 
+    // Attribute registry ids dropped the "generic." namespace prefix in Minecraft
+    // 1.21.2 (e.g. "minecraft:generic.max_health" -> "minecraft:max_health"). Each
+    // attribute is looked up by its modern id first, falling back to the legacy id
+    // if the modern one isn't registered. The output "name" is always the
+    // canonical modern id so consumers don't need to special-case old data.
+    private static final String[] MODERN_ATTRIBUTE_IDS = {
+            "minecraft:max_health",
+            "minecraft:movement_speed",
+            "minecraft:attack_damage",
+            "minecraft:attack_knockback",
+            "minecraft:attack_speed",
+            "minecraft:armor",
+            "minecraft:follow_range",
+            "minecraft:knockback_resistance"
+    };
+
+    private static final String[] LEGACY_ATTRIBUTE_IDS = {
+            "minecraft:generic.max_health",
+            "minecraft:generic.movement_speed",
+            "minecraft:generic.attack_damage",
+            "minecraft:generic.attack_knockback",
+            "minecraft:generic.attack_speed",
+            "minecraft:generic.armor",
+            "minecraft:generic.follow_range",
+            "minecraft:generic.knockback_resistance"
+    };
+
     private List<Map<String, Object>> extractAttributes(LivingEntity entity) {
         List<Map<String, Object>> attributes = new ArrayList<>();
         try {
-            String[] commonAttrs = {
-                    "minecraft:generic.max_health",
-                    "minecraft:generic.movement_speed",
-                    "minecraft:generic.attack_damage",
-                    "minecraft:generic.attack_knockback",
-                    "minecraft:generic.attack_speed",
-                    "minecraft:generic.armor",
-                    "minecraft:generic.follow_range",
-                    "minecraft:generic.knockback_resistance"
-            };
-
-            for (String attrName : commonAttrs) {
+            for (int index = 0; index < MODERN_ATTRIBUTE_IDS.length; index++) {
+                String canonicalName = MODERN_ATTRIBUTE_IDS[index];
+                String legacyName = LEGACY_ATTRIBUTE_IDS[index];
                 try {
                     Holder<Attribute> attrEntry = BuiltInRegistries.ATTRIBUTE
-                            .get(Identifier.parse(attrName)).orElse(null);
+                            .get(Identifier.parse(canonicalName)).orElse(null);
+                    if (attrEntry == null) {
+                        attrEntry = BuiltInRegistries.ATTRIBUTE
+                                .get(Identifier.parse(legacyName)).orElse(null);
+                    }
                     if (attrEntry != null) {
                         double value = entity.getAttributeValue(attrEntry);
                         Map<String, Object> attrInfo = new LinkedHashMap<>();
-                        attrInfo.put("name", attrName);
+                        attrInfo.put("name", canonicalName);
                         attrInfo.put("base_value", value);
                         attributes.add(attrInfo);
                     }
@@ -414,6 +420,9 @@ public class DataExporterMod implements ModInitializer {
         } catch (Exception e) {
             LOGGER.info("Could not extract attributes", e);
         }
+        // Sort by name so unchanged data regenerates byte-identical rather than
+        // depending on MODERN_ATTRIBUTE_IDS's declaration order.
+        attributes.sort(Comparator.comparing(attr -> (String) attr.get("name")));
         return attributes;
     }
 
@@ -509,6 +518,9 @@ public class DataExporterMod implements ModInitializer {
             tags.add(tagKey.location().toString());
         });
 
+        // tags() order isn't guaranteed stable; sort so unchanged data
+        // regenerates byte-identical (matches the entity tags convention below).
+        Collections.sort(tags);
         return tags;
     }
 

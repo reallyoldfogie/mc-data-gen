@@ -7,13 +7,13 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:trim_materials",
-      "minecraft:beacon_payment_items",
       "c:ingots",
       "c:ingots/iron",
+      "minecraft:beacon_payment_items",
       "minecraft:iron_tool_materials",
+      "minecraft:repairs_chain_armor",
       "minecraft:repairs_iron_armor",
-      "minecraft:repairs_chain_armor"
+      "minecraft:trim_materials"
     ],
     "components": {},
     "is_weapon": false,

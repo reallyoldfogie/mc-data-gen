@@ -7,17 +7,17 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "c:enchantables",
       "c:tools",
+      "c:tools/mining_tool",
+      "c:tools/mining_tools",
+      "minecraft:breaks_decorated_pots",
+      "minecraft:cluster_max_harvestables",
       "minecraft:enchantable/durability",
       "minecraft:enchantable/mining",
-      "minecraft:cluster_max_harvestables",
-      "minecraft:pickaxes",
-      "c:tools/mining_tool",
       "minecraft:enchantable/mining_loot",
-      "c:enchantables",
-      "c:tools/mining_tools",
       "minecraft:enchantable/vanishing",
-      "minecraft:breaks_decorated_pots",
+      "minecraft:pickaxes",
       "minecraft:piglin_loved"
     ],
     "components": {

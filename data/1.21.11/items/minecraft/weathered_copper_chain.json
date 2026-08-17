@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:chains",
-      "c:chains"
+      "c:chains",
+      "minecraft:chains"
     ],
     "components": {},
     "is_weapon": false,

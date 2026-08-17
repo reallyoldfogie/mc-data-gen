@@ -11,7 +11,28 @@
     },
     "pose_dimensions": {},
     "size_variants": [],
-    "attributes": [],
+    "attributes": [
+      {
+        "name": "minecraft:armor",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:attack_knockback",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:knockback_resistance",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:max_health",
+        "base_value": 20
+      },
+      {
+        "name": "minecraft:movement_speed",
+        "base_value": 0.7
+      }
+    ],
     "tags": [
       "minecraft:can_breathe_under_water"
     ]

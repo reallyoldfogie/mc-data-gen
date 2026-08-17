@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:rods/wooden",
-      "c:rods"
+      "c:rods",
+      "c:rods/wooden"
     ],
     "components": {},
     "is_weapon": false,

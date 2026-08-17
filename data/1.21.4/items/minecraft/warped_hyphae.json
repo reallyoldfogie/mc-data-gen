@@ -7,10 +7,10 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:warped_stems",
-      "minecraft:non_flammable_wood",
+      "minecraft:completes_find_tree_tutorial",
       "minecraft:logs",
-      "minecraft:completes_find_tree_tutorial"
+      "minecraft:non_flammable_wood",
+      "minecraft:warped_stems"
     ],
     "components": {},
     "is_weapon": false,

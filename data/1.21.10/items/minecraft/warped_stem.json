@@ -7,12 +7,12 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "c:natural_logs",
+      "c:natural_logs/nether",
       "minecraft:completes_find_tree_tutorial",
       "minecraft:logs",
       "minecraft:non_flammable_wood",
-      "minecraft:warped_stems",
-      "c:natural_logs",
-      "c:natural_logs/nether"
+      "minecraft:warped_stems"
     ],
     "components": {},
     "is_weapon": false,

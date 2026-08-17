@@ -7,11 +7,11 @@
     "fireproof": false,
     "use_animation": "DRINK",
     "tags": [
-      "c:foods",
-      "c:drinks/ominous",
-      "c:drinks/magic",
+      "c:drink_containing/bottle",
       "c:drinks",
-      "c:drink_containing/bottle"
+      "c:drinks/magic",
+      "c:drinks/ominous",
+      "c:foods"
     ],
     "components": {},
     "is_weapon": false,

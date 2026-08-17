@@ -11,7 +11,38 @@
     },
     "pose_dimensions": {},
     "size_variants": [],
-    "attributes": [],
+    "baby_dimensions": {
+      "width": 0.45,
+      "height": 0.65,
+      "eye_height": 0.6175,
+      "fixed": false
+    },
+    "attributes": [
+      {
+        "name": "minecraft:armor",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:attack_knockback",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:follow_range",
+        "base_value": 16
+      },
+      {
+        "name": "minecraft:knockback_resistance",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:max_health",
+        "base_value": 8
+      },
+      {
+        "name": "minecraft:movement_speed",
+        "base_value": 0.23000000417232513
+      }
+    ],
     "tags": [
       "minecraft:followable_friendly_mobs"
     ]

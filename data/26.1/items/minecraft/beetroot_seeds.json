@@ -8,12 +8,12 @@
     "use_animation": "NONE",
     "tags": [
       "c:animal_foods",
-      "minecraft:chicken_food",
-      "minecraft:villager_plantable_seeds",
+      "c:seeds",
       "c:seeds/beetroot",
-      "minecraft:villager_picks_up",
+      "minecraft:chicken_food",
       "minecraft:parrot_food",
-      "c:seeds"
+      "minecraft:villager_picks_up",
+      "minecraft:villager_plantable_seeds"
     ],
     "components": {},
     "is_weapon": false,

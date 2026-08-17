@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:buckets/entity_water",
-      "c:buckets"
+      "c:buckets",
+      "c:buckets/entity_water"
     ],
     "components": {},
     "is_weapon": false,

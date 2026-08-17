@@ -10,8 +10,8 @@
       "c:stripped_logs",
       "minecraft:completes_find_tree_tutorial",
       "minecraft:logs",
-      "minecraft:oak_logs",
-      "minecraft:logs_that_burn"
+      "minecraft:logs_that_burn",
+      "minecraft:oak_logs"
     ],
     "components": {},
     "is_weapon": false,

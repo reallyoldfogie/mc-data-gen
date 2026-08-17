@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:hoglin_food",
-      "c:animal_foods"
+      "c:animal_foods",
+      "minecraft:hoglin_food"
     ],
     "components": {},
     "is_weapon": false,

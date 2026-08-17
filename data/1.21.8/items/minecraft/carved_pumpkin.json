@@ -9,11 +9,11 @@
     "tags": [
       "c:enchantables",
       "c:pumpkins",
-      "minecraft:enchantable/vanishing",
       "c:pumpkins/carved",
+      "minecraft:enchantable/equippable",
+      "minecraft:enchantable/vanishing",
       "minecraft:gaze_disguise_equipment",
-      "minecraft:map_invisibility_equipment",
-      "minecraft:enchantable/equippable"
+      "minecraft:map_invisibility_equipment"
     ],
     "components": {},
     "is_weapon": false,

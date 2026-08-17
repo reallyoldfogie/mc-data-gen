@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "DRINK",
     "tags": [
-      "c:buckets/milk",
-      "c:buckets"
+      "c:buckets",
+      "c:buckets/milk"
     ],
     "components": {},
     "is_weapon": false,

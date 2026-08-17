@@ -11,7 +11,38 @@
     },
     "pose_dimensions": {},
     "size_variants": [],
-    "attributes": [],
+    "baby_dimensions": {
+      "width": 0.6982422,
+      "height": 0.8,
+      "eye_height": 0.76,
+      "fixed": false
+    },
+    "attributes": [
+      {
+        "name": "minecraft:armor",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:attack_knockback",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:follow_range",
+        "base_value": 16
+      },
+      {
+        "name": "minecraft:knockback_resistance",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:max_health",
+        "base_value": 15
+      },
+      {
+        "name": "minecraft:movement_speed",
+        "base_value": 0.20000000298023224
+      }
+    ],
     "tags": [
       "minecraft:can_breathe_under_water",
       "minecraft:ignores_poison_and_regen",

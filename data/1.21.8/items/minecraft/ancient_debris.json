@@ -8,8 +8,8 @@
     "use_animation": "NONE",
     "tags": [
       "c:ore_rates/singular",
-      "c:ores/netherite_scrap",
-      "c:ores"
+      "c:ores",
+      "c:ores/netherite_scrap"
     ],
     "components": {},
     "is_weapon": false,

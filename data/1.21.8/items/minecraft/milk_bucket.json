@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "DRINK",
     "tags": [
+      "c:buckets",
       "c:buckets/milk",
       "c:drink_containing/bucket",
-      "c:buckets",
       "c:drinks",
       "c:drinks/milk"
     ],

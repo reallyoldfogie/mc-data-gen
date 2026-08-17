@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "c:armors",
       "c:armors/horse",
-      "minecraft:piglin_loved",
-      "c:armors"
+      "minecraft:piglin_loved"
     ],
     "components": {},
     "is_weapon": false,

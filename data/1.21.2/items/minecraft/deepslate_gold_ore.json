@@ -8,8 +8,8 @@
     "use_animation": "NONE",
     "tags": [
       "c:ores",
-      "minecraft:piglin_loved",
-      "minecraft:gold_ores"
+      "minecraft:gold_ores",
+      "minecraft:piglin_loved"
     ],
     "components": {},
     "is_weapon": false,

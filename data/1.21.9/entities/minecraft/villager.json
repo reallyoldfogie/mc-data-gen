@@ -11,7 +11,38 @@
     },
     "pose_dimensions": {},
     "size_variants": [],
-    "attributes": [],
+    "baby_dimensions": {
+      "width": 0.3,
+      "height": 0.975,
+      "eye_height": 0.81,
+      "fixed": false
+    },
+    "attributes": [
+      {
+        "name": "minecraft:armor",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:attack_knockback",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:follow_range",
+        "base_value": 16
+      },
+      {
+        "name": "minecraft:knockback_resistance",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:max_health",
+        "base_value": 20
+      },
+      {
+        "name": "minecraft:movement_speed",
+        "base_value": 0.5
+      }
+    ],
     "tags": [
       "minecraft:candidate_for_iron_golem_gift",
       "minecraft:followable_friendly_mobs"

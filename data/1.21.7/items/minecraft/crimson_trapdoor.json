@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:trapdoors",
       "minecraft:non_flammable_wood",
+      "minecraft:trapdoors",
       "minecraft:wooden_trapdoors"
     ],
     "components": {},

@@ -26,32 +26,32 @@
     },
     "attributes": [
       {
-        "name": "minecraft:generic.max_health",
-        "base_value": 10
+        "name": "minecraft:armor",
+        "base_value": 0
       },
       {
-        "name": "minecraft:generic.movement_speed",
-        "base_value": 0.20000000298023224
-      },
-      {
-        "name": "minecraft:generic.attack_damage",
+        "name": "minecraft:attack_damage",
         "base_value": 2
       },
       {
-        "name": "minecraft:generic.attack_knockback",
+        "name": "minecraft:attack_knockback",
         "base_value": 0
       },
       {
-        "name": "minecraft:generic.armor",
-        "base_value": 0
-      },
-      {
-        "name": "minecraft:generic.follow_range",
+        "name": "minecraft:follow_range",
         "base_value": 16
       },
       {
-        "name": "minecraft:generic.knockback_resistance",
+        "name": "minecraft:knockback_resistance",
         "base_value": 0
+      },
+      {
+        "name": "minecraft:max_health",
+        "base_value": 10
+      },
+      {
+        "name": "minecraft:movement_speed",
+        "base_value": 0.20000000298023224
       }
     ],
     "tags": []

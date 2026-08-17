@@ -9,9 +9,61 @@
       "eye_height": 1.62,
       "fixed": false
     },
-    "pose_dimensions": {},
+    "pose_dimensions": {
+      "crouching": {
+        "width": 0.6,
+        "height": 1.5,
+        "eye_height": 1.27,
+        "fixed": false
+      },
+      "dying": {
+        "width": 0.2,
+        "height": 0.2,
+        "eye_height": 1.62,
+        "fixed": true
+      },
+      "fall_flying": {
+        "width": 0.6,
+        "height": 0.6,
+        "eye_height": 0.4,
+        "fixed": false
+      },
+      "spin_attack": {
+        "width": 0.6,
+        "height": 0.6,
+        "eye_height": 0.4,
+        "fixed": false
+      },
+      "swimming": {
+        "width": 0.6,
+        "height": 0.6,
+        "eye_height": 0.4,
+        "fixed": false
+      }
+    },
     "size_variants": [],
-    "attributes": [],
+    "attributes": [
+      {
+        "name": "minecraft:armor",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:attack_knockback",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:knockback_resistance",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:max_health",
+        "base_value": 20
+      },
+      {
+        "name": "minecraft:movement_speed",
+        "base_value": 0.7
+      }
+    ],
     "tags": []
   }
 }

@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:copper_chests",
-      "c:chests"
+      "c:chests",
+      "minecraft:copper_chests"
     ],
     "components": {},
     "is_weapon": false,

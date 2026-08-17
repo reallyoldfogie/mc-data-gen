@@ -8,9 +8,9 @@
     "use_animation": "DRINK",
     "tags": [
       "c:drink_containing/bottle",
+      "c:drinks",
       "c:drinks/honey",
-      "c:foods",
-      "c:drinks"
+      "c:foods"
     ],
     "components": {
       "food": {

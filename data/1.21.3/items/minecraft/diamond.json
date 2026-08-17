@@ -9,9 +9,9 @@
     "tags": [
       "c:gems",
       "c:gems/diamond",
+      "minecraft:beacon_payment_items",
       "minecraft:diamond_tool_materials",
       "minecraft:repairs_diamond_armor",
-      "minecraft:beacon_payment_items",
       "minecraft:trim_materials"
     ],
     "components": {},

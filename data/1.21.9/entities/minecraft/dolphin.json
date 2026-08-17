@@ -11,7 +11,42 @@
     },
     "pose_dimensions": {},
     "size_variants": [],
-    "attributes": [],
+    "baby_dimensions": {
+      "width": 0.585,
+      "height": 0.39000002,
+      "eye_height": 0.19500001,
+      "fixed": false
+    },
+    "attributes": [
+      {
+        "name": "minecraft:armor",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:attack_damage",
+        "base_value": 3
+      },
+      {
+        "name": "minecraft:attack_knockback",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:follow_range",
+        "base_value": 16
+      },
+      {
+        "name": "minecraft:knockback_resistance",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:max_health",
+        "base_value": 10
+      },
+      {
+        "name": "minecraft:movement_speed",
+        "base_value": 1.2000000476837158
+      }
+    ],
     "tags": [
       "minecraft:aquatic",
       "minecraft:cannot_be_pushed_onto_boats",

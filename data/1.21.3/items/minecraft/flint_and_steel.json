@@ -10,8 +10,8 @@
       "c:enchantables",
       "c:tools",
       "c:tools/igniter",
-      "minecraft:enchantable/durability",
       "minecraft:creeper_igniters",
+      "minecraft:enchantable/durability",
       "minecraft:enchantable/vanishing"
     ],
     "components": {

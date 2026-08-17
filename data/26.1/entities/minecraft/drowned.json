@@ -11,7 +11,36 @@
     },
     "pose_dimensions": {},
     "size_variants": [],
-    "attributes": [],
+    "attributes": [
+      {
+        "name": "minecraft:armor",
+        "base_value": 2
+      },
+      {
+        "name": "minecraft:attack_damage",
+        "base_value": 3
+      },
+      {
+        "name": "minecraft:attack_knockback",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:follow_range",
+        "base_value": 35
+      },
+      {
+        "name": "minecraft:knockback_resistance",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:max_health",
+        "base_value": 20
+      },
+      {
+        "name": "minecraft:movement_speed",
+        "base_value": 0.23000000417232513
+      }
+    ],
     "tags": [
       "minecraft:axolotl_always_hostiles",
       "minecraft:burn_in_daylight",

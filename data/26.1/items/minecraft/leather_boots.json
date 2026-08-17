@@ -7,18 +7,18 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:enchantable/armor",
-      "minecraft:enchantable/vanishing",
-      "c:enchantables",
-      "minecraft:enchantable/equippable",
-      "minecraft:freeze_immune_wearables",
-      "minecraft:cauldron_can_remove_dye",
-      "minecraft:enchantable/durability",
-      "minecraft:trimmable_armor",
-      "minecraft:enchantable/foot_armor",
       "c:armors",
+      "c:armors/humanoid",
+      "c:enchantables",
+      "minecraft:cauldron_can_remove_dye",
+      "minecraft:enchantable/armor",
+      "minecraft:enchantable/durability",
+      "minecraft:enchantable/equippable",
+      "minecraft:enchantable/foot_armor",
+      "minecraft:enchantable/vanishing",
       "minecraft:foot_armor",
-      "c:armors/humanoid"
+      "minecraft:freeze_immune_wearables",
+      "minecraft:trimmable_armor"
     ],
     "components": {
       "max_damage": 65,

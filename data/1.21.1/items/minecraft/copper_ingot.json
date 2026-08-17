@@ -8,8 +8,8 @@
     "use_animation": "NONE",
     "tags": [
       "c:ingots",
-      "minecraft:trim_materials",
-      "c:ingots/copper"
+      "c:ingots/copper",
+      "minecraft:trim_materials"
     ],
     "components": {},
     "is_weapon": false,

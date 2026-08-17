@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:clumps/resin",
-      "c:clumps"
+      "c:clumps",
+      "c:clumps/resin"
     ],
     "components": {},
     "is_weapon": false,

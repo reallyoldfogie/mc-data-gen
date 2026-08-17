@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:cauldron_can_remove_dye",
+      "c:armors",
       "c:armors/wolf",
-      "c:armors"
+      "minecraft:cauldron_can_remove_dye"
     ],
     "components": {
       "max_damage": 64,

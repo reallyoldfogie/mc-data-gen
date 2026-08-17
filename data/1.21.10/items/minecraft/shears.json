@@ -7,13 +7,13 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "c:enchantables",
       "c:tools",
       "c:tools/shear",
-      "minecraft:enchantable/mining",
-      "minecraft:enchantable/vanishing",
+      "c:tools/shears",
       "minecraft:enchantable/durability",
-      "c:enchantables",
-      "c:tools/shears"
+      "minecraft:enchantable/mining",
+      "minecraft:enchantable/vanishing"
     ],
     "components": {
       "max_damage": 238,

@@ -8,16 +8,16 @@
     "use_animation": "BOW",
     "tags": [
       "c:enchantables",
+      "c:tools",
       "c:tools/bow",
       "c:tools/bows",
-      "minecraft:wither_skeleton_disliked_weapons",
       "c:tools/ranged_weapon",
-      "c:tools",
-      "minecraft:enchantable/durability",
-      "minecraft:skeleton_preferred_weapons",
-      "minecraft:enchantable/vanishing",
+      "c:tools/ranged_weapons",
       "minecraft:enchantable/bow",
-      "c:tools/ranged_weapons"
+      "minecraft:enchantable/durability",
+      "minecraft:enchantable/vanishing",
+      "minecraft:skeleton_preferred_weapons",
+      "minecraft:wither_skeleton_disliked_weapons"
     ],
     "components": {
       "max_damage": 384,

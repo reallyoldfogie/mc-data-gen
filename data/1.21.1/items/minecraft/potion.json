@@ -8,11 +8,11 @@
     "use_animation": "DRINK",
     "tags": [
       "c:drink_containing/bottle",
-      "c:potions/bottle",
-      "c:potions",
       "c:drinks",
+      "c:drinks/magic",
       "c:drinks/watery",
-      "c:drinks/magic"
+      "c:potions",
+      "c:potions/bottle"
     ],
     "components": {},
     "is_weapon": false,

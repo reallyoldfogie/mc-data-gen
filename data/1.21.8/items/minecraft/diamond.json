@@ -7,11 +7,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:beacon_payment_items",
-      "minecraft:repairs_diamond_armor",
       "c:gems",
       "c:gems/diamond",
+      "minecraft:beacon_payment_items",
       "minecraft:diamond_tool_materials",
+      "minecraft:repairs_diamond_armor",
       "minecraft:trim_materials"
     ],
     "components": {},

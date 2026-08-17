@@ -7,11 +7,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:dyes",
-      "minecraft:loom_dyes",
       "c:dyes",
       "c:dyes/light_gray",
       "minecraft:cat_collar_dyes",
+      "minecraft:dyes",
+      "minecraft:loom_dyes",
       "minecraft:wolf_collar_dyes"
     ],
     "components": {},

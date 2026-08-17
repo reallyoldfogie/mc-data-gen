@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:crimson_stems",
       "minecraft:completes_find_tree_tutorial",
+      "minecraft:crimson_stems",
       "minecraft:logs",
       "minecraft:non_flammable_wood"
     ],

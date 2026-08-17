@@ -7,10 +7,10 @@
     "fireproof": false,
     "use_animation": "EAT",
     "tags": [
-      "minecraft:parrot_poisonous_food",
-      "c:foods/cookie",
       "c:foods",
-      "c:foods/cookies"
+      "c:foods/cookie",
+      "c:foods/cookies",
+      "minecraft:parrot_poisonous_food"
     ],
     "components": {
       "food": {

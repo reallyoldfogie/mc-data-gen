@@ -8,9 +8,9 @@
     "use_animation": "NONE",
     "tags": [
       "c:crops",
-      "c:pumpkins/normal",
       "c:crops/pumpkin",
-      "c:pumpkins"
+      "c:pumpkins",
+      "c:pumpkins/normal"
     ],
     "components": {},
     "is_weapon": false,

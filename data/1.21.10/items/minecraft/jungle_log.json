@@ -7,11 +7,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:completes_find_tree_tutorial",
-      "minecraft:logs",
-      "minecraft:jungle_logs",
       "c:natural_logs",
       "c:natural_logs/overworld",
+      "minecraft:completes_find_tree_tutorial",
+      "minecraft:jungle_logs",
+      "minecraft:logs",
       "minecraft:logs_that_burn"
     ],
     "components": {},

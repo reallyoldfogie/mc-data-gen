@@ -8,13 +8,13 @@
     "use_animation": "NONE",
     "tags": [
       "c:enchantables",
-      "minecraft:hoes",
-      "minecraft:enchantable/mining_loot",
       "c:tools",
       "minecraft:breaks_decorated_pots",
-      "minecraft:enchantable/vanishing",
-      "minecraft:enchantable/mining",
       "minecraft:enchantable/durability",
+      "minecraft:enchantable/mining",
+      "minecraft:enchantable/mining_loot",
+      "minecraft:enchantable/vanishing",
+      "minecraft:hoes",
       "minecraft:piglin_loved"
     ],
     "components": {

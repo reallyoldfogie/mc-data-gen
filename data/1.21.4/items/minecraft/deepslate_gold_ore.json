@@ -7,11 +7,11 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:ores/gold",
-      "c:ores",
       "c:ore_rates/singular",
-      "minecraft:gold_ores",
+      "c:ores",
+      "c:ores/gold",
       "c:ores_in_ground/deepslate",
+      "minecraft:gold_ores",
       "minecraft:piglin_loved"
     ],
     "components": {},

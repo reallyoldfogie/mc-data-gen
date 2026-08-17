@@ -8,8 +8,8 @@
     "use_animation": "NONE",
     "tags": [
       "c:ore_rates/singular",
-      "c:ores/quartz",
       "c:ores",
+      "c:ores/quartz",
       "c:ores_in_ground/netherrack"
     ],
     "components": {},

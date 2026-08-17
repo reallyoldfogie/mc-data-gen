@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "minecraft:stone_buttons",
-      "minecraft:buttons"
+      "minecraft:buttons",
+      "minecraft:stone_buttons"
     ],
     "components": {},
     "is_weapon": false,

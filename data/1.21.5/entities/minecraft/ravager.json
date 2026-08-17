@@ -11,7 +11,36 @@
     },
     "pose_dimensions": {},
     "size_variants": [],
-    "attributes": [],
+    "attributes": [
+      {
+        "name": "minecraft:armor",
+        "base_value": 0
+      },
+      {
+        "name": "minecraft:attack_damage",
+        "base_value": 12
+      },
+      {
+        "name": "minecraft:attack_knockback",
+        "base_value": 1.5
+      },
+      {
+        "name": "minecraft:follow_range",
+        "base_value": 32
+      },
+      {
+        "name": "minecraft:knockback_resistance",
+        "base_value": 0.75
+      },
+      {
+        "name": "minecraft:max_health",
+        "base_value": 100
+      },
+      {
+        "name": "minecraft:movement_speed",
+        "base_value": 0.3
+      }
+    ],
     "tags": [
       "minecraft:dismounts_underwater",
       "minecraft:raiders"

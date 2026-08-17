@@ -8,8 +8,8 @@
     "use_animation": "NONE",
     "tags": [
       "c:enchantables",
-      "minecraft:enchantable/equippable",
       "minecraft:enchantable/durability",
+      "minecraft:enchantable/equippable",
       "minecraft:enchantable/vanishing"
     ],
     "components": {

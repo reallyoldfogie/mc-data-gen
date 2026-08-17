@@ -7,11 +7,11 @@
     "fireproof": false,
     "use_animation": "EAT",
     "tags": [
-      "minecraft:fishes",
-      "c:foods/raw_fish",
-      "c:foods/food_poisoning",
       "c:foods",
-      "c:foods/raw_fishes"
+      "c:foods/food_poisoning",
+      "c:foods/raw_fish",
+      "c:foods/raw_fishes",
+      "minecraft:fishes"
     ],
     "components": {
       "food": {

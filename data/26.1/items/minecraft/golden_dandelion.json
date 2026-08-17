@@ -7,9 +7,9 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
+      "minecraft:flowers",
       "minecraft:piglin_loved",
-      "minecraft:small_flowers",
-      "minecraft:flowers"
+      "minecraft:small_flowers"
     ],
     "components": {},
     "is_weapon": false,

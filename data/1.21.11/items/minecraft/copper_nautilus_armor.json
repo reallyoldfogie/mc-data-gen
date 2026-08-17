@@ -7,8 +7,8 @@
     "fireproof": false,
     "use_animation": "NONE",
     "tags": [
-      "c:armors/nautilus",
-      "c:armors"
+      "c:armors",
+      "c:armors/nautilus"
     ],
     "components": {},
     "is_weapon": false,

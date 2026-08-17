@@ -7,11 +7,11 @@
     "fireproof": false,
     "use_animation": "EAT",
     "tags": [
-      "c:foods",
       "c:animal_foods",
-      "minecraft:piglin_food",
+      "c:foods",
       "c:foods/raw_meat",
       "minecraft:meat",
+      "minecraft:piglin_food",
       "minecraft:wolf_food"
     ],
     "components": {

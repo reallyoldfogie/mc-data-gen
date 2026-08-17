@@ -7,7 +7,6 @@ import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.SpawnReason;
 import net.minecraft.server.world.ServerWorld;
-import net.minecraft.util.math.BlockPos;
 import java.lang.reflect.Method;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -27,15 +26,20 @@ public class EntityLookupFactory {
                 }
                 return entity;
             } else {
-                // 1.21.2+ Logic: create(ServerWorld, Nbt, Text, Player, BlockPos, SpawnReason,
-                // bool, bool)
-                // We use Reflection to avoid compile-time errors on 1.21.1
+                // 1.21.2+ Logic: create(World, SpawnReason). The 8-parameter
+                // create(ServerWorld, Nbt, Text, Player, BlockPos, SpawnReason, bool, bool)
+                // this used to look for was never actually the right shape for any
+                // 1.21.2+ version checked (1.21.2 through 1.21.11 only ever expose a
+                // 6-param create(..., Consumer, ...) and this 2-param create(World,
+                // SpawnReason) overload) — match on the SpawnReason parameter type
+                // rather than a hardcoded parameter count to stay robust to future
+                // signature churn.
                 for (Method m : EntityType.class.getMethods()) {
-                    if (m.getName().equals("create") && m.getParameterCount() == 8) {
-                        Entity entity = (Entity) m.invoke(type, world, null, null, null, BlockPos.ORIGIN, SpawnReason.TRIGGERED,
-                                false, false);
+                    if (m.getName().equals("create") && m.getParameterCount() == 2
+                            && m.getParameterTypes()[1] == SpawnReason.class) {
+                        Entity entity = (Entity) m.invoke(type, world, SpawnReason.TRIGGERED);
                         if (entity == null) {
-                            LOGGER.debug("[EntityLookupFactory] create(8 params) returned null for {}", type);
+                            LOGGER.debug("[EntityLookupFactory] create(World, SpawnReason) returned null for {}", type);
                         }
                         return entity;
                     }
